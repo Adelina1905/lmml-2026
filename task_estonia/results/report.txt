@@ -1,0 +1,46 @@
+========================================================================
+0. DATA FACTS
+========================================================================
+rows (applications)          : 1971
+distinct applicants (DOB+cit): 900
+applications per applicant   : 1x -> 360 people, 2x -> 195 people, 3x -> 159 people, 4x -> 186 people
+rows that belong to a repeat applicant: 81.7%
+applicants whose label is constant across their applications: 100.0%
+within-applicant feature spread / overall spread (mean over 6 features): 0.010  -> resubmissions are near-copies
+nearest neighbour (excluding itself) is the SAME applicant for 81.7% of rows
+class balance: 29.1% fraud; majority-class baseline accuracy = 0.7088
+
+========================================================================
+1. REPRODUCE THE REPORTED SCORE (exact copy of project_pipeline.py)
+========================================================================
+shipped pipeline, seed 1137: 0.9342   (report says 0.9342)
+verbatim project_pipeline.py logic       : 0.9342
+
+========================================================================
+2. FIX EACH QUESTIONABLE CHOICE IN ISOLATION (holdout 80/20)
+========================================================================
+run-to-run noise of the shipped pipeline (std over 100 random seeds): 0.0113 = 1.13 pp
+
+variant                                 seed 1137     mean     std   change vs shipped (mean)
+shipped (no fix)                           0.9342   0.9443  0.0113    +0.00 pp (+0.0 x noise)
+A: scaler fit on train only                0.9367   0.9440  0.0114    -0.03 pp (-0.0 x noise)
+B: stratified split                        0.9418   0.9433  0.0135    -0.11 pp (-0.1 x noise)
+A+B: both decoys fixed                     0.9392   0.9429  0.0136    -0.14 pp (-0.1 x noise)
+C: split by applicant (real fix)           0.7995   0.7661  0.0311   -17.82 pp (-15.8 x noise)
+A+C: scaler fixed + split by applicant     0.8021   0.7656  0.0313   -17.87 pp (-15.8 x noise)
+
+paired diff [A: scaler fit on train only] vs shipped over 100 seeds: mean -0.03 pp, std 0.12 pp
+paired diff [B: stratified split] vs shipped over 100 seeds: mean -0.11 pp, std 1.69 pp
+paired diff [C: split by applicant] vs shipped over 100 seeds: mean -17.82 pp
+
+========================================================================
+3. FLAG METRIC: one out-of-fold prediction per row, cross_val_predict
+========================================================================
+LeaveOneOut()      (row-level, still leaky)            : 0.9594
+LeaveOneOut(), scaler fit on all rows (decoy A unfixed) : 0.9594
+LeaveOneGroupOut() by applicant (CORRECTED)             : 0.7666   (900 folds = one per applicant)
+LeaveOneGroupOut(), scaler fit on all rows (decoy A)    : 0.7671  -> same whole percent; decoy A does not matter
+robustness: LeaveOneGroupOut grouped by DOB only        : 0.7666
+
+TRUE ACCURACY = 0.7666  (majority baseline 0.7088)
+FLAG          = SIGMOID_77
