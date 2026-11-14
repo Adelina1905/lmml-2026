@@ -1,0 +1,32 @@
+The upside-down (also inverted, turned, rotated, or opening) question mark ¿ and exclamation mark ¡ are punctuation marks used to begin interrogative and exclamatory sentences or clauses in Spanish and some languages that have cultural ties with Spain, such as Asturian and Waray. The initial marks are mirrored at the end of the sentence or clause by the ordinary question mark ? or exclamation mark !.
+Upside-down marks are supported by various standards, including Unicode and HTML. They can be entered directly on keyboards designed for Spanish-speaking countries.
+
+== Usage ==
+
+The upside-down question mark ¿ is written before the first letter of an interrogative sentence or clause to indicate that a question follows. It is a rotated form of the standard symbol ? recognized by speakers of other languages written with the Latin script. A regular question mark is written at the end of the sentence or clause.
+Upside-down punctuation is important in Spanish since the syntax of the language means that both statements and questions or exclamations could have the same wording. "Do you like summer?" and "You like summer." are translated respectively as "¿Te gusta el verano?" and "Te gusta el verano." (There is not always a difference between the wording of a yes–no question and the corresponding statement in Spanish.) However, other languages with this kind of syntax don't use opening question marks.
+In sentences that are both declarative and interrogative, the clause that asks a question is isolated with the starting-symbol upside-down question mark, for example: "Si no puedes ir con ellos, ¿quieres ir con nosotros?" ("If you cannot go with them, would you like to go with us?"), not *"¿Si no puedes ir con ellos, quieres ir con nosotros?" This helps to recognize questions and exclamations in long sentences.
+Unlike the ending marks, which are printed along the baseline of the text, the upside-down marks (¿ and ¡) normally descend below the line, though they are printed along the baseline in all-cap text. Most typefaces display the opening interrobang ⸘ along the baseline.
+The upside-down exclamation mark is a phonetic symbol in the Extensions to the International Phonetic Alphabet.
+
+== History ==
+Upside-down marks, simple in the era of hand typesetting, were originally recommended by the Real Academia Española (Royal Spanish Academy), in the second edition of the Ortografía de la lengua castellana (Orthography of the Castilian language) in 1754 recommending it as the symbol indicating the beginning of a question in written Spanish—e.g. "¿Cuántos años tienes?" ("How old are you?"; lit. 'How many years do you have?'). The Real Academia also ordered the same upside-down-symbol system for statements of exclamation, using the symbols ¡ and !.
+These new rules were slow to be adopted: there are 19th-century books in which the printer uses neither ¡ nor ¿.
+Outside of the Spanish-speaking world, John Wilkins proposed using the upside-down exclamation mark ¡ as a symbol at the end of a sentence to denote irony in 1668. He was one of many, including Desiderius Erasmus, who felt there was a need for such a punctuation mark, but Wilkins' proposal, like the other attempts, failed to take hold.
+
+== Adoption ==
+Some writers omit the upside-down question mark in the case of a short unambiguous question such as: "Quién viene?" ("Who comes?"). This is the criterion in Galician and formerly in Catalan. Certain Catalan-language authorities, such as Joan Solà i Cortassa, insist that both the opening and closing question marks be used for clarity. The current Institute for Catalan Studies prescription is never to use the upside-down marks for Catalan. However, Acadèmia Valenciana de la Llengua allows optional use of the upside-down marks.
+Some Spanish-language writers, among them Nobel laureate Pablo Neruda (1904–1973), refuse to use the upside-down question mark.
+Upside-down marks are often omitted in informal writing, such as in texting.
+
+== Mixtures ==
+It is acceptable in Spanish to begin a sentence with an opening upside-down exclamation mark ¡ and end it with a question mark ?, or vice versa, for statements that are questions but also have a clear sense of exclamation or surprise such as: ¡Y tú quién te crees? ("And who do you think you are?!"). Normally, four signs are used, always with one type in the outer side and the other in the inner side (nested) (¿¡Y tú quién te crees!?, ¡¿Y tú quién te crees?!)
+Unicode 5.1 also includes U+2E18 ⸘ INVERTED INTERROBANG, which is an upside-down version of the interrobang, a nonstandard punctuation mark used to denote both excitement and a question in one glyph. It is also known as a "gnaborretni" () (interrobang spelled backwards).
+
+== Computer usage ==
+
+=== Encodings ===
+¡ and ¿ are in the "Latin-1 Supplement" Unicode block,  which is inherited from ISO-8859-1:
+
+U+00A1 ¡ INVERTED EXCLAMATION MARK
+U+00BF ¿ INVERTED QUESTION MARK

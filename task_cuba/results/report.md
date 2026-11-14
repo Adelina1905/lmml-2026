@@ -1,0 +1,39 @@
+# task_cuba (Zemí) build report
+
+## Index (1552 documents, 19596 BM25 chunks of 300 words, 26354 neural chunks of 200 words)
+config.json             0.00 MB
+dense.npz              10.83 MB
+lex.npz                 6.89 MB
+model.onnx             33.81 MB
+tokenizer.json.gz       0.21 MB
+main.py + index/       51.75 MB
+
+## Each signal alone (public questions, n=268)
+signal           hit@1   hit@3  hit@10
+lex_chunk        0.623   0.806   0.892
+lex_doc          0.642   0.806   0.903
+dense_chunk      0.608   0.802   0.940
+dense_title      0.340   0.433   0.530
+
+## Fusion weights
+grid of 120 weight settings; best hit@3 = 0.922; settings within 0.01 of best: 19
+chosen {'lex_chunk': 1.0, 'lex_doc': 0.6, 'dense_chunk': 1.5, 'dense_title': 0.5}: hit@3 = 0.922
+repeated 2-fold CV (pick weights on one half, score the other half, 200 splits): mean 0.899, 5th percentile 0.866, worst 0.836
+bootstrap of the chosen setting: 5th percentile 0.896
+
+## Robustness and ablations (hit@3)
+full system, original questions          0.922
+full system, 3 random typos per question 0.914
+no typo correction, original questions   0.922
+no typo correction, 3 typos per question 0.854
+lexical only (no neural model)           0.843
+neural only (no BM25)                    0.813
+
+## local_check.py on submission.zip
+measure                yours         limit   result
+index size          51.75 MB    <= 53.0 MB   PASS
+load time             0.28 s     <= 10.0 s   PASS
+p95 latency          19.2 ms    <= 75.0 ms   PASS
+hit@3                  0.922        >= 0.8   PASS
+
+ALL LIMITS PASSED on the sample questions.

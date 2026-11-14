@@ -1,0 +1,408 @@
+Portuguese and Spanish, although closely related Romance languages, differ in many aspects of their phonology, grammar, and lexicon. Both belong to a subset of the Romance languages known as West Iberian Romance, which also includes several other languages or dialects with fewer speakers, all of which are mutually intelligible to a considerable degree.
+The most obvious differences between Spanish and Portuguese are in pronunciation. Mutual intelligibility is greater when written rather than spoken. Compare, for example, the following sentences—roughly equivalent to the English proverb "A word to the wise is sufficient," or, a more literal translation, "To a good listener, a few words are enough.":
+
+Al buen entendedor pocas palabras bastan (Spanish pronunciation: [al ˈβwen entendeˈðoɾ ˈpokas paˈlaβɾas ˈβastan])
+Ao bom entendedor poucas palavras bastam (European Portuguese: [aw ˈβõ ẽtẽdɨˈðoɾ ˈpokɐʃ pɐˈlavɾɐʒ ˈβaʃtɐ̃w]).
+There are also some differences between European and Brazilian Portuguese as there are between British and American English or Peninsular and Latin American Spanish. This article notes these differences below only where:
+
+both Brazilian and European Portuguese differ not only from each other, but from Spanish as well;
+both Peninsular (i.e., European) and Latin American Spanish differ not only from each other, but also from Portuguese; or
+either Brazilian or European Portuguese differs from Spanish with syntax not possible in Spanish (while the other dialect does not).
+
+== Sample texts ==
+Portuguese and Spanish share a great number of words that are spelled identically or almost identically (although the pronunciation almost always differs), or which often differ in predictable ways. The following paragraph, taken from the Gramática esencial del español, by Manuel Seco (Espasa-Calpe, 1989), is contrasted with the literal Portuguese translation below, with notable lexical similarities and differences of word order:
+
+Pero, a pesar de esta variedad de posibilidades que la voz posee, sería un instrumento de comunicación muy pobre si no contara más que con ella. La capacidad de expresión del hombre no dispondría de más medios que la de los animales. La voz, sola, es para el hombre apenas una materia informe, que para convertirse en un instrumento perfecto de comunicación debe ser sometida a un cierto tratamiento. Las manipulaciones que recibe la voz,  son las "articulaciones". (Spanish)
+Mas, apesar da variedade de possibilidades que a voz possui, essa seria um instrumento de comunicação muito pobre se se contasse só com ela. A capacidade de expressão do homem não disporia de mais meios que a dos animais. A voz, sozinha, é para o homem apenas uma matéria informe, que para se transformar num instrumento perfeito de comunicação, tem que ser sujeita a certos processos. As manipulações que a voz recebe, são as "articulações". (Portuguese)
+But, despite this variety of possibilities that the voice possesses, it would be a very poor instrument of communication if there were no more to it. Man's capacity for expression would not have any more tools than that of animals. The voice alone is for man just a formless medium, which to become a perfect communication instrument must be subjected to certain processes. The manipulations that the voice undergoes are the "articulations". (English)
+
+The following sample is taken from the newspaper El País. Because it uses everyday language, it has fewer cognates, making the two languages more distant and resulting in low intelligibility for speakers who have no (formal) knowledge of or exposure to the other language.
+Más de 200 personas encendieron hogueras e intentaron acercarse de nuevo a la delegación, la meta que no lograron el día anterior. Más contenedores ardieron en esas calles. Varias furgonetas de la Policía cargaron e intentaron hacerles frente. Pero lejos de arredrarse, los manifestantes corrieron contra un grupo de agentes que se quedó solo en la vía. La policía los dispersó disparando pelotas de goma, hasta lograr resguardarse de nuevo en la calle de Mallorca. La tensión se masticaba entre los agentes, rodeados de hogueras. (Spanish)
+Mais de 200 pessoas atearam fogo e tentaram aproximar-se de novo à estação, um alvo não atingido no dia anterior. Mais contentores foram incendiados nas ruas. Várias viaturas policiais intervieram e tentaram confrontá-las. Mas em vez de recuar, os manifestantes viraram-se contra um grupo isolado de agentes na estrada. A polícia dispersou-os disparando balas de borracha e abrigou-se novamente na Rua de Maiorca. A tensão era palpável nos policiais, cercados por focos de incêndio. (Portuguese)
+More than 200 people again lit bonfires and tried to approach the station, a goal they did not achieve the day before. More containers were burned in the streets. Several loaded police vans attempted to confront them. But far from being intimidated, the protesters moved against an isolated group of agents on the road. The police dispersed them by shooting rubber bullets and managed to take cover again on Mallorca Street. The tension was palpable among the police, as they were surrounded by bonfires. (English)
+
+== Vocabulary ==
+
+=== Cognates ===
+Many lexical differences between Spanish and Portuguese come from the influence of the Arabic language on Spanish vocabulary, which is significantly lower in Portuguese. Most of the similarities and cognate words in the two languages have their origin in Latin, meaning that both languages share many common root words. A relevant number of those cognates, however, differ semantically: similar words have different meanings. Portuguese has more specific terms and expressions which do not occur, or are not directly translatable, in Spanish. Several key differences reflect the unique historical and cultural development of each of these two languages. Levels of understanding in the written forms are much higher than in the spoken forms. Mutual intelligibility varies
+among interlocutors and contexts. Some of the similarities and differences are listed below.
+
+==== One form vs. multiple forms ====
+In some instances, a single word can have multiple meanings in one language, while these meanings are expressed by different words in the other:
+
+Portuguese criar corresponds to both Spanish crear 'to create' and criar 'to raise'.
+Spanish sueño (a noun that can mean either 'dream' or 'sleep') corresponds to both Portuguese sonho 'dream' and sono 'sleep' (the former from Latin somnium and the latter from somnus, which merged into the same word in Spanish).
+
+==== False friends ====
+Significant pairs of cognates have a broader or narrower meaning in one language than in the other, are disused, or their meanings are entirely different. On this basis they are termed "false friends":
+
+==== Semantic change ====
+Many pairs of cognates have come to have different meanings due to semantic change. These false friends include the following:
+
+Spanish diseñar means 'to design' in Spanish, while its Portuguese cognate desenhar means 'to draw'.
+Similarly, Spanish dibujo for 'drawing', with an archaic Portuguese equivalent debuxo meaning 'sketch' and was displaced by rascunho; in turn the cf. Spanish rasguño means 'scratch' (compare "scratchpad", i.e. notebook, in English).
+Spanish largo (rare/archaic luengo) means 'long', while ancho means 'wide'. In Portuguese largo (rare/archaic ancho) means 'wide' and longo  like in English 'long'.
+Spanish extrañar can mean 'to find strange' or 'to miss'. Portuguese estranhar means 'to find strange', or to lock horns.
+Spanish raro can mean 'rare' or 'strange'. In Portuguese, it just means 'rare'.
+Spanish aún can mean 'yet/still' and todavía can mean both 'yet/still' or 'however/nevertheless'. Portuguese todavia means 'however/nevertheless'. In Portuguese, 'yet/still' is ainda.
+Spanish (estar) embarazada means '(to be) pregnant'. Portuguese (estar) embaraçada means '(to be) embarrassed' or '(to be) entangled'. However, Spanish does have the term embarazoso/a meaning 'embarrassing'. 'Pregnant' in Portuguese is grávida (cognate of less user word in Spanish). The Portuguese prenhe and Spanish preñada are used mainly for pregnant animals but rarely for women, in both languages
+Spanish exquisito means 'exquisite/sophisticated'. Portuguese esquisito means 'strange/weird'.
+Experto means 'expert' Spanish. In Portuguese its homophone esperto means 'smart/intelligent/clever'. In Portuguese you may also find perito, especialista, or exímio, which have the same in Spanish (Sp. eximio is spelled without the accent mark).
+Spanish escoba is 'broom'. Portuguese escova is 'brush' (Portuguese uses 'vassoura' for 'broom'). However, in some varieties of Spanish, escobilla or escobeta means 'toilet brush'.
+Spanish apellido 'surname' is apelido in European Portuguese, and sobrenome in both Brazilian and European Portuguese (but Portuguese usually say apelido). Spanish sobrenombre/apodo 'nickname' is apelido/alcunha/codinome in Brazilian Portuguese, and alcunha in European Portuguese.
+Spanish rojo is 'red'. Portuguese roxo is 'purple'. 'Red' in Portuguese is vermelho (cognate with Spanish bermejo and bermellón, which mean 'vermilion' or 'cinnabar'). In European Portuguese the word encarnado (literally in the flesh) is also used as synonym of 'red' even though vermelho is more frequent.
+Spanish rubio means 'blond hair'. Portuguese ruivo or ruço means 'red hair'.
+Spanish apenas means 'hardly'. Portuguese apenas is 'only'. Thus the Spanish phrase él apenas pudo dormir means 'he could not even/hardly sleep', or 'he was just barely able to sleep', whereas the Portuguese phrase ele pôde apenas dormir means 'all he could do was sleep'.
+Spanish vaso means 'drinking glass (tumbler)', while Portuguese vaso means flower pot or toilet (from vaso sanitário). A 'drinking glass' in Portuguese is copo, while Spanish copa is a wine glass. A wine glass in Portuguese is copo, taça is a champagne glass or dessert cup (i.e. chocolate mousse or ice cream) while Spanish taza is a 'coffee cup or teacup'; Spanish taza also refers to a toilet bowl. 'Coffee cup' in Portuguese is xícara de café/chávena, while Spanish jícara is 'bowl' or 'gourd.'
+Spanish (and European Portuguese) cachorro means puppy, while in Brazilian Portuguese, it can refer to a dog of any age.
+
+==== Frequent function words ====
+A number of the frequent "function words" (pronouns, conjunctions, etc.) are cognates in the two languages but are used in slightly different ways, including the following:
+
+===== Spanish todo, Portuguese tudo =====
+The Spanish pronoun todo can mean 'all/every', or 'everything'. Portuguese distinguishes between todo 'all/every' (masculine) and tudo 'everything' (neuter, used for an indefinite object or abstraction).
+
+Todos los insectos tienen seis patas. (Spanish)
+Todos os insectos têm seis patas. (Portuguese)
+'All insects have six legs.'
+El ladrón lo robó todo. (Spanish)
+O ladrão roubou tudo. (Portuguese)
+'The thief stole everything' or 'The thief stole it all.'
+
+===== Relative and interrogative pronouns =====
+Spanish uses an acute accent on interrogative pronouns, while the corresponding relative pronouns (etymologically the same words) are spelled without the accent to mark the difference in prosodic stress. (As explained below, the acute accent often changes the vowel sound in Portuguese, but not Spanish.) For example, ¿quién? (who?) and quien (who) in Spanish, but quem for both in Portuguese. Apart from that, while "quem" is invariable, Spanish has both the singular "quién" and the plural "quiénes". As shown by the examples below, the difference between singular and plural is highlighted by the use of "é" for singular and "são" for plural:
+Example 1:
+
+¿Quién es ese hombre? (Spanish)
+Quem é esse homem? (Portuguese)
+'Who's that man?' (English - "who" is invariable)
+¿Quiénes son esas personas? (Spanish)
+Quem são essas pessoas? (Portuguese)
+'Who are those people?' (English - again, "who" is invariable)
+(In the Portuguese examples, the "m" at the end of "quem" is a marker for nasalization (as is the nasal diphthong "ão" in "são". Thus, it is not pronounced.)
+
+===== Spanish muy and mucho, Portuguese muito =====
+Spanish distinguishes mucho 'much/many' from muy 'very/quite'. Portuguese uses muito for both (though the archaic mui was used similarly to Spanish muy).
+
+Saqué muchas fotos durante el viaje. (Spanish)
+Tirei muitas fotos durante a viagem. (Portuguese)
+'I took many photos during the trip.'
+Las cerezas están muy maduras. (Spanish)
+As cerejas estão muito maduras. (Portuguese)
+'The cherries are quite ripe.'
+El auto anda muy lento. (Spanish)
+O carro é muito lento. (Portuguese)
+'The car goes very slow.'
+Intentaba mucho no hacer mucho ruido. (Spanish)
+Tentava muito não fazer muito barulho (Portuguese)
+'I was trying so hard to be quiet.'
+Tienes que pensar mucho más. (Spanish)
+Tem de pensar muito mais. (Portuguese)
+'You have to think a lot more.'
+As an adjective, muito is inflected according to the gender and number of the noun it qualifies, like mucho. As an adverb, it is invariable like muy. Thus, it would be incorrect to say *muitas maduras in the second example.
+
+===== Cardinal numbers =====
+The cardinal numbers are very similar in Spanish and Portuguese, but there are differences of usage in numbers one and two. Spanish has different words for the masculine singular indefinite article ('a, an') and the numeral 'one', thus un capítulo 'a chapter', but capítulo uno 'chapter one'. In Portuguese, both words are the same: um capítulo and capítulo um. Spanish uno can also be used as a pronoun, like the English generic "one", to represent an indeterminate subject, but this is not possible with Portuguese um; the reflexive pronoun se must be used instead. Se may be used in Spanish to form passive and impersonal constructions, as well.
+
+Uno (or Se) debe pensar antes de actuar. (Spanish)
+Deve-se pensar antes de agir. (Portuguese)
+'One should think before acting.'
+This still applies in cases where a relatively indeterminate subject is genderized, such as the Spanish todos a una [voz] ('all at once', literally 'all at one [voice]'). It should be rewritten in Portuguese without any cardinal number. For example, todos juntos 'all together'.
+On the other hand, in Portuguese, cardinal number 'two' inflects with gender (dois if masculine, duas if feminine), while in Spanish dos is used for both.
+
+Uno más uno es igual a dos. (Spanish)
+Um mais um é igual a dois. (Portuguese)
+'One plus one equals two.'
+Dos cabezas piensan mejor que una. (Spanish)
+Duas cabeças pensam melhor que uma. (Portuguese)
+'Two heads think better than one.'
+Tengo dos hermanos y dos hermanas. (Spanish)
+Tenho dois irmãos e duas irmãs. (Portuguese)
+'I have two brothers and two sisters.'
+
+===== Conjunctions =====
+The conjunction "and" in Spanish is y (pronounced [i] before a consonant, [j] before a vowel) before all words except those beginning with an [i] sound (spelled i- or hi-). Before a syllabic [i] sound (and not the diphthong [je] as in hierro), the Spanish conjunction is e [e̞]. Portuguese uses e [i] before all words.
+
+Sal y pimienta. (Spanish)
+Sal e pimenta. (Portuguese)
+'Salt and pepper.'
+Judío e hindú. (Spanish)
+Judeu e hindu. (Portuguese)
+'Jewish and Hindu.'
+Leones y hienas. (Spanish)
+Leões e hienas. (Portuguese)
+'Lions and hyenas.'
+Similarly, for the conjunction "or", Spanish uses o [o̞] before all words except those beginning with o- or ho-, in which case it uses u [w]. Portuguese always uses ou [ow]~[o].
+
+Vino o agua. (Spanish)
+Vinho ou água. (Portuguese)
+'Wine or water.'
+Uno u otro. (Spanish)
+Um ou outro. (Portuguese)
+'One or the other.'
+
+===== Se, si, sí, and sim =====
+In Portuguese, the word se can be a reflexive pronoun or a conjunction meaning 'if'. This may give the false impression that a Portuguese verb is pronominal when it is not. For example, Se ficou em Paris... means 'If he/she/it stayed in Paris...' When the conjunction se precedes a pronominal verb, it is common to have a double se in the sentence, such as Se se esqueceu da sua senha... 'If you forgot your password...'
+
+===== Indirect object pronouns =====
+Spanish le and les are changed to se when followed by lo, la, los, or las. For example, "Mi abuelo les compró los regalos" becomes "Mi abuelo se los compró". See also "Combining pronouns in Spanish" below. In addition, Spanish uses sé as an irregular verb in the first person singular indicative of saber (to know), and the second person singular imperative of ser (to be). In Portuguese, these are sei and sê respectively.
+
+=== Dissimilar words ===
+Despite the mostly cognate vocabulary between Spanish and Portuguese, a significant number of common words are entirely different in the two languages (although in some cases cognates exist, but are rare or archaic in one of the two languages). Examples include the following:
+
+Vocabulary differences between the two languages arose from various factors. Portuguese and Spanish evolved separately from the Middle-Ages onwards and Portuguese being more Atlantic, didn't absorb much Mediterranean influence:
+
+==== French influence ====
+Both Portuguese and, to a lesser degree, Spanish have borrowed loanwords either directly from French or by way of French as an intermediary from other (mostly Greco-Latin) sources. Here are some examples where Portuguese uses French-derived words in everyday situations (quotation marks mean unassimilated French spellings):
+
+==== Arabic influence ====
+Spanish has significant Mozarabic vocabulary of Arabic origin, whereas Portuguese has markedly less of such influence. In most cases, there will also be a Latin, Gothic or Greek synonym in the Spanish lexicon, although not actively used. Here are a few examples:
+
+Conversely, there are a few examples where a word of Arabic origin is used in Portuguese but not in Spanish, such as: Sp. romero, Port. alecrim (Port. rosmaninho or rosmarinho means 'lavender'), 'rosemary'; Sp. lechuga, Port. alface (in Port. leituga means 'catsear'), 'lettuce'; or more commonly used in Portuguese than in Spanish although the word exists in both languages, such as: chafariz 'fountain' (Port.fonte, Sp. fuente) or garrafa 'bottle' (Port. botelha, Sp. botella).
+In a few cases Spanish and Portuguese have both borrowed different Arabic-derived words for the same meaning, such as: Sp. alfombra, Port. alcatifa, 'carpet'; Sp. aduana, Port. alfândega, 'customs' (in Port. aduaneiro is an adjective which means 'of or relating to customs'); the latter is derived from the name of a town in Portugal that once stood on the boundary between Christendom and Islam.
+Arabic is the source of a few personal given names and numerous derivative surnames and place names in Spain, including the following:
+Almudena, Azucena, Guadalupe, Mohamed, Soraya, Zulema, Abenamir, Abengoa, Avengoa, Abenójar, Alcalá, Almuzara, Acebrón, Aceituno, Aceitón, Aguera, Aguiló, Alamar, Alamino, Alanzor, Albarral, Albarrán, Albo, Alborán, Albaicín, Alcantud, Alcazar, Alcudia, Alguacil, Allobar, Almaguer, Almandós, Almandoz, Almería, Almodóvar, Almoravit, Ambasil, Andujar, Aranda, Ayas, Aias, Benayas, Bardaxí, Benajara, Benameji, Benasar, Bennásar, Benavides, Bendala, Bujalance, Calatayud, Ceuta, Cid, Córdoba, Dris, Faulí, Gálvez, Godesteiz, Granada, Guadalupe, Gudiel, Hispán, Yllán, Illán, Illanes, Iznajar, Jaén, Madrid, Manzaneque, Mezquita, Mezquitas, Mudarra, Palomoque, Trujillo, Zanata, Zaratan, Zarate, Zaratin, Zegrí, Cegrí, Zorita.
+
+==== Influences from other languages ====
+Spanish and Portuguese have acquired different words from various Amerindian, African and Asian languages, as in the following examples:
+
+'pineapple': Sp. piña (from the Spanish word for 'pine cone') / Port. abacaxi (from Tupi) or ananás (from Tupi–Guarani; also in Spanish, by way of Portuguese, ananás or ananá).
+'smoking pipe': Sp. pipa (from supposed Late Latin pīpa) / Port. cachimbo (from Kimbundu).
+'tea': Sp. té (from Min Nan Chinese) / Port. chá (from Cantonese).
+Like with most European languages, both Spanish and Portuguese acquired numerous Greek words mainly related to sciences, arts and humanities:
+
+'acrolith': Sp. acrolito / Port. acrólito (from Gr.'ἀκρόλιθος') /
+'apocalypse': Sp. apocalipsis / Port. apocalipse (from Gr.'ἀποκάλυψις')/
+'bibliography': Sp. bibliografía / Port. bibliografia (from Gr.'βιβλία biblia + γραφή graphḗ') /
+'cemetery': Sp. cementerio / Port. cemitério (from Gr. ' κοιμητήριον koimētḗrion')
+'chiropodist': Sp. podólogo (Gr. 'ποδης') / Port. quiropodista (from Gr. 'kheiropódes') /
+'hermitage': Sp. lugar aislado (from Lat. locālis + insŭla) / Port.  ermida, ermo (from < Gr. 'ἔρημος')
+'ophthalmologist': Sp. oftalmólogo / Port. oftalmologista (from Gr.'ὀφθαλμός ophthalmós 'eye'+ λογία logia') /
+'photosynthesis': Sp. fotosíntesis / Port. fotossíntese (from  Gr.'φῶς + σύνθεσις' ) /
+'psychoanalysis': Sp. psicoanálisis, sicoanálisis / Port. psicanálise from Fra. psychanalyse < (from Gr.'ψυχο psycho + ἀνάλυσις analysis') /
+'surgeon': Sp. cirujano / Port. cirurgião (from Gr.'χειρουργία cheirourgia') /
+
+==== Days of the week ====
+Unlike the other Romance languages, modern Portuguese does not use the Roman planetary system for the days Monday through Friday. Instead, the weekdays are numerical, and derived from Ecclesiastical Latin. The word feira (from Latin fēria) refers to daily (Roman Catholic) religious celebrations; it is cognate with feira 'fair' or 'market', as well as with férias 'vacation' and feriado 'holiday'. In Spanish, the days of the week are all masculine; in Portuguese, the feira days are feminine, while sábado and domingo are masculine.
+
+== Grammar ==
+Broadly speaking, the grammars of Portuguese and Spanish share many common features. Nevertheless, some differences between them can present hurdles to people acquainted with one and learning the other.
+
+=== Gender ===
+Spanish has three forms for the singular definite article, el, masculine, la, feminine, and lo, neuter. The last is used with adjectives to form abstract nouns employed in a generic sense, and also to intensify the meaning of adjectives. In Portuguese, there is only o, masculine, and a, feminine. Literary Spanish has also three corresponding third person pronouns, él 'he', ella 'she', and ello 'it' (referring to a broad concept, not a named object), while Portuguese has only ele, masculine, and ela, feminine. The Spanish neuters lo and ello have no plural forms.
+Some words are masculine in Spanish, but feminine in Portuguese, or vice versa. A common example are nouns ended in -aje in Spanish, which are masculine, and their Portuguese cognates ending in -agem, which are feminine. For example, Spanish el viaje 'the journey' (masculine, like French le voyage and Italian il viaggio) corresponds to the Portuguese feminine a viagem. Similarly, el puente 'bridge', el dolor 'pain', or el árbol 'tree' are masculine nouns in Modern Spanish, whereas a ponte, a dor, and a árvore are feminine in Portuguese. On the other hand, the Spanish feminine la leche 'the milk' corresponds to Portuguese o leite (masculine, like French le lait, Italian il latte). Likewise, nariz 'nose' is feminine in Spanish and masculine in Portuguese.
+Some Spanish words can be both masculine and feminine, with different meanings. Both meanings usually exist also in Portuguese, but with one and the same gender, so that they can't be differentiated unless further information is provided. For instance, the word orden 'order' can mean both 'harmonious arrangement' and 'directive', like its counterparts in English and Portuguese. But the Spanish word is masculine when used with the first meaning, and feminine with the second:
+
+Me sorprendió el orden. ('I was surprised by the order [i.e., by how orderly it all was].')
+Me sorprendió la orden. ('I was surprised by the order [i.e., by the directive that was given].')
+In Portuguese, the equivalent word ordem is always feminine:
+
+Me surpreendeu/Surpreendeu-me a ordem. ('I was surprised by the order.')
+Without additional context, it is impossible to tell which meaning was intended in Portuguese and English (though other words could be substituted; in English, one would likely use orderliness in the first case above rather than order, which would, by itself, suggest the second case).
+
+=== Use of the definite article ===
+In many varieties of Portuguese, personal names are normally preceded by a definite article, a trait also found in Catalan. In Portuguese, this is a relatively recent development, which some Brazilian dialects have not adopted yet, most notably in some states of the Brazilian Northeast. In those dialects of Portuguese that do regularly use definite articles before proper nouns, the article may be omitted for extra formality, or to show distance in a literary narrative. Compare, for example, English "Mary left", Spanish María salió, and Portuguese A Maria saiu. Note, however, that in many Spanish dialects the definite article is used before personal names; thus, la María salió is commonly heard.
+Portuguese uses the definite article before the names of some cities and almost all countries except relatively new ones, such as Cingapura/Singapura ('Singapore'), and those related to Portugal (or with which Portugal has historical relationships, even though this is a rough rule) and the Portuguese-speaking countries, e.g., a Holanda but Portugal; o México but Angola, a Suécia, but Moçambique. The major exception to the country rule is o Brasil.
+In Spanish, use of the definite article is optional with some countries: (la) China, (el) Japón, (la) India, (la) Argentina, (el) Ecuador, (el) Perú, (el) Uruguay, (el) Paraguay, (el) Brasil, (los) Estados Unidos, etc. The same is true with two continents: (la) Antártida and (el) África; with archipelagos and islands: (las) Filipinas, (las) Canarias, (las) Azores, with some provinces, regions or territories: (el) Tíbet, (la) Toscana, (el) Piamonte, (el) Lacio and with some cities: (el) Cairo, (la) Valeta. Spanish uses the definite article with all geographical names when they appear with an adjective or modifying phrase, as in the following examples: la España medieval 'medieval Spain', el Puerto Rico prehispánico 'pre-Hispanic Puerto Rico', el Portugal de Salazar 'Portugal during Salazar's dictatorship', etc.
+
+Santiago es la capital de Chile. (Spanish)
+Santiago é a capital do Chile. (Portuguese)
+'Santiago is the capital of Chile.'
+Él es de Costa Rica, que está en América Central. (Spanish)
+Ele é da Costa Rica, que fica na América Central. (Portuguese)
+'He is from Costa Rica, which is in Central America.'
+Tengo un boleto para (los) Estados Unidos de América. (Spanish)
+Tenho um bilhete para os Estados Unidos da América. (Portuguese)
+'I have a ticket to the United States of America.'
+Nueva Delhi no es la ciudad más poblada de (la) India. (Spanish)
+Nova Déli não é a cidade mais populosa da Índia. (Portuguese)
+'New Delhi is not the most populous city in India.'
+La Europa medieval pertenecía a monarcas absolutos. (Spanish)
+A Europa medieval pertencia a monarcas absolutos. (Portuguese)
+'Medieval Europe belonged to absolute monarchs.'
+Portuguese omits the definite article in stating the time of day unless para as is used.
+
+Son las nueve y cuarto, but also Son nueve y quince or Son nueve quince. (Spanish)
+São (as) nove (horas) e quinze (minutos). (Portuguese) (parenthesical parts often omitted)
+'It's nine fifteen.' Or:'It's a quarter past/after nine.'
+In addition, in most dialects of Portuguese the definite article is used before possessive adjectives (as it is used in Italian), which is not possible in Spanish. For instance, the sentence 'This is my brother' is Este es mi hermano in Spanish, but may be Este é o meu irmão in Portuguese. Nevertheless, in many Brazilian dialects (mostly in the Northeast) and in casual Brazilian Portuguese the article is not used in sentences such as: Este é meu irmão (although it usually reappears in sentences such as "O meu irmão está lá").
+
+=== Possessives ===
+In Portuguese, possessive adjectives have the same form as possessive pronouns, and they all agree with the gender of the possessed item. In Spanish, the same is true of nuestro/nuestra ("our") and vuestro/vuestra ("your" [plural]), but for all other possessives, the pronoun has a longer form that agrees with the gender of the possessed item, while the adjective has a shorter form that does not change for gender. The possessive adjectives are normally preceded by a definite article in Continental Portuguese, less so in Brazilian Portuguese, and never in Spanish. The possessive pronouns are preceded by a definite article in all dialects of both languages. See examples in the table below.
+
+=== Pronouns ===
+
+==== Object pronouns ====
+In Portuguese, third-person clitic pronouns have special variants used after certain types of verb endings, which does not happen in Spanish. The default object pronouns o/a/os/as change to lo/la/los/las when they follow a verb that ends in ⟨r⟩, ⟨s⟩ or ⟨z⟩, and to no/na/nos/nas when they follow a verb that ends in a nasal sound.
+
+In Brazilian Portuguese, these forms are uncommon, since the pronoun normally precedes the verb (i.e., você o mantenha in the above example), and third-person subject pronouns are used informally as object pronouns (mantenha ele). However, as it has been considered ungrammatical to begin a sentence with an object pronoun, the above examples are, on rare occasion, used in Brazil as well.
+
+==== Clitic personal pronouns ====
+European Portuguese differs from Brazilian Portuguese with regard to the placement of clitic personal pronouns, and Spanish is in turn different from both of them.
+
+In Spanish, clitic pronouns normally come before the verb, except with the imperative, the infinitive, and the gerund. In verbal periphrases, they precede the auxiliary verb.
+In spoken Brazilian Portuguese, clitic pronouns normally come before the main verb. In verbal periphrases, they come between the auxiliary verb and the main verb. This occurs even with the imperative, the infinitive, the gerund, and the past participle.
+In European Portuguese, clitic pronouns may come before or after the verb, depending on the type of clause. In verbal periphrases, they may precede or follow the auxiliary verb, or follow the main verb (when this is in the infinitive or the gerund).
+
+==== Mesoclisis ====
+In Portuguese, verbs in the future indicative or conditional tense may be split into morphemes, and the clitic pronoun can be inserted between them, a feature known as mesoclisis. This also occurred in Old Spanish, but no comparable phenomenon takes place in modern Spanish:
+
+Lo traerá. (Spanish)
+Trá-lo-á. (European Portuguese and formal written Brazilian Portuguese)
+'He/She will bring it.'
+However, these tenses are often replaced with others in the spoken language. Future indicative is sometimes replaced by present indicative; conditional is very often replaced by imperfect indicative. In colloquial language, most Portuguese would state trá-lo-á as vai trazê-lo ('going to bring it') or irá trazê-lo ('will bring it'). In Brazilian Portuguese, "vai trazer ele" would be the vernacular use.
+
+==== Combining pronouns in Spanish ====
+The Spanish construction, se lo dio, means either '[He/She] gave it to [him/her]' or '[He/She] gave it to himself/herself'. The expected pattern for the former would be *le lo dio, but such a construction does not exist. This is unique to Spanish.
+
+Latin: dedit illī illud → dedit illī illum (early Vulgar Latin) → dit illi illu (Late Vulgar Latin)
+Spanish: dio (i)lli (el)lo → dio ge lo → diógelo (arch.) → dióselo → se lo dio
+Portuguese: deu (i)lli (l)o → deu lhe (l)o → deu-lho
+Thus, modern Spanish makes no distinction between the reflexive pronoun se and the dative personal pronoun se, whereas in Portuguese it would be "deu-so" for the reflexive pronoun and "deu-lho" for the dative case. Note that this did not happen in old Spanish: diógelo, 'he gave it to him', dióselo, 'he gave it to himself'. The medieval g sound (similar to that of French) was replaced with s in the 14th-15th centuries (cf. Spanish coger, 'to catch', but cosecha, 'harvest', Port. colher and colheita, both from Lat. colligere).
+
+==== Use of stressed pronouns for inanimate subjects ====
+In standard Spanish, stressed pronouns in the subject position are never used for inanimate subjects (i.e., things, as opposed to people or animals), not even for clarity or disambiguation purposes, except when modified by an attribute (él solito may mean 'he by himself' or 'it by itself'). Portuguese knows no such restriction, so that stressed pronouns referring to inanimate subjects can either be used or dropped:
+
+¿Dónde están las llaves? (Están) En la mesa. (Spanish – pronoun should be dropped, not *Ellas están...; verb is often dropped)
+O que é das chaves?/ Cadê as chaves? (Elas estão) Na mesa. (Portuguese – pronoun and verb are optional, the verb can be used without the pronoun: Estão...)
+'Where are the keys? (They are) On the table.' (English – pronoun and verb are not necessarily required, but the verb requires the pronoun, not *Are...)
+
+==== Second-person pronouns ====
+The use of second-person pronouns differs dramatically between Spanish and Portuguese, and even more so between European and Brazilian Portuguese. Spanish tú and usted correspond etymologically to Portuguese tu and você, but Portuguese has gained a third, even more formal form o(s) senhor(es), a(s) senhora(s), demoting você to an "equalizing" rather than respectful register. The old familiar forms have been largely lost in the Portuguese-speaking world, as the Portuguese equalizing forms você or vocês have displaced tu to a large extent and vós almost entirely; and even where tu is still used, the second-person verb forms that historically corresponded to it are often replaced by the same (third-person) forms that are used with "você".
+In the plural, Portuguese familiar vós is archaic nearly everywhere (as with the old English second singular "thou"), and both the subject pronoun and its corresponding second-person plural verb forms are generally limited to the Bible, traditional prayers, and spoken varieties of certain regions of rural Portugal; normally, the familiar (and equalizing) form is now vocês, although in Portugal the second person plural forms are retained for both object and possessive pronouns (e.g., vocês e a vossa família). In the case of northern and central Peninsular Spanish, tú, usted, vosotros, and ustedes have more or less kept their original functions; if anything, tú is displacing usted out of common use and usted is coming to be used only for formal situations (like o senhor in Portuguese). Latin American Spanish is more complicated: vosotros has fallen out of use in favor of ustedes, but certain regions of Spanish America also use vos as a singular informal pronoun, displacing tú out of its original role to a greater or lesser extent (see voseo).
+Spoken Brazilian Portuguese has dramatically simplified the pronoun system, with você(s) tending to displace all other forms. Although a few parts of Brazil still use tu and the corresponding second-person singular verb forms, most areas either use tu with third-person verb forms or (increasingly) drop tu entirely in favor of você. This has in turn caused the original third-person possessive seu, sua to shift to primarily second-person use, alongside the appearance of a new third-person possessive dele, dela (plural deles, delas, "their") that follows the noun (thus paraphrases such as o carro dele "his car", o carro dela "her car"). The formal o senhor is also increasingly restricted to certain situations, such as that of a storekeeper addressing a customer, or a child or teenager addressing an adult stranger.
+More conservative in this regard is the fluminense dialect of Brazilian Portuguese (spoken in Rio de Janeiro, Espírito Santo and in the Zona da Mata of the state of Minas Gerais) – especially its carioca sociolect. This dialect generally preserves intimate or familiar tu, the standard equalizing form você, and the respectful or formal o senhor/a senhora, together with their related possessives, to such an extent that almost all speakers use these forms, according to context. Nevertheless, a minority of educated speakers correctly conjugates all of the tu pronouns formally; otherwise, it is mostly conjugated as você.
+Standard Portuguese usage has vocês and os senhores/as senhoras as plurals of você and o senhor/a senhora, but the vernacular has also produced new forms with the second-person familiar plural function, such as gente (compare a gente as a possible colloquial variation of nós, "we"/"us", that should be conjugated—but commonly is not—as third-person singular), pessoas, pessoal, [meu] povo, cês (eye dialect for vocês in colloquial pronunciation), and galera (the latter mainly associated with youth slang).
+It is often said that the gaúcho, nordestino and amazofonia dialects, as well as some sociolects elsewhere, such as that in and around the city of Santos, have preserved tu; but unlike in fluminense, the use of você is very limited, and entirely absent among some speakers, and tu takes its place. In these areas, the verb with tu is conjugated in the third-person form (as with você) – except among educated speakers in some urban centers such as Porto Alegre and, especially, Belém. See Brazilian Portuguese.
+
+=== Verbs ===
+
+==== "To be" ====
+Spanish and Portuguese have two main copulas, ser and estar. For the most part, the use of these verbs is the same in both languages, but there are a few cases where it differs. The main difference between Spanish and Portuguese is in the interpretation of the concept of state versus essence and in the generalizations one way or another that are made in certain constructions. For instance,
+
+Está prohibido fumar. (Spanish) [estar]
+É proibido fumar. (Portuguese) [ser]
+'Smoking is forbidden.'
+La silla está hecha de madera. (Spanish) [estar]
+A cadeira é feita de madeira. (Portuguese) [ser]
+'The chair is made of wood.'
+Sólo uno es correcto. (Spanish) [ser]
+Só um está correcto. (Portuguese) [estar]
+'Only one is correct.'
+Also, the use of ser regarding a permanent location is much more accepted in Portuguese. Conversely, estar is often permanent in Spanish regarding a location, while in Portuguese, it implies being temporary or something within the immediate vicinity (same house, building, etc.)
+
+Nuestra oficina queda (or está) muy lejos. (Spanish) [quedar/estar]
+O nosso escritório é (or fica) muito longe. (Portuguese) [ser/ficar]
+'Our office is very far away.'
+¿Dónde está (or queda) el aeropuerto? (Spanish) [estar/quedar]
+Onde fica (or é) o aeroporto? (Portuguese) [ficar/ser]
+'Where is the airport?'
+Because the airport is obviously not anywhere nearby, ficar is used in Portuguese (most common), though ser can also be used.
+Secondary copulas are quedar(se) in Spanish and ficar in Portuguese. Each can also mean 'to stay' or 'to remain.'
+
+Me quedé dentro de la casa todo el día. (Spanish)
+Fiquei dentro de casa todo o dia. (Portuguese)
+'I stayed inside the house all day.'
+The Spanish sentence using the reflexive form of the verb (quedarse) implies that staying inside the house was voluntary, while Portuguese and English are quite ambiguous on this matter without any additional context. (See also the next section.)
+Both Spanish quedar(se) and Portuguese ficar can mean 'become':
+
+Mi abuela se está quedando sorda. (Spanish)
+(A) Minha avó está ficando surda. (Brazilian Portuguese and some dialects of European Portuguese)
+(A) minha avó está a ficar surda. (European Portuguese)
+'My grandmother is becoming deaf.'
+
+==== Reflexive verbs ====
+Reflexive verbs are somewhat more frequent in Spanish than in Portuguese, especially with actions relating to parts of the body:
+
+Guillermo se quebró la pierna jugando al fútbol. (Spanish)
+(O) Guilherme quebrou(-se) a perna jogando futebol. (Brazilian Portuguese)
+(O) Guilherme partiu a perna a jogar futebol. (European Portuguese)
+'Guilherme broke his leg playing soccer.'
+
+==== "To like" ====
+The Portuguese and Spanish verbs for expressing "liking" are similar in form (gostar and gustar respectively) but different in their arrangement of arguments. Arguments in linguistics are expressions that enable a verb to complete its meaning. Expressions of liking typically require two arguments: (1) a person who likes something (sometimes called the "experiencer"), and (2) something that the person likes (sometimes called the "theme"). Portuguese and Spanish (as well as English) assign different grammatical cases to these arguments, as shown in the following table:
+
+The Portuguese sentence can be translated literally as "[I] [take satisfaction] [from] [the music]", while the Spanish corresponds to "[To me] [(it) is pleasing] [the music]."
+It is also possible in Spanish to express it as: "(Yo) gusto de la música", although this use has become antiquated.
+
+==== Auxiliary verbs with the perfect ====
+In Spanish, the compound perfect is constructed with the auxiliary verb haber (< Latin habēre). Although Portuguese used to use its cognate verb (haver) in this way, now it is more common to form these tenses with ter ('to have') (< Latin tenēre). While ter is occasionally used as an auxiliary by other Iberian languages, it is much more pervasive in Portuguese - to the extent that most Portuguese verb tables only list ter with regard to the perfect.
+
+ Yo ya hube comido cuando mi madre volvió. (Spanish) [perfect form of haber]
+ Yo ya había comido cuando mi madre volvió. (Spanish) [imperfect form of haber]
+ Eu já comera quando a minha mãe voltou. (Portuguese) [pluperfect inherited from Latin]
+ Eu já tinha comido quando a minha mãe voltou. (Portuguese) [imperfect form of ter]
+ Eu já havia comido quando a minha mãe voltou. (Portuguese) [imperfect form of haver]
+'I had already eaten when my mother returned.'
+
+==== Imperfect subjunctive versus pluperfect indicative ====
+A class of false friends between the two languages is composed of the verb forms with endings containing -ra-, such as cantara, cantaras, cantáramos, and so on. Spanish has two forms for the imperfect subjunctive, one with endings in -se- and another with endings in -ra- (e.g., cantase/cantara 'were I to sing'), which are usually interchangeable. In Portuguese, only cantasse has this value; cantara is employed as a pluperfect indicative, i.e., the equivalent to Spanish había cantado ('I had sung'). Although there is a strong tendency to use a verb phrase instead in the spoken language, like in Spanish and English (havia cantado), the simple tense is still frequent in literature.
+
+==== Present perfect ====
+In European Spanish, as well as some Andean dialects, as in English, the present perfect is normally used to talk about an action initiated and completed in the past, which is still considered relevant or influential in the present moment. In Portuguese and Latin American Spanish, the same meaning is conveyed by the simple preterite, as in the examples below:
+
+No, gracias. Ya he cenado. (Spanish, Spain) [present perfect]
+No, gracias. Ya cené. (Spanish, Latin America) [preterite]
+Não, obrigado. Já jantei. (Portuguese) [preterite]
+'No, thank you. I have already dined.' [present perfect]
+He ido a España dos veces. (Spanish, Spain) [present perfect]
+Fui a España dos veces. (Spanish, Latin America) [preterite]
+Fui à Espanha duas vezes. (Portuguese) [preterite]
+'I have been to Spain twice.' [present perfect]
+¿Ha oído usted las últimas noticias, señor? (Spanish, Spain) [present perfect]
+¿Oyó usted las últimas noticias, señor? (Spanish, Latin America) [preterite]
+O senhor ouviu as últimas notícias? (Portuguese) [preterite]
+'Have you heard the latest news, sir?' [present perfect]
+Portuguese normally uses the present perfect (pretérito perfeito composto) for speaking of an event that began in the past, was repeated regularly up to the present, and could keep happening in the future. See the contrast with Spanish in the following example:
+
+He pensado en pedirle matrimonio. (Spanish) [present perfect]
+'I have thought of asking her/him [indirect object] to marry me [the thought has occurred to me at least once].' [present perfect]
+Tenho pensado em pedi-la em casamento. (Portuguese) [present perfect]
+'I have been thinking of asking her [direct object] to marry me.' [present perfect continuous]
+As this example suggests, the Portuguese present perfect is often closer in meaning to the English present perfect continuous. See also Spanish verbs: Contrasting the preterite and the perfect.
+
+==== Personal infinitive ====
+Portuguese, uniquely among the major Romance languages, has acquired a "personal infinitive", which can be used as an alternative to a subordinate clause with a finite verb in the subjunctive.
+
+A recepcionista pediu para esperarmos. (Portuguese) [personal infinitive]
+A recepcionista pediu que esperássemos. (Portuguese) [imperfect subjunctive]
+La recepcionista nos pidió que esperáramos/esperásemos. (Spanish) [imperfect subjunctive]
+'The receptionist asked for us to wait.' (literal personal infinitive translation)
+'The receptionist asked that we wait.' (literal Portuguese imperfect subjunctive translation)
+The Portuguese perfect form of the personal infinitive corresponds to one of several possible Spanish finite verbs.
+
+Alguém nos acusou de termos roubado uma caneta. (Portuguese)
+Alguien nos acusó de haber robado un bolígrafo. (Spanish)
+'Somebody accused us of having stolen a pen.'
+On some occasions, the personal infinitive can hardly be replaced by a finite clause and corresponds to a different structure in Spanish (and English):
+
+O hábito de fumares à janela é desagradável. (Portuguese, using personal infinitive. Literally, 'The habit of [you] smoking at the window is unpleasant.')
+(O) teu hábito de fumar à janela é desagradável. (Portuguese, using impersonal infinitive. Literally, '(The) Your habit of smoking at the window is unpleasant.')
+Tu hábito de fumar en la ventana es desagradable. (Spanish: 'Your habit of smoking at the window is unpleasant.')
+The personal infinitive is not used in counterfactual situations, as these require either the future subjunctive or the imperfect subjunctive. 'If we were/had been rich...' is Se fôssemos ricos..., not *Se sermos ricos... Also, it is conjugated the same as the future subjunctive (see next section), provided the latter is not irregular (ser, estar, ter, etc.) The personal infinitive is never irregular, though the circumflex accent may be dropped in writing on expanded forms (such as pôr).
+In the first and third person singular, the personal infinitive appears no different from the unconjugated infinitive.
+
+É bom eu/ele esperar um bocadinho. (Portuguese)
+'It is good that I/he wait(s) a bit.'
+The above rules also apply whenever the subjects of the two clauses are the same, but independent of each other.
+
+Para chegarmos cedo, temos/teremos que nos apressar. (Portuguese) [personal infinitive]
+Para que lleguemos temprano, necesitamos apresurarnos. (Spanish) [present subjunctive]
+'For us to arrive early, we  will  need to hurry.'
+Para chegarmos cedo, tínhamos/teríamos que nos apressar. (Portuguese) [personal infinitive]
+Para que llegáramos/llegásemos temprano, necesitaríamos apresurarnos. (Spanish) [imperfect subjunctive]
+'For us to arrive early, we  would  need to hurry.'
+As shown, the personal infinitive can be used at times to replace both the impersonal infinitive and the subjunctive. Spanish has no such alternative.
+
+==== Future subjunctive ====
+The future subjunctive, now virtually obsolete in Spanish, or circumscribed to legal documents, continues in use in both written and spoken Portuguese. It is used in subordinate clauses referring to a hypothetical future event or state – either adverbial clauses (usually introduced by se 'if ' or quando 'when') or adjective clauses that modify nouns referring to a hypothetical future entity. Spanish, in the analogous if-clauses, uses the present indicative, and in the cuando- and adjective clauses uses the present subjunctive.
+
+Se eu for eleito presidente, mudarei a lei. (Portuguese)
+Si yo soy (also fuere) elegido presidente, cambiaré la ley. (Spanish)
+'If I am elected president, I will change the law.'
+Quando fores mais velho, compreenderás/hás-de compreender. (Portuguese)
+Cuando seas (also fueres) mayor, comprenderás. (Spanish)
+'When you are older, you'll understand.'
+Dar-se-á/Se dará o prémio à primeira pessoa que disser a resposta correta. (Portuguese)
+Se dará el premio a la primera persona que diga (also dijere) la respuesta correcta. (Spanish)
+'The prize will be given to the first person who says the right answer.'

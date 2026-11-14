@@ -1,0 +1,25 @@
+The Spanish language is used in diverse areas of science and technology. Despite its large number of speakers, the Spanish language does not feature prominently in scientific writing, with the exception of the humanities. One estimate puts the percentage of Spanish language publications in natural sciences and technology as 0.5% of the world total, a low number since Spanish is often considered to rank second or third among languages in various other metrics and estimates. In the humanities, a similar estimate yields 2.81%.
+Summarizing the status of the Spanish language in the sciences, researcher Álvaro Cabezas writes: "No serious scientist publishes his best works in a language other than English".
+The creation of new Spanish terminology is more a result of translating concepts from other languages than of crafting original ideas.
+
+== Bibliometric studies ==
+Among Spanish-language articles indexed in Scopus from 1996 to 2011, 10.8% qualify as "Life Sciences", 13.2% as "Physical Sciences", 44.4% as "Health Sciences", 29.6% as "Social Sciences, Arts & Humanities", and 2.0% as "Multi-disciplinary & Undefined". Thus, a higher percentage of Spanish language content is published in "Health Sciences" and "Social Sciences, Arts & Humanities" than in English, Chinese, or Russian. Spanish shares this trait with Portuguese, Italian, Dutch, and French.
+A bibliometric study of publications on the subject of "digital communication" indexed in Scopus and Web of Science found that in both databases, Spanish-language articles comprise around 6.5% of the content. Notably, in these databases, various authors with articles published in Spanish were based in non-Spanish speaking countries. A 2014 Google Scholar search on the words "biodiversity" and "conservation" yielded Spanish as the language with the second most entries — far behind English and just ahead of Portuguese.
+
+== Causes for the limited use of Spanish ==
+The Spanish language is one of many major languages with limited use in science and technology. The main cause of this is the proliferation of English in scientific writing, which has been ongoing since English displaced French and German as the languages of science in the first half of the 20th century.
+Another cause of the scant publication of articles in Spanish in scientific journals is that scientists from Spain tend to form partnerships (at least in the 21st century) more with researchers from elsewhere in Europe or the United States than with those from other Spanish-speaking countries. As with other languages, including the historically important German, writing in Spanish limits access to influential foreign journals. Spanish language journals and articles are systematically underrepresented in the ISI database, and are disadvantaged by unfavourable assessments of impact factor, a widely used metric for evaluating scientific journals.
+The scientific policy of Spain has, since the 1980s, focused on promoting the international diffusion of research from Spain, without considering which language is used.
+
+=== Deficient language modernization ===
+The Spanish language has not kept pace with the development of language in various fields of knowledge. Writing in 2007, Daniel Prado noted that Google searches for Spanish terms do not often yield quality results, hampering the work of translators and editors.
+Scholar Enrique Alarcón explains the case of engineering, where he posits three causes of the poor quality of Spanish used in the subject - words that exist but are unknown, confusion between similar but not identical concepts, and a lack of precision in terminology. The poor state of the Spanish language used in engineering may stem from a mishmash of engineering traditions and the impossibility for individuals to have a classical education across multiple branches of engineering. Alternatively, the poor state of the language in engineering may derive from the lack of a previous tradition in certain subjects.
+By 2007, the Icelandic, Dutch, Danish, and Swedish languages had ten to twenty times as much financial resource invested in language care and improvement as Spanish, despite the small size of the communities and economies of their respective countries.
+
+== Proposed reasons to promote Spanish ==
+Scholar Rainer Enrique Hamel points to three arguments to promote the use of Spanish in science:
+
+Language diversity in science is good for reasons akin to why ecological diversity is good.
+Excessive use of English reinforces undesirable asymmetric relations in science.
+Scholars from anglophone countries are adopting bad practices, such as not reading research in languages other than English, reinforcing an unjustified privileged situation.
+"Practitioners and policy makers" may not benefit from the addition of new scientific information if it is not in a language they understand. An example of this is protected area directors in Spain who self-report having language barrier difficulties with publications relevant to carrying out their work.

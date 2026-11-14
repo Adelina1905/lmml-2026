@@ -1,0 +1,54 @@
+Nova is a Cuban state-sponsored Linux distribution launched in February 2009. It was developed in Havana at the University of Information Science (UCI) by students and professors to provide free and open-source software (FOSS) to inexperienced users and Cuban institutions. The first version was based on Gentoo Linux, but starting with version 2.1, the developers switched to Ubuntu.
+In May 2016, discussions about a new version 6.0 were underway. However, by 2016, Distrowatch had marked Nova as discontinued, and its website, www.nova.cu had been taken down. Nova re-entered development later, and version 8.0 was released in January-March 2022.
+In early 2018, its repositories and download server (repo.nova.cu) was shut down temporarily, with users being told to switch to CentOS, after which Nova resumed development a couple months later. By early 2019, the distribution website was again active and DistroWatch listed it as under active development. As of February 2026, the distribution's website seems to be abandoned, with web browsers displaying an alert to visitors about an expired TLS certificate from August 2024.
+
+== Goal and adoption ==
+The goal of Nova was to achieve "sovereignty and technological independence" and to have it installed on all computers in Cuba where Microsoft Windows is still the most widely used operating system. The system was central to the Cuban government's desire to replace Windows. Hector Rodriguez, Director of UCI, said that "[t]he free software movement is closer to the ideology of the Cuban people, above all for the independence and sovereignty." Other cited reasons to develop the system include the United States embargo against Cuba which made it hard for Cubans to buy and update Windows, and potential security issues feared by the Cuban government because of the U.S. government's access to Microsoft's source code.
+Cuba was planning to convert to Nova as its main operating system; once the migration is complete it is intended to be installed in 90% of all work places. In early 2011, the UCI announced that they would migrate more than 8,000 computers to the new operating system. Beginning in 2011, new computers were intended to come installed with both Windows and Nova.
+As of 2026, Microsoft Windows remains the dominant desktop operating system on almost every Cuban computer, either government or privately owned.
+
+== Software ==
+The first version of Nova, called Baire, was based on Gentoo Linux, while Nova 2.1 Desktop Edition was based on Ubuntu. Nova Escritorio is UCI's office suite meant to replace Microsoft Office.
+
+=== Version history ===
+Nova 1.1.2 (Baire)
+
+It uses GNOME, version 2.22.
+Entropy as package manager
+Compatible with Gentoo and Portage.
+Integrated with Windows Active Directory.
+Nova 2.1 Desktop Edition
+
+=== General features ===
+Main applications:
+
+Web browser Mozilla Firefox.
+Instant messaging client Empathy.
+E-mail client Mozilla Thunderbird.
+Multimedia player Totem.
+Music player Rhythmbox.
+Video editing software Pitivi.
+Images editing program F-Spot.
+Torrent client Transmission.
+Disk burning program Brasero.
+OpenOffice as office suite.
+
+=== System requirements ===
+The minimal system requirements are recommended to allow you to install and run Nova Linux with good performance, even if it is possible to install it on worse hardware, with worse performance.
+
+Processor: x86 1 GHz.
+RAM Memory: 512 MB.
+Hard Disk: 5 GB (for a complete installation with swap partition).
+VGA graphics card and monitor capable of running a resolution of 1024x768.
+CD-Rom player and network card.
+Sound card.
+Internet connection.
+Chipset: Intel i915 or higher, but GMA 500
+Nvidia graphics card (with proprietary drivers)
+ATI graphics card (starting from Radeon HD 2000, it may be necessary to use the proprietary driver).
+Nova 3.0
+
+For the first time, Nova Linux has been released in two versions: Nova Desktop for standard computers and Nova Ligero for older computers.Nova 4.0Nova 5.0
+
+== Versions ==
+As of 4 September 2026

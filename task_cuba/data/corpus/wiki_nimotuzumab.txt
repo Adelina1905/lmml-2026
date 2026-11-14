@@ -1,0 +1,26 @@
+Nimotuzumab (h-R3, BIOMAb EGFR, Biocon, India; TheraCIM, CIMYM Biosciences, Canada; Theraloc, Oncoscience, Europe, CIMAher, Center of Molecular Immunology, Havana, Cuba) is a humanized monoclonal antibody that as of 2014 had orphan status in the US and EU for glioma, and marketing approval in India, China, and other countries for squamous cell carcinomas of the head and neck, and was undergoing several clinical trials.
+Like cetuximab, nimotuzumab binds to the epidermal growth factor receptor (EGFR), a signalling protein that normally controls cell division. In some cancers, this receptor is altered to cause uncontrolled cell division, a hallmark of cancer. These monoclonal antibodies block EGFR and stop the uncontrolled cell division.
+It has a humanized human-mouse h-R3 heavy chain and a humanized human-mouse h-R3 κ-chain.
+
+== Mechanism ==
+Nimotuzumab binds with optimal affinity and high specificity to the extracellular region of EGFR (epidermal growth factor receptor). This results in a blockade of ligand binding and receptor activation.  Epidermal growth factor receptor (EGFR) is a key target in the development of cancer therapeutics. EGFR-targeting drugs have been shown to improve response when used with conventional treatments such as radiation therapy and chemotherapy.
+
+== Development status ==
+It was developed at the Center of molecular immunology (CIM) in Havana, Cuba. CIM's commercialization arm, CIMAB S.A. formed a joint venture with YM Biosciences called CIMYM BioSciences in 1995 that was 80% owned by YM and 20% owned by CIMAB.
+CIMYM BioSciences licensed European rights to nimotuzumab to Oncoscience AG in 2003, the South Korean rights to Kuhnil Pharmaceutical Co., Ltd. in 2005, and in 2006, licensed the Japanese rights to Daiichi Sankyo and rights to certain countries in Asia and Africa to Innogene Kalbiotech Pte Ltd.  Other licensees for nimotuzumab include Biocon BioPharmaceuticals Ltd. (BBPL) in India, Biotech Pharmaceutical Co. Ltd. in China, Delta Laboratories in Colombia, European Chemicals SAC, Quality Pharma in Peru, Eurofarma Laboratorios Ltda. in Brazil, Ferozsons Labs in Pakistan, Laboratorio Elea S.A.C.I.F.yA. in Argentina, EL KENDI Pharmaceutical in Algeria and Laboratorios PiSA in Mexico.
+In December 2012, CIMYM BioSciences dissolved and sold its assets related to nimotuzumab to InnoKeys PTE Ltd.
+According to a 2009 review: "Nimotuzumab was approved for the following indications—For squamous cell carcinoma in head and neck (SCCHN) in India, Cuba, Argentina, Colombia, Ivory Coast, Gabon, Ukraine, Peru and Sri Lanka (expired now); for glioma (pediatric and adult) in Cuba, Argentina, Philippines and Ukraine; for nasopharyngeal cancer in China. It has been granted orphan drug status for glioma in USA and for glioma and pancreatic cancer in Europe."
+As of 2014 Nimotuzumab was in additional Phase I and II clinical trials.
+In April 2014, Daiichi Sankyo announced that it was halting a multicenter, randomized, double-blind, placebo-controlled Phase III study investigating nimotuzumab for first-line therapy in patients with unresectable and locally advanced squamous cell lung cancer, due to safety issues in certain patients who received a combination of cisplatin, vinorelbine, radiotherapy, and nimotuzumab.
+
+== Safety ==
+The toxicity and safety of nimotuzumab have been assessed in several pre-clinical and clinical studies wherein it was noticed that side effects usually caused by EGFR inhibitors, especially rashes and other skin toxicities,  were negligible.  Scientists have hypothesized that this is because nimotuzumab binds only to cells that express moderate to high EGFR levels.
+Nimotuzumab has been found to be very well tolerated in clinical trials. Common adverse reactions seen in patients treated with nimotuzumab include:
+
+Chills
+Fever
+Nausea and vomiting
+Dryness of mouth
+Asthenia
+Hypertension/hypotension
+Flushing

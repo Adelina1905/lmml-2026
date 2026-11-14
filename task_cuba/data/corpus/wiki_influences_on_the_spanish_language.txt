@@ -1,0 +1,94 @@
+Spanish is a Romance language which developed from Vulgar Latin in central areas of the Iberian Peninsula and has absorbed many loanwords from other Romance languages like French, Occitan, Catalan, Portuguese, and Italian. Spanish also has lexical influences from Arabic and from  Paleohispanic languages such as Iberian, Celtiberian and Basque.
+In the Americas, Spanish is now spoken by people of a great variety of cultural backgrounds, including those of Amerindian and African heritage. The extensive contact with native American languages especially has resulted in the adoption of many lexical items from these languages, not only in local dialects of Spanish, but throughout the language as a whole.
+
+== Formative influences ==
+As Spanish went through its first stages of development in Spain, it probably received influences from neighbouring Romance languages, and also from Basque, which is a language isolate and thus completely unrelated to Spanish in origin. Umbrian and Oscan influences have also been postulated for the Roman colonization period.
+
+=== Celtiberian influence ===
+Two specific types of lenition, the voicing of voiceless consonants and the elision of voiced consonants (both of which are discussed at greater length below), are the phonological changes of Spanish that are most often attributed to the influence of Celtic languages; they have also been attributed to the influence of the Basque language.  While examples of these two types of lenition are ubiquitous and well-documented in Spanish, two assumptions need to be made if these two types of lenition are to be attributed to patterns of lenition in Celtic languages.  The first assumption is that a population of bilingual Celtiberian–Vulgar Latin speakers existed long enough to have had an influence on the development of Old Spanish. The second assumption is that Continental Celtic, an extinct branch of Celtic, did indeed exhibit the types of lenition that are known to exist in modern Insular Celtic languages. Alternatively, the Spanish development may therefore just be a natural internal process, not due to outside influence.
+
+=== Basque influence ===
+Many Castilians who took part in the Reconquista and later repopulation campaigns of Muslim Iberia were of Basque lineage and this is evidenced by many place names throughout Spain. The change from Latin 'f-' to Spanish 'h-' was once commonly ascribed to the influence of Basque speakers for a few reasons. The change from [f] to [h] was first documented in the areas around northern Castile and La Rioja, areas that are close to the Basque-speaking area. The change to [h] took place to a greater degree in the Gascon language in Gascony, in southwestern France, an area that is close to the Basque Country too. The claim is that the Basque language lacked the [f] sound and thus substituted it with [h], the closest thing to [f] in that language.
+There are some difficulties with attributing this change to Basque, however. There is no hard evidence that medieval Basque did or did not have an [f] sound. Presumably early borrowings of forms with initial [f] into Basque were usually received as [p] or [b] (e.g. FESTA > Basque pesta or besta, depending on the dialect), rather than [h]. Adding to this is the fact that the f-to-h lenition is not peculiar to Spanish. In fact, the change from [f] to [h] is one of the most common phonological changes in all kinds of world languages. According to the explanations that negate or downplay Basque influence, the change occurred in the affected dialects wholly independent of each other as the result of internal change (i.e. linguistic factors, not outside influence). It is also possible that the two forces worked in concert and reinforced each other.
+Another claim of Basque influence in Spanish is the voiceless alveolar retracted sibilant [s̺], a sound roughly intermediate between laminodental [s] and palatal [ʃ]; this sound also appears in other Ibero-Romance languages and in Catalan. The apico-alveolar retracted sibilant might be a result of bilingualism of speakers of Basque and Vulgar Latin.
+
+=== Germanic ===
+Spain was controlled by the Visigoths between the 5th and 8th centuries. However, the influence of the Gothic language (an East Germanic language) on Spanish was minimal because the invaders were already somewhat Romanized, were secluded in the upper echelons of society, and generally did not intermarry with the natives. Besides a few military words, Spanish borrowed the following from Gothic:
+
+A new noun declension (nominative -ā, oblique -āne), which originated from the Gothic n-stem declension. This was used mostly with proper names, e.g., Old Spanish Fruela ~ Froilán (for the same person) and also guardia "guard" ~ guardián "guardian" (from Gothic nominative wardja, accusative wardjan).
+The originally adjectivizing suffix -engo (Germanic -ing), as in abolengo 'ancestry' (cf. abuelo 'grandfather'), abadengo 'abbatial', realengo 'belonging to the Crown', camarlengo 'chamberlain'.
+Perhaps the originally patronymic surname suffixes in -z (as in Díaz, Pérez, López, Ruiz, Muñoz, etc.) is from numerous Latinized Gothic genitives in -īcī, from original -iks. Thus, Roderic(us) (→ Ruy) → Roderīcī 'son of Roderick' → Rodriz → Ruiz.
+A few words of Gothic origin, e.g., ganso 'goose' (← *gans), rueca 'distaff' (← *rokko), tascar 'to beat hemp or flax' (← *taskōn), triscar 'to set, tease' (← þriskan 'to thresh'), ataviar 'to attire, adorn' (← *attaujan 'to mend').
+Although Germanic languages by most accounts affected the phonological development very little, Spanish words of Germanic origin are present in all varieties of Modern Spanish.  Many of the Spanish words of Germanic origin were already present in Vulgar Latin, and so they are shared with other Romance languages.  Other Germanic words were borrowed in more recent times; for example, the words for the cardinal directions (norte, este, sur, oeste — 'north', 'east', 'south', 'west') are not documented until late in the 15th century.  These direction words are thought to be from Old English, probably by way of French.
+
+=== Arabic ===
+
+In 711 AD, most of the Iberian Peninsula was conquered by Arabic-speaking Muslims, who had recently also conquered a large part of northwest Africa. Loanwords from Arabic thus entered Castilian from a very early period. This lexical influence reached its greatest level during the Christian Reconquista, when the emerging Kingdom of Castile conquered large territories from Moorish rulers in the 11th, 12th and 13th centuries. These territories had large numbers of speakers of Arabic, as well as many who spoke local Romance dialects (Mozarabic language) that were heavily influenced by Arabic, both influencing Castilian. Arabic words and their derivatives were also brought into Spanish by Mozarab Christians who emigrated northwards from Al-Andalus in times of sectarian violence, particularly during the times of Almohad and Almoravid rule in the 12th and 13th centuries. Due to the long-lasting presence and influence of Arabic, mainly in southern Iberia, Spanish has a significant lexical component from that language, constituting some 8% of its vocabulary according to some estimates.
+Spanish borrowed words from Arabic in many semantic fields:
+
+Military and administrative terms such as alcázar "fortress" (from Latin castrum "encampment, castle", through Arabic), alcalde "mayor", barrio "ward, neighborhood", aldea "village";
+Leisure and comfort items such as alfombra "carpet", almohada "pillow", guitarra "guitar" (from Greek kithāra "zither, cithara", through Arabic);
+Legal terms such as asesino "assassin, murderer", rehén "hostage", tarifa "tariff, fee", arancel "fee";
+Food and beverage names such as aceite "oil", arroz "rice", espinaca "spinach" and naranja "orange" (both from Persian, through Arabic), café "coffee" (from Arabic through Turkish and then Italian), azúcar "sugar";
+Terms of architecture and craftsmanship such as alcoba "alcove, room", azotea "flat roof", albañil "mason", tabique "dividing wall", adoquín "paving stone", adobe "adobe", alfarero "potter", taza "cup", jarra "pitcher";
+Chemical substances and materials such as alcohol "alcohol", álcali "alkali" (through Late Latin, hence the initial stress), laca "lacquer"(from Sanskrit through Persian and then Arabic);
+Mathematical and astronomical terms such as cero "zero" (through Late Latin and then Italian), cifra "cipher, figure", álgebra "algebra" (through Late Latin, hence the initial stress), cenit "zenith" (Arabic semt ar-ra's, with an apparent misreading of -m- as -ni- in 13th-century manuscripts), guarismo "number, figure";
+Interjections such as ojalá ("may it be that. ..", originally "May Allah want. .."), olé, and albricias "joy!".
+Many of these borrowings (especially in the scientific field) were then passed on to other languages (English acquired most of them through French).
+Most Spanish nouns beginning with the letters al- (from the Arabic definite article) have their origin in Arabic.
+As to how many words in Modern Spanish are of Arabic origin, the estimates vary widely, depending largely on whether the count includes derived forms and place names.  One respected authority suggests that they number more than 4,000, based on estimates of 850 of known etymology, 780 forms derived from them, 1,000 place names, 500 additional place names of "probable" Arabic origin, and "very numerous" Arabic-looking words whose affiliation has not yet been established.  The largest Spanish etymological dictionary — the Diccionario crítico etimológico de la lengua castellana, by Joan Corominas — lists slightly over 1,000 words of Arabic origin, while Wikipedia's own List of Spanish words of Arabic origin, based on etymologies given by the Real Academia Española so far includes 1,200 confirmed Arabisms, excluding place names and derivatives.
+Morphological borrowing was scarce. The suffíx -í (deriving adjectives from place names, as in Marbellí, Ceutí or Iraní, "from Marbella", "from Ceuta", or "from Iran" respectively)  is an example.
+
+== Influences from Native American languages ==
+
+In October 1492 Christopher Columbus made his first landfall in the Americas, and thereafter Spanish settlers began to come into contact with a host of native American languages. Most of these were wiped out or severely reduced in number of speakers and distribution area during the colonization, but Spanish adopted a number of words from some of them. The following list is by no means exhaustive.
+
+From Nahuatl: tomate "tomato", chocolate "chocolate", ajolote "axolotl", cacao "cocoa", coyote "coyote", zapote "zapotl", cuate (friend or twin) "coatl" (snake), mecate, "mecatl" (rope), aguacate "ahuacatl" (avocado) and hundreds or thousand more words, even reaching the English language.
+From Quechua: cóndor (from kuntur) "condor", cancha (from kancha) "playing field", alpaca (from allpaqa), caucho (from k'awchu) "rubber", coca (from kuka), guano (from wanu), gaucho (orig. wakcha "poor person"), guanaco (from wanaku), llama, puma, pampa "plains, flat terrain".
+From Guaraní: caracú "bone marrow", catinga "body odor", chamamé (a folk music genre), tapera "ruins", jaguar, yaguareté "jaguar", mate (an infusion, orig. mati "pumpkin").
+From Taino: caimán "caiman", huracán "hurricane", hamaca "hammock", canoa "canoe" (through Arawak).
+From Tupi: capibara (the largest rodent on Earth), jacarandá (a tree).
+Those words referring to local features or animals might be limited to regional usage, but many others like cóndor, canoa or chocolate are extended even to other languages.
+
+== Modern borrowings ==
+Spanish borrowed many words from other European languages: its close neighbors such as Catalan or Portuguese, other Romance languages such as Italian and French (this particularly during the Neoclassicist to Napoleonic periods, when French language and culture became the fashion at the royal court), and Germanic languages like English. For example:
+
+chao, chau "bye" from Italian ciao (sometimes co-existing with adiós)
+chofer "chauffeur" from French (co-existing with "conductor")
+elenco "team" or "cast" from Italian (co-existing with equipo, when used as team, and reparto)
+sándwich, from English (co-existing with "emparedado" and sometimes with "bocadillo")
+briquet from French (used in Colombia, co-existing with encendedor)
+capot from French
+carnet from French (identification card)
+fútbol from English (football) (originally balompié)
+gendarme from French (prison guards).
+coche from Hungarian kocsi.
+pistola from German Pistole.
+
+== Recent borrowings ==
+In recent times, Spanish has borrowed many words and expressions from English, especially in the fields of computers and the Internet. In many cases, technical expressions that superficially employ common Spanish words are in fact calques from English equivalents.  For example, disco duro is a literal translation of "hard disk".  Words like blog, chat, and weblog are used, though bitácora (from cuaderno de bitácora, the captain's log on a boat) is also common.
+
+== Words of non-Latin origin ==
+
+Some authors estimate that seventy-five percent of Spanish words have come from Latin and were in use in Spain before the time of Christ.  The remaining 25 percent come from other languages. Of these languages (and language families), the six that have contributed the most words are Greek, Arabic, Indigenous languages of the Americas, Germanic, and Celtic in roughly that order.
+
+== Lists of Spanish etymology ==
+African –
+Americas –
+Arabic –
+Austronesian –
+Basque –
+Celtic –
+Chinese –
+Etruscan –
+French –
+Germanic –
+Greek –
+Iberian –
+Indo-Aryan –
+Iranian –
+Italic –
+Semitic –
+Turkic –
+uncertain –
+various origins.

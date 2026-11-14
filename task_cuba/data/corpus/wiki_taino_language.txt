@@ -1,0 +1,55 @@
+Taíno is an extinct Arawakan language spoken by the Taíno people of the Caribbean. At the time of Spanish contact it was the most common language spoken throughout the Caribbean. Classic Taíno, or Taíno proper, was the Indigenous language of the peoples living in most of the Leeward Islands of the Lesser Antilles, Puerto Rico (known as Boriquen), most of Hispaniola (known as Ayiti), and easternmost Cuba. The Ciboney dialect is essentially unattested, but colonial sources suggest that it was very similar to the Lucayan dialects of the Bahamas and to Classic Taíno, and was spoken in central Cuba, parts of western Hispaniola, and possibly Jamaica.
+By the late 15th century, Taíno had displaced earlier languages of the Greater Antilles, except in westernmost Cuba and in pockets in Hispaniola. (See Indigenous languages of the Caribbean § Unclassified languages.) As the Taíno culture declined during Spanish colonization, the language was replaced by Spanish, English and French. Although the language declined drastically due to colonization, some Taíno words were absorbed into those languages. As the first Indigenous language encountered by Europeans in the Americas, it was a major source of new words borrowed into European languages.
+There are several ongoing projects to construct a modern Neo-Taíno language.
+
+== Name ==
+
+"Taíno" was not originally an ethnic or linguistic appellation, and there is debate over its appropriateness and what its scope should be. The terms "Arawak language" or "Island Arawak language" were sometimes used historically, but the term Taíno has been widely adopted since the 1980s to avoid confusion with the Lokono language of South America.
+
+== Dialects ==
+The 19th-century anthropologist Constantine Samuel Rafinesque wrote that "...from Bahama to Cuba, Boriquen to Jamaica, the same language was spoken in various slight dialects, but understood by all." According to Rafinesque, "Columbus himself says so." In Columbus's letter on the first voyage, he wrote that a common language was spoken in the islas de India and that people from different islands visited each other by canoe and could understand each other.
+Bartolomé de las Casas noted ethnic differences between the Cuban Ciboney and the Cuban and Hispaniolan Taíno, but stated that the language was the same. In Historia de las Indias, de las Casas wrote that "The majority of the people who inhabit the island of Cuba come from and were natives of Hispaniola, for the earlier population of Cuba was like that of the Lucayan Islands...and they called themselves in their language Ciboney."
+Julian Granberry and Gary Vescelius (2004) distinguish two dialects of Taíno, one in the east and the other in the north and west:
+
+Classic (Eastern) Taíno, or Taíno proper, spoken in the Classic Taíno and Eastern Taíno cultural areas. These were the Lesser Antilles north of Guadeloupe, Puerto Rico, central Hispaniola, and the southernmost Turks & Caicos (from an expansion in c. 1200). Classic Taíno was expanding into eastern and even central Cuba at the time of the Spanish Conquest, perhaps from people fleeing the Spanish in Hispaniola.
+Ciboney (Western) Taíno, spoken in Ciboney and Lucayan cultural areas. These were central-western Cuba, the Lucayan Archipelago (Bahamas and Turks & Caicos), and probably rural areas of western Hispaniola, and presumably Jamaica.
+Classic Taíno was the lingua franca of the Indies. The five principal chiefdoms on Hispaniola seem to have spoken slightly different dialects of Classic Taíno in addition to the two non-Arawakan languages. The prestige dialect was that of Xaraguá, which had expanded to westernmost Cuba shortly before European contact. According to Daniel Garrison Brinton, the lingua franca spoken in Hispaniola had been the subject of "strange and wild theorizing among would-be philologists" and that it was the 19th-century anthropologist Constantine Samuel Rafinesque who "christened it the "Taino" language".
+
+== Revival projects ==
+Since the 2010s, there have been several projects to build a modern Neo-Taíno lexicon by way of comparative linguistics with better-attested Arawakan languages. Puerto Rican linguist Javier Hernandez published his Primario Basíco del Taíno-Borikenaíki in 2018 after a 16-year spanning research project with positive reception among the diaspora. In 2023, Jorge Baracutay Estevez, the Higuayagua Taino cultural organization and linguist Alexandra Aikhenvald published Hiwatahia: Hekexi Taino Language Reconstruction, a formatted 20,000 word dictionary based on Ta-Arawakan languages. Higuayagua Taino provides classes for the community.
+Due to limited historical documentation, Taino language revival projects may differ from Indigenous languages historically spoken in the Greater Antilles. According to Lucia Faria of the University of Toronto, while some Taino language revivalists "draw their conception of the language to the ways their ancestors spoke, others do not necessarily hold that same objective" and are not exclusively interested in "sounding or speaking in the same way as their ancestors", thus these "language reclamation efforts are more concerned with progress and connections than they are with accuracy."
+According to linguists Konrad Rybka and Andrés Sabogal, projects seeking to revive a Taino language have "led to a mixing of data across the ages, the privileging of Taíno etymologies for words of unknown origin, and even the invention of Taíno words" and that some allegedly Taino words "are in fact Cariban".
+
+== Phonology ==
+The Taíno language was not written; what we know of it is recorded in Spanish transcription. The following phonemes are reconstructed from Spanish records:
+
+The flap [ɾ] appears to have been an allophone of /d/. The /d/ realization occurred at the beginning of a word and the /ɾ/ realization occurred between vowels.
+Some Spanish writers used the letter ⟨x⟩ in their transcriptions, which could represent /h/, /s/ or /ʃ/ in the Spanish orthography of their day. Certain potential cognates suggest a value of /ʃ/, however. For example, the Kalinago word transcribed by French missionaries as chaouái has been connected to the Taíno word xagüeye "cave".
+
+A distinction between /ɛ/ and /e/ is suggested by Spanish transcriptions of ⟨e⟩ vs ⟨ei/ey⟩, as in ceiba "ceiba". The /e/ is written ⟨ei⟩ or final ⟨é⟩ in modern reconstructions. There was also a high back vowel [u], which was often interchangeable with /o/ and may have been an allophone.
+There was a parallel set of nasal vowels. The nasal vowels /ĩ/ and /ũ/ were rare.
+Consonant clusters were not permitted in the onset of syllables. The only consonant permitted at the end of a syllable or word in most cases was /s/. One exception was the suffix -(e)l, which indicated the masculine gender, as in warokoel "our grandfather". Some words are recorded as ending in ⟨x⟩, which may have represented a word-final /h/ sound.
+In general, stress was predictable and fell on the penultimate syllable of a word, unless the word ended in /e/, /i/ or a nasal vowel, in which case it fell on the final syllable.
+
+== Grammar ==
+Classic Taíno is not well attested. However, from what can be gathered, nouns appear to have had noun-class suffixes, as in other Arawakan languages. Attested Taíno possessive prefixes are da- 'my', wa- 'our', li- 'his' (sometimes with a different vowel), and to-, tu- 'her'.
+Recorded conjugated verbs include daka ("I am"), waibá ("we go" or "let us go"), warikẽ ("we see"), kãma ("hear", imperative), ahiyakawo ("speak to us") and makabuka ("it is not important").
+Verb-designating affixes were a-, ka-, -a, -ka, -nV, in which "V" was an unknown or changeable vowel. This suggests that, like many other Arawakan languages, verbal conjugation for a subject resembled the possessive prefixes on nouns. The negating prefix was ma- and the attributive prefix was ka-. Hence makabuka meant "it is not important". The buka element has been compared to the Kalinago suffix -bouca which designates the past tense. Hence, makabuka can be interpreted as meaning "it has no past". However, the word can also be compared to the Kalinago verb aboúcacha meaning "to scare". This verb is shared in various Caribbean Arawakan languages such as Lokono (bokaüya 'to scare, frighten') and Parauhano (apüüta 'to scare'). In this case makabuka would mean "it does not frighten [me]".
+Modern-day Neo-Taíno constructs follow slightly different grammar and word order from each other.
+
+== Vocabulary ==
+Taíno borrowed words from Spanish, adapting them to its phonology. These include isúbara ("sword", from espada), isíbuse ("mirror", from espejo) and Dios (God in Christianity, from Dios).
+English words derived from Taíno include: barbecue, caiman, canoe, cassava, cay, guava, hammock, hurricane, hutia, iguana, macana, maize, manatee, mangrove, maroon, potato, savanna, and tobacco.
+Taíno loanwords in Spanish include: agutí, ají, auyama, batata, cacique, caoba, guanabana, guaraguao, jaiba, loro, maní, maguey (also rendered magüey), múcaro, nigua, querequequé, tiburón and tuna, as well as the previous English words in their Spanish form: barbacoa, caimán, canoa, casabe, cayo, guayaba, hamaca, huracán, iguana, jutía, macana, maíz, manatí, manglar, cimarrón, patata, sabana, and tabaco.
+
+=== Place names ===
+According to Granberry and Vescelius, research has identified 39 Aboriginal island names in the Lucayan archipelago, including:
+
+Grand Bahama: ba-ha-ma 'large-upper-middle'
+Bimini: bimini 'twins'
+Inagua: i-na-wa 'small eastern land'
+North Caicos: ka-i-ko 'near-northern-outlier'
+Borinquen (confederated kingdom of Puerto Rico): boriquen, bori (native) -ke (land) 'native land'
+
+== Sample sentences ==
+Six sentences of spoken Taíno were preserved. They are presented first in the original orthography in which they were recorded, then in a regularized orthography based on the reconstructed language, and lastly in their English translation:

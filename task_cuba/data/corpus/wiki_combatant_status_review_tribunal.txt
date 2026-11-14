@@ -1,0 +1,68 @@
+The Combatant Status Review Tribunals (CSRT) were a set of tribunals for confirming whether detainees held by the United States at the Guantanamo Bay detention camp had been correctly designated as "enemy combatants". The CSRTs were established July 7, 2004 by order of U.S. deputy secretary of defense Paul Wolfowitz after U.S. Supreme Court rulings in Hamdi v. Rumsfeld and Rasul v. Bush and were coordinated through the Office for the Administrative Review of the Detention of Enemy Combatants.
+These non-public hearings were conducted as "a formal review of all the information related to a detainee to determine whether each person meets the criteria to be designated as an enemy combatant." The first CSRT hearings began in July 2004. Redacted transcripts of hearings for "high value detainees" were posted to the Department of Defense (DoD) website. As of October 30, 2007, fourteen CSRT transcripts were available on the DoD website.
+The U.S. Supreme Court found these tribunals to be unconstitutional in Boumediene v. Bush.
+
+== Existing U.S. and the Combat Status Review Tribunals ==
+The CSRTs were not bound by the rules of evidence that would apply in court, and the government's evidence was presumed to be "genuine and accurate." The government was required to present all of its relevant evidence, including evidence that negated the detainee's designation, to the tribunal. Unclassified summaries of relevant evidence may be provided to the detainee. The detainee's personal representative may view classified information and comment on it to the tribunal to aid in its determination but does not act as an advocate for the detainee. If the tribunal determined that the preponderance of the evidence is insufficient to support a continued designation as "enemy combatant" and its recommendation is approved through the chain of command established for that purpose, the detainee would be informed of that decision upon finalization of transportation arrangements (or earlier, if the task force commander deems it appropriate). The rules do not give a timetable for informing detainees in the event that the tribunal has decided to retain their enemy combatant designations. Article 5 creates a particularized limited process, intended to sort individuals when any doubt exists as to their status. The sole question for determination is whether the captive meets the definition of POW in Article 4 of the Prisoner of War Convention.
+Secretary of the Navy Gordon R. England stated:
+
+As you will recall, in last June's Supreme Court decision in "Hamdi," Justice O'Connor explicitly suggested that a process based on existing military regulations—and she specifically cited Army regulation 190-8—might be sufficient to meet due process standards. You'll also perhaps know that that Army regulation is what the U.S. uses to implement Article 5 of the Geneva Convention that deals with prisoners of war. So [if] our CSRT process incorporates that guidance from Article 5, Army regulation 190-8 ...
+Thus, the tribunals themselves are modeled after the procedures—AR 190-8 Tribunals—the military uses to make determinations in compliance with the Article 5 of the Third Geneva Convention (that states "Should any doubt arise as to whether persons, having committed a belligerent act and having fallen into the hands of the enemy, belong to any of the categories enumerated in Article 4, such persons shall enjoy the protection of the present Convention until such time as their status has been determined by a competent tribunal.") This is most likely because, in Hamdi v. Rumsfeld, a plurality of the Supreme Court suggested the Department of Defense empanel tribunals similar to the AR 190 to make factual status determinations. The mandate of the CSRTs and the AR 190-8 Tribunals differed in that AR 190-8 Tribunals were authorized to determine that captives were civilians, who should be released, and "lawful combatants", whom the Geneva Conventions protect from prosecution.
+
+=== Role of the Detainee at CSRTs ===
+Detainees had the option of attending their CSRTs, but attendance was not mandated. Some detainees protested the CSRTs by not attending, opting instead to send personal, written statements to be read before the CSRT in their absence. The reading of a detainee's written statement was the task of The Personal Representative, and this occurred, in one case, with Guleed Hassan Ahmed who did not attend his CSRT and instead sent a statement. When detainees did attend, if required, a translator was typically present to assist the detainee and tribunal members. They are given a copy of the unclassified summary of information, and aided by a "Personal Representative".
+
+=== Murat Kurnaz, an example ===
+Murat Kurnaz's file was declassified. During the brief window when it was declassified in March 2005, The Washington Post reviewed all the evidence against him and published a summary.
+
+== Critics ==
+Principal arguments of why these tribunals are inadequate to warrant acceptance as "competent tribunal" are:
+
+The CSRT conducted rudimentary proceedings
+The CSRT afforded detainees few basic protections
+Many detainees lacked counsel
+The CSRT also informed detainees only of general charges against them, while the details on which the CSRT premised enemy combatant status decisions were classified.
+Detainees had no right to present witnesses or to cross-examine government witnesses.
+Some specific cases that call attention to what critics assert is a flawed nature of the CSRT procedure: Mustafa Ait Idir, Moazzam Begg, Murat Kurnaz, Feroz Abbasi, and Martin Mubanga.
+
+James Crisfield, the legal advisor to the Tribunals, offered his legal opinion, that CSRT
+
+do not have the discretion to determine that a detainee should be classified as a prisoner of war  -- only whether the detainee satisfies the definition of "enemy combatant"
+Determining whether a captive should be classified as a prisoner of war is the purpose of a "competent tribunal".
+On June 29, 2006, the Supreme Court of the United States ruled that the Geneva Conventions should be applied, but only Article 3, which does not require a competent tribunal.
+
+== Results ==
+Specific Combatant Status Review Tribunal hearings have resulted in a variety of outcomes. Many detainees are still being detained, others have been released to return to their homeland, and still others have been classified and cleared for release but remain at Guantanamo Bay and in U.S. custody because their home countries cannot assure their safety.
+According to the prior Secretary of the Navy Gordon England,
+
+The basis of detaining captured enemy combatants is not to punish but, rather, to prevent them from continuing to fight against the United States and its coalition partners in the ongoing global war on terrorism.  Detention of captured enemy combatants is both allowed and accepted under international law of armed conflict.
+
+== 2007 Combatant Status Review Tribunals for 14 "high-value detainees" ==
+In a surprise move President George W. Bush announced the transfer of 14 "high-value detainees" from clandestine CIA custody to military custody in Guantanamo in the fall of 2006.
+Prior to the transfer legal critics had repeatedly stated that the men in covert CIA custody could never be tried because they had been subjected to abusive interrogation techniques, which would invalidate any evidence that flowed from their interrogations. Nevertheless, Bush said the transfer would allow the men, most of whom were considered to be members of the inner circle of al Qaeda's senior leadership, to be tried at Guantanamo Bay using the CSRT procedures.
+
+== U.S. Judicial appeals ==
+The Bush Presidency asserted that the captives had no right to appeal and that they were outside the US judicial systems. Captives who had "next friends" willing to initiate the habeas corpus process filed appeals before US District Courts. Rasul v. Bush (2004) was the first appeal to make its way to the Supreme Court of the United States. The court ruled that detainees had the right to challenge the basis of their detention, and that the government needed to distinguish between POWs, civilians, and enemy combatants.
+To respond to the Court's ruling, the Bush administration established the Combatant Status Review Tribunals to review whether detainees were properly classified as enemy combatants and began reviews in 2004. It was not until they had determined if a detainee was an enemy combatant that they could proceed to trials by military commissions. In Hamdan v. Rumsfeld (2006), the Court ruled that the system of military commissions as established by the DoD was illegal and needed to be replaced by a system authorized by Congress. Through the Detainee Treatment Act of 2005 and the Military Commissions Act of 2006, in accordance with Bush administration goals, the United States Congress moved to limit, and then curtail the detainees' ability to file habeas corpus appeals. The Supreme Court ruled on the outstanding habeas corpus appeals in Al Odah v. United States and Boumediene v. Bush (2008), discussed below.
+The Military Commission Act provides a process by which captives can appeal the decisions of the Combatant Status Review Tribunal and whether it properly followed OARDEC's rules in reaching its determination. If and when captives are able to file these appeals, they would be heard before the U.S. Court of Appeals for the D.C. Circuit. Emma Schwartz, in the U.S. News & World Report, on August 30, 2007, reported that her sources told her: "... Up to one fourth of the department's own civil appellate staff has recently opted out of handling the government's cases against detainee appeals."
+Several amalgamated cases have been initiated in the DC Circuit Court. There is controversy over whether the Appeal Court will have access to all of the evidence against the captives. As of May 2008, none of the cases have proceeded to the point when the judges would consider the merits of the case.
+
+== Witnesses requested by detainees ==
+
+Detainees in extrajudicial detention in the United States Guantanamo Bay detainment camps in Cuba were initially not provided with any mechanism with which to challenge the allegations that kept them detained.  Lawyers who volunteered to represent the detainees challenged various aspects of the legal basis of the Bush and Obama administrations policy on detainees in the war on terror.  As a result of Rasul v. Bush, the US Supreme Court ruled that detainees needed to be provided with a mechanism whereby they could challenge the laws that kept them in detention.  In July 2004 the Department of Defense responded by instituting Combatant Status Review Tribunals.  Detainees were allowed to request witnesses. The Presidents of the Tribunals had the authority to rule whether those witnesses would be "relevant." If the president ruled a witness relevant, the Tribunals officers were to undertake good faith efforts to find the witnesses.
+
+=== Selected witness requests ===
+
+== Supreme Court 2008 ruling ==
+On June 12, 2008 the Supreme Court ruled in the case Boumediene v. Bush, 5–4, that Guantanamo captives were entitled to access the US justice system.
+Justice Anthony Kennedy wrote in the majority opinion:
+
+The laws and Constitution are designed to survive, and remain in force, in extraordinary times.
+The Court also ruled that the Combatant Status Review Tribunals were "inadequate". Ruth Bader Ginsburg, Stephen Breyer, David Souter and John Paul Stevens joined Kennedy in the majority.
+Chief Justice John Roberts, in the dissenting opinion, called the CSR Tribunals:
+
+... the most generous set of procedural protections ever afforded aliens detained by this country as enemy combatants.
+Samuel Alito, Clarence Thomas and Antonin Scalia joined Roberts in the dissent.
+Vincent Warren, executive director of the Center for Constitutional Rights, the organization that initiated the case that the Supreme Court ruled on, said:
+
+The Supreme Court has finally brought an end to one of our nation's most egregious injustices. It has finally given the men held at Guantánamo the justice that they have long deserved. By granting the writ of habeas corpus, the Supreme Court recognizes a rule of law established hundreds of years ago and essential to American jurisprudence since our nation's founding. This six-year-long nightmare is a lesson in how fragile our constitutional protections truly are in the hands of an overzealous executive.

@@ -1,0 +1,60 @@
+The Bello orthography or Chilean orthography (Spanish: Ortografía de Bello) was a Spanish-language orthography created by the Venezuelan linguist Andrés Bello and the Colombian Juan García del Río.
+It was originally published in London, in the article Indicaciones sobre la conveniencia de simplificar y uniformar la ortografía en América ("Indications on the Convenience of Simplifying and Standardizing Orthography in America"), in the journals Biblioteca Americana in 1823 and El Repertorio Americano in 1826; its aim was to modify the orthography of American Spanish in order to achieve perfect correspondence between graphemes and phonemes.
+Partially, this orthographic reform began to be used officially in Chile in 1844, and its use later spread to Argentina, Colombia, Ecuador, Nicaragua, and Venezuela. The last country to maintain it was Chile, where the norms of the Royal Spanish Academy (RAE) were adopted in 1927.
+
+== Background ==
+The humanist Antonio de Nebrija proposed in the first book of his Gramática castellana (1492) that “we should write as we pronounce, and pronounce as we write, because otherwise letters would have been invented in vain” (tenemos de escribir como pronunciamos, y pronunciar como escribimos, porque en otra manera en vano fueron halladas las letras,) and he introduced the concept of Spanish phonetic orthography, which he reiterated in the text Reglas de orthographia de la lengua castellana (1517).
+In the first half of the 17th century, Gonzalo Correas promoted an orthographic reform based on phonetic rather than etymological criteria, under the principle that each phoneme should correspond biuniquely to a single grapheme. He set out this idea in his works Nueva i zierta ortografia kastellana (1624) and Ortografia kastellana nueva i perfeta (1630), where he stated: “let us write purely and cleanly, as it is pronounced, according to the said rule, that one must write as one pronounces, and pronounce as one writes” (eskrivamos pura i linpiamente, komo se pronunzia, konforme á la di[c]ha rregla, ke se á de eskrivir, komo se pronunzia, i pronunziar, komo se eskrive (original orthography)).
+Although the Royal Spanish Academy (1713) simplified Spanish spelling in pursuit of a phonetic standard beginning with the publication of its Orthographía española (1741), the tendency to reform writing came to a halt in 1815. Moreover, at that time the Academy did not include Hispano-Americans among its members nor did it take into account the processes the language was undergoing through contact with the linguistic diversity of the conquered lands; thus, American scholars of the language had to carry out their work outside the Academy and, at times, in open opposition to it.
+
+== Orthographic reform ==
+
+=== Bello's proposal ===
+In London in 1823, in the first issue of the journal Biblioteca Americana, Andrés Bello and Juan García del Río published the article “Indications on the Convenience of Simplifying and Standardizing Orthography in America” (Indicaciones sobre la conveniencia de simplificar y uniformar la ortografía en América). Although acknowledging the work of the Royal Spanish Academy in organizing and simplifying the spelling of the language, Bello considered that the etymological constraints the Academy had imposed on itself had produced disastrous effects on education on both sides of the Atlantic, and he came out “in favor of the phonetic criterion and against the etymological one” (en favor del criterio fonético y [en contra d]el etimológico).
+Bello’s thesis was based on the idea that the use of etymology as a linguistic criterion was pointless—reading and, in general, the use of a language are in no way linked to knowledge of its historical development—and, in view of the problems it caused, contrary to rational use.
+As a result, Bello proposed eliminating the ambiguous letter c and the silent h, assigning g and y only one of their values, always writing rr to represent the trilled consonant, and devoting a body of scholars to resolving in practice the difference between b and v (betacism). His goal was to create a one-to-one correspondence between phonemes and graphemes and to simplify the nineteenth-century orthography of American Spanish, which was characterized by certain inconsistencies:
+Letters that graphically represent identical phonemes:
+
+The sound /k/, represented by c, k, qu.
+The sound /s/, represented by s, c (+ e/i), z (seseo).
+The sound /x/, represented by g (+ e/i), j, x.
+The sound /i/, represented by i, y.
+Letters that represent more than one phoneme:
+
+c, g, r, x, y.
+Silent letters:
+
+h.
+u —in the combinations gue/gui, que/qui—.
+In addition to a redistribution of the syllabary in accordance with the reality of linguistic usage, Bello advocated a simplification implemented in two stages:First stage:
+Replace y with i when it has a vocalic value (rei, i).
+Replace the voiceless fricative sound of g with j (jeneral, jinebra) and also replace x with j (Méjico, Jiménez).
+Replace the sibilant sound of c with z (zerdo, zisma).
+Eliminate the silent h (ombre, ueso).
+Eliminate the silent u in que and qui (qeso, qienes).
+Write rr whenever the multiple trill, also known as the “strong sound,” is pronounced (rrazón, alrrededor).
+Second stage:
+
+Replace c with q for the plosive sound (qasa, qomo).
+Eliminate the silent u in gue and gui (gerra, ginda).
+
+=== Sarmiento’s proposal ===
+Twenty years later, during his second exile in Chile (1840–1851), Domingo Faustino Sarmiento put forward a proposal similar to Bello’s. On October 17, 1843, while Bello was serving as rector of the University of Chile, Sarmiento presented to the Faculty of Humanities his project Memoria (sobre ortografía americana), in which he preferred to retain the letter “c” and dispense with “z”, as well as to eliminate “v” and “x.” However, on February 19, 1844, the Faculty of Humanities judged this proposal to be radical.
+
+== Implementation and use ==
+
+Bello’s influence had already been seen in the proposal of the “Literary and Scientific Academy of Teachers of Primary Education of Madrid,” which had adopted many of his principles in 1843. However, Isabella II put an end to this project on April 25, 1844, by imposing—through a royal decree—compliance with the Academy by means of the Prontuario de ortografía de la lengua castellana, issued by royal order for use in public schools by the Royal Spanish Academy, in accordance with the system adopted in the ninth edition of its Dictionary. With this publication, the RAE’s agreements regarding orthography acquired normative status, displacing other possible orthography manuals.
+Although Bello’s project was not fully implemented, the Faculty of Humanities of the University of Chile proposed some of his ideas in May 1844 to the government of President Bulnes, which followed the recommendation and ultimately adopted that same year the use of the new orthography in education and in the drafting of official documents. The modifications adopted by the Chilean government were as follows:
+
+Substituting ⟨j⟩ for "weak" ⟨g⟩ sounds (jeneral, jinebra)
+Substituting ⟨i⟩ for ⟨y⟩ used as vowels (rei, i);
+Writing ⟨s⟩ instead of ⟨x⟩ before consonants (testo).
+Always write the strong sound of this consonant with ⟨rr⟩ (rratón, arrmario).
+Eliminate silent ⟨h⟩ and ⟨u⟩ (ombre, qeso).
+However, the lack of rigor in implementing these modifications caused some of them to fall into disuse, and only the first three remained in force. These changes later spread to Argentina, Colombia, Ecuador, Nicaragua, and Venezuela. In 1847, Bello wrote Gramática de la lengua castellana destinada al uso de los americanos.
+Chile was the last country to maintain this orthography, which remained in force there for more than 83 years. Differences in orthographic usage lasted until 1927, when the government of President Carlos Ibáñez del Campo, through Decree 3,876 of the Ministry of Public Instruction, restored the academic norms of the RAE in education and in official documents as of October 12 of that year.
+Chilean orthography was studied by the philologist and linguist Rodolfo Lenz, who wrote Observaciones sobre la ortografía de Chile (1891), De la ortografía castellana (1894), and Problemas del Diccionario Castellano en América (1927).
+
+== Similar initiatives ==
+The 1956 Nobel Prize-winning author Juan Ramón Jiménez used an orthography similar to Bello's in his work Poemas májicos y dolientes (1909), arguing that "[one] should write as one speaks, out of love for simplicity and out of antipathy toward pedantry". The writer and philosopher Miguel de Unamuno advocated the adoption of "a phonetic and simple orthography" in La raza y la lengua, volume six of his Obras completas, which included his articles on the reform of writing—an idea he also expressed in his "nivola" Niebla (1914). José P. Gómez wrote and published Ortografía ideal: Tratado de reforma ortográfica de la lengua castellana y de fonografía comparada (1914).
+The philosopher Jesús Mosterín proposed, both in Ortografía fonémica del español (1981) and in Teoría de la escritura (1993), "a new orthography for Spanish" based on its phonemes. The 1982 Nobel Prize–winning author Gabriel García Márquez revisited, among others, Bello’s proposal, defended the elimination of arbitrary spellings, and called for "jubil[ar] la ortografía" (retiring orthography) at the First International Conference of the Spanish Language, held in Zacatecas, Mexico in 1997.

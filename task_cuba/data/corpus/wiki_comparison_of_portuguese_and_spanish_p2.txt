@@ -1,0 +1,301 @@
+==== Irregular verbs ====
+In the preterite tense, a number of irregular verbs in Portuguese change the stem vowel to indicate differences between first and third person singular: fiz 'I did' vs. fez 'he did', pude 'I could' vs. pôde 'he could', fui 'I was' vs. foi 'he was', tive 'I had' vs. teve 'he had', etc. Historically, these vowel differences are due to vowel raising (metaphony) triggered by the final -ī of the first-person singular in Latin. Spanish maintains such a difference only in fui 'I was' vs. fue 'he was'. In all other cases in Spanish, the stem vowel has been regularized throughout the conjugation and a new third-person ending -o adopted: hice 'I did' vs. hizo 'he did', pude 'I could' vs. pudo 'he could', etc. Portuguese verbs ending in -duzir are regular in the preterite, while their Spanish counterparts in -ducir undergo a consonant change and are stressed on the stem; thus Portuguese reduzi vs. Spanish reduje ('I reduced'). Similarly, the preterite of andar is regular in Portuguese (andaste), but irregular in Spanish (anduviste, 'you went').
+Meanwhile, Spanish maintains many more irregular forms in the future and conditional: saldré 'I will leave', pondré 'I will put', vendré 'I will come', diré 'I will say', etc. Portuguese has only three: farei 'I will do', direi 'I will say', trarei 'I will carry'.
+Portuguese drops -e in "irregular" third-person singular present indicative forms after ⟨z⟩ and ⟨r⟩, according to phonological rules: faz 'he does', diz 'he says', quer 'he wants', etc. Spanish has restored -e by analogy with other verbs: hace 'he does', dice 'he says', quiere 'he wants', etc. (The same type of analogy accounts for fiz vs hice 'I did' in the past tense. In nouns such as paz 'peace', luz 'light', amor 'love', etc. -e was dropped in both languages and never restored).
+
+=== Prepositions ===
+
+==== Contractions ====
+In Spanish the prepositions a ('to') and de ('of, from') form contractions with a following masculine singular definite article (el 'the'): a + el > al, and de + el > del. This kind of contraction is much more extensive in Portuguese, involving the prepositions a ('to'), de ('of, from'), em ('in'), and por ('for') with articles and demonstratives regardless of number or gender. All four of these prepositions join with the definite article, as shown in the following table:
+
+1These Portuguese contractions include some potential "false friends" for the reader of Spanish, such as no (Port. 'in the', Sp. 'no, not') and dos (Port. 'of the', Sp. 'two').
+2These Portuguese contractions have different meanings in Spanish, but their Portuguese cognates are spelled with diacritics; pelo (Port. 'for the', Sp. 'hair' (equivalent to Port. pêlo)) and nos (Port. 'in the', Sp. 'ourselves' (equivalent to Port. nós)).
+3In European Portuguese, a is pronounced [ɐ], while à is pronounced [a]. Both are generally [a] in most of Brazil, although in some accents such as carioca and florianopolitano there may be distinction.
+Additionally, the prepositions de and em combine with the demonstrative adjectives and pronouns as shown below:
+
+The neuter demonstrative pronouns (isto 'this' isso, aquilo 'that') likewise combine with de and em – thus, disto, nisto, etc.  And the preposition a combines with the "distal" demonstratives (those that begin with a-) to form àquele, àquilo, etc.
+The Portuguese contractions mentioned thus far are obligatory.  Contractions can also  be optionally formed from em and de with the indefinite article (um, uma, uns, umas), resulting in num, numa, dum, duma, etc. and from the third person pronouns (ele, ela, eles, elas), resulting in nele, nela, dele, dela, etc.  Other optional contractions include de with aqui >  daqui ('from here').
+The Spanish con ('with', com in Portuguese) combines with the prepositional pronouns mí, ti, and sí to form conmigo, contigo, consigo ('with me', 'with you', 'with him-/herself ').  In Portuguese this process not only applies to the pronouns mim, ti, and si (giving comigo, contigo, and consigo), but also is extended to nós and, in those varieties which use it, vós, producing connosco (conosco in Brazilian Portuguese) and convosco.
+
+==== Personal "a" ====
+Spanish employs a preposition, the so-called "personal a", before the direct object of a transitive verb (except tener) when it denotes a specific person(s), or domestic pet; thus Veo a Juan 'I see John'; Hemos invitado a los estudiantes 'We've invited the students.'
+In Portuguese, personal a is virtually non-existent, except before Deus 'God':  louvar a Deus 'to praise God', amar a Deus 'to love God'.
+
+==== Ir a versus ir para ====
+Quite common in both languages are the prepositions a (which often translates as "to") and para (which often translates as "for").  However, European Portuguese and Spanish distinguish between going somewhere for a short while versus a longer stay, especially if it is an intended destination, in the latter case using para instead of a.  While there is no  specified duration of stay before a European Portuguese speaker must switch prepositions, a implies one will return sooner, rather than later, relative to the context. This distinction is not made in English and Brazilian Portuguese. In Spanish the distinction is not made if the duration is given in the context (maybe implicitly), and in this case a is generally preferred.
+
+Fui al mercado cerca de mi casa. (Spanish)
+Fui ao mercado perto de/da minha casa./Fui para  o mercado perto de/da minha casa. (European and Brazilian Portuguese)
+'I went to the market near my house.' [temporary displacement]
+El presidente anterior fue exiliado a Portugal. (Spanish)
+O presidente anterior foi exilado para Portugal. (European and Brazilian Portuguese)
+'The former president was exiled to Portugal.' [permanent, or more lasting displacement]
+Note, though, in the first example, para could be used in Portuguese if in contrast to a very brief period of time.
+
+Não fico muito tempo, só um minuto. Tenho que/de ir para o mercado. (Portuguese)
+'I can't stay long, only a minute. I have to go to the market.' [pending task or appointment]
+In informal, non-standard Brazilian Portuguese, em (in its original form or combined with a given article in a contraction, yielding no, na, numa, etc.), often replaces the preposition a from standard Portuguese.
+
+Vou na padaria. (non-standard Brazilian Portuguese)
+Vou à padaria. (standard Portuguese)
+'I'm going to the bakery.'
+Fui numa festa ontem. (non-standard Brazilian Portuguese)
+Fui a uma festa ontem. (standard Portuguese)
+'I went to a party yesterday.'
+Such a construction is not used in Spanish or in European Portuguese.
+In Portuguese the preposition até can also be used when the duration of the stay is expected to be short or when there is a specific reason for going somewhere. In Spanish hasta has the same meaning and function.
+
+Vou até à praia.
+Voy hasta la playa.
+'I'm going to the beach.'
+
+==== Hacia and para ====
+Spanish has two prepositions of direction: para ('for', including 'headed for [a destination]') and hacia ('toward [not necessarily implying arrival]'). Of them, only para exists in Portuguese, covering both meanings.
+
+Este regalo es para ti. (Spanish)
+Este presente é para ti. (Portuguese)
+'This gift is for you.'
+Aquel/Ese avión va hacia Brasilia. (Spanish)
+Aquele avião voa para Brasília. (Portuguese)
+'That airplane is flying toward Brasília.'
+Colloquially, para is often reduced in both languages:  to pa in Spanish, and to pra (sometimes written p'ra and this form may be used in literature) or pa (only in slang in Portugal and Rio de Janeiro, and not permitted in writing) in Portuguese. Portuguese pra, in turn, may join with the definite article:  pra + o > pro (BP) or prò (EP), pra + a > pra (BP) or prà (EP), etc. In reference to the slang option pa, these become: pa + o > pò, pa + a > pà, etc.
+
+==== "Going to" future ====
+Both languages have a construction similar to the English "going-to" future. Spanish includes the preposition a between the conjugated form of ir "to go" and the infinitive: Vamos a cantar "We're going to sing" or "Let's sing" (present tense of ir + a + infinitive). Usually, in Portuguese, there is no preposition between the helping verb and the main verb: Vamos cantar (present tense of ir + infinitive).  This also applies when the verb is in other tenses:
+
+Ayer yo iba a leer el libro, pero no tuve la oportunidad. (Spanish)
+Ontem eu ia ler o livro, mas não tive a oportunidade. (Portuguese)
+Yesterday I was going to read the book, but never had the chance.
+
+==== Other differences in preposition usage ====
+While as a rule the same prepositions are used in the same contexts in both languages, there are many exceptions.
+
+Nuestros gastos de energía. (Spanish)
+(Os) nossos gastos com/de energia. (Portuguese)
+Our energy expenses.
+Voy a votar por/a Juan. (Spanish)
+Vou votar em/no João. (Portuguese)
+I'm going to vote for John.
+
+== Orthography ==
+
+=== Alphabet ===
+The traditional Spanish alphabet had 28 letters, while the Portuguese one had 23. Modern versions of recent years added k and w (found only in foreign words) to both languages. Portuguese also added y for loanwords.
+With the reform in 1994 by the 10th congress of the Association of Spanish Language Academies, Spanish alphabetization now follows the same pattern as that of other major West European languages. Prior to this date, however, the digraphs ch and ll were independently alphabetized. For example, the following surnames would be put in this order: Cervantes, Contreras, Cruz, Chávez, Dávila.  Many Spanish dictionaries and other reference material still exist using the pre-reform rule of alphabetization.
+
+Current Spanish alphabet (Spanish alphabet reform of 1994)
+a b c d e f g h i j k l m n ñ o p q r s t u v w x y z
+Digraphs
+ch ll rr gu qu
+Current Portuguese alphabet (Portuguese Language Orthographic Agreement of 1990) introducing k, w and y
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+Digraphs
+ch lh nh rr gu qu ss (sc sç xc xs)
+⟨Sc⟩ in Latin American Spanish is not called a digraph, however it is a single sound as in Brazilian Portuguese. Also Spanish has taken ⟨sh⟩ /ʃ/ from English as a loan sound; e.g., sherpa, show, flash (however, the Royal Spanish Academy prescribes these words to be written in italics, as unadapted foreign words). Brazilian Portuguese uses the trigraph ⟨tch⟩ /tʃ/ for loanwords; e.g., tchau, 'ciao', tcheco 'Czech', República Tcheca 'Czech Republic', tchê 'che' (this latter is regional), etc. European Portuguese normally replace the trigraph ⟨tch⟩ with ⟨ch⟩ /ʃ/: chau, checo, República Checa, etc. (This is pronounced /tʃ/ in northern European Portuguese dialects.)
+Both Spanish and Portuguese use ⟨zz⟩ /ts/ (never as /dz/ – this sequence appears only in loanwords from Japanese, e.g., adzuki) for some Italian loanwords, but in Portuguese may sometimes not be pronounced as affricate, but having an epenthetic /i/ or /ɨ/; e.g., Sp. and Port. pizza 'pizza', Sp. and Port. paparazzo 'paparazzo', etc. (however, the Royal Spanish Academy prescribes these words to be written in italics). Spanish also utilizes ⟨tz⟩ /ts/ for Basque, Catalan and Nahuatl loanwords, and ⟨tl⟩ /tɬ/ (or /tl/) for Nahuatl loanwords; e.g., Ertzaintza, quetzal, xoloitzcuintle, Tlaxcala, etc. Portuguese utilizes ⟨ts⟩ for German, originarily ⟨z⟩, and Japanese loanwords.
+Although the letters k, w, and y are now included in the Portuguese alphabet, according to the current orthographic rules they should only be used in proper names (foreign or invented) and their derivatives with suffixes (kantiano, darwinismo, byroniano, etc.), and also in international symbols. Derivatives without suffixes are generally adapted to the Portuguese spelling (Karakul but caracul, Zika but zica), except measurement units (watt, henry; note also kwanza, the monetary unit of Angola). On the other hand, the current Spanish orthography allows k and w to be used in any kind of loanwords, although in some cases alternative spellings are allowed (kimono or quimono). This leads to differences in Spanish and Portuguese spellings of loanwords:
+Spanish: búnker, chikunguña, karaoke, kárate/karate, karma, kilogramo, kilómetro, kiwi, koala, sándwich, wiski/güisqui, zika.
+Portuguese: búnquer, chicungunha, caraoquê, caraté/caratê, carma, quilograma, quilómetro/quilômetro, quivi/quiuí, coala, sanduíche, uísque, zica.
+In practice, foreign words are often left unchanged in both languages, e. g. whisky, chikungunya. The Royal Spanish Academy accepts such spellings, but only with typographical emphasis: italics in printed text, quotation marks in manuscript or when italics are not available.
+On the other hand, names of measurement units named after people are written unchanged in Portuguese, but Spanish often uses adapted spellings ending in -io:
+Portuguese: watt, henry, hertz.
+Spanish: vatio, henrio, hercio.
+The silent letter h is used in Spanish word-initially and word-medially (hombre, prohibir), but in Portuguese it is used only word-initially (homem but proibir). Word-final h is used in both languages in interjections (ah, oh); in Spanish it is used also in the loanword sah (which corresponds to Portuguese xá).
+
+=== Question and exclamation marks ===
+Only in Spanish do interrogatives and exclamations use the question mark or exclamation point respectively at the beginning of a sentence. The same punctuation marks are used, but these are inverted. This prepares the reader in advance for either a question or exclamation type of sentence.
+
+Interrogative: ¿Cuántos años tienes? (Spanish)
+Exclamation: ¡Cuidado con el perro!  (Spanish)
+On the other hand, in Portuguese, a person reading aloud lengthy sentences from an unfamiliar text may have to scan ahead to check if what at first appears to be a statement, is actually a question. Otherwise, it would be too late to enable proper voice inflection. Neither language has the equivalent of the auxiliary verb to do, which is often used to begin a question in English. Both Spanish and English can place the verb before the subject noun to indicate a question, though this is uncommon in Portuguese, and almost unheard of in Brazil. In fact, most yes/no questions in Portuguese are written the same as a statement except for the final question mark.
+
+Spanish: ¿Tiene usted una medida de cuál es su exposición a estos riesgos, y está usted confiado de que su organización está minimizando el impacto de los mismos sobre sus accionistas, equipo de trabajo y otros grupos interesados?
+Portuguese: Você tem ideia de qual é a sua exposição a esses riscos, e tem confiança que a sua organização está minimizando os impactos resultantes, nos seus acionistas, funcionários e outros interessados?
+English: 'Do you have a measure of what your exposure is to these risks, and are you confident that your organization is minimizing their impact on your shareholders, staff, and other interested parties?'
+Aside from changes of punctuation in written language, in speech, converting any of the above examples from a question to a statement would involve changes of both intonation and syntax in English and Spanish, but intonation only in Portuguese.
+
+=== Different spellings for similar sounds ===
+The palatal consonants are spelled differently in the two languages.
+
+The symbols ⟨ll⟩ and ⟨ñ⟩ are etymological in Spanish, as the sounds they represent are often derived from Latin ll and nn (for those positions, Portuguese has simple ⟨l⟩ and ⟨n⟩; cf. rodilla/rodela, peña/pena). The Portuguese digraphs ⟨lh⟩ and ⟨nh⟩ were adopted from Occitan, as poetry of the troubadours was the most important influence on Portuguese literature up until the 14th century. King Denis of Portugal, who established Portuguese instead of Latin as the official language, was an admirer of the poetry of the troubadours and a poet himself. Examples include names such as Port. Minho (Sp. Miño) and Magalhães (Sp. Magallanes). There are some Portuguese surnames that stylise the phoneme /l/ through a doble letter, archaic or influenced by emigrants, ⟨ll⟩, as in the Vasconcellos (Carolina Michaëlis de Vasconcellos, a linguist) or (de) Mello (Sophia de Mello Breyner Andresen, a writer). The same person can have the same variant (Fernando Collor de Mello, president of Brazil) or different (José Leite de Vasconcelos Cardoso Pereira de Melo, a linguist too).
+The letter ⟨y⟩ was used in Portuguese from the 16th to the early 20th century in Greek loans, much as in English (e.g., Psychologia, modern Psicologia 'Psychology'). The orthographic reform in 1911 officially replaced it with ⟨i⟩. The corresponding sound can be regarded as an allophone of the vowel /i/ in both languages. Compare Sp. rey ('king'), mayor ('larger, greater, elder') with Port. rei ('king'), maior ('larger, greater').
+The exact pronunciation of these three consonants varies somewhat with dialect. The table indicates only the most common sound values in each language. In most Spanish dialects, the consonants written ⟨ll⟩ and ⟨y⟩ have come to be pronounced the same way, a sound merger known as yeísmo. A similar phenomenon can be found in some dialects of Brazilian Portuguese (e.g., "muié" for mulher, 'woman'), but it is much less widespread than in Spanish.
+The Portuguese letter ⟨ç⟩ (c-cedilha), based on a Visigothic form of the letter ⟨z⟩: "ꝣ". In Portuguese it is used before ⟨a⟩, ⟨o⟩, and ⟨u⟩ (including nasals), and never at the beginning or end of any word. It always represents the "soft c"  sound, namely [s]. In modern Spanish, it has been replaced by ⟨z⟩. Example: calzado (Sp.), calçado (Port.) 'footwear'.
+
+=== Correspondences between word endings ===
+Various word endings are consistently different in the two languages.
+
+Spanish -n corresponds to Portuguese -m when in word-final position (e.g., Spanish: jardín, algún; Portuguese: jardim, algum). In Portuguese, word- or syllable-final ⟨m⟩ and ⟨n⟩ indicate nasalization of the previous vowel; e.g., som /ˈsõ/ 'sound' (see phonology below). In the plural, ⟨m⟩ is replaced with an ⟨n⟩ (Spanish: jardines, algunos; Portuguese: jardins, alguns), that is because in these cases the ⟨m⟩ is not in word-final position anymore. Notice, some rare learned words in Portuguese and Spanish may also have a word final -n (e.g., Portuguese abdómen/abdômen 'abdomen'), and -m (e.g., Spanish tándem 'tandem'), respectively. (Word-final -n in Portuguese is pronounced [n], while word-final -m in Spanish is also pronounced [n] because there is no word-final [m] sound originally in Spanish.)
+Common exceptions to the above rule concern the Spanish noun endings:
+-án and -ano, which normally correspond to -ão or -ã in Portuguese (Irán vs Irão (EP)/Irã (BP) 'Iran', hermano vs irmão 'brother', and huérfano vs órfão, 'orphan m.');
+-ana, which corresponds to -ã (hermana vs irmã 'sister', mañana vs manhã 'morning', huérfana vs órfã 'orphan f.');
+-ón / -ción or -cción / -sión, which usually correspond to -ão / -ção or -(c)ção / -são or -ssão (melón vs melão 'melon', opción vs opção 'option', corrección vs corre(c)ção 'correction', pensión vs pensão 'pension', or admisión vs admissão 'admission');
+-on or -an, which corresponds to -ão in most monosyllables (son vs são 'they are', tan vs tão 'as, so');
+The singular noun or adjective endings -án and -ón in Spanish both usually correspond to Portuguese -ão, and likewise the Spanish ending -ano often corresponds to Portuguese -ão (although there are also many Portuguese words ending in -ano, including gentilics such as cubano, boliviano, etc.). The plurals of the Portuguese words in -ão, however, generally preserve the historical distinctions: Portuguese -ãos, -ães, and -ões generally correspond to Spanish -anos, -anes, and -ones, respectively:
+-ãos, as in mão/mãos (Spanish mano/manos, English 'hand(s)');
+-ães, as in capitão/capitães (Spanish capitán/capitanes, English 'captain(s)');
+-ões, as in melão/melões (Spanish melón/melones, English 'melon(s)').
+Notable exceptions to the above rule:
+verão/verões (Spanish verano(s), English 'summer(s)');
+vulcão/vulcões (Spanish volcán/volcanes, English 'volcano');
+ancião, which allows the three plural forms: anciãos, anciães and anciões (Spanish anciano(s), English 'elder(s)').
+guardião, which allows the three plural forms: guardiãos, guardiães and guardiões (Spanish guardián/guardianes, English 'guardian');
+vilão, which allows the three plural forms: vilãos, vilães and vilões (Spanish villano/villanos, English 'villain');
+João/Joões (Spanish Juan/Juanes, English 'John'). This plural can be seen in words such as joão-de-barro/joões-de-barro (Red Ovenbird).
+The 3rd person plural endings of the preterite indicative tense are spelled with -on in Spanish (pensaron, vivieron 'they thought, they lived'), but with -am in Portuguese (pensaram, viveram).
+In Portuguese words ending in -l form their plurals by dropping ⟨l⟩ and adding -is (-eis when final unstressed -il): caracol/caracóis (Spanish caracol(es), English 'snail(s)'), fácil/fáceis (Spanish fácil(es), English 'easy').
+In Spanish, adjectives and nouns ending in -z form their plurals by replacing ⟨z⟩ with ⟨c⟩ (-ces); e.g., feroz/feroces (Portuguese feroz(es), English 'ferocious'), vez/veces (Portuguese vez(es) English 'time(s)').
+Another conspicuous difference is the use of -z in Spanish versus -s in Portuguese at the end of unstressed syllables, especially when the consonant is the last letter in a word. A few examples:
+Álvarez, Fernández, Suárez, izquierda, mezquino, lápiz (Spanish)
+Álvares, Fernandes, Soares, esquerda, mesquinho, lápis (Portuguese)
+Other correspondences between word endings are:
+-dad(es) or -tad(es) (Spanish) and -dade(s) (Portuguese), as in bondad(es) vs bondade(s) 'goodness(es)' and libertad(es) vs liberdade(s) 'liberty/ies'. The word ending -zade(s) is also found in Portuguese, e.g., amizade(s) (Spanish amistad(es), English 'friendship(s)');
+-ud(es) (Spanish) and -ude(s) (Portuguese), as in virtud(es) vs virtude(s) 'virtue';
+-ble(s) (Spanish) and -vel/eis (Portuguese), as in amable(s) vs amável/amáveis 'amiable';
+-je(s) (Spanish) and -gem/ns (Portuguese), as in lenguaje(s) vs linguagem/linguagens 'language(s)';
+-aso (Spanish) and -asso (Portuguese), as in escaso vs escasso 'scarce';
+-eso (Spanish) and -esso (Portuguese), as in espeso vs espesso 'thick';
+-esa (Spanish) and -essa or -esa (Portuguese), as in condesa vs condessa 'countess' and inglesa vs inglesa 'Englishwoman';
+-eza (Spanish) and -iça or -eza (Portuguese), as in pereza vs preguiça 'laziness' and naturaleza vs natureza 'nature';
+-ez (Spanish) and -ice and -ez (Portuguese), as in idiotez vs idiotice 'idiocy' (there are unpredictable exceptions in Portuguese, e.g., estupidez 'stupidity') and timidez vs timidez 'shyness';
+-izar (Spanish) and -izar or -isar (Portuguese), as in realizar vs realizar 'to realize/realise' and analizar vs analisar 'to analyze/analyse' (notice there are also some Spanish verbs that in -isar; e.g., avisar 'warn', pesquisar 'research', etc.) Brazilian Portuguese uses an alternative word ending in -issar in some exceptional cases; e.g., aterrissar, alunissar (European Portuguese aterrar, alunar; Spanish aterrizar, alunizar, English 'landing', 'moon landing');
+-azar (Spanish) and -açar (Portuguese), amenazar vs ameaçar 'threaten';
+-anza (Spanish) and -ança (Portuguese), esperanza vs esperança 'hope';
+-encia (Spanish) and -ença or -ência (Portuguese), as in diferencia vs diferença 'difference' and ocurrencia vs ocorrência 'occurrence' (in Spanish there are few exceptional words ending in -enza; e.g., vergüenza 'shame');
+-icia (Spanish) and -iça or -ícia (Portuguese), as in justicia vs justiça 'justice' and malicia vs malícia 'malice';
+-izo (Spanish) and -iço (Portuguese), as in movedizo vs movediço 'moveable';
+-miento or -mento (Spanish) and -mento (Portuguese), as in sentimiento vs sentimento 'feeling, sentiment' and reglamento vs regulamento 'rules, regulations';
+-ísimo (Spanish) and -íssimo (Portuguese), as in fidelísimo vs fidelíssimo or even fidelissíssimo 'most loyal'.
+
+=== Accentuation and nasalization ===
+Both languages use diacritics to mark the stressed syllable of a word whenever it is not otherwise predictable from spelling. Since Spanish does not differentiate between mid-open and mid-close vowels and nasal vowels, it uses only one accent, the acute. Portuguese usually uses the acute accent ( ´ ), but also uses the circumflex accent ( ˆ ) on the mid-close vowels ⟨ê⟩ and ⟨ô⟩ and the stressed (always nasal in Brasil) ⟨â⟩.
+Although the Spanish ⟨y⟩ can be either a consonant or a vowel, as a vowel it never takes an accent.  At the end of a word, the Portuguese diphthong -ai is the equivalent of the Spanish -ay, however, -ai can have an accent on the ⟨í⟩ to break the diphthong into two separate vowels, e.g., açaí (three syllables). Without the accent, as in Spanish, the last syllable would be a diphthong: Paraguai (Portuguese) and Paraguay (Spanish) 'Paraguay'.
+Portuguese nasal vowels occur before ⟨n⟩ and ⟨m⟩ (see phonology below) without an accent mark, as these consonants are not fully pronounced in such cases.  The tilde (~), is only used on nasal diphthongs such as ⟨ão⟩ [ɐ̃w̃] and ⟨õe⟩ [õj̃], plus the final ⟨ã⟩ [ɐ̃], which replaces the -am ending, as the latter is reserved for verbs, e.g., amanhã [amɐˈɲɐ̃] 'tomorrow'.
+
+Initial and middle: vowel + ⟨n⟩ + consonant (except ⟨h⟩, ⟨p⟩ or ⟨b⟩): antecedente, geringonça, mundo, ênfase
+Initial and middle: vowel + ⟨m⟩ + bilabial consonant (⟨p⟩ or ⟨b⟩): caçamba, emprego, supimpa, pomba, penumbra
+Final: vowel + ⟨m⟩: fizeram, em, ruim, bom, algum (except for learned words, e.g., abdómen/abdômen, hífen, etc.)
+These do not alter the rules for stress, though note endings -im, -ins and -um, -uns are stressed, as are their non-nasal counterparts (see below). A couple of two-letter words consist of only the nasal vowel:  em and um.
+Phonetic vowel nasalization occurs in Spanish—vowels may get slightly nasalized in contact with nasal consonants—but it is not phonemically distinctive.  In Portuguese, on the other hand, vowel nasalization is distinctive, and therefore phonemic: pois /ˈpojs/ or /ˈpojʃ/ 'because' vs pões /ˈpõj̃s/ or /ˈpõj̃ʃ/ '(you) put'.
+Portuguese changes vowel sounds with (and without) accents marks. Unaccented ⟨o⟩ (/u/, /o/, /ɔ/) and ⟨e⟩ (/i/, /ɨ/, /e/, /ɛ/, /ɐ/), acute accented ⟨ó⟩ (/ɔ/) and ⟨é⟩ (/ɛ/), or circumflex accented ⟨ô⟩ (/o/) and ⟨ê⟩ (/e/).  Thus, nós [ˈnɔs] or [ˈnɔʃ] 'we' vs nos [nus] or [nuʃ] 'us', avô [aˈvo] 'grandfather' vs avó [aˈvɔ] 'grandmother', se [si] or [sɨ] 'itself, himself, herself' reflexive pronoun vs sé [ˈsɛ] 'seat, headquarters' vs sê [ˈse] 'to be' 2nd person imperative. Spanish pronunciation makes no such distinction.
+The grave accent ( ` ) is also used in Portuguese to indicate the contraction of the preposition a (to) with a few words beginning with the vowel a, but not to indicate stress. In other cases, it is the combination of the preposition and the feminine definite article; in other words, the equivalent of a la ('to the') in Spanish. Às is used for the plural (a las in Spanish).
+
+a (prep.) + a(s) (def. article 'the') = à(s) ('to the').
+a (prep.) + aquele(s), aquela(s) (pron. 'that') = àquele(s), àquela(s)—underlined stressed syllable—('to that').
+a (prep.) + aquilo (pron. n. 'that') = àquilo ('to that').
+The diaeresis or trema ( ¨ ) is used in Spanish to indicate ⟨u⟩ is pronounced in the sequence ⟨gu⟩; e.g., desagüe [deˈsaɣwe]. As the Portuguese grave accent, the trema does not indicate stress. In Brazilian Portuguese it was also used for the digraphs ⟨gu⟩ and ⟨qu⟩ for the same purpose as Spanish (e.g., former BP spelling *qüinqüênio [kwĩˈkwẽɲu], EP quinquénio [kwĩˈkwɛnju] 'five-year period'), however since the implementation of the Portuguese Language Orthographic Agreement in Brazil, the trema was abolished (current BP spelling quinquênio [kwĩˈkwẽɲu]), and its usage was restricted to some loanwords (e.g., mülleriano 'Müllerian').
+The accentuation rules (including those of predictable stress) of Portuguese and Spanish are similar, but not identical. Discrepancies are especially pervasive in words that contain i or u in their last syllable.  Note the Portuguese diphthongs ei and ou are the approximate Spanish equivalent of e and o respectively, but any word ending with these diphthongs is, by default, stressed on its final syllable.
+Compare the following pairs of cognates, where the stress falls on the same syllable in both languages:
+
+Semivowel–vowel sequences are treated differently in both languages when it comes to accentuation rules. A sequence of a semivowel adjacent to a vowel is by default assumed to be read as a diphthong (part of the same syllable) in Spanish, whereas it is by default assumed to be read as a hiatus (belonging to different syllables) in Portuguese. For both languages, accentuation rules consistently indicate something other than the default.
+A consequence of this is that words that are pronounced alike in both languages are written according to different accentuation rules. Some examples:
+
+emergencia (Spanish), emergência (Portuguese) 'emergency'
+tolerancia (Spanish), tolerância (Portuguese) 'tolerance'
+audacia (Spanish), audácia (Portuguese) 'audace'
+ocio (Spanish), ócio (Portuguese) 'leisure'
+continuo (Spanish), contínuo (Portuguese) 'continuous'
+continúo (Spanish), continuo (Portuguese) 'I continue'
+Another consequence (though less common) is that some words are written exactly (or almost exactly) the same in both languages, but the stress falls on different syllables:
+
+democracia (Spanish, rising diphthong at the end), democracia (Portuguese, the stress on -ci- breaks the diphthong) 'democracy'
+policía (Spanish, the stress on -cí- breaks the diphthong), polícia (Portuguese) 'police'
+
+== Phonology ==
+Although the vocabularies of Spanish and Portuguese are remarkably similar, not surprisingly, the two languages differ phonologically from each other, very likely because of the stronger Celtic substratum in Portuguese, and less so in Spanish. Phonetically Portuguese bears similarities to French,  Catalan and Italian, while the phonetics of Spanish are more comparable to those of Greek (in Castilian Spanish), Sardinian, Sicilian, and Italian. Plus,  Portuguese has a significantly larger phonemic inventory than Spanish. This may partially explain why Portuguese is generally a little more challenging to Spanish speakers despite the strong lexical similarity, grammar and sentence structure between the two languages.
+One of the main differences between the Spanish and Portuguese pronunciation are the vowel sounds. Standard Spanish has a basic vowel phonological system, with five phonemic vowels (/a/, /e̞/, /i/, /o̞/, /u/). Phonetic nasalization occurs in Spanish for vowels occurring between nasal consonants or when preceding a syllable-final nasal consonant (/n/ and /m/), but it is not distinctive as in Portuguese. Dialectally, there are Spanish dialects with a greater number of vowels, with some (as Murcian and Eastern Andalusian) reaching up to 8 to 10 vowel sounds. On the other hand, Portuguese has seven to nine oral vowels (/a/, /ɐ/*, /e/, /ɛ/, /ɨ/*, /i/, /o/, /ɔ/, /u/) (/ɐ/ is closer to [ə] in Portugal, while the near-close near-back unrounded vowel /ɨ/—also rendered as [ɯ̟] or [ʊ̜]—is only found in European Portuguese) plus five phonemic nasal vowels (/ɐ̃/, /ẽ/, /ĩ/, /õ/, /ũ/) when preceding an omitted syllable-final nasal (⟨n⟩ and ⟨m⟩) or when is marked with a tilde (~): ⟨ã⟩ and ⟨õ⟩. This appears to be, similarly to French, a Celtic phonological adaptation to Latin. Portuguese, as Catalan, uses vowel height, contrasting stressed and unstressed (reduced) vowels. Moreover, Spanish has two semivowels as allophones, [j, w]; while Portuguese has four, two oral [i̯ ~ ɪ̯], [u̯ ~ ʊ̯] and two nasalized glides [j̃ ~ ɪ̯̃], [w̃ ~ ʊ̯̃] (non-syllabic near-close vowels, as those of most English speech, are allophones of the glides in the Brazilian dialects where near-closeds are used).
+The following considerations are based on a comparison of standard versions of Spanish and Portuguese. Apparent divergence of the information below from anyone's personal pronunciation may indicate one's idiolect (or dialect) diverges from the mentioned standards. Information on Portuguese phonology is adapted from Celso Pedro Luft (Novo Manual de Português, 1971), and information on Spanish phonology adapted from Manuel Seco (Gramática Esencial del Español, 1994).
+Comparing the phonemic inventory of the two languages, a noticeable divergence stands out. First, standard Portuguese has more phonemes than Spanish. Also, each language has phonemes that are not shared by the other.
+
+=== Early phonetic divergence ===
+
+==== Vowels ====
+Spanish and Portuguese have been diverging for over a thousand years. One of the most noticeable early differences between them concerned the result of the stressed vowels of Latin:
+
+1The vowels /a/ and /ɐ/ occur largely in complementary distribution.
+2This diphthong has been reduced to the monophthong /o/ in many dialects of modern Portuguese.
+As vowel length ceased to be distinctive in the transition from Latin to Romance, the stressed vowels e and o became ie and ue in Spanish whenever they were short (Latin petra → Spanish piedra 'stone'; Latin moritvr → Spanish muere "he dies"). Similar diphthongizations can be found in other Romance languages (French pierre, Italian pietra, Romanian piatră; French meurt, Italian muore, Romanian moare), but in Galician-Portuguese these vowels underwent a qualitative change instead (Portuguese/Galician pedra, morre), becoming lower, as also happened with short i and short u in stressed syllables. The Classical Latin vowels /e/-/eː/ and /o/-/oː/ were correspondingly lowered in Spanish and turned into diphthongs /je̞/ and /we̞/. In Spanish, short e and o and long ē and ō merged into mid vowels, /e̞/ and /o̞/, while in Portuguese these vowels stayed as close-mid, /e/ and /o/ and open-mid, /ɛ/ and /ɔ/, as in Vulgar Latin.
+Portuguese has five phonemic nasal vowels (/ɐ̃/, /ẽ/, /ĩ/, /õ/, /ũ/), which, according to historical linguistics, arose from the assimilation of the nasal consonants /m/ and /n/, often at the end of syllables. Syllable-final m and n are still written down to indicate nasalization, even though they are no longer fully pronounced, that is, either [ⁿ] (before obstruents) or elided completely. In other cases, nasal vowels are marked with a tilde (ã, õ).  Not all words containing vowel + n have the nasal sound, as the subsequent letter must be a consonant for this to occur: e.g., anel /ɐˈnɛw/ ('ring') –oral/non-nasal– vs  anca /ˈɐ̃kɐ/ ('hip') –nasal–.
+However, in some Brazilian dialects, most vowels (including the allophones present only in unstressed environment) have nasal allophones before one of the nasal consonants /m/, /n/, /ɲ/, followed by another vowel. In other Brazilian dialects, only stressed vowels can be nasalized this way. In European Portuguese, nasalization is absent in this environment.
+The Portuguese digraph ou (pronounced usually as the diphthong [ow], but sometimes as a monophthong [o]) corresponds to the final -ó of Spanish -ar verbs in the preterite tense; e.g., Spanish descansó and Portuguese descansou ("he/she rested"). The Spanish irregular verb forms in -oy (e.g., doy "I give", estoy "I am", soy "I am", voy "I go") correspond to Portuguese forms in -ou (e.g., dou, estou, sou, vou). But in some other words, conversely, Spanish o corresponds to Portuguese oi, e.g., Spanish cosa, Portuguese coisa "thing"; Spanish oro "gold", Portuguese usually ouro, but sometimes oiro.
+Stressed vowel alternations may occur in Portuguese, but not in Spanish:
+
+A 1949 study by the Italian-American linguist Mario Pei, analyzing the degree to which seven Romance languages diverged from Classical with respect to their accent vocalization, yielded the following measurements of divergence (with higher percentages indicating greater divergence from the stressed vowels of Classical Latin): Logudorese Sardinian 8%, Italian 12%, Spanish 20%, Romanian 23.5%, Occitan 25%, Portuguese 31%, and French 44%. Of relevance here, Pei's results mark the Spanish language's stressed vowels as more conservative than those of Portuguese.
+Pei's study emphasized, however, that it represented only "a very elementary, incomplete and tentative demonstration" of how statistical methods could measure linguistic change, assigned "frankly arbitrary" point values to various types of change, and did not compare languages in the sample with respect to any characteristics or forms of divergence other than stressed vowels, among other caveats.
+
+===== Unstressed vowels =====
+The history of the unstressed vowels in Spanish and Portuguese is not as well known as that of the stressed vowels, but some points are generally agreed upon. Spanish has the five short vowels of classical Latin, /a/, /e̞/, /i/, /o̞/, /u/. It has also two semivowels, [j] and [w], that appear in diphthongs, but these can be considered allophones of /i/ and /u/, respectively. The pronunciation of the unstressed vowels does not differ much from that of stressed vowels. Unstressed, non-syllabic /e̞/ /o̞/, and /a/ can be reduced to [ʝ], [w̝] and complete elision in some dialects; e.g., poetisa [pw̝e̞ˈtisa] ('poet' f.), línea [ˈlinʝa] ('line'), ahorita [o̞ˈɾita] ('now').
+The system of seven oral vowels of Vulgar Latin has been fairly well preserved in Portuguese, as in the closely related Galician language. In Portuguese, unstressed vowels have been more unstable, both diachronically (across time) and synchronically (between dialects), producing new vowel sounds. The vowels written ⟨a⟩, ⟨e⟩ and ⟨o⟩ are pronounced in different ways according to several factors, most notably whether they are stressed, and whether they occur in the last syllable of a word. The basic paradigm is shown in the following table (it has some exceptions).
+
+1 Always nasalized in this environment in most dialects, that is, [ɐ̃ ~ ə̃]
+2 Mostly in Northeastern Brazil. In some other dialects (including those of northern Brazil, Rio de Janeiro, Espírito Santo, Minas Gerais and the Brazilian Federal District), this also occurs if the stressed vowel is open rather than closed (/ɛ/ or /ɔ/, rather than /e/ or /o/) due to vowel harmony.
+3 Only in some dialects, the first mainly in the area including and surrounding Lisbon (not present in much of northern and insular Portugal, as in Brazil), and the latter mainly in some hinterland northern Portuguese accents (not present in southern and insular Portugal, as in Brazil)
+Brazilian unstressed vowel allophones vary according to the geographical region of the country. Near-close [ʊ], [ɪ] and unstressed close-mid [e], [o] are found in southern and western accents, where postvocalic /r/ has a "soft" allophone (a flap, a coronal approximant, or a rhotic vowel), and postvocalic sibilants (written ⟨s⟩, ⟨x⟩, and ⟨z⟩) in native words are always alveolar [s, z]. Meanwhile, these close allophones do not occur in the northern and eastern accents, where postvocalic /r/ has a "hard" allophone (velar, uvular, or glottal) and postvocalic sibilants may be, consistently or not, post-alveolar [ʃ, ʒ, ɕ, ʑ]. In the accents where postvocalic sibilants are always post-alveolar, such as those of Florianópolis and Rio de Janeiro, or in the accents influenced by them, any unstressed /a ~ ɐ/, [e̞ ~ ɛ] and [o̞ ~ ɔ] may be raised (like in Portugal), to [ɐ], [i] and [u], respectively. While this is true of all colloquial BP, it is especially characteristic of the latter dialects). This increased vowel reduction is also present in accents of the Brazilian Northeast, particularly from Alagoas to Piauí.
+Similar alternation patterns to these exist in other Romance languages such as Catalan and Occitan. Although it is mostly an allophonic variation, some dialects have developed minimal pairs that distinguish the stressed variants from the unstressed ones. The vowel /ɨ/ is often elided in connected speech (it is not present in Brazilian Portuguese).
+Some Brazilian dialects diphthongize stressed vowels to [ai̯], [ɛi̯], [ei̯], etc. (except /i/), before a sibilant at the end of a syllable (written ⟨s⟩, ⟨x⟩, ⟨z⟩, or rarely, ⟨sh⟩). For instance, Jesus [ʒe̞ˈzui̯s] 'Jesus', faz [ˈfai̯s] 'he does', dez [ˈdɛi̯s] 'ten'. This has led to the use of meia (meaning meia dúzia, 'half a dozen') for seis [sei̯s] 'six' when making enumerations, to avoid any confusion with três [tɾei̯s] 'three' on the telephone. In Lisbon and surrounding areas, stressed /e/ is pronounced [ɐ] or [ɐj] when it comes before an alveolo-palatal /ʎ/, /ɲ/, [ɕ], [ʑ] or palato-alveolar /ʃ/, /ʒ/ consonants followed by another vowel.
+The orthography of Portuguese, which is partly etymological and analogical, does not indicate these sound changes. This makes the written language look deceptively similar to Spanish. For example, although breve ('brief') is spelled the same in both languages, it is pronounced [ˈbɾe̞βe̞] in Spanish, but [ˈbɾɛvi ~ ˈbɾɛv(ɨ)] in Portuguese. In Brazilian Portuguese, in the vast majority of cases, the only difference between final -e and -i is the stress, as both are pronounced as /i/. The former is unstressed, and the latter is stressed without any diacritical mark. In European Portuguese, final -e is not pronounced or is pronounced as [ɨ], unlike i, which is consistently [i].
+
+==== Consonants ====
+Some of the most characteristic sound changes undergone by the consonants from Latin to Spanish and Portuguese are shown in the table below.
+
+*reconstructed
+Peculiar to early Spanish (as in the Gascon dialect of Occitan, possibly due to a Basque substratum) was the loss of Latin initial f- whenever it was followed by a vowel that did not diphthongize. Thus, Spanish hijo and hablar correspond to Portuguese filho and falar (from Latin fīlium and fābulāre, 'son' and 'to speak' respectively). Nevertheless, in a few cases Spanish has retained the Latin f-, so that Portuguese fogo corresponds to Spanish fuego (from Latin focum 'fire'); while in other cases the Latin word has yielded two different terms in Spanish, one beginning with f- and the other with h-, with slightly different nuances or altogether different meanings: Latin fastidium > Spanish hastío - fastidio (learned borrowing from Latin), Portuguese fastio 'boredom'; Latin fibra > Spanish fibra 'fiber' (learned borrowing from Latin) - hebra 'thread', Portuguese fibra (both meanings); Latin fascis > Spanish haz 'beam' - fajo 'bundle' (borrowing from Aragonese), Portuguese feixe (both meanings).
+Another typical difference concerned the result of Latin -l- and -n- in intervocalic position:
+
+When single, they were retained in Spanish but elided in Portuguese. Often, the loss of the consonant was followed by the merger of the two surrounding vowels (as in the examples in the table above), or by the insertion of an epenthetic vowel between them (Latin harēnam → Spanish arena, Portuguese arẽa, today areia 'sand').
+When double, they developed into the Spanish palatals ⟨ll⟩ /ʎ/ (merged with /ʝ/ in most contemporary Spanish dialects) and ⟨ñ⟩ /ɲ/. Indeed, the Spanish letter ⟨ñ⟩ was originally a shorthand for nn. In Portuguese, -ll- and -nn- just became single, ⟨l⟩ /l/ and ⟨n⟩ /n/, respectively.
+When followed by the semivowel i, l coalesced with it into a ⟨j⟩ /x/ in Spanish. In Portuguese, l and n followed by semivowel i were palatalized into ⟨lh⟩ /ʎ/ and ⟨nh⟩ /ɲ/, respectively.
+Other consonant clusters of Latin also took markedly different routes in the two languages in their archaic period:
+
+Learned words such as pleno, ocular, no(c)turno, tremular, and so on, were not included in the examples above, since they were adapted directly from Classical Latin in later times.
+The tables above represent only general trends with many exceptions, due to:
+
+Other phonological processes at work in old Spanish and old Portuguese, which interfered with these.
+Later regularization by analogy with related words.
+Later borrowing of learned words directly from Latin, especially since the Renaissance, which did not respect the original sound laws.
+Mutual borrowing, from Spanish to Portuguese or vice versa.
+
+==== Synaeresis ====
+Portuguese has tended to eliminate hiatuses that were preserved in Spanish, merging similar consecutive vowels into one (often after the above-mentioned loss of intervocalic -l- and -n-). This results in many Portuguese words being one syllable shorter than their Spanish cognates:
+
+creído, leer, mala, manzana, mañana, poner, reír, venir (Spanish)
+crido, ler, má, maçã, manhã, pôr, rir, vir (Portuguese)
+In other cases, Portuguese reduces consecutive vowels to a diphthong, again resulting in one syllable fewer:
+
+a-te-o, eu-ro-pe-o, pa-lo, ve-lo (Spanish)
+a-teu, eu-ro-peu, pau, véu (Portuguese)
+There are nevertheless a few words where the opposite happened, such as Spanish comprender versus Portuguese compreender, from Latin comprehendere.
+
+=== Different sounds with the same spelling ===
+Since the late Middle Ages, both languages have gone through sound shifts and mergers that set them further apart.
+
+==== Sibilants ====
+The most marked phonetic divergence between Spanish and Portuguese in their modern period concerned the evolution of the sibilants. In the Middle Ages, both had a rich system of seven sibilants – paired according to affrication and voicing: /s/, /ts/, /z/, /dz/, /ʃ/, /tʃ/, and /dʒ/ (the latter probably in free variation with /ʒ/, as still happens today in Ladino) – and spelled virtually the same in Spanish and Portuguese.
+
+1Before vowels; in the coda position, there are dialectal variations within each language, not discussed here.
+2Modern Portuguese has for the most part kept the medieval spelling.
+After the Renaissance, the two languages reduced their inventory of sibilants, but in different ways:
+
+Devoicing in Spanish: the voiced sibilants written ⟨-s-⟩, ⟨z⟩ and ⟨j/g⟩ became voiceless, merging with ⟨s-/-ss-⟩, ⟨c/ç⟩ and ⟨x⟩, respectively; voiced sibilant [z] only remains an allophone of /s/ before voiced consonants. In many modern Spanish dialects, ⟨c/z⟩ (/θ/) is also indistinguishable from ⟨s⟩ (/s/) (see seseo). Later, the palato-alveolar fricative ⟨x⟩ /ʃ/ changed into the velar fricative /x/, while ⟨ch⟩ stayed unchanged (/tʃ/). Spanish spelling has been updated according to these sound changes.
+Deaffrication in Portuguese: the affricates written ⟨c/ç⟩, ⟨z⟩ and ⟨ch⟩ became plain fricatives, merging with the sibilants ⟨s-/-ss-⟩, ⟨-s-⟩ and ⟨x⟩ in most dialects, respectively. In spite of this, modern Portuguese has for the most part kept the medieval spelling.
+Deaffrication in Portuguese: some rural hinterland northern Portuguese dialects as well the Mirandese language preserved the medieval distinction, still indicated by the spelling, with the former affricates being voiceless laminal, voiced laminal and still voiceless post-alveolar affricate /tʃ/, respectively, and the sibilants being voiceless apical, voiced apical and voiceless palato-alveolar. As much of Brazilian Portuguese, these dialects have alveolar coda sibilants, though a voiceless apico-alveolar fricative has a hushing-like sound, more similar to /ʃ/.
+
+==== Other pronunciation differences ====
+
+Since no distinction is made anymore between the pronunciation of ⟨b⟩ and ⟨v⟩, Spanish spelling has been reformed according to Classical Latin. In Portuguese, the spelling of these letters is based on pronunciation, which occurred after the Vulgar Latin merger of ⟨b⟩ and ⟨v⟩ in intervocalic position and is similar to modern Italian. This leads to some orthographic disparities:
+
+Compare for example Spanish gobierno, haber, libro with Portuguese governo, haver, livro.
+The endings of the imperfect indicative tense of 1st. conjugation verbs (with infinitives ending in -ar) are spelled with ⟨b⟩ in Spanish (cantaba, cantabas, cantábamos, and so on), but with ⟨v⟩ in Portuguese (cantava, cantavas, cantávamos, etc.)
+The Spanish adjectival suffix -ble, as in posible (also used in English, "possible"), corresponds to -vel in Portuguese: possível.
+In Spanish, the plosives b, d, g are lenited, usually realized as "soft" approximants [β̞, ð̞, ɣ̞] (here represented without the undertracks) after continuants. While similar pronunciations can be heard in European Portuguese, most speakers of Brazilian Portuguese pronounce these phonemes consistently as "hard" plosives [b, d, ɡ]. This can make a Portuguese phrase such as uma bala ("a bullet") sound like una pala ("a shovel") to a Spanish-speaker.
+
+=== Word-final consonants ===
+In Spanish, the following word-final consonants are possible: -l, -r, -n, -d, -z, -j, -s, -x, but other final consonants are also allowed in loanwords.
+In Portuguese, the following word-final consonants are possible: l, -r, -s, -x; -z (only after a stressed vowel); -n (only after an unstressed vowel). The final -m is an orthographic sign of a nasal sound. Other consonants typically receive a paragogic -e in loanwords.
+
+== Contact forms ==
+Barranquenho a transitional Spanish–Portuguese dialect with Southern Spanish traits spoken in the Portuguese municipality of Barrancos.
+Portuñol/Portunhol is the name for the mixed languages spoken in the borders of Brazil with Spanish-speaking countries.
+Papiamento is a creole language with Spanish and Portuguese influences.
+Judaeo-Spanish language is derived from medieval Castilian language, but has been influenced by Judaeo-Portuguese.
+Fala d'Ambo is a creole language derived from Portuguese but influenced by the rulers of Spanish Guinea.

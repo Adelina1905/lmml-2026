@@ -1,0 +1,41 @@
+Trabajadores (Workers) is a Cuban trade union newspaper.
+Founded in 1970 by Osvaldo de Melo and Sara del Carmen Zaldívar, Trabajadores operates under the auspices of the Central de Trabajadores de Cuba (CTC).
+Trabajadores is published in Spanish, with an online English edition. It presents itself as a newsletter for trade union members and blue-collar workers.
+
+== History ==
+In early June 1970, de Melo and Zaldivar started Los Trabajadores, a tabloid, at the request of the general secretary of CTC, Hector Ramos Latour. The CTC needed to replace its previous publications,  Vanguardia Obrera and the Revista CTC.  Los Trabajadores produced editions in June, July, and November 1970.
+In the beginning, Los Trabajadores did not have a building for writing, printing, workshops, and editing staff. Members of the Unión de Periodistas de Cuba (Cuban Journalist Union), including national organizer Lázara Rodríguez Alemán, assisted with the first editions.  The print shop was located in Virtues and Manrique in Central Havana.
+The original Los Trabajadores staff included de Melo, head of the Press Section of the CTC; Zaldívar, chief of information; Mario Castillo and Lucas Tarragó, journalists; and Rolando Montalván, Ángel Lazo and Rodolfo Amiama, photographers. Guillermo Hernández managed the printing with the assistance of Orlando Núñez and workers from the newspaper El Mundo.
+Los Trabajadores published articles on the labor movement, the sugar harvest, the internal life of unions, the practice of proletarian internationalism and class solidarity. It was distributed free in worker meetings and in workplaces. In November 1974, vendors started selling Los Trabajadores in Havana.
+In 1978, Trabajadores began printing issues  times a week, and on 2 December 1980, it became a daily newspaper. In 1997, Trabajadores created its own website.
+
+== Formal aspects ==
+Initially, Trabajadores was a twelve-page tabloid with a print run of never more than three thousand copies, which was published irregularly until it could be biweekly. In 1975, it acquired the broadsheet format, with six pages and color only in the first and last, which were justified to four and six columns. The identifier of the CTC, later removed, appeared to the left of the head.
+
+Research by students of the Institute of Design (ISDI in Spanish) on early issues of Trabajadores showed that "The body text typeface had no formal or conceptual basis, as their selection was subject to the availability of types in the workshop, for holders was the Futura. The pictures are rounded vertices.
+"The structure of the front favored their visibility on the streets, because the photos were the top stories on the top half of the newspaper, was generally organized, yet traditional, and the information was in good ranking."In 1977, Trabajadores initiated the use of fillets, chain lines, and boxes to separate the news and even dabbled in infographics as a means of enriching the information. In March 1978, the publisher reduced the number of photos on the first page; the information was ranked according to their importance and was used to separate targets.
+According to the ISDI, students concluded that the 1979 issues remained "the same characteristics of the previous year, except his head, which again is changed in April this year (...)"
+"It was took up the fillets and Watermarks. Combined in the body text, serif and sans serif, and holders inside are starting to use type’s displays. Increases the number of images per page."On December 2, 1980, Trabajadores became a daily newspaper. According to the ISDI students, the paper began using orange for the head, which moved within the page. Also, on the front, the font was only sans serif, but not in the other pages. There was an increased use of text images, and the body of the first cartoons was inserted.
+
+== Electronic edition ==
+On 28 April 1997, Trabajadores introduced its online edition.
+It had a very basic structure with a front page by Víctor Fernández, a specialist in scientific-technical information. The online version had sections on national, international, culture, sports, health, and then matching section with readers, reproduced with the same name in the 2009 section.
+The digital edition became a daily paper on June 14, 2000. Until then, it was still assimilating, published in print, and was updated at night by a computer specialist.
+In 2000, Alina Martínez Tria became manager and editor, and Trabajadores began to include agency cables. The paper covered the Elián González controversy in the United States.
+The paper employed a chief editor and three operators, two of them dedicated to the morning update on alternate days, and the third operator from Tuesday to Friday afternoons, two editors who worked on alternate days, and two correctors with an equal labor system, which amounted to a total of eight people.
+By then, the digital edition already had an English version, and a translator had been hired to translate the texts themselves, primarily those published in print.
+
+== Latest changes ==
+The Trabajadores paper design changed in 2002, with the collaboration of Andro Perez Diz, a student at the Institute of Design (ISDI), to better organize the content and special spaces. In 2003, changes were made to the sections and the information architecture. In June 2007, Trabajadores introduced the automated content management Plone, alongside a total redesign. This work was undertaken by engineers at the University of Information Science (UCI in Spanish).
+Under these conditions, a team was envisaged, composed of a chief editor, two publishers and two editors working on alternate days, an interactive editor to attend forums and polls, a graphical editor responsible for the introduction of infographics, multimedia, galleries and bulletin attention, and two managing partners dedicated to information needed for special work in coordination with the documentation center, work positioning and statistics.
+
+== Trabajadores regular sections ==
+"Nacionales" – national news of interest for workers.
+"Buzón Abierto" – articles motivated by letters of readers and answers from government agencies.
+"Salud" – articles about health issues.
+"Sin pausa" – articles related to updating the process of the economic and social models.
+"Cultura" – news, interviews, and opinion articles about arts and literacy.
+"Al pan, pan" – cultural reviews.
+"Deportes" – news, interviews, and opinion articles about sports.
+"Internacionales" – international news and articles
+"Visión sindical" – short news related to the workplace.

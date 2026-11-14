@@ -1,0 +1,8 @@
+# build + evaluation (solve.py)
+numpy==2.2.6
+scipy
+PyStemmer
+onnxruntime
+tokenizers
+matplotlib
+# the submission itself (main.py) only needs: numpy, onnxruntime, tokenizers, PyStemmer

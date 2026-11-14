@@ -1,0 +1,24 @@
+Banco Nacional de Cuba v. Sabbatino, 376 U.S. 398 (1964), was a United States Supreme Court case that determined that the policy of United States federal courts would be to honor the Act of State Doctrine, which dictates that the propriety of decisions of other countries relating to their internal affairs would not be questioned in the courts of the United States.
+
+== Background ==
+In July 1960, the Cuban government retaliated against the United States for various measures imposed against the Castro government by expropriating property held by U.S. citizens in Cuba. This included the seizure of sugar owned by a Cuban company called Compania Azucarera Vertientes-Camaguey de Cuba (C.A.V.), owned by American stockholders.
+An American commodity broker, Farr, Whitlock & Co. had contracted to buy this sugar from C.A.V., but after it was seized, they bought it directly from the Cuban government. After receiving the sugar, however, Farr, Whitlock & Co. did not pay the Cuban government; instead, they paid C.A.V.'s legal representative in the U.S., Sabbatino.
+
+=== Procedural history ===
+The plaintiff, the National Bank of Cuba (acting on behalf of the Cuban government) filed a lawsuit in the United States District Court for the Southern District of New York against the defendant, Sabbatino, to recover the money paid for the sugar. The district court and the Court of Appeals ruled in favor of the defendant, and the case was appealed to the Supreme Court.
+The issue taken by the Supreme Court was whether to apply the Act of State doctrine, which would uphold the legality of the expropriation because it was an official act of another country, not subject to question in US courts.
+The defendant contended that the doctrine was inapplicable for three reasons:
+
+Because the act in question was a violation of international law;
+Because the doctrine should not be applied unless the Executive branch asks the court to do so;
+Because Cuba had brought the suit as a plaintiff and had given up its sovereign immunity.
+
+== Opinion of the court ==
+The court, in an opinion by Justice John Marshall Harlan II, found that the act of state doctrine did apply in this case. The court refused to hold that the expropriation violated international law, because there was no clear unity of international opinion disapproving the seizure of land or property in a country by the government of that country. It noted also that interposition of the Executive was unnecessary to prevent the courts from interfering in affairs of state, as a single court could upset delicate international negotiations through the assertion of U.S. law in another country. Finally, the Court found no bar to application of the doctrine should be imposed by the fact that Cuba had brought the suit, comparing this to the sovereign immunity enjoyed by U.S. states which can sue, but can not be sued.
+The court also raised and dismissed a potential Erie doctrine problem, noting that although this suit was brought under diversity jurisdiction, federal interests so outweighed that of the state that federal common law must apply, instead of the law of the state where the suit was filed.
+
+=== White's dissent ===
+Justice White wrote a dissenting opinion, asserting that the court's application of the act of state doctrine was too rigid: more so, in fact than the doctrine as applied by other countries.
+
+== Subsequent developments ==
+The Sabbatino case provoked an uproar in the U.S. Congress. Before the case could be reviewed by the district court (on remand), Congress passed the so-called Second Hickenlooper Amendment (or Sabbatino Amendment), which unsuccessfully sought to reverse the Sabbatino ruling. The amendment revoked this presumption in favor of the validity of the act of state doctrine that the Sabbatino court had established. The Amendment was retroactive and subsequently found constitutional by the district court and the Cuban bank's complaint was dismissed. This amendment to the Foreign Assistance Act has clarified that courts may proceed with an adjudication on the merits unless the President states that such adjudication may embarrass foreign policy efforts, but the amendment has been construed very narrowly by subsequent court decisions.

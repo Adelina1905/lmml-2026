@@ -1,0 +1,42 @@
+q0034  gold=johnson_v4_21  top3=['porter_30', 'hall_01', 'wiki_spanishamerican_war']
+    How does the historian end his account of Cuba, looking ahead to a bright future after four centuries since the 1st Spanish governor?
+q0037  gold=porter_26  top3=['wiki_american_propaganda_of_the_spanishamerican_war', 'wiki_spanishamerican_war', 'porter_02']
+    ran the speaking-by-wire service in Cuba before war with Spain, the state or a firm, and could people call between far-off places
+q0054  gold=porter_10  top3=['johnson_v5_31', 'ballou_due_south_06', 'forbes_lindsay_02']
+    What was the big isle off Cuba's Caribbean side like around 1900, with its gente, timber, ores and two halves?
+q0062  gold=dana_11  top3=['forbes_lindsay_08', 'johnson_v5_36', 'dana_10']
+    Rich Cuban sons schooled overseas came home with nothing to do but grow cane on estates or leave the country
+q0063  gold=adams_01  top3=['johnson_v5_36', 'adams_17', 'adams_03']
+    The book telling the whole story of the American settlers who founded the colony of La Gloria in Cuba
+q0071  gold=johnson_v5_28  top3=['wiki_old_havana', 'robinson_04', 'johnson_v5_29']
+    When were the old city walls of Havana near El Morro begun and finished, and who was made to pay for them?
+q0079  gold=dana_15  top3=['dana_06', 'goodman_14', 'howe_04']
+    In Havana, a masked dance next door played a sweet tune until dawn, then stopped dead when the iglesia chimes rang five?
+q0086  gold=ballou_notes_15  top3=['robinson_02', 'robinson_14', 'humboldt_09']
+    What were the values of Cuba's imports and exports in the year 1838?
+q0106  gold=hall_02  top3=['wiki_santa_clara_cuba', 'wiki_santa_clara_cuba_2', 'wiki_barrio_de_san_lazaro_havana']
+    In what year did the Count of Santa Clara take over from Las Casas as governor of Cuba?
+q0124  gold=porter_10  top3=['wiki_santa_clara_cuba', 'wiki_santa_clara_cuba_2', 'forbes_lindsay_16']
+    read us the description of santa clara, the provine and its city, among the towns of cuba
+q0147  gold=hall_05  top3=['forbes_lindsay_04', 'johnson_v4_08', 'johnson_v4_17']
+    The chapter that tells the whole story of President Grant's dealings with Spain over Cuba
+q0167  gold=johnson_v2_01  top3=['johnson_v1_27', 'davey_13_p2', 'davey_01']
+    a reading about the west indies as a whole, their description and thier history.
+q0173  gold=white_16  top3=['forbes_lindsay_04', 'wiki_economy_of_cuba', 'porter_19']
+    Did Spain's officials claim that Cuba's yearly public spending was cut roughly in half between 1879 and 1893?
+q0184  gold=adams_06  top3=['adams_17', 'johnson_v5_36', 'adams_11']
+    I want the reading about the American colony of La Gloria as a whole, its full story from start to finish.
+q0201  gold=johnson_v3_15  top3=['wiki_ten_years_war', 'wiki_cuban_war_of_independence', 'wiki_battle_of_guisa']
+    Which four rebel leaders were shot at dawn in an eastern Cuban city in November 1873 while crowds and troops watched?
+q0225  gold=dana_15  top3=['howe_04', 'dana_06', 'goodman_14']
+    In Havana, did a costume dance party next door keep playing a Cuban tune until five in the morning and stop right at dawn?
+q0240  gold=johnson_v2_03  top3=['white_05', 'wiki_siege_of_havana', 'wiki_military_history_of_cuba']
+    How many ships and sailors did England send to attack Cuba's capital in 1762, and who ran the doctors for that army?
+q0242  gold=norman_04  top3=['country_study_20', 'robinson_03', 'norman_06']
+    which green flatland south of Havana, closed in by hills on three sides and running down to the sea, was thought the richest agricultural area
+q0253  gold=murray_03  top3=['norman_02', 'robinson_11', 'kennan_03']
+    Arriving at New York by ship, who was the young lad steering the vessel into harbor without a license while the real guides were still in bed?
+q0254  gold=forbes_lindsay_09  top3=['wiki_spanishamerican_war', 'porter_04', 'porter_02']
+    Could Cuba rule itself without help, or were its leaders so greedy and quarrelsome that a newspaper in the capital warned they would hand it to outsiders?
+q0260  gold=dana_13  top3=['johnson_v5_06', 'davey_08', 'white_07']
+    Is there a cave near Matanzas with dripping rock icicles that travelers compare to the great cave in the United States?
