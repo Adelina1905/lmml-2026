@@ -1,25 +1,4 @@
-"""
-Twins Separated at Birth - near-duplicate photo detection.
 
-Reads test-input.zip from the current working directory and writes output.csv
-with columns image_a,image_b: one row per unordered pair of images that come
-from the same source photograph.
-
-Pipeline
-  1. Decode every image (downscaled), compute RootSIFT keypoints and small
-     grayscale thumbnails.
-  2. Candidate retrieval: for every image take its K nearest neighbours by a
-     cheap global descriptor (8x8 normalised thumbnails of the full frame and
-     of a 10% centre crop, compared both ways).
-  3. Verification of each candidate pair:
-       - SIFT matching + Lowe ratio test + RANSAC similarity transform
-       - the transform's scale, converted to original pixel units, must look
-         like a "resized copy" (ratio <= ~1.60x)
-       - the second image is warped onto the first and pixel agreement is
-         measured (NCC of intensities and of gradient magnitudes) on the
-         overlap, ignoring black rotation borders.
-  4. Pairs passing all thresholds are written to output.csv.
-"""
 import csv
 import io
 import os
