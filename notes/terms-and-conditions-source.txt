@@ -1,0 +1,103 @@
+Terms and Conditions
+1. Acceptance of Terms
+Participation in the Learning Marathon of Machine Learning (LMML) 2026 and the use of the official LMML platform constitute acceptance of these Terms and Conditions.
+
+By creating an account, registering for the competition, or using the platform, participants agree to comply with these Terms and Conditions, the official competition rules, the instructions of the organizers, and the regulations applicable at the event venue.
+
+Participants are responsible for reviewing these Terms and Conditions before using the platform. Participants under the age of 18 must comply with any applicable requirements concerning legal capacity and authorization by a parent or legal guardian.
+
+2. Rules of Use and Conduct
+Participants undertake to use the platform, resources, equipment, and facilities exclusively for legitimate purposes related to LMML and in a responsible manner.
+
+The following actions are strictly prohibited:
+
+Damaging equipment, infrastructure, or property belonging to the organizers, venue, or other participants;
+Engaging in disruptive, abusive, discriminatory, threatening, or otherwise inappropriate behavior;
+Consuming alcohol or prohibited substances at the event venue, or engaging in conduct that disrupts the event;
+Attempting unauthorized access to the platform, its infrastructure, accounts, databases, or other systems;
+Exploiting vulnerabilities in the platform or competition infrastructure outside the scope expressly authorized by the organizers;
+Obtaining flags, scores, solutions, or other competition results through unauthorized methods, including cheating, unauthorized hacking, or interference with other teams;
+Accessing, stealing, sharing, or publishing other teams' solutions, flags, or confidential competition materials without authorization;
+Interfering with the operation, availability, or security of the platform;
+Distributing, copying, or using competition materials for purposes outside the scope authorized by the organizers.
+Participants must respect other competitors, mentors, organizers, venue staff, and the premises provided for the event.
+
+3. Accounts and Participant Responsibilities
+Each participant is responsible for maintaining the confidentiality of their account credentials and for all activities carried out through their account.
+
+Participants must provide accurate information during registration and must not impersonate other individuals or create accounts for unauthorized purposes.
+
+Participants must promptly notify the organizers of any suspected unauthorized access to their accounts or misuse of the platform.
+
+The organizers reserve the right to investigate suspicious activity and take appropriate measures to protect the integrity and security of the competition.
+
+4. Liability for Damages
+Participants are responsible, in accordance with applicable law, for material damage caused intentionally or through negligence to the venue, equipment, technical infrastructure, or other resources made available during LMML.
+
+A.O. Sigmoid shall not be held responsible for damage caused by participants through their own actions, except where liability cannot be excluded under applicable law.
+
+5. Limitation of Organizer's Liability
+The LMML platform is provided on an "as is" and "as available" basis.
+
+The organizers make reasonable efforts to ensure the proper functioning, availability, and security of the platform but do not guarantee uninterrupted or error-free operation.
+
+To the extent permitted by applicable law, A.O. Sigmoid shall not be liable for technical interruptions, temporary unavailability, data loss, delays, or other consequences arising from circumstances beyond its reasonable control.
+
+Nothing in these Terms and Conditions excludes or limits liability that cannot legally be excluded or limited.
+
+6. Intellectual Property
+The LMML platform, its source code, interface, design, technical infrastructure, competition materials, tasks, and other content made available by the organizers are protected by applicable intellectual property laws.
+
+Unless expressly authorized by the organizers or permitted by applicable law, participants may not copy, reproduce, distribute, modify, publish, or commercially exploit such materials.
+
+Solutions, code, and other original work independently created by participating teams remain the intellectual property of their respective authors, subject to any third-party rights and applicable law.
+
+The organizers may refer to publicly available competition results and achievements for informational purposes. Any use, reproduction, or publication of participants' original solutions beyond what is necessary for administering the competition requires an appropriate legal basis and, where necessary, the participants' authorization.
+
+7. Photography, Video Recording, and Media Use
+Photography and video recording may take place during LMML 2026 for event documentation and communication purposes.
+
+Where consent is the legal basis, photographs and video recordings in which participants appear may be used for the communication and promotion of LMML and A.O. Sigmoid, including publication on official websites, social media channels, and other official communication materials, only with the participant's separate, voluntary, and affirmative consent.
+
+Consent for photography and video use is separate from acceptance of these Terms and Conditions and is not a condition for participation in LMML.
+
+Participants may withdraw their consent at any time by contacting the organizers using the contact details specified in the LMML 2026 Privacy Notice.
+
+Withdrawal does not affect the lawfulness of processing carried out before withdrawal.
+
+For participants under the age of 18, applicable requirements concerning consent and legal guardian authorization must be observed.
+
+Further information about photography, video recordings, their purposes, retention, and participants' rights is provided in the LMML 2026 Privacy Notice.
+
+8. Processing of Personal Data
+Personal data collected in connection with LMML registration, platform use, competition participation, and event organization are processed in accordance with the applicable legislation of the Republic of Moldova, including Law No. 195/2024 on Personal Data Protection, as amended and in force.
+
+Information regarding the categories of personal data processed, purposes, legal grounds, recipients, retention periods, and participants' rights is provided in the separate LMML 2026 Privacy Notice.
+
+By registering for LMML, participants acknowledge that they have been provided access to the Privacy Notice. This acknowledgment does not constitute consent to processing activities for which consent is required.
+
+9. Disciplinary Measures and Disqualification
+The organizers reserve the right to take appropriate measures in response to violations of these Terms and Conditions, the official competition rules, or the ethical standards of LMML.
+
+Such measures may include:
+
+Issuing a warning;
+Restricting or suspending access to the platform;
+Removing unauthorized content or submissions;
+Suspending a participant's account;
+Disqualifying an individual participant or team.
+The measures applied shall take into consideration the nature and seriousness of the violation and the circumstances of the case.
+
+10. Disputes and Final Provisions
+The organizers are responsible for interpreting and applying these Terms and Conditions and the official competition rules.
+
+In cases of disputes, complaints, or unforeseen circumstances related to the competition, the organizers may adopt decisions necessary to preserve the fairness, integrity, and proper conduct of LMML, subject to applicable law.
+
+These Terms and Conditions shall be governed by the laws of the Republic of Moldova.
+
+The organizers reserve the right to update these Terms and Conditions where necessary. Any material changes shall be communicated through the official LMML communication channels or platform.
+
+For questions concerning these Terms and Conditions, participants may contact the organizers through the official LMML communication channels.
+
+Organizer: A.O. Sigmoid
+Event: Learning Marathon of Machine Learning (LMML) 2026
