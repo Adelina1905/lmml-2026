@@ -18,6 +18,8 @@ llm = Llama(
     verbose=False,
 )
 
+# Verificari 
+
 INT_PATTERN = re.compile(r"-?(0|[1-9]\d*)")
 
 def convert_value(raw: str):
@@ -31,7 +33,6 @@ def convert_value(raw: str):
         return int(raw)
     return raw
 
-
 KEY_PATTERN = re.compile(r"[A-Za-z_]\w*")
 
 def parse_record(line: str) -> dict:
@@ -40,7 +41,7 @@ def parse_record(line: str) -> dict:
         piece = piece.strip()
         if ":" not in piece:
             continue
-        key, value = piece.split(":", 1)
+        key, value = piece.split(":", )
         key = key.strip()
         if not KEY_PATTERN.fullmatch(key):
             continue
@@ -65,6 +66,8 @@ Rules:
 
 EXAMPLE_LINES = [3, 5, 6, 7]
 
+# ia fieacare linia aparte din example_lines outputul e ca input_Form -> output/expectet form per linie
+
 def load_examples() -> list[tuple[str, str]]:
     inputs = (TRAIN_DIR / "train-input.txt").read_text(encoding="utf-8").splitlines()
     outputs = (TRAIN_DIR / "train-output.txt").read_text(encoding="utf-8").splitlines()
@@ -72,6 +75,7 @@ def load_examples() -> list[tuple[str, str]]:
 
 EXAMPLES = load_examples()
 
+#  dai mesajul impreuna cu exemplele 
 def build_messages(record: str) -> list[dict]:
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
     for example_in, example_out in EXAMPLES:
@@ -80,6 +84,7 @@ def build_messages(record: str) -> list[dict]:
     messages.append({"role": "user", "content": record + " /no_think"})
     return messages
 
+#  insasi intrebarea 
 def ask_model(messages: list[dict]) -> str:
     response = llm.create_chat_completion(
         messages=messages,
