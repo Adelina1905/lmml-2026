@@ -1,0 +1,31 @@
+Test set: 1000 encounters, 100 catastrophic (positive), 900 not catastrophic -> positive rate 10.0%
+Decision threshold: 0.5
+
+[ARES] loaded with zip-fallback (torch not installed)
+  weights = [0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]  bias = 0.0
+  -> the model only looks at: ['oracle_omen']
+[ATHENA] loaded with zip-fallback (torch not installed)
+  weights = [0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]  bias = 0.0
+  -> the model only looks at: ['aegis_resonance']
+[APOLLO] loaded with zip-fallback (torch not installed)
+  weights = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]  bias = 0.0
+  -> the model only looks at: ['styx_disturbance']
+
+=== Metrics at threshold 0.50 ===
+        accuracy  TP  FP  FN   TN  precision  recall  specificity     f1     f2  roc_auc
+model                                                                                   
+ARES      0.9500  95  45   5  855     0.6786  0.9500       0.9500 0.7917 0.8796   0.9471
+ATHENA    0.9500  75  25  25  875     0.7500  0.7500       0.9722 0.7500 0.7500   0.8766
+APOLLO    0.9500  55   5  45  895     0.9167  0.5500       0.9944 0.6875 0.5978   0.7859
+
+=== Expected cost, cost_FP = 1, cost_FN = k ===
+  k=  1: ARES=50, ATHENA=50, APOLLO=50  -> tie (all equal)
+  k=  2: ARES=55, ATHENA=75, APOLLO=95  -> best ARES
+  k=  5: ARES=70, ATHENA=150, APOLLO=230  -> best ARES
+  k= 10: ARES=95, ATHENA=275, APOLLO=455  -> best ARES
+  k= 50: ARES=295, ATHENA=1275, APOLLO=2255  -> best ARES
+
+All three accuracies: [0.95, 0.95, 0.95] (identical)
+Business rule: a missed threat (FN) costs far more than a false alarm (FP)
+-> choose the highest RECALL / fewest FN: ARES (recall 0.95, FN 5)
+FLAG: SIGMOID_ARES
