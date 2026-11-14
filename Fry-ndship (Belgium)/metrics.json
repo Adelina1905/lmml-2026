@@ -1,0 +1,56 @@
+{
+  "rows": 3869,
+  "missing_cells": 0,
+  "duplicate_rows": 0,
+  "input_sha256": "27a6c123235abb7f544e9cbb902dd0051b82a0082c2e0189dd8da3a3043b26c4",
+  "formula": "edge_m = intercept + long_side_coefficient * long_side_m + short_side_coefficient * (10000 * area_ha / long_side_m) + ditch_coefficient * ditch_m",
+  "coefficients": {
+    "intercept_m": -0.0010981108439730672,
+    "long_side_coefficient": 0.9000194828449717,
+    "short_side_coefficient": 0.9000230499328881,
+    "ditch_coefficient": 0.9999796890585789
+  },
+  "in_sample": {
+    "r2": 0.9999843184785999,
+    "rmse_m": 0.9570393478108489,
+    "mae_m": 0.811246886133304
+  },
+  "holdout": {
+    "seed": 2026,
+    "train_rows": 3095,
+    "test_rows": 774,
+    "r2": 0.9999843873415193,
+    "rmse_m": 0.9639056954992931,
+    "mae_m": 0.8291885947844245
+  },
+  "word_read_visually_from_residual_plot": "SUPERVISION",
+  "flag": "SIGMOID_SUPERVISION",
+  "platform_verified": true,
+  "verification_source": "User confirmed platform acceptance",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2"
+  },
+  "comparison": {
+    "Long side + short side": {
+      "r2": 0.9983673004221523,
+      "rmse_m": 9.765373003082829,
+      "mae_m": 8.41173126275372,
+      "word_read_visually": "REGRESSION"
+    },
+    "Long side + short side + declared ditch": {
+      "r2": 0.9999843184785999,
+      "rmse_m": 0.9570393478108489,
+      "mae_m": 0.811246886133304,
+      "word_read_visually": "SUPERVISION"
+    },
+    "Long side + short side + ditch + on-site hedge": {
+      "r2": 0.9999999434520056,
+      "rmse_m": 0.057470410506089684,
+      "mae_m": 0.049686200830327217,
+      "word_read_visually": "PREDICTION"
+    }
+  }
+}
