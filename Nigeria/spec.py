@@ -20,8 +20,7 @@ from scipy.signal import stft
 w = wave.open(sys.argv[1])
 x = np.frombuffer(w.readframes(w.getnframes()), dtype="<i2").astype(float)
 
-# Split the audio into short overlapping windows (1024 samples) and measure how
-# strong each frequency is in each window.
+# Split the audio into short overlapping windows
 f, t, Z = stft(x, fs=w.getframerate(), nperseg=1024, noverlap=896)
 
 # Convert strength to decibels so quiet and loud parts are visible together.
