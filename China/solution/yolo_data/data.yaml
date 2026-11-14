@@ -1,0 +1,13 @@
+path: /home/adelina/projects/LMML/lmml-2026/China/solution/yolo_data
+train: train/images
+val: val/images
+names:
+  0: g015
+  1: g028
+  2: g005
+  3: g018
+  4: g003
+  5: g011
+  6: g001
+  7: g010
+  8: other
