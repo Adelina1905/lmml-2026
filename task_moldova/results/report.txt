@@ -1,0 +1,54 @@
+observations: 79968 rows, with a ring reading: 3023
+register: 289 rings, of which White Stork: 30
+all readings have 6 characters: True
+
+[1] error model learned from 1997 readings near their bird's ringing site
+    unreadable '?': 17.7% of letters; wrong among read letters: 39.8%
+    most common confusions (true -> read): B->S 133, S->B 120, D->O 118, O->D 114, A->X 106, X->A 104, G->Z 97, Q->C 86, E->P 82, C->Q 74, J->Y 74, W->N 72, K->R 70, O->C 69
+
+[2] stork readings (>=4 letters read) that no registered stork explains: 23
+    L5819951 (Cahul, 45.606N 28.121E): 23
+    nearest registered stork ringing site is 74 km away -> this is the Lower Prut, home of the unregistered stork
+    all stork readings at L5819951: 24 (2016-05-21 .. 2025-08-11)
+      2016-05-21  AHGPW?  observers=obsr193737|obsr641647|obsr808609
+      2017-05-12  RH?LWD  observers=obsr641647|obsr761177
+      2018-04-17  RH?LWQ  observers=obsr193737|obsr808609
+      2018-06-30  RH?LHQ  observers=obsr761177|obsr808609
+      2019-05-04  RH??WQ  observers=obsr641647
+      2019-06-06  RHGLWQ  observers=obsr641647
+      2019-08-26  RHGF?Q  observers=obsr1093220|obsr1118894|obsr1264504|obsr761177
+      2020-06-27  RHGLNC  observers=obsr1481045
+      2020-07-26  RHGLWQ  observers=obsr1093220|obsr1303420|obsr761177
+      2021-04-03  K???WQ  observers=obsr1093220|obsr1303420|obsr1481045|obsr761177
+      2021-05-08  AHGEWQ  observers=obsr1093220|obsr1303420|obsr761177
+      2022-08-05  RHZLNQ  observers=obsr239797|obsr777138
+      2022-08-14  RHZ?M?  observers=obsr1093220|obsr2353121|obsr808609
+      2024-03-23  XN??WQ  observers=obsr3320590
+      2024-04-12  RHGL??  observers=obsr1951585|obsr4528749
+      2024-04-14  RMGLWQ  observers=obsr4528749
+      2024-04-14  ?H?LWQ  observers=obsr4528749
+      2024-04-19  R??FWQ  observers=obsr2353121
+      2024-04-20  RHGLWQ  observers=obsr1093220
+      2025-04-12  RHGLW?  observers=obsr1951585|obsr3600745|obsr4569950|obsr6768737
+      2025-04-23  RHGLWQ  observers=obsr4555604
+      2025-06-27  RHZLW?  observers=obsr1345103|obsr1905619|obsr2018610|obsr6361813
+      2025-06-28  RHGLWQ  observers=obsr1345103|obsr1905619|obsr2018610|obsr6361813
+      2025-08-11  RMG?WQ  observers=obsr1214742
+
+[3] maximum-likelihood decoding, position by position
+    pos 1: votes {'R': 19, 'A': 2, 'K': 1, 'X': 1, '?': 1}  posterior R=1.000000, K=0.000000, X=0.000000
+    pos 2: votes {'H': 19, '?': 2, 'M': 2, 'N': 1}  posterior H=1.000000, M=0.000000, W=0.000000
+    pos 3: votes {'G': 13, '?': 8, 'Z': 3}  posterior G=0.999959, Z=0.000041, B=0.000000
+    pos 4: votes {'L': 15, '?': 5, 'F': 2, 'P': 1, 'E': 1}  posterior L=1.000000, F=0.000000, P=0.000000
+    pos 5: votes {'W': 18, '?': 2, 'N': 2, 'H': 1, 'M': 1}  posterior W=1.000000, N=0.000000, H=0.000000
+    pos 6: votes {'Q': 17, '?': 5, 'D': 1, 'C': 1}  posterior Q=1.000000, C=0.000000, D=0.000000
+    decoded ring: RHGLWQ
+    exact 'RHGLWQ' readings: 5 of 24
+
+[4] checks
+    in register: False; min Hamming distance to any registered ring: 3
+    bootstrap (2000 resamples): RHGLWQ 1998, RHZLWQ 1, RHGFWQ 1
+    log-likelihood of the cluster: RHGLWQ = -97.2; best registered rings: PNGPWO = -329.2, XWBMWX = -405.0, RHKLYN = -430.4
+    unexplained stork readings that RHGLWQ explains: 23 of 23
+
+FLAG: SIGMOID_RHGLWQ
