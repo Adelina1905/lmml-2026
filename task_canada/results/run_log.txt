@@ -1,0 +1,11 @@
+content-free reports dropped: 1411
+training reports: 32145 [3996 3044 3083 4390 3826 3723 2636 3823 3624]
+base model fitted; corpus acc 0.881
+ self-training round 20 [280 191  97 111  73 162 227 137  91]
+ self-training round 40 [277 190 105 115  73 149 221 153  86]
+ self-training round 60 [266 188 112 124  76 158 197 148 100]
+ self-training round 80 [254 185 116 126  85 150 177 161 115]
+ self-training round 100 [235 164 142 140  93 153 150 161 131]
+final predicted mix on real reports: {'flood': 276, 'storm': 192, 'winter': 131, 'wildfire': 143, 'drought': 79, 'ground': 118, 'industrial': 159, 'transport': 172, 'epidemic': 99}
+accuracy on hand-written dev reports: 0.878
+The vault releases: SIGMOID_SNOWFLAKE

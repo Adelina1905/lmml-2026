@@ -1,0 +1,2 @@
+first_model.npz [(4, 'SNOWBLIND')]
+model.npz [(3, 'SNOWFLAKE')]
