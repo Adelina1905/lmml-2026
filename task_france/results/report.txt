@@ -1,0 +1,15 @@
+rows=28108  cols=18
+mixture means (km): [3.421 0.372]
+planted candidates: 1592  (score threshold ~0.81 km)
+piece of 50 dots attached to piece 0 (gap 0.01 km)
+
+letters (label = position in the word):
+  label 0  'N'  dots= 226  centre lat=48.8562 lon=2.3513  median price=97  median avail=26  median rpm=0.31
+  label 1  'E'  dots= 211  centre lat=48.8847 lon=2.3211  median price=126  median avail=303  median rpm=0.98
+  label 2  'U'  dots= 294  centre lat=48.8557 lon=2.3740  median price=183  median avail=338  median rpm=1.68
+  label 3  'R'  dots= 179  centre lat=48.8435 lon=2.3017  median price=250  median avail=153  median rpm=1.10
+  label 4  'O'  dots= 311  centre lat=48.8660 lon=2.3624  median price=321  median avail=250  median rpm=0.40
+  label 5  'N'  dots= 320  centre lat=48.8735 lon=2.3388  median price=498  median avail=58  median rpm=3.38
+real city listings (label -1): 26567
+
+FLAG: SIGMOID_NEURON
