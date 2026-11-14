@@ -1,0 +1,4 @@
+model,feature_used,accuracy,TP,FP,FN,TN,precision,recall,specificity,f1,f2,roc_auc
+ARES,oracle_omen,0.9500,95,45,5,855,0.6786,0.9500,0.9500,0.7917,0.8796,0.9471
+ATHENA,aegis_resonance,0.9500,75,25,25,875,0.7500,0.7500,0.9722,0.7500,0.7500,0.8766
+APOLLO,styx_disturbance,0.9500,55,5,45,895,0.9167,0.5500,0.9944,0.6875,0.5978,0.7859

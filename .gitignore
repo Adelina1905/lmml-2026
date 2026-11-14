@@ -1,0 +1,7 @@
+# Explanation notes stay local, not pushed
+EXPLANATION.md
+explanation.md
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,0 +1,86 @@
+{
+  "Strategy": {
+    "practice": {
+      "days": 100,
+      "average": 3847.39,
+      "min": 1314.51,
+      "max": 8082.09
+    },
+    "fresh_seeds": {
+      "days": 300,
+      "average": 4016.1,
+      "min": 1530.03,
+      "max": 8199.58
+    }
+  },
+  "RandomStrategy": {
+    "practice": {
+      "days": 100,
+      "average": 2409.45,
+      "min": 2084.24,
+      "max": 2744.89
+    },
+    "fresh_seeds": {
+      "days": 300,
+      "average": 2399.32,
+      "min": 1986.85,
+      "max": 2792.75
+    }
+  },
+  "ExploreThenCommit": {
+    "practice": {
+      "days": 100,
+      "average": 6495.77,
+      "min": 2514.75,
+      "max": 7286.17
+    },
+    "fresh_seeds": {
+      "days": 300,
+      "average": 6492.84,
+      "min": 2256.85,
+      "max": 7385.38
+    }
+  },
+  "EpsilonGreedy": {
+    "practice": {
+      "days": 100,
+      "average": 6306.9,
+      "min": 2758.67,
+      "max": 7093.12
+    },
+    "fresh_seeds": {
+      "days": 300,
+      "average": 6277.58,
+      "min": 2216.57,
+      "max": 7148.05
+    }
+  },
+  "UCB": {
+    "practice": {
+      "days": 100,
+      "average": 6991.59,
+      "min": 5825.89,
+      "max": 7896.18
+    },
+    "fresh_seeds": {
+      "days": 300,
+      "average": 6971.2,
+      "min": 5672.35,
+      "max": 8031.94
+    }
+  },
+  "UCBConservative": {
+    "practice": {
+      "days": 100,
+      "average": 6729.3,
+      "min": 5854.51,
+      "max": 7718.43
+    },
+    "fresh_seeds": {
+      "days": 300,
+      "average": 6713.26,
+      "min": 5733.22,
+      "max": 7585.64
+    }
+  }
+}
