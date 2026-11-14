@@ -1,0 +1,12 @@
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
+clearvoice==0.1.2
+transformers==4.51.3
+accelerate==1.6.0
+numpy==1.26.4
+scipy==1.14.1
+soundfile==0.12.1
+huggingface-hub==0.30.2
+numba==0.61.2
+scikit-learn==1.6.1

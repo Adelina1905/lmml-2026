@@ -1,0 +1,2266 @@
+{
+  "source": "frcrn_full.wav",
+  "source_sha256": "da8c378cc6d015fd536dee755c6c074dd18d8f4b1d0982ca387212760006b87c",
+  "model": "facebook/mms-1b-all",
+  "revision": "3d33597edbdaaba14a8e858e2c8caa76e3cec0cd",
+  "language": "zul",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "window_seconds": 25,
+  "overlap_seconds": 5,
+  "start_seconds": 0,
+  "duration_seconds": null,
+  "word_timestamps": "Approximate CTC token alignment mapped to original sample positions.",
+  "segments": [
+    {
+      "start_sample": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 25.0,
+      "text": "kungathatha isikhathi esidi ilungelo lokuba isakhanusi ikhomi ngekhophi yabuthetho sisekeni yenena ingangoka namalungiselelo",
+      "words": [
+        {
+          "word": "kungathatha",
+          "start_seconds": 3.42,
+          "end_seconds": 4.12
+        },
+        {
+          "word": "isikhathi",
+          "start_seconds": 4.26,
+          "end_seconds": 4.8
+        },
+        {
+          "word": "esidi",
+          "start_seconds": 4.96,
+          "end_seconds": 5.58
+        },
+        {
+          "word": "ilungelo",
+          "start_seconds": 9.08,
+          "end_seconds": 9.62
+        },
+        {
+          "word": "lokuba",
+          "start_seconds": 9.7,
+          "end_seconds": 10.06
+        },
+        {
+          "word": "isakhanusi",
+          "start_seconds": 10.18,
+          "end_seconds": 10.98
+        },
+        {
+          "word": "ikhomi",
+          "start_seconds": 12.66,
+          "end_seconds": 13.14
+        },
+        {
+          "word": "ngekhophi",
+          "start_seconds": 13.2,
+          "end_seconds": 13.72
+        },
+        {
+          "word": "yabuthetho",
+          "start_seconds": 13.8,
+          "end_seconds": 14.28
+        },
+        {
+          "word": "sisekeni",
+          "start_seconds": 14.36,
+          "end_seconds": 15.08
+        },
+        {
+          "word": "yenena",
+          "start_seconds": 17.18,
+          "end_seconds": 17.86
+        },
+        {
+          "word": "ingangoka",
+          "start_seconds": 18.34,
+          "end_seconds": 19.14
+        },
+        {
+          "word": "namalungiselelo",
+          "start_seconds": 19.88,
+          "end_seconds": 21.3
+        }
+      ],
+      "keyword_candidates": [
+        {
+          "word_index": 6,
+          "word": "ikhomi",
+          "similarity": 0.833,
+          "start_seconds": 12.66,
+          "following_words": [
+            "ngekhophi",
+            "yabuthetho",
+            "sisekeni"
+          ]
+        }
+      ],
+      "processing_seconds": 1.031
+    },
+    {
+      "start_sample": 320000,
+      "start_seconds": 20.0,
+      "end_seconds": 45.0,
+      "text": "amalungiseleolinhlelo lwezinga lwasebuqalelo amathathu umthethusisekelo wenyunyani ezokwamukene njengomsebenzisi wonqubu",
+      "words": [
+        {
+          "word": "amalungiseleolinhlelo",
+          "start_seconds": 20.12,
+          "end_seconds": 25.18
+        },
+        {
+          "word": "lwezinga",
+          "start_seconds": 25.24,
+          "end_seconds": 25.82
+        },
+        {
+          "word": "lwasebuqalelo",
+          "start_seconds": 25.9,
+          "end_seconds": 26.92
+        },
+        {
+          "word": "amathathu",
+          "start_seconds": 29.44,
+          "end_seconds": 30.28
+        },
+        {
+          "word": "umthethusisekelo",
+          "start_seconds": 31.22,
+          "end_seconds": 32.48
+        },
+        {
+          "word": "wenyunyani",
+          "start_seconds": 32.8,
+          "end_seconds": 33.68
+        },
+        {
+          "word": "ezokwamukene",
+          "start_seconds": 37.32,
+          "end_seconds": 38.38
+        },
+        {
+          "word": "njengomsebenzisi",
+          "start_seconds": 38.9,
+          "end_seconds": 40.12
+        },
+        {
+          "word": "wonqubu",
+          "start_seconds": 40.82,
+          "end_seconds": 41.44
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.141
+    },
+    {
+      "start_sample": 640000,
+      "start_seconds": 40.0,
+      "end_seconds": 65.0,
+      "text": "qzokubheka ukukhona ngomindeko izingane ngakonyedlangothi izinsukwezi ngamashomi amathathu izindleko zikuhamba ngomsebenzi",
+      "words": [
+        {
+          "word": "qzokubheka",
+          "start_seconds": 41.08,
+          "end_seconds": 45.26
+        },
+        {
+          "word": "ukukhona",
+          "start_seconds": 46.12,
+          "end_seconds": 46.8
+        },
+        {
+          "word": "ngomindeko",
+          "start_seconds": 47.32,
+          "end_seconds": 48.12
+        },
+        {
+          "word": "izingane",
+          "start_seconds": 51.08,
+          "end_seconds": 51.74
+        },
+        {
+          "word": "ngakonyedlangothi",
+          "start_seconds": 51.82,
+          "end_seconds": 53.46
+        },
+        {
+          "word": "izinsukwezi",
+          "start_seconds": 56.6,
+          "end_seconds": 57.54
+        },
+        {
+          "word": "ngamashomi",
+          "start_seconds": 57.6,
+          "end_seconds": 58.24
+        },
+        {
+          "word": "amathathu",
+          "start_seconds": 58.38,
+          "end_seconds": 59.06
+        },
+        {
+          "word": "izindleko",
+          "start_seconds": 61.18,
+          "end_seconds": 61.8
+        },
+        {
+          "word": "zikuhamba",
+          "start_seconds": 61.9,
+          "end_seconds": 62.7
+        },
+        {
+          "word": "ngomsebenzi",
+          "start_seconds": 62.94,
+          "end_seconds": 63.84
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 960000,
+      "start_seconds": 60.0,
+      "end_seconds": 85.0,
+      "text": "izindlekoshambour comsabets iphimbo nerichester abunelisi ukuza eninizine afrika impendulo ibe imiba wuhlengo wezinkonso ezenzian",
+      "words": [
+        {
+          "word": "izindlekoshambour",
+          "start_seconds": 61.18,
+          "end_seconds": 62.8
+        },
+        {
+          "word": "comsabets",
+          "start_seconds": 62.96,
+          "end_seconds": 63.86
+        },
+        {
+          "word": "iphimbo",
+          "start_seconds": 66.52,
+          "end_seconds": 67.04
+        },
+        {
+          "word": "nerichester",
+          "start_seconds": 67.12,
+          "end_seconds": 67.82
+        },
+        {
+          "word": "abunelisi",
+          "start_seconds": 67.92,
+          "end_seconds": 68.7
+        },
+        {
+          "word": "ukuza",
+          "start_seconds": 70.54,
+          "end_seconds": 70.88
+        },
+        {
+          "word": "eninizine",
+          "start_seconds": 71.0,
+          "end_seconds": 71.5
+        },
+        {
+          "word": "afrika",
+          "start_seconds": 71.62,
+          "end_seconds": 72.02
+        },
+        {
+          "word": "impendulo",
+          "start_seconds": 73.62,
+          "end_seconds": 74.32
+        },
+        {
+          "word": "ibe",
+          "start_seconds": 74.58,
+          "end_seconds": 74.8
+        },
+        {
+          "word": "imiba",
+          "start_seconds": 75.06,
+          "end_seconds": 75.56
+        },
+        {
+          "word": "wuhlengo",
+          "start_seconds": 79.56,
+          "end_seconds": 80.3
+        },
+        {
+          "word": "wezinkonso",
+          "start_seconds": 80.72,
+          "end_seconds": 81.5
+        },
+        {
+          "word": "ezenzian",
+          "start_seconds": 81.88,
+          "end_seconds": 82.64
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.141
+    },
+    {
+      "start_sample": 1280000,
+      "start_seconds": 80.0,
+      "end_seconds": 105.0,
+      "text": "abunelisikahle indekwizinyanga ezine zilandelana sikushintsha isigongo zakancana kwesidu esisuka endaweni",
+      "words": [
+        {
+          "word": "abunelisikahle",
+          "start_seconds": 85.1,
+          "end_seconds": 86.3
+        },
+        {
+          "word": "indekwizinyanga",
+          "start_seconds": 86.54,
+          "end_seconds": 92.94
+        },
+        {
+          "word": "ezine",
+          "start_seconds": 93.18,
+          "end_seconds": 93.66
+        },
+        {
+          "word": "zilandelana",
+          "start_seconds": 93.84,
+          "end_seconds": 94.68
+        },
+        {
+          "word": "sikushintsha",
+          "start_seconds": 98.36,
+          "end_seconds": 99.14
+        },
+        {
+          "word": "isigongo",
+          "start_seconds": 99.32,
+          "end_seconds": 99.88
+        },
+        {
+          "word": "zakancana",
+          "start_seconds": 99.96,
+          "end_seconds": 100.78
+        },
+        {
+          "word": "kwesidu",
+          "start_seconds": 102.42,
+          "end_seconds": 103.0
+        },
+        {
+          "word": "esisuka",
+          "start_seconds": 103.42,
+          "end_seconds": 104.06
+        },
+        {
+          "word": "endaweni",
+          "start_seconds": 104.34,
+          "end_seconds": 104.92
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 1600000,
+      "start_seconds": 100.0,
+      "end_seconds": 125.0,
+      "text": "kwesidu esisuka endaween umkhandlu ukazweleke wesifundazwe ubufundazi bokuthi ikophe amazwe ziphathwa ngedula ibasibodi esebenzaa",
+      "words": [
+        {
+          "word": "kwesidu",
+          "start_seconds": 102.42,
+          "end_seconds": 103.02
+        },
+        {
+          "word": "esisuka",
+          "start_seconds": 103.44,
+          "end_seconds": 104.06
+        },
+        {
+          "word": "endaween",
+          "start_seconds": 104.34,
+          "end_seconds": 104.9
+        },
+        {
+          "word": "umkhandlu",
+          "start_seconds": 107.14,
+          "end_seconds": 107.78
+        },
+        {
+          "word": "ukazweleke",
+          "start_seconds": 107.88,
+          "end_seconds": 108.62
+        },
+        {
+          "word": "wesifundazwe",
+          "start_seconds": 108.7,
+          "end_seconds": 109.64
+        },
+        {
+          "word": "ubufundazi",
+          "start_seconds": 111.72,
+          "end_seconds": 112.48
+        },
+        {
+          "word": "bokuthi",
+          "start_seconds": 112.58,
+          "end_seconds": 113.0
+        },
+        {
+          "word": "ikophe",
+          "start_seconds": 113.14,
+          "end_seconds": 113.64
+        },
+        {
+          "word": "amazwe",
+          "start_seconds": 116.28,
+          "end_seconds": 116.94
+        },
+        {
+          "word": "ziphathwa",
+          "start_seconds": 117.3,
+          "end_seconds": 117.96
+        },
+        {
+          "word": "ngedula",
+          "start_seconds": 118.06,
+          "end_seconds": 118.7
+        },
+        {
+          "word": "ibasibodi",
+          "start_seconds": 122.94,
+          "end_seconds": 123.84
+        },
+        {
+          "word": "esebenzaa",
+          "start_seconds": 124.3,
+          "end_seconds": 124.96
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.141
+    },
+    {
+      "start_sample": 1920000,
+      "start_seconds": 120.0,
+      "end_seconds": 145.0,
+      "text": "ipasibodi esebenzayo ezinsukwini zonke izinhlaka zikaholmini kasiceno endenzi okuphinisana kinkontrati yesi vumelane eyensikwe",
+      "words": [
+        {
+          "word": "ipasibodi",
+          "start_seconds": 122.94,
+          "end_seconds": 123.86
+        },
+        {
+          "word": "esebenzayo",
+          "start_seconds": 124.32,
+          "end_seconds": 125.2
+        },
+        {
+          "word": "ezinsukwini",
+          "start_seconds": 125.54,
+          "end_seconds": 126.42
+        },
+        {
+          "word": "zonke",
+          "start_seconds": 129.76,
+          "end_seconds": 130.2
+        },
+        {
+          "word": "izinhlaka",
+          "start_seconds": 130.52,
+          "end_seconds": 131.12
+        },
+        {
+          "word": "zikaholmini",
+          "start_seconds": 131.34,
+          "end_seconds": 132.24
+        },
+        {
+          "word": "kasiceno",
+          "start_seconds": 134.1,
+          "end_seconds": 134.98
+        },
+        {
+          "word": "endenzi",
+          "start_seconds": 135.54,
+          "end_seconds": 136.1
+        },
+        {
+          "word": "okuphinisana",
+          "start_seconds": 136.34,
+          "end_seconds": 137.3
+        },
+        {
+          "word": "kinkontrati",
+          "start_seconds": 141.12,
+          "end_seconds": 142.0
+        },
+        {
+          "word": "yesi",
+          "start_seconds": 142.08,
+          "end_seconds": 142.38
+        },
+        {
+          "word": "vumelane",
+          "start_seconds": 142.48,
+          "end_seconds": 143.12
+        },
+        {
+          "word": "eyensikwe",
+          "start_seconds": 143.32,
+          "end_seconds": 143.98
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.14
+    },
+    {
+      "start_sample": 2240000,
+      "start_seconds": 140.0,
+      "end_seconds": 165.0,
+      "text": "inkontaki yesivumilane eyenzikwe ukuhlongula kwamalou ebodi ngesikhathi lesicelo sakhe lemali okubele ikhokelwe esetshenzisiwe ngokuo",
+      "words": [
+        {
+          "word": "inkontaki",
+          "start_seconds": 141.2,
+          "end_seconds": 142.0
+        },
+        {
+          "word": "yesivumilane",
+          "start_seconds": 142.08,
+          "end_seconds": 143.12
+        },
+        {
+          "word": "eyenzikwe",
+          "start_seconds": 143.32,
+          "end_seconds": 143.96
+        },
+        {
+          "word": "ukuhlongula",
+          "start_seconds": 147.34,
+          "end_seconds": 148.22
+        },
+        {
+          "word": "kwamalou",
+          "start_seconds": 148.6,
+          "end_seconds": 149.36
+        },
+        {
+          "word": "ebodi",
+          "start_seconds": 149.68,
+          "end_seconds": 150.34
+        },
+        {
+          "word": "ngesikhathi",
+          "start_seconds": 152.24,
+          "end_seconds": 153.1
+        },
+        {
+          "word": "lesicelo",
+          "start_seconds": 153.22,
+          "end_seconds": 153.84
+        },
+        {
+          "word": "sakhe",
+          "start_seconds": 153.94,
+          "end_seconds": 154.42
+        },
+        {
+          "word": "lemali",
+          "start_seconds": 157.62,
+          "end_seconds": 158.2
+        },
+        {
+          "word": "okubele",
+          "start_seconds": 158.38,
+          "end_seconds": 158.96
+        },
+        {
+          "word": "ikhokelwe",
+          "start_seconds": 159.1,
+          "end_seconds": 159.84
+        },
+        {
+          "word": "esetshenzisiwe",
+          "start_seconds": 163.48,
+          "end_seconds": 164.36
+        },
+        {
+          "word": "ngokuo",
+          "start_seconds": 164.44,
+          "end_seconds": 164.86
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.14
+    },
+    {
+      "start_sample": 2560000,
+      "start_seconds": 160.0,
+      "end_seconds": 185.0,
+      "text": "eseshenzisiwe ngokungovalele ngamaqeni okungagunyaziwe unoma yikuphi abantu basibiduni nabeve enigujubu gaphezu kwevoti",
+      "words": [
+        {
+          "word": "eseshenzisiwe",
+          "start_seconds": 163.48,
+          "end_seconds": 164.36
+        },
+        {
+          "word": "ngokungovalele",
+          "start_seconds": 164.46,
+          "end_seconds": 165.46
+        },
+        {
+          "word": "ngamaqeni",
+          "start_seconds": 165.54,
+          "end_seconds": 166.36
+        },
+        {
+          "word": "okungagunyaziwe",
+          "start_seconds": 170.34,
+          "end_seconds": 171.58
+        },
+        {
+          "word": "unoma",
+          "start_seconds": 172.12,
+          "end_seconds": 172.52
+        },
+        {
+          "word": "yikuphi",
+          "start_seconds": 172.62,
+          "end_seconds": 173.26
+        },
+        {
+          "word": "abantu",
+          "start_seconds": 175.64,
+          "end_seconds": 176.06
+        },
+        {
+          "word": "basibiduni",
+          "start_seconds": 176.12,
+          "end_seconds": 176.92
+        },
+        {
+          "word": "nabeve",
+          "start_seconds": 177.0,
+          "end_seconds": 177.64
+        },
+        {
+          "word": "enigujubu",
+          "start_seconds": 179.6,
+          "end_seconds": 180.6
+        },
+        {
+          "word": "gaphezu",
+          "start_seconds": 181.06,
+          "end_seconds": 181.54
+        },
+        {
+          "word": "kwevoti",
+          "start_seconds": 181.62,
+          "end_seconds": 182.3
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.157
+    },
+    {
+      "start_sample": 2880000,
+      "start_seconds": 180.0,
+      "end_seconds": 205.0,
+      "text": "umjubu ngaphezi kwevothi othola ingeniso lezimandle isikhathi somsuku olulodwa uhlakhawo omuvakene zokukhanyisa ezamakhefe zakulolakayo",
+      "words": [
+        {
+          "word": "umjubu",
+          "start_seconds": 180.04,
+          "end_seconds": 180.6
+        },
+        {
+          "word": "ngaphezi",
+          "start_seconds": 181.04,
+          "end_seconds": 181.54
+        },
+        {
+          "word": "kwevothi",
+          "start_seconds": 181.62,
+          "end_seconds": 182.32
+        },
+        {
+          "word": "othola",
+          "start_seconds": 185.72,
+          "end_seconds": 186.2
+        },
+        {
+          "word": "ingeniso",
+          "start_seconds": 186.4,
+          "end_seconds": 187.08
+        },
+        {
+          "word": "lezimandle",
+          "start_seconds": 187.32,
+          "end_seconds": 188.06
+        },
+        {
+          "word": "isikhathi",
+          "start_seconds": 189.38,
+          "end_seconds": 189.98
+        },
+        {
+          "word": "somsuku",
+          "start_seconds": 190.08,
+          "end_seconds": 190.62
+        },
+        {
+          "word": "olulodwa",
+          "start_seconds": 190.78,
+          "end_seconds": 191.46
+        },
+        {
+          "word": "uhlakhawo",
+          "start_seconds": 193.88,
+          "end_seconds": 194.82
+        },
+        {
+          "word": "omuvakene",
+          "start_seconds": 195.56,
+          "end_seconds": 196.56
+        },
+        {
+          "word": "zokukhanyisa",
+          "start_seconds": 200.52,
+          "end_seconds": 201.38
+        },
+        {
+          "word": "ezamakhefe",
+          "start_seconds": 201.6,
+          "end_seconds": 202.38
+        },
+        {
+          "word": "zakulolakayo",
+          "start_seconds": 202.64,
+          "end_seconds": 203.8
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 3200000,
+      "start_seconds": 200.0,
+      "end_seconds": 225.0,
+      "text": "zokukhanyisa ezamakeke zokulologe lendlu yesishayamgthetho kuzwe lonke eningizimo amerika isikhathi uthule nangokuphingisa efundela",
+      "words": [
+        {
+          "word": "zokukhanyisa",
+          "start_seconds": 200.54,
+          "end_seconds": 201.38
+        },
+        {
+          "word": "ezamakeke",
+          "start_seconds": 201.6,
+          "end_seconds": 202.38
+        },
+        {
+          "word": "zokulologe",
+          "start_seconds": 202.64,
+          "end_seconds": 203.58
+        },
+        {
+          "word": "lendlu",
+          "start_seconds": 208.06,
+          "end_seconds": 208.52
+        },
+        {
+          "word": "yesishayamgthetho",
+          "start_seconds": 208.66,
+          "end_seconds": 209.76
+        },
+        {
+          "word": "kuzwe",
+          "start_seconds": 209.86,
+          "end_seconds": 210.14
+        },
+        {
+          "word": "lonke",
+          "start_seconds": 210.24,
+          "end_seconds": 210.64
+        },
+        {
+          "word": "eningizimo",
+          "start_seconds": 214.98,
+          "end_seconds": 215.7
+        },
+        {
+          "word": "amerika",
+          "start_seconds": 215.86,
+          "end_seconds": 216.34
+        },
+        {
+          "word": "isikhathi",
+          "start_seconds": 217.06,
+          "end_seconds": 217.76
+        },
+        {
+          "word": "uthule",
+          "start_seconds": 220.3,
+          "end_seconds": 220.92
+        },
+        {
+          "word": "nangokuphingisa",
+          "start_seconds": 221.38,
+          "end_seconds": 222.44
+        },
+        {
+          "word": "efundela",
+          "start_seconds": 222.76,
+          "end_seconds": 223.5
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.141
+    },
+    {
+      "start_sample": 3520000,
+      "start_seconds": 220.0,
+      "end_seconds": 245.0,
+      "text": "buthule nangokubhingisa efudela uzothungilelwa isiteshini esamabhulisi kungaqinisekisa ukuthunelwa kwesazizo ukukhosela ngesikhathi isikeno zonke izigaba zibekelwe",
+      "words": [
+        {
+          "word": "buthule",
+          "start_seconds": 220.26,
+          "end_seconds": 220.92
+        },
+        {
+          "word": "nangokubhingisa",
+          "start_seconds": 221.38,
+          "end_seconds": 222.46
+        },
+        {
+          "word": "efudela",
+          "start_seconds": 222.76,
+          "end_seconds": 223.5
+        },
+        {
+          "word": "uzothungilelwa",
+          "start_seconds": 224.84,
+          "end_seconds": 225.7
+        },
+        {
+          "word": "isiteshini",
+          "start_seconds": 225.82,
+          "end_seconds": 226.42
+        },
+        {
+          "word": "esamabhulisi",
+          "start_seconds": 226.48,
+          "end_seconds": 227.4
+        },
+        {
+          "word": "kungaqinisekisa",
+          "start_seconds": 230.84,
+          "end_seconds": 232.2
+        },
+        {
+          "word": "ukuthunelwa",
+          "start_seconds": 232.54,
+          "end_seconds": 233.4
+        },
+        {
+          "word": "kwesazizo",
+          "start_seconds": 233.76,
+          "end_seconds": 234.68
+        },
+        {
+          "word": "ukukhosela",
+          "start_seconds": 238.4,
+          "end_seconds": 239.18
+        },
+        {
+          "word": "ngesikhathi",
+          "start_seconds": 239.26,
+          "end_seconds": 239.96
+        },
+        {
+          "word": "isikeno",
+          "start_seconds": 240.1,
+          "end_seconds": 240.78
+        },
+        {
+          "word": "zonke",
+          "start_seconds": 242.66,
+          "end_seconds": 243.04
+        },
+        {
+          "word": "izigaba",
+          "start_seconds": 243.36,
+          "end_seconds": 243.96
+        },
+        {
+          "word": "zibekelwe",
+          "start_seconds": 244.1,
+          "end_seconds": 244.9
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 3840000,
+      "start_seconds": 240.0,
+      "end_seconds": 265.0,
+      "text": "szonke izidaba zibekenwe cremy awad winnus ukuthi imani kubele zokubena enekwenziwesce soy",
+      "words": [
+        {
+          "word": "szonke",
+          "start_seconds": 240.26,
+          "end_seconds": 243.06
+        },
+        {
+          "word": "izidaba",
+          "start_seconds": 243.36,
+          "end_seconds": 243.96
+        },
+        {
+          "word": "zibekenwe",
+          "start_seconds": 244.1,
+          "end_seconds": 244.92
+        },
+        {
+          "word": "cremy",
+          "start_seconds": 248.18,
+          "end_seconds": 248.52
+        },
+        {
+          "word": "awad",
+          "start_seconds": 248.68,
+          "end_seconds": 249.04
+        },
+        {
+          "word": "winnus",
+          "start_seconds": 249.2,
+          "end_seconds": 249.74
+        },
+        {
+          "word": "ukuthi",
+          "start_seconds": 253.42,
+          "end_seconds": 253.82
+        },
+        {
+          "word": "imani",
+          "start_seconds": 253.94,
+          "end_seconds": 254.38
+        },
+        {
+          "word": "kubele",
+          "start_seconds": 254.48,
+          "end_seconds": 255.02
+        },
+        {
+          "word": "zokubena",
+          "start_seconds": 257.6,
+          "end_seconds": 258.44
+        },
+        {
+          "word": "enekwenziwesce",
+          "start_seconds": 259.1,
+          "end_seconds": 263.9
+        },
+        {
+          "word": "soy",
+          "start_seconds": 264.12,
+          "end_seconds": 264.4
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 4160000,
+      "start_seconds": 260.0,
+      "end_seconds": 285.0,
+      "text": "isiceqo somnyalo kwentele umuntu okemukela uokusungulwa ngalo ngongosha wegatsha eliphethi",
+      "words": [
+        {
+          "word": "isiceqo",
+          "start_seconds": 263.52,
+          "end_seconds": 264.04
+        },
+        {
+          "word": "somnyalo",
+          "start_seconds": 264.12,
+          "end_seconds": 264.6
+        },
+        {
+          "word": "kwentele",
+          "start_seconds": 264.66,
+          "end_seconds": 265.26
+        },
+        {
+          "word": "umuntu",
+          "start_seconds": 268.98,
+          "end_seconds": 269.54
+        },
+        {
+          "word": "okemukela",
+          "start_seconds": 269.8,
+          "end_seconds": 270.54
+        },
+        {
+          "word": "uokusungulwa",
+          "start_seconds": 275.78,
+          "end_seconds": 277.8
+        },
+        {
+          "word": "ngalo",
+          "start_seconds": 278.26,
+          "end_seconds": 278.72
+        },
+        {
+          "word": "ngongosha",
+          "start_seconds": 281.02,
+          "end_seconds": 281.58
+        },
+        {
+          "word": "wegatsha",
+          "start_seconds": 281.68,
+          "end_seconds": 282.14
+        },
+        {
+          "word": "eliphethi",
+          "start_seconds": 282.3,
+          "end_seconds": 282.94
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.141
+    },
+    {
+      "start_sample": 4480000,
+      "start_seconds": 280.0,
+      "end_seconds": 305.0,
+      "text": "qongqosha wegatsha eliphethi ngokwanele imqondo nemisebenzi isimo saanusezentela asindalo ingelo lokuvota",
+      "words": [
+        {
+          "word": "qongqosha",
+          "start_seconds": 281.08,
+          "end_seconds": 281.6
+        },
+        {
+          "word": "wegatsha",
+          "start_seconds": 281.68,
+          "end_seconds": 282.14
+        },
+        {
+          "word": "eliphethi",
+          "start_seconds": 282.32,
+          "end_seconds": 282.96
+        },
+        {
+          "word": "ngokwanele",
+          "start_seconds": 287.0,
+          "end_seconds": 287.76
+        },
+        {
+          "word": "imqondo",
+          "start_seconds": 287.92,
+          "end_seconds": 288.6
+        },
+        {
+          "word": "nemisebenzi",
+          "start_seconds": 288.7,
+          "end_seconds": 289.7
+        },
+        {
+          "word": "isimo",
+          "start_seconds": 292.42,
+          "end_seconds": 292.9
+        },
+        {
+          "word": "saanusezentela",
+          "start_seconds": 293.02,
+          "end_seconds": 294.58
+        },
+        {
+          "word": "asindalo",
+          "start_seconds": 298.34,
+          "end_seconds": 298.96
+        },
+        {
+          "word": "ingelo",
+          "start_seconds": 299.14,
+          "end_seconds": 299.68
+        },
+        {
+          "word": "lokuvota",
+          "start_seconds": 299.76,
+          "end_seconds": 300.44
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.141
+    },
+    {
+      "start_sample": 4800000,
+      "start_seconds": 300.0,
+      "end_seconds": 325.0,
+      "text": "kutshengisa ikholo ehihi lokudlelwane nezakhabezi zasedikizini",
+      "words": [
+        {
+          "word": "kutshengisa",
+          "start_seconds": 304.78,
+          "end_seconds": 305.58
+        },
+        {
+          "word": "ikholo",
+          "start_seconds": 305.82,
+          "end_seconds": 306.26
+        },
+        {
+          "word": "ehihi",
+          "start_seconds": 306.38,
+          "end_seconds": 306.9
+        },
+        {
+          "word": "lokudlelwane",
+          "start_seconds": 310.78,
+          "end_seconds": 311.82
+        },
+        {
+          "word": "nezakhabezi",
+          "start_seconds": 312.08,
+          "end_seconds": 313.0
+        },
+        {
+          "word": "zasedikizini",
+          "start_seconds": 313.16,
+          "end_seconds": 314.18
+        }
+      ],
+      "keyword_candidates": [
+        {
+          "word_index": 1,
+          "word": "ikholo",
+          "similarity": 0.667,
+          "start_seconds": 305.82,
+          "following_words": [
+            "ehihi",
+            "lokudlelwane",
+            "nezakhabezi"
+          ]
+        }
+      ],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 5120000,
+      "start_seconds": 320.0,
+      "end_seconds": 345.0,
+      "text": "amakama ezindawo awela ilandela isakhiwi esisendimeni ukuhlela ukukhiqiza indaba izokwenza kuyalelo ukuthi",
+      "words": [
+        {
+          "word": "amakama",
+          "start_seconds": 325.96,
+          "end_seconds": 326.64
+        },
+        {
+          "word": "ezindawo",
+          "start_seconds": 326.98,
+          "end_seconds": 327.6
+        },
+        {
+          "word": "awela",
+          "start_seconds": 327.84,
+          "end_seconds": 328.36
+        },
+        {
+          "word": "ilandela",
+          "start_seconds": 332.08,
+          "end_seconds": 332.6
+        },
+        {
+          "word": "isakhiwi",
+          "start_seconds": 332.72,
+          "end_seconds": 333.2
+        },
+        {
+          "word": "esisendimeni",
+          "start_seconds": 333.3,
+          "end_seconds": 334.2
+        },
+        {
+          "word": "ukuhlela",
+          "start_seconds": 336.46,
+          "end_seconds": 337.04
+        },
+        {
+          "word": "ukukhiqiza",
+          "start_seconds": 337.12,
+          "end_seconds": 337.82
+        },
+        {
+          "word": "indaba",
+          "start_seconds": 338.0,
+          "end_seconds": 338.44
+        },
+        {
+          "word": "izokwenza",
+          "start_seconds": 340.28,
+          "end_seconds": 340.98
+        },
+        {
+          "word": "kuyalelo",
+          "start_seconds": 341.22,
+          "end_seconds": 341.78
+        },
+        {
+          "word": "ukuthi",
+          "start_seconds": 341.9,
+          "end_seconds": 342.36
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 5440000,
+      "start_seconds": 340.0,
+      "end_seconds": 365.0,
+      "text": "izokwenza umnyalelo okuthi nomnakokele ladonuva kokunya kujengisa ikholo elihli lesi siphansla siinkeze ebese ngkufakela lihumusi kulimi lwesibili lokwengeza",
+      "words": [
+        {
+          "word": "izokwenza",
+          "start_seconds": 340.3,
+          "end_seconds": 340.98
+        },
+        {
+          "word": "umnyalelo",
+          "start_seconds": 341.16,
+          "end_seconds": 341.78
+        },
+        {
+          "word": "okuthi",
+          "start_seconds": 341.9,
+          "end_seconds": 342.38
+        },
+        {
+          "word": "nomnakokele",
+          "start_seconds": 344.2,
+          "end_seconds": 345.14
+        },
+        {
+          "word": "ladonuva",
+          "start_seconds": 345.24,
+          "end_seconds": 345.92
+        },
+        {
+          "word": "kokunya",
+          "start_seconds": 346.04,
+          "end_seconds": 346.62
+        },
+        {
+          "word": "kujengisa",
+          "start_seconds": 348.14,
+          "end_seconds": 348.86
+        },
+        {
+          "word": "ikholo",
+          "start_seconds": 349.04,
+          "end_seconds": 349.5
+        },
+        {
+          "word": "elihli",
+          "start_seconds": 349.66,
+          "end_seconds": 350.18
+        },
+        {
+          "word": "lesi",
+          "start_seconds": 352.46,
+          "end_seconds": 352.78
+        },
+        {
+          "word": "siphansla",
+          "start_seconds": 352.88,
+          "end_seconds": 353.5
+        },
+        {
+          "word": "siinkeze",
+          "start_seconds": 353.76,
+          "end_seconds": 354.62
+        },
+        {
+          "word": "ebese",
+          "start_seconds": 357.56,
+          "end_seconds": 358.0
+        },
+        {
+          "word": "ngkufakela",
+          "start_seconds": 358.04,
+          "end_seconds": 358.84
+        },
+        {
+          "word": "lihumusi",
+          "start_seconds": 359.38,
+          "end_seconds": 360.12
+        },
+        {
+          "word": "kulimi",
+          "start_seconds": 361.78,
+          "end_seconds": 362.42
+        },
+        {
+          "word": "lwesibili",
+          "start_seconds": 362.52,
+          "end_seconds": 363.26
+        },
+        {
+          "word": "lokwengeza",
+          "start_seconds": 363.54,
+          "end_seconds": 364.32
+        }
+      ],
+      "keyword_candidates": [
+        {
+          "word_index": 7,
+          "word": "ikholo",
+          "similarity": 0.667,
+          "start_seconds": 349.04,
+          "following_words": [
+            "elihli",
+            "lesi",
+            "siphansla"
+          ]
+        }
+      ],
+      "processing_seconds": 0.141
+    },
+    {
+      "start_sample": 5760000,
+      "start_seconds": 360.0,
+      "end_seconds": 385.0,
+      "text": "kulimi wesibili lokwengeza ubufakazi bokuthi ikopi umenzi wesicelo ngodinga lombhalu aluluhle kahle",
+      "words": [
+        {
+          "word": "kulimi",
+          "start_seconds": 361.78,
+          "end_seconds": 362.42
+        },
+        {
+          "word": "wesibili",
+          "start_seconds": 362.56,
+          "end_seconds": 363.26
+        },
+        {
+          "word": "lokwengeza",
+          "start_seconds": 363.54,
+          "end_seconds": 364.32
+        },
+        {
+          "word": "ubufakazi",
+          "start_seconds": 367.4,
+          "end_seconds": 368.2
+        },
+        {
+          "word": "bokuthi",
+          "start_seconds": 368.36,
+          "end_seconds": 368.94
+        },
+        {
+          "word": "ikopi",
+          "start_seconds": 369.3,
+          "end_seconds": 369.86
+        },
+        {
+          "word": "umenzi",
+          "start_seconds": 373.94,
+          "end_seconds": 374.46
+        },
+        {
+          "word": "wesicelo",
+          "start_seconds": 374.54,
+          "end_seconds": 375.18
+        },
+        {
+          "word": "ngodinga",
+          "start_seconds": 375.26,
+          "end_seconds": 375.9
+        },
+        {
+          "word": "lombhalu",
+          "start_seconds": 379.2,
+          "end_seconds": 380.0
+        },
+        {
+          "word": "aluluhle",
+          "start_seconds": 380.38,
+          "end_seconds": 380.98
+        },
+        {
+          "word": "kahle",
+          "start_seconds": 381.1,
+          "end_seconds": 381.54
+        }
+      ],
+      "keyword_candidates": [
+        {
+          "word_index": 5,
+          "word": "ikopi",
+          "similarity": 0.727,
+          "start_seconds": 369.3,
+          "following_words": [
+            "umenzi",
+            "wesicelo",
+            "ngodinga"
+          ]
+        }
+      ],
+      "processing_seconds": 0.14
+    },
+    {
+      "start_sample": 6080000,
+      "start_seconds": 380.0,
+      "end_seconds": 405.0,
+      "text": "he khaathungilwa odwa angahambi ngetha impendulo yokuyiyona isaziso sokushintsha kominikasi kwizindawo zolulunisa",
+      "words": [
+        {
+          "word": "he",
+          "start_seconds": 380.88,
+          "end_seconds": 381.0
+        },
+        {
+          "word": "khaathungilwa",
+          "start_seconds": 381.1,
+          "end_seconds": 386.02
+        },
+        {
+          "word": "odwa",
+          "start_seconds": 386.24,
+          "end_seconds": 386.54
+        },
+        {
+          "word": "angahambi",
+          "start_seconds": 386.88,
+          "end_seconds": 387.68
+        },
+        {
+          "word": "ngetha",
+          "start_seconds": 391.22,
+          "end_seconds": 391.7
+        },
+        {
+          "word": "impendulo",
+          "start_seconds": 391.82,
+          "end_seconds": 392.5
+        },
+        {
+          "word": "yokuyiyona",
+          "start_seconds": 392.68,
+          "end_seconds": 393.56
+        },
+        {
+          "word": "isaziso",
+          "start_seconds": 397.3,
+          "end_seconds": 397.94
+        },
+        {
+          "word": "sokushintsha",
+          "start_seconds": 398.02,
+          "end_seconds": 398.7
+        },
+        {
+          "word": "kominikasi",
+          "start_seconds": 398.8,
+          "end_seconds": 399.68
+        },
+        {
+          "word": "kwizindawo",
+          "start_seconds": 403.36,
+          "end_seconds": 404.06
+        },
+        {
+          "word": "zolulunisa",
+          "start_seconds": 404.22,
+          "end_seconds": 404.96
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.157
+    },
+    {
+      "start_sample": 6400000,
+      "start_seconds": 400.0,
+      "end_seconds": 425.0,
+      "text": "kwizindawo zolunungisela imsuba zethi ithi lidizi yokula ufundi zokwazi kulanela ngokhwisikhashana enikeza abantu imali nusi",
+      "words": [
+        {
+          "word": "kwizindawo",
+          "start_seconds": 403.36,
+          "end_seconds": 404.08
+        },
+        {
+          "word": "zolunungisela",
+          "start_seconds": 404.22,
+          "end_seconds": 405.1
+        },
+        {
+          "word": "imsuba",
+          "start_seconds": 405.24,
+          "end_seconds": 405.66
+        },
+        {
+          "word": "zethi",
+          "start_seconds": 408.56,
+          "end_seconds": 408.92
+        },
+        {
+          "word": "ithi",
+          "start_seconds": 409.12,
+          "end_seconds": 409.3
+        },
+        {
+          "word": "lidizi",
+          "start_seconds": 409.36,
+          "end_seconds": 409.8
+        },
+        {
+          "word": "yokula",
+          "start_seconds": 409.9,
+          "end_seconds": 410.42
+        },
+        {
+          "word": "ufundi",
+          "start_seconds": 414.68,
+          "end_seconds": 415.3
+        },
+        {
+          "word": "zokwazi",
+          "start_seconds": 415.7,
+          "end_seconds": 416.28
+        },
+        {
+          "word": "kulanela",
+          "start_seconds": 416.78,
+          "end_seconds": 417.52
+        },
+        {
+          "word": "ngokhwisikhashana",
+          "start_seconds": 420.02,
+          "end_seconds": 421.06
+        },
+        {
+          "word": "enikeza",
+          "start_seconds": 421.2,
+          "end_seconds": 421.74
+        },
+        {
+          "word": "abantu",
+          "start_seconds": 421.9,
+          "end_seconds": 422.38
+        },
+        {
+          "word": "imali",
+          "start_seconds": 423.8,
+          "end_seconds": 424.32
+        },
+        {
+          "word": "nusi",
+          "start_seconds": 424.5,
+          "end_seconds": 424.86
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 6720000,
+      "start_seconds": 420.0,
+      "end_seconds": 445.0,
+      "text": "gokwesikhashana enikezo abantu imani yosioe irisidi lokwabukela isicelowentela uzosebenzise ikhudi udwazo isicelo semvuu yokuba",
+      "words": [
+        {
+          "word": "gokwesikhashana",
+          "start_seconds": 420.1,
+          "end_seconds": 421.06
+        },
+        {
+          "word": "enikezo",
+          "start_seconds": 421.2,
+          "end_seconds": 421.74
+        },
+        {
+          "word": "abantu",
+          "start_seconds": 421.9,
+          "end_seconds": 422.4
+        },
+        {
+          "word": "imani",
+          "start_seconds": 423.8,
+          "end_seconds": 424.34
+        },
+        {
+          "word": "yosioe",
+          "start_seconds": 424.54,
+          "end_seconds": 426.12
+        },
+        {
+          "word": "irisidi",
+          "start_seconds": 430.26,
+          "end_seconds": 430.96
+        },
+        {
+          "word": "lokwabukela",
+          "start_seconds": 431.06,
+          "end_seconds": 431.84
+        },
+        {
+          "word": "isicelowentela",
+          "start_seconds": 432.0,
+          "end_seconds": 437.26
+        },
+        {
+          "word": "uzosebenzise",
+          "start_seconds": 437.56,
+          "end_seconds": 438.46
+        },
+        {
+          "word": "ikhudi",
+          "start_seconds": 438.72,
+          "end_seconds": 439.22
+        },
+        {
+          "word": "udwazo",
+          "start_seconds": 439.88,
+          "end_seconds": 440.44
+        },
+        {
+          "word": "isicelo",
+          "start_seconds": 441.78,
+          "end_seconds": 442.5
+        },
+        {
+          "word": "semvuu",
+          "start_seconds": 442.6,
+          "end_seconds": 443.28
+        },
+        {
+          "word": "yokuba",
+          "start_seconds": 443.74,
+          "end_seconds": 444.24
+        }
+      ],
+      "keyword_candidates": [
+        {
+          "word_index": 9,
+          "word": "ikhudi",
+          "similarity": 0.833,
+          "start_seconds": 438.72,
+          "following_words": [
+            "udwazo",
+            "isicelo",
+            "semvuu"
+          ]
+        }
+      ],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 7040000,
+      "start_seconds": 440.0,
+      "end_seconds": 465.0,
+      "text": "aisicelo semvu yokuba inkantolo izobeka kokuba ephinenenesikhathi womkhandli kazwe nonke wesifundonso sibekane nodaba",
+      "words": [
+        {
+          "word": "aisicelo",
+          "start_seconds": 440.32,
+          "end_seconds": 442.5
+        },
+        {
+          "word": "semvu",
+          "start_seconds": 442.62,
+          "end_seconds": 443.02
+        },
+        {
+          "word": "yokuba",
+          "start_seconds": 443.72,
+          "end_seconds": 444.24
+        },
+        {
+          "word": "inkantolo",
+          "start_seconds": 447.04,
+          "end_seconds": 447.78
+        },
+        {
+          "word": "izobeka",
+          "start_seconds": 448.08,
+          "end_seconds": 448.7
+        },
+        {
+          "word": "kokuba",
+          "start_seconds": 451.8,
+          "end_seconds": 452.32
+        },
+        {
+          "word": "ephinenenesikhathi",
+          "start_seconds": 452.6,
+          "end_seconds": 454.18
+        },
+        {
+          "word": "womkhandli",
+          "start_seconds": 457.64,
+          "end_seconds": 458.38
+        },
+        {
+          "word": "kazwe",
+          "start_seconds": 458.48,
+          "end_seconds": 458.8
+        },
+        {
+          "word": "nonke",
+          "start_seconds": 458.92,
+          "end_seconds": 459.24
+        },
+        {
+          "word": "wesifundonso",
+          "start_seconds": 459.34,
+          "end_seconds": 460.28
+        },
+        {
+          "word": "sibekane",
+          "start_seconds": 462.9,
+          "end_seconds": 463.8
+        },
+        {
+          "word": "nodaba",
+          "start_seconds": 464.28,
+          "end_seconds": 464.9
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 7360000,
+      "start_seconds": 460.0,
+      "end_seconds": 485.0,
+      "text": "sibekane lodaba nunkomele enezinto ezibunjwa abantuka njengenyathelo lokuqala lokudlelwane sodoudela ezilwane",
+      "words": [
+        {
+          "word": "sibekane",
+          "start_seconds": 462.9,
+          "end_seconds": 463.8
+        },
+        {
+          "word": "lodaba",
+          "start_seconds": 464.3,
+          "end_seconds": 464.94
+        },
+        {
+          "word": "nunkomele",
+          "start_seconds": 465.28,
+          "end_seconds": 466.16
+        },
+        {
+          "word": "enezinto",
+          "start_seconds": 468.9,
+          "end_seconds": 469.58
+        },
+        {
+          "word": "ezibunjwa",
+          "start_seconds": 469.72,
+          "end_seconds": 470.32
+        },
+        {
+          "word": "abantuka",
+          "start_seconds": 470.46,
+          "end_seconds": 471.04
+        },
+        {
+          "word": "njengenyathelo",
+          "start_seconds": 475.44,
+          "end_seconds": 476.44
+        },
+        {
+          "word": "lokuqala",
+          "start_seconds": 476.52,
+          "end_seconds": 477.04
+        },
+        {
+          "word": "lokudlelwane",
+          "start_seconds": 477.1,
+          "end_seconds": 478.0
+        },
+        {
+          "word": "sodoudela",
+          "start_seconds": 482.6,
+          "end_seconds": 483.6
+        },
+        {
+          "word": "ezilwane",
+          "start_seconds": 484.0,
+          "end_seconds": 484.74
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.141
+    },
+    {
+      "start_sample": 7680000,
+      "start_seconds": 480.0,
+      "end_seconds": 505.0,
+      "text": "sodo udela ezilwane solawuu loluhlelo lwezifundo umfudhi uzokwazi kusebenzisa uhluzela umfo lokufaka",
+      "words": [
+        {
+          "word": "sodo",
+          "start_seconds": 482.6,
+          "end_seconds": 483.0
+        },
+        {
+          "word": "udela",
+          "start_seconds": 483.14,
+          "end_seconds": 483.62
+        },
+        {
+          "word": "ezilwane",
+          "start_seconds": 484.02,
+          "end_seconds": 484.74
+        },
+        {
+          "word": "solawuu",
+          "start_seconds": 485.24,
+          "end_seconds": 485.98
+        },
+        {
+          "word": "loluhlelo",
+          "start_seconds": 489.86,
+          "end_seconds": 490.64
+        },
+        {
+          "word": "lwezifundo",
+          "start_seconds": 490.74,
+          "end_seconds": 491.56
+        },
+        {
+          "word": "umfudhi",
+          "start_seconds": 493.1,
+          "end_seconds": 493.8
+        },
+        {
+          "word": "uzokwazi",
+          "start_seconds": 494.08,
+          "end_seconds": 494.7
+        },
+        {
+          "word": "kusebenzisa",
+          "start_seconds": 494.96,
+          "end_seconds": 495.8
+        },
+        {
+          "word": "uhluzela",
+          "start_seconds": 499.12,
+          "end_seconds": 499.72
+        },
+        {
+          "word": "umfo",
+          "start_seconds": 499.9,
+          "end_seconds": 500.16
+        },
+        {
+          "word": "lokufaka",
+          "start_seconds": 500.48,
+          "end_seconds": 501.18
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.14
+    },
+    {
+      "start_sample": 8000000,
+      "start_seconds": 500.0,
+      "end_seconds": 525.0,
+      "text": "okufaka uzothubela isicelo sabo elungweni lomkhana opot esibekiwe salenkodo",
+      "words": [
+        {
+          "word": "okufaka",
+          "start_seconds": 500.58,
+          "end_seconds": 501.18
+        },
+        {
+          "word": "uzothubela",
+          "start_seconds": 506.16,
+          "end_seconds": 506.98
+        },
+        {
+          "word": "isicelo",
+          "start_seconds": 507.22,
+          "end_seconds": 507.72
+        },
+        {
+          "word": "sabo",
+          "start_seconds": 507.82,
+          "end_seconds": 508.22
+        },
+        {
+          "word": "elungweni",
+          "start_seconds": 513.38,
+          "end_seconds": 514.18
+        },
+        {
+          "word": "lomkhana",
+          "start_seconds": 514.44,
+          "end_seconds": 515.1
+        },
+        {
+          "word": "opot",
+          "start_seconds": 515.36,
+          "end_seconds": 515.82
+        },
+        {
+          "word": "esibekiwe",
+          "start_seconds": 518.98,
+          "end_seconds": 520.0
+        },
+        {
+          "word": "salenkodo",
+          "start_seconds": 520.4,
+          "end_seconds": 521.3
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.14
+    },
+    {
+      "start_sample": 8320000,
+      "start_seconds": 520.0,
+      "end_seconds": 545.0,
+      "text": "salinkot yaseningizimu afrika yalahleka umatshi uzobuyekeza amadokubedi ilayicense yokushayela ukuysikhashana ithekisi elinesakhiwo esihla",
+      "words": [
+        {
+          "word": "salinkot",
+          "start_seconds": 520.44,
+          "end_seconds": 521.2
+        },
+        {
+          "word": "yaseningizimu",
+          "start_seconds": 524.88,
+          "end_seconds": 526.06
+        },
+        {
+          "word": "afrika",
+          "start_seconds": 526.34,
+          "end_seconds": 526.82
+        },
+        {
+          "word": "yalahleka",
+          "start_seconds": 526.96,
+          "end_seconds": 527.78
+        },
+        {
+          "word": "umatshi",
+          "start_seconds": 530.06,
+          "end_seconds": 530.68
+        },
+        {
+          "word": "uzobuyekeza",
+          "start_seconds": 531.08,
+          "end_seconds": 532.02
+        },
+        {
+          "word": "amadokubedi",
+          "start_seconds": 532.3,
+          "end_seconds": 533.3
+        },
+        {
+          "word": "ilayicense",
+          "start_seconds": 536.62,
+          "end_seconds": 537.38
+        },
+        {
+          "word": "yokushayela",
+          "start_seconds": 537.44,
+          "end_seconds": 538.12
+        },
+        {
+          "word": "ukuysikhashana",
+          "start_seconds": 538.22,
+          "end_seconds": 539.18
+        },
+        {
+          "word": "ithekisi",
+          "start_seconds": 542.5,
+          "end_seconds": 543.22
+        },
+        {
+          "word": "elinesakhiwo",
+          "start_seconds": 543.36,
+          "end_seconds": 544.24
+        },
+        {
+          "word": "esihla",
+          "start_seconds": 544.48,
+          "end_seconds": 544.94
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.141
+    },
+    {
+      "start_sample": 8640000,
+      "start_seconds": 540.0,
+      "end_seconds": 565.0,
+      "text": "ithekisi nelinesakhiwo esihla inu ibonakano sigathu ngobanye abangenza esiceli yokuhlala lomphela esebenzayo",
+      "words": [
+        {
+          "word": "ithekisi",
+          "start_seconds": 542.5,
+          "end_seconds": 543.24
+        },
+        {
+          "word": "nelinesakhiwo",
+          "start_seconds": 543.3,
+          "end_seconds": 544.24
+        },
+        {
+          "word": "esihla",
+          "start_seconds": 544.48,
+          "end_seconds": 545.02
+        },
+        {
+          "word": "inu",
+          "start_seconds": 549.4,
+          "end_seconds": 549.72
+        },
+        {
+          "word": "ibonakano",
+          "start_seconds": 550.14,
+          "end_seconds": 550.9
+        },
+        {
+          "word": "sigathu",
+          "start_seconds": 550.98,
+          "end_seconds": 551.68
+        },
+        {
+          "word": "ngobanye",
+          "start_seconds": 554.84,
+          "end_seconds": 555.42
+        },
+        {
+          "word": "abangenza",
+          "start_seconds": 555.56,
+          "end_seconds": 556.16
+        },
+        {
+          "word": "esiceli",
+          "start_seconds": 556.3,
+          "end_seconds": 556.96
+        },
+        {
+          "word": "yokuhlala",
+          "start_seconds": 560.72,
+          "end_seconds": 561.5
+        },
+        {
+          "word": "lomphela",
+          "start_seconds": 561.76,
+          "end_seconds": 562.36
+        },
+        {
+          "word": "esebenzayo",
+          "start_seconds": 562.54,
+          "end_seconds": 563.42
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.141
+    },
+    {
+      "start_sample": 8960000,
+      "start_seconds": 560.0,
+      "end_seconds": 585.0,
+      "text": "yokuhlala lomphela esebenzayo lwendluucoyelwa umpeka nizizathu zokothinanf",
+      "words": [
+        {
+          "word": "yokuhlala",
+          "start_seconds": 560.72,
+          "end_seconds": 561.5
+        },
+        {
+          "word": "lomphela",
+          "start_seconds": 561.76,
+          "end_seconds": 562.36
+        },
+        {
+          "word": "esebenzayo",
+          "start_seconds": 562.54,
+          "end_seconds": 563.4
+        },
+        {
+          "word": "lwendluucoyelwa",
+          "start_seconds": 566.26,
+          "end_seconds": 568.22
+        },
+        {
+          "word": "umpeka",
+          "start_seconds": 570.6,
+          "end_seconds": 571.12
+        },
+        {
+          "word": "nizizathu",
+          "start_seconds": 571.28,
+          "end_seconds": 572.06
+        },
+        {
+          "word": "zokothinanf",
+          "start_seconds": 572.16,
+          "end_seconds": 580.42
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 9280000,
+      "start_seconds": 580.0,
+      "end_seconds": 605.0,
+      "text": "athulakala imahovisi aphethe ngakhona ofuna ukwamkenweafana nalawo obuqala abhali incwadile",
+      "words": [
+        {
+          "word": "athulakala",
+          "start_seconds": 586.36,
+          "end_seconds": 587.08
+        },
+        {
+          "word": "imahovisi",
+          "start_seconds": 587.3,
+          "end_seconds": 588.08
+        },
+        {
+          "word": "aphethe",
+          "start_seconds": 588.26,
+          "end_seconds": 588.82
+        },
+        {
+          "word": "ngakhona",
+          "start_seconds": 591.46,
+          "end_seconds": 592.04
+        },
+        {
+          "word": "ofuna",
+          "start_seconds": 592.24,
+          "end_seconds": 592.72
+        },
+        {
+          "word": "ukwamkenweafana",
+          "start_seconds": 592.86,
+          "end_seconds": 599.14
+        },
+        {
+          "word": "nalawo",
+          "start_seconds": 599.26,
+          "end_seconds": 599.74
+        },
+        {
+          "word": "obuqala",
+          "start_seconds": 599.96,
+          "end_seconds": 600.6
+        },
+        {
+          "word": "abhali",
+          "start_seconds": 603.68,
+          "end_seconds": 604.18
+        },
+        {
+          "word": "incwadile",
+          "start_seconds": 604.36,
+          "end_seconds": 604.94
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.156
+    },
+    {
+      "start_sample": 9600000,
+      "start_seconds": 600.0,
+      "end_seconds": 625.0,
+      "text": "abhali ingcwadi ecela yigcwalise ifonu yesiqu ngalo lolosu umbenzi kwesicelu eneninyaka",
+      "words": [
+        {
+          "word": "abhali",
+          "start_seconds": 603.68,
+          "end_seconds": 604.2
+        },
+        {
+          "word": "ingcwadi",
+          "start_seconds": 604.36,
+          "end_seconds": 604.84
+        },
+        {
+          "word": "ecela",
+          "start_seconds": 605.02,
+          "end_seconds": 605.5
+        },
+        {
+          "word": "yigcwalise",
+          "start_seconds": 608.58,
+          "end_seconds": 609.38
+        },
+        {
+          "word": "ifonu",
+          "start_seconds": 609.56,
+          "end_seconds": 610.1
+        },
+        {
+          "word": "yesiqu",
+          "start_seconds": 610.18,
+          "end_seconds": 610.72
+        },
+        {
+          "word": "ngalo",
+          "start_seconds": 614.66,
+          "end_seconds": 615.12
+        },
+        {
+          "word": "lolosu",
+          "start_seconds": 615.24,
+          "end_seconds": 615.78
+        },
+        {
+          "word": "umbenzi",
+          "start_seconds": 619.62,
+          "end_seconds": 620.0
+        },
+        {
+          "word": "kwesicelu",
+          "start_seconds": 620.06,
+          "end_seconds": 620.64
+        },
+        {
+          "word": "eneninyaka",
+          "start_seconds": 620.86,
+          "end_seconds": 621.62
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.157
+    },
+    {
+      "start_sample": 9920000,
+      "start_seconds": 620.0,
+      "end_seconds": 630.0,
+      "text": "cninyasithathweyiiningi lamaluka",
+      "words": [
+        {
+          "word": "cninyasithathweyiiningi",
+          "start_seconds": 620.38,
+          "end_seconds": 626.06
+        },
+        {
+          "word": "lamaluka",
+          "start_seconds": 626.12,
+          "end_seconds": 626.8
+        }
+      ],
+      "keyword_candidates": [],
+      "processing_seconds": 0.187
+    }
+  ]
+}

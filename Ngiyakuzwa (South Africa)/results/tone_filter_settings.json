@@ -1,0 +1,169 @@
+{
+  "source": "candidate_0431_original.wav",
+  "method": "Zero-phase IIR notch filters on narrow PSD peaks",
+  "minimum_prominence_db": 20,
+  "maximum_peak_width_hz": 2.5,
+  "notch_width_hz": 4,
+  "tones": [
+    {
+      "frequency_hz": 217.5293,
+      "prominence_db": 52.547,
+      "peak_width_hz": 0.7806
+    },
+    {
+      "frequency_hz": 233.1543,
+      "prominence_db": 26.008,
+      "peak_width_hz": 0.4169
+    },
+    {
+      "frequency_hz": 266.8457,
+      "prominence_db": 20.896,
+      "peak_width_hz": 0.7624
+    },
+    {
+      "frequency_hz": 434.8145,
+      "prominence_db": 31.09,
+      "peak_width_hz": 0.4877
+    },
+    {
+      "frequency_hz": 466.0645,
+      "prominence_db": 68.099,
+      "peak_width_hz": 0.5423
+    },
+    {
+      "frequency_hz": 652.3438,
+      "prominence_db": 33.747,
+      "peak_width_hz": 0.566
+    },
+    {
+      "frequency_hz": 699.2188,
+      "prominence_db": 54.269,
+      "peak_width_hz": 0.4398
+    },
+    {
+      "frequency_hz": 869.6289,
+      "prominence_db": 29.62,
+      "peak_width_hz": 0.6642
+    },
+    {
+      "frequency_hz": 932.373,
+      "prominence_db": 41.429,
+      "peak_width_hz": 0.9768
+    },
+    {
+      "frequency_hz": 1090.5762,
+      "prominence_db": 31.485,
+      "peak_width_hz": 0.9633
+    },
+    {
+      "frequency_hz": 1165.5273,
+      "prominence_db": 37.65,
+      "peak_width_hz": 1.1563
+    },
+    {
+      "frequency_hz": 1303.9551,
+      "prominence_db": 34.736,
+      "peak_width_hz": 0.4559
+    },
+    {
+      "frequency_hz": 1398.4375,
+      "prominence_db": 28.297,
+      "peak_width_hz": 0.8854
+    },
+    {
+      "frequency_hz": 1522.7051,
+      "prominence_db": 39.493,
+      "peak_width_hz": 0.629
+    },
+    {
+      "frequency_hz": 1631.1035,
+      "prominence_db": 24.254,
+      "peak_width_hz": 1.5366
+    },
+    {
+      "frequency_hz": 1744.1406,
+      "prominence_db": 39.97,
+      "peak_width_hz": 0.9082
+    },
+    {
+      "frequency_hz": 1863.0371,
+      "prominence_db": 28.549,
+      "peak_width_hz": 0.8549
+    },
+    {
+      "frequency_hz": 1957.5195,
+      "prominence_db": 43.723,
+      "peak_width_hz": 0.6468
+    },
+    {
+      "frequency_hz": 2095.7031,
+      "prominence_db": 28.31,
+      "peak_width_hz": 0.6
+    },
+    {
+      "frequency_hz": 2180.4199,
+      "prominence_db": 35.028,
+      "peak_width_hz": 0.7653
+    },
+    {
+      "frequency_hz": 2329.834,
+      "prominence_db": 22.138,
+      "peak_width_hz": 0.5064
+    },
+    {
+      "frequency_hz": 2398.4375,
+      "prominence_db": 35.994,
+      "peak_width_hz": 0.931
+    },
+    {
+      "frequency_hz": 2562.9883,
+      "prominence_db": 27.367,
+      "peak_width_hz": 0.7783
+    },
+    {
+      "frequency_hz": 2610.5957,
+      "prominence_db": 28.421,
+      "peak_width_hz": 0.7044
+    },
+    {
+      "frequency_hz": 2834.7168,
+      "prominence_db": 37.26,
+      "peak_width_hz": 1.0335
+    },
+    {
+      "frequency_hz": 3052.4902,
+      "prominence_db": 33.326,
+      "peak_width_hz": 1.3907
+    },
+    {
+      "frequency_hz": 3262.9395,
+      "prominence_db": 32.529,
+      "peak_width_hz": 0.8124
+    },
+    {
+      "frequency_hz": 3480.4688,
+      "prominence_db": 25.543,
+      "peak_width_hz": 1.0128
+    },
+    {
+      "frequency_hz": 3710.4492,
+      "prominence_db": 31.331,
+      "peak_width_hz": 0.8935
+    },
+    {
+      "frequency_hz": 3928.4668,
+      "prominence_db": 29.332,
+      "peak_width_hz": 0.8109
+    },
+    {
+      "frequency_hz": 4142.5781,
+      "prominence_db": 20.777,
+      "peak_width_hz": 1.4341
+    },
+    {
+      "frequency_hz": 4350.5859,
+      "prominence_db": 26.398,
+      "peak_width_hz": 0.5446
+    }
+  ]
+}
