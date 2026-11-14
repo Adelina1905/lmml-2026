@@ -1,0 +1,50 @@
+raw rows: 838
+raw distinct town spellings: 650
+
+Naive group-by on raw log (top 8):
+Orivesi        44
+Helsinki       31
+Imatra         26
+Lieksa         24
+Tornio         22
+Eura           22
+Nokia          19
+Valkeakoski    15
+
+exact duplicate rows removed: 32
+self-loops after cleaning (A->A) removed: 0
+
+log entries after cleaning: 806
+towns: 116  connections: 448
+
+Top 12 towns by distinct connections:
+helsinki       39
+orivesi        38
+tornio         33
+lieksa         29
+imatra         27
+nokia          23
+eura           22
+narpio         21
+kemionsaari    19
+inari          14
+kuopio         14
+rauma          13
+
+top-8 degrees all distinct: True
+
+FLAG: SIGMOID_HOTLINE
+raw spellings mapped: 650 -> 116 towns
+
+Top 10: log appearances vs distinct connections
+             log_appearances  distinct_connections
+helsinki                  78                    39
+orivesi                   66                    38
+tornio                    55                    33
+lieksa                    50                    29
+imatra                    52                    27
+nokia                     45                    23
+eura                      37                    22
+narpio                    41                    21
+kemionsaari               31                    19
+inari                     22                    14
