@@ -5,8 +5,9 @@ Usage:
 
 * input.csv   - CSV with columns source_table, record_id, first_name, last_name, address.
                 Default: the first "*input*.csv" found in the current folder, else data/train-input.csv.
-* output.json - where to write {"matches": [[id1, id2], ...]}. Default: output.json
-                in the current folder.
+* output.json - where to write {"matches": [[id1, id2], ...]}. Default: the input file name
+                with "input" replaced by "output" and .csv by .json, in the current folder
+                (test-input.csv -> test-output.json); output.json if the name has no "input".
 
 The JSON is also printed to stdout; progress messages go to stderr.
 Only the Python standard library is used.
@@ -248,7 +249,13 @@ def default_paths(argv):
     if len(argv) > 2:
         out = argv[2]
     else:
-        out = "output.json"
+        base = os.path.basename(inp)
+        if "input" in base:
+            out = os.path.splitext(base.replace("input", "output"))[0] + ".json"
+        else:
+            out = "output.json"
+        if os.path.abspath(out) == os.path.abspath(inp):
+            out = "output.json"
     return inp, out
 
 
