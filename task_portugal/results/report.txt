@@ -1,0 +1,51 @@
+Rows: 3543, columns: 17, missing values: 0
+
+=== 1. Overall success rate (pooled) ===
+  control  : 0.2704  (27.04%)  n=1653
+  treatment: 0.3095  (30.95%)  n=1890
+  -> treatment ahead by +3.91 percentage points
+
+=== 2. Screening every candidate column ===
+  soil_depth_cm            full_reversal=False | numeric, natural gap(s) [(70.0, 110.0)] | control wins 0/2 groups
+  soil_depth_cm            full_reversal=False | numeric, any single threshold (scan of 181 cut points) -> reversing cuts: []
+  trellis_system           full_reversal=False | categorical (own levels) | control wins 0/3 groups
+  vineyard_age_group       full_reversal=False | categorical (own levels) | control wins 0/3 groups
+  sun_hours_july           full_reversal=False | numeric, natural gap(s) [(250.0, 267.0), (422.0, 441.0)] | control wins 0/1 groups
+  sun_hours_july           full_reversal=False | numeric, any single threshold (scan of 181 cut points) -> reversing cuts: []
+  vine_density_per_ha      full_reversal=False | numeric, natural gap(s) [(2500.0, 2656.0), (2656.0, 2751.0), (6300.0, 6434.0), (6512.0, 6637.0)] | control wins 0/1 groups
+  vine_density_per_ha      full_reversal=False | numeric, any single threshold (scan of 181 cut points) -> reversing cuts: []
+  cooperative              full_reversal=False | categorical (own levels) | control wins 3/12 groups
+  annual_rainfall_mm       full_reversal=False | numeric, natural gap(s) [(250.0, 281.0), (281.0, 320.0), (1022.0, 1040.0)] | control wins 0/3 groups
+  annual_rainfall_mm       full_reversal=False | numeric, any single threshold (scan of 181 cut points) -> reversing cuts: []
+  grape_variety            full_reversal=False | categorical (own levels) | control wins 0/3 groups
+  distance_from_porto_km   full_reversal=True  | numeric, natural gap(s) [(104.0, 114.0)] | control wins 2/2 groups
+  distance_from_porto_km   full_reversal=True  | numeric, any single threshold (scan of 181 cut points) -> reversing cuts: [103.3, 103.7]
+  organic_certified        full_reversal=False | categorical (own levels) | control wins 0/2 groups
+  elevation_m              full_reversal=False | numeric, natural gap(s) [(430.8, 444.9)] | control wins 0/2 groups
+  elevation_m              full_reversal=False | numeric, any single threshold (scan of 181 cut points) -> reversing cuts: []
+  soil_ph                  full_reversal=False | numeric, natural gap(s) [(7.47, 7.58)] | control wins 0/1 groups
+  soil_ph                  full_reversal=False | numeric, any single threshold (scan of 181 cut points) -> reversing cuts: []
+  harvest_month            full_reversal=False | categorical (own levels) | control wins 0/2 groups
+  slope_aspect             full_reversal=False | categorical (own levels) | control wins 1/4 groups
+
+Columns producing a full reversal: ['distance_from_porto_km']
+
+=== 3. Splitting distance_from_porto_km into its natural groups ===
+  Natural gap: no plot lies between 104.0 km and 114.0 km (every other step between neighbouring values is about 0.1 km)
+
+  group                                 control        treatment   winner
+  near Porto (70-104 km)        25.30% (n=1233)  25.00% (n= 144)   CONTROL
+  far from Porto (114-205 km)   32.14% (n= 420)  31.44% (n=1746)   CONTROL
+  ALL PLOTS (pooled)            27.04% (n=1653)  30.95% (n=1890)   treatment
+
+=== 4. Why pooling reverses the result ===
+  control   plots:  74.6% near,  25.4% far
+  treatment plots:   7.6% near,  92.4% far
+  Baseline success: near 25.3%, far 31.6%
+  The new method was mostly trialled far from Porto, where vineyards succeed more often anyway,
+  while the old method sat mostly near Porto, where success is lower; pooling mixes this location
+  effect into the comparison and makes treatment look better although it loses in both groups.
+
+  Location-adjusted rates (group rates weighted by group size): control 29.48%, treatment 28.94%
+
+FLAG: SIGMOID_DISTANCE_FROM_PORTO_KM
