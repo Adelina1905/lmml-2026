@@ -1,0 +1,31 @@
+LMML 2026 - task_spain report
+========================================
+receipts: 577
+verdicts:
+verdict
+tourist trap (too expensive)    270
+fake (too cheap)                230
+fair                             77
+
+fair receipts per product:
+Product
+Jamon         12
+Churros        8
+Turron        13
+Paella        13
+Saffron       10
+Barquillos    21
+
+receipts within 1 cent of a range boundary: 0
+
+board (rows = List_no 1..6, columns = Pilot_no 1..21, # = fair purchase):
+1 Jamon      ....##......###...###
+2 Churros    ....#.#.....#...#.#.#
+3 Turron     ###.#.#.#.#.#.....#.#
+4 Paella     #...##..#.#.#...#.#.#
+5 Saffron    #...#.#.#.#.#...#.#.#
+6 Barquillos ###.#.#.###.###.#.###
+
+glyphs (pilot columns): c (1-3), R (5-7), u (9-11), C (13-15), i (17-17), O (19-21)
+word: CRUCIO
+FLAG: SIGMOID_CRUCIO
