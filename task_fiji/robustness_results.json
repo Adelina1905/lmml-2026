@@ -1,0 +1,26 @@
+{
+  "synthetic_reef_1": {
+    "days": 100,
+    "average": 6437.18,
+    "min": 5167.19,
+    "max": 7535.13
+  },
+  "synthetic_reef_2": {
+    "days": 100,
+    "average": 5994.11,
+    "min": 4748.62,
+    "max": 6924.07
+  },
+  "synthetic_reef_3": {
+    "days": 100,
+    "average": 7456.83,
+    "min": 6601.02,
+    "max": 8493.55
+  },
+  "synthetic_reef_4": {
+    "days": 100,
+    "average": 6330.39,
+    "min": 5248.61,
+    "max": 7229.66
+  }
+}
