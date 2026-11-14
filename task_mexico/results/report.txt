@@ -1,0 +1,25 @@
+=== task_mexico: Ruta de las Identidades ===
+records: 19520  per source table: {'a': 6609, 'b': 6446, 'c': 6465}
+true matching pairs in train-output.json: 12038
+
+--- 1. Result on training data ---
+predicted pairs: 12038   TP: 12038   FP (extra): 0   FN (missing): 0
+precision: 1.0000   recall: 1.0000   F1: 1.0000
+exact match with train-output.json (PASS condition): True
+linker stats: {'block_pairs_linked': 12038, 'block_pairs_rejected': 0, 'fuzzy_links': 0, 'group_sizes': {1: 2998, 2: 4484, 3: 2518}, 'pairs': 12038}
+
+--- 2. Facts about the duplicates (from the training labels) ---
+true pairs whose address digit groups are identical: 12038/12038
+all record pairs sharing the same digit key: 12038 (= true pairs -> key is never shared by different people)
+true pairs by table combination: {'ab': 4025, 'ac': 4067, 'bc': 3946} (never two records of the same table)
+group sizes (1 = reader appears once): {1: 2998, 2: 4484, 3: 2518}
+name parts that agree on true pairs (0/1/2): {1: 196, 2: 11842}
+
+--- 3. Robustness tests (do not affect the submission) ---
+typo test 0: 300 records get a one-digit address typo -> missing 4, extra 0, fallback links 297
+typo test 1: 300 records get a one-digit address typo -> missing 0, extra 0, fallback links 300
+typo test 2: 300 records get a one-digit address typo -> missing 7, extra 0, fallback links 294
+typo test 3: 300 records get a one-digit address typo -> missing 2, extra 0, fallback links 298
+typo test 4: 300 records get a one-digit address typo -> missing 1, extra 0, fallback links 299
+  (without the fallback all ~300-600 affected pairs would be missing)
+name guard: random different people rejected 19230/20000 = 96.2%; true pairs rejected 0/12038

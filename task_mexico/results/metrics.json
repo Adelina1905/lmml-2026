@@ -1,0 +1,56 @@
+{
+  "records": 19520,
+  "true_pairs": 12038,
+  "predicted_pairs": 12038,
+  "tp": 12038,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "exact_match": true,
+  "linker_stats": {
+    "block_pairs_linked": 12038,
+    "block_pairs_rejected": 0,
+    "fuzzy_links": 0,
+    "group_sizes": {
+      "1": 2998,
+      "2": 4484,
+      "3": 2518
+    },
+    "pairs": 12038
+  },
+  "typo_tests": [
+    {
+      "trial": 0,
+      "missing": 4,
+      "extra": 0,
+      "fallback_links": 297
+    },
+    {
+      "trial": 1,
+      "missing": 0,
+      "extra": 0,
+      "fallback_links": 300
+    },
+    {
+      "trial": 2,
+      "missing": 7,
+      "extra": 0,
+      "fallback_links": 294
+    },
+    {
+      "trial": 3,
+      "missing": 2,
+      "extra": 0,
+      "fallback_links": 298
+    },
+    {
+      "trial": 4,
+      "missing": 1,
+      "extra": 0,
+      "fallback_links": 299
+    }
+  ],
+  "name_guard_random_reject_rate": 0.9615
+}

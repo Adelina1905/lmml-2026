@@ -1,0 +1,43 @@
+======================================================================
+1) TRAINING SAMPLE (known answer)
+======================================================================
+[/home/claude/task_usa/train-input.json] calibration: 73 ids, challenge: 28 ids
+  p50k_base      encode_match=True decode_roundtrip=True score=2
+  r50k_base      encode_match=False decode_roundtrip=False score=0
+  p50k_edit      encode_match=True decode_roundtrip=True score=2
+  cl100k_base    encode_match=False decode_roundtrip=False score=0
+  o200k_base     encode_match=False decode_roundtrip=False score=0
+  o200k_harmony  encode_match=False decode_roundtrip=False score=0
+=> tokenizer_id: p50k_base
+=> decoded_message: 'TRAIN_SAMPLE: Verification successful at the American NLP Observatory. Token IDs map to p50k_base vocabulary!'
+written to /home/claude/task_usa/results/train-prediction.json
+tokenizer_id correct: True   decoded_message correct: True   score: 100/100
+
+======================================================================
+2) TEST SAMPLE
+======================================================================
+[/home/claude/task_usa/test-input.json] calibration: 105 ids, challenge: 60 ids
+  p50k_base      encode_match=False decode_roundtrip=False score=0
+  r50k_base      encode_match=False decode_roundtrip=False score=0
+  p50k_edit      encode_match=False decode_roundtrip=False score=0
+  cl100k_base    encode_match=True decode_roundtrip=True score=2
+  o200k_base     encode_match=False decode_roundtrip=False score=0
+  o200k_harmony  encode_match=False decode_roundtrip=False score=0
+=> tokenizer_id: cl100k_base
+=> decoded_message: 'SIGMOID_TOKENIZATION\nCongratulations! You have successfully solved the American Tokenizer Mystery.\n    Verification Hash: 2026-USA-NLP-BPE\n        Cluster Node: Grand-Canyon-Compute-01\nSubword token IDs are arbitrary vocabulary matrix indices, not universal ASCII codes!'
+written to /home/claude/task_usa/test-output.json
+flag found in decoded message: SIGMOID_TOKENIZATION
+
+======================================================================
+3) OFFLINE SELF-TEST: encode both calibration texts with every candidate,
+   feed the pair back in, and check the right tokenizer is identified
+======================================================================
+  generated with p50k_base    on train-text -> identified p50k_base    OK
+  generated with p50k_base    on test-text  -> identified p50k_base    OK
+  generated with r50k_base    on train-text -> identified r50k_base    OK
+  generated with r50k_base    on test-text  -> identified r50k_base    OK
+  generated with cl100k_base  on train-text -> identified cl100k_base  OK
+  generated with cl100k_base  on test-text  -> identified cl100k_base  OK
+  generated with o200k_base   on train-text -> identified o200k_base   OK
+  generated with o200k_base   on test-text  -> identified o200k_base   OK
+self-test: ALL OK

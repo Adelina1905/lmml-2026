@@ -1,0 +1,3 @@
+tiktoken>=0.7
+# optional, only used by the Hugging Face fallback in main.py:
+# transformers
