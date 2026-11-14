@@ -1,0 +1,6 @@
+Random black boxes of the same family, scored with the official evaluation logic.
+Columns: mode, number of functions, min score, mean score, runs below 70.
+
+standard n 150 min 100.0 mean 100.0 below70 0
+hard n 200 min 100.0 mean 100.0 below70 0
+gates n 100 min 100.0 mean 100.0 below70 0
