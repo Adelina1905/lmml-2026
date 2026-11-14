@@ -10,3 +10,6 @@ __pycache__/
 
 # Downloaded model files (too big for GitHub)
 Egypt/models/
+
+Equador/.venv/
+run.md
