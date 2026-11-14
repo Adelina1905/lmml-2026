@@ -27,7 +27,7 @@ from pathlib import Path
 
 import numpy as np
 
-from flag_utils import derive_flag, load_verification_codes
+from Tazania.flag_utils import derive_flag, load_verification_codes
 
 EMBEDDING_MODEL = "intfloat/e5-small-v2"
 QUERY_PREFIX = "query: "

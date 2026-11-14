@@ -9,7 +9,7 @@ from pathlib import Path
 
 import numpy as np
 
-from flag_utils import derive_flag, load_verification_codes
+from Tazania.flag_utils import derive_flag, load_verification_codes
 
 DOCUMENT_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 QUERY_MODEL = "intfloat/e5-small-v2"
