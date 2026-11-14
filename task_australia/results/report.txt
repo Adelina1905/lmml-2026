@@ -1,0 +1,37 @@
+== Marathon Lab: hidden-word recovery ==
+exe: marathon-lab-windows-x86_64.exe 21352960 bytes
+onefile payload: 374 files; lab data: ['lab\\proven.npy']
+reward terms: PROGRESS=1.0 TIME_COST=0.01 COIN_WEIGHT=25.0 DEATH=0.0 WIN=150.0
+hash: h = (h*131 + x*7 + i) & 1048575   _BASIS = 919247
+COIN_SITES (tile columns): [7, 12, 17, 25, 32, 43, 61, 66, 73, 80, 93, 101, 110, 118, 130, 157, 172, 195, 201, 206]
+_spread(COIN_SITES) = 262919
+_terms = _BASIS ^ _spread = 656840  ->  bits 10100000010111001000
+
+ site  column  bit  sign  trained agent
+   0       7    1    +    TAKES the coin
+   1      12    0    -    walks past
+   2      17    1    +    TAKES the coin
+   3      25    0    -    walks past
+   4      32    0    -    walks past
+   5      43    0    -    walks past
+   6      61    0    -    walks past
+   7      66    0    -    walks past
+   8      73    0    -    walks past
+   9      80    1    +    TAKES the coin
+  10      93    0    -    walks past
+  11     101    1    +    TAKES the coin
+  12     110    1    +    TAKES the coin
+  13     118    1    +    TAKES the coin
+  14     130    0    -    walks past
+  15     157    0    -    walks past
+  16     172    1    +    TAKES the coin
+  17     195    0    -    walks past
+  18     201    0    -    walks past
+  19     206    0    -    walks past
+  bits 10100 = 20 -> T
+  bits 00001 =  1 -> A
+  bits 01110 = 14 -> N
+  bits 01000 =  8 -> H
+
+WORD = TANH
+FLAG = SIGMOID_TANH

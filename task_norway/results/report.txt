@@ -1,0 +1,84 @@
+=== LMML 2026 task_norway: The Nisse's Bad Shift ===
+python 3.11.18
+sklearn 1.5.0, numpy 1.26.4, pandas 2.2.2
+train rows 1198, test rows 599
+
+[1] Train: 36 wrong labels out of 1198
+given -> true pairs: {(4, 9): 19, (9, 4): 17}
+wrong IDs span 452..596 (nights of 150: [3])
+4s and 9s in night 3 (IDs 450..599): 36, of which wrong: 36  -> EVERY 4/9 that night is swapped, nothing else anywhere is wrong
+
+[2] SVM 10-fold CV accuracy on train (true labels): 0.9875 +- 0.0107
+
+[3] Validation on train, leave-one-night-out (model never sees the night it judges)
+ night  first_id  last_id  rows  disagreements best_pair  swapped_looking  pair_samples  ratio  bad_night
+     0         0      149   150              1     1<->8                1            30  0.033      False
+     1       150      299   150              2     5<->8                1            20  0.050      False
+     2       300      449   150              2     5<->6                1            22  0.045      False
+     3       450      599   150             38     4<->9               36            36  1.000       True
+     4       600      749   150              1     1<->8                1            35  0.029      False
+     5       750      899   150              1     5<->9                1            33  0.030      False
+     6       900     1049   150              2     4<->7                1            29  0.034      False
+     7      1050     1197   148              0     0<->1                0            26  0.000      False
+night-swap method   : {'TP': 36, 'FP': 0, 'FN': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+naive 'relabel every disagreement' baseline: {'TP': 36, 'FP': 11, 'FN': 0, 'precision': 0.766, 'recall': 1.0, 'F1': 0.8675}
+
+[4] Test: model trained on all train true labels
+ night  first_id  last_id  rows  disagreements best_pair  swapped_looking  pair_samples  ratio  bad_night
+     7      1198     1199     2              0     0<->1                0             1  0.000      False
+     8      1200     1349   150              1     8<->9                1            27  0.037      False
+     9      1350     1499   150             31     3<->8               29            30  0.967       True
+    10      1500     1649   150              0     0<->1                0            34  0.000      False
+    11      1650     1796   147              4     1<->8                1            23  0.043      False
+
+repairs on test: 30
+given -> corrected: {(3, 8): 19, (8, 3): 11}
+repaired IDs span 1360..1496
+sample_id  given_label  corrected_label  svm_prediction
+ IMG_1360            8                3               3
+ IMG_1362            8                3               3
+ IMG_1365            3                8               8
+ IMG_1369            3                8               8
+ IMG_1370            8                3               3
+ IMG_1374            3                8               8
+ IMG_1375            8                3               3
+ IMG_1377            3                8               8
+ IMG_1381            3                8               8
+ IMG_1385            8                3               3
+ IMG_1388            3                8               8
+ IMG_1390            3                8               8
+ IMG_1393            3                8               8
+ IMG_1397            3                8               8
+ IMG_1398            8                3               3
+ IMG_1405            3                8               8
+ IMG_1407            3                8               8
+ IMG_1409            8                3               3
+ IMG_1416            8                3               3
+ IMG_1420            3                8               8
+ IMG_1428            8                3               3
+ IMG_1435            8                3               3
+ IMG_1439            3                8               8
+ IMG_1456            3                8               8
+ IMG_1466            3                8               8
+ IMG_1467            3                8               8
+ IMG_1470            8                3               3
+ IMG_1482            3                8               1
+ IMG_1483            3                8               8
+ IMG_1496            3                8               8
+boundary check: swap evidence spans 1360..1496; nearest untouched 3/8 labels at 1343 and 1505 (both agree with the classifier). Repairs with the tight evidence window instead of the 150-block are identical: True
+
+disagreements left unchanged (classifier mistakes in good nights): 6
+sample_id  given_label  svm_prediction
+ IMG_1336            9               8
+ IMG_1400            7               9
+ IMG_1729            9               7
+ IMG_1737            9               5
+ IMG_1759            8               1
+ IMG_1762            3               5
+
+wrote test-output.csv: 599 rows, columns ['sample_id', 'corrected_label']
+
+[6] Final model: RBF SVM trained on 1797 samples with corrected labels
+10-fold CV accuracy on corrected labels: 0.9883 +- 0.0076
+(same model on the ORIGINAL noisy labels: 0.9477)
+saved model.joblib  (load: joblib.load('model.joblib').predict(pixels_0_to_16))

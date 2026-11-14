@@ -1,0 +1,154 @@
+  0 'HEIGHT'
+  1 'EMPTY'
+  2 'WIDTH'
+  3 'fill'
+  4 '_build.<locals>.fill'
+  5 'put'
+  6 '_build.<locals>.put'
+  7 'row'
+  8 '_build.<locals>.row'
+  9 'pipe'
+ 10 '_build.<locals>.pipe'
+ 11 (True,)
+ 12 'stairs'
+ 13 '_build.<locals>.stairs'
+ 14 (7, 43, 79, 115, 151, 187)
+ 15 3
+ 16 'CC'
+ 17 2
+ 18 'C'
+ 19 (0, 48, 96, 144, 192)
+ 20 4
+ 21 12
+ 22 'HILL'
+ 23 11
+ 24 10
+ 25 (11, 41, 61, 92, 130, 160, 176)
+ 26 'VVV'
+ 27 207
+ 28 211
+ 29 8
+ 30 'CASTLE'
+ 31 'GROUND_SEGMENTS'
+ 32 'GROUND_TOP'
+ 33 'GROUND'
+ 34 16
+ 35 9
+ 36 'QUESTION'
+ 37 (20, 9, 'B?B?B')
+ 38 22
+ 39 5
+ 40 (28, 2)
+ 41 (38, 3)
+ 42 (46, 4)
+ 43 (57, 4)
+ 44 (77, 9, 'B?B')
+ 45 (80, 5, 'BBBB')
+ 46 (91, 9, 'BB')
+ 47 94
+ 48 (100, 5, 'BBBB')
+ 49 (106, 9, 'B??B')
+ 50 (118, 5, 'BBBB')
+ 51 (123, 9, 'BB')
+ 52 (134, 4, True)
+ 53 ('ascending',)
+ 54 (140, 4, False)
+ 55 (148, 4, True)
+ 56 (163, 9, 'B?B')
+ 57 (168, 2)
+ 58 (179, 2)
+ 59 'COIN_SITES'
+ 60 'COIN_ROW'
+ 61 'COIN'
+ 62 (181, 6, True)
+ 63 (187, 6, False)
+ 64 204
+ 65 'SOLID'
+ 66 'POLE'
+ 67 'POLE_TOP'
+ 68 ''
+ 69 'x1'
+ 70 'y'
+ 71 'tile'
+ 72 'g'
+ 73 ' '
+ 74 'x0'
+ 75 'PIPE_TOP'
+ 76 'PIPE'
+ 77 'n'
+ 78 'i'
+ 79 'SOLID_TILES'
+ 80 'ENEMY_SPAWNS'
+ 81 'math'
+ 82 'floor'
+ 83 0.8
+ 84 1e-09
+ 85 'is_solid'
+ 86 'TILES'
+ 87 'ty'
+ 88 'problems'
+ 89 ' at ('
+ 90 ', '
+ 91 ') overlaps solid tile ('
+ 92 ')'
+ 93 ') has no floor beneath it'
+ 94 'y1'
+ 95 'tx'
+ 96 '<genexpr>'
+ 97 'validate.<locals>.<genexpr>'
+ 98 '__doc__'
+ 99 '__file__'
+100 'origin'
+101 'has_location'
+102 '__cached__'
+103 212
+104 15
+105 13
+106 '.'
+107 'X'
+108 'B'
+109 'BRICK'
+110 '?'
+111 'U'
+112 'USED'
+113 'S'
+114 'T'
+115 'P'
+116 'o'
+117 'F'
+118 'f'
+119 'c'
+120 'CLOUD'
+121 'H'
+122 'V'
+123 'BUSH'
+124 'BACKGROUND_TILES'
+125 204.0
+126 'GOAL_X'
+127 (3.0, 11.0)
+128 'SPAWN_X'
+129 'SPAWN_Y'
+130 (0, 68)
+131 (71, 85)
+132 (89, 152)
+133 155
+134 [7, 12, 17, 25, 32, 43, 61, 66, 73, 80, 93, 101, 110, 118, 130, 157, 172, 195, 201, 206]
+135 '_build'
+136 [(22.0, 12.0, 'goomba'), (40.0, 12.0, 'goomba'), (51.0, 12.0, 'goomba'), (52.5, 12.0, 'goomba'), (97.0, 12.0, 'goomba'), (98.5, 12.0, 'goomba'), (107.0, 8.0, 'goomba'), (114.0, 12.0, 'goomba'), (115.5, 12.0, 'goomba'), (126.0, 12.0, 'goomba'), (127.5, 12.0, 'goomba'), (145.0, 12.0, 'goomba'), (163.0, 12.0, 'goomba'), (164.5, 12.0, 'goomba')]
+137 'validate'
+138 '\n'
+139 'lab\\level.py'
+140 ('.0', 'tx', 'ty', 'y1')
+141 '<module lab.level>'
+142 ('g', 'fill', 'put', 'row', 'pipe', 'stairs', 'x', 'x0', 'x1', 'cx')
+143 ('x0', 'x1', 'y0', 'y1', 'tile', 'y', 'x', 'g')
+144 ('g',)
+145 ('tiles', 'tx', 'ty')
+146 ('x', 'height', 'top', 'fill')
+147 ('fill',)
+148 ('x', 'y', 'tile', 'fill')
+149 ('x0', 'y', 'pattern', 'i', 'ch', 'put')
+150 ('put',)
+151 ('x0', 'n', 'ascending', 'i', 'h', 'fill')
+152 ('problems', 'x', 'y', 'kind', 'math', 'x0', 'x1', 'y0', 'y1', 'ty', 'tx')
+153 '__spec__'

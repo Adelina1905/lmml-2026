@@ -1,0 +1,6 @@
+night,first_id,last_id,rows,disagreements,best_pair,swapped_looking,pair_samples,ratio,bad_night
+7,1198,1199,2,0,0<->1,0,1,0.0,False
+8,1200,1349,150,1,8<->9,1,27,0.037,False
+9,1350,1499,150,31,3<->8,29,30,0.967,True
+10,1500,1649,150,0,0<->1,0,34,0.0,False
+11,1650,1796,147,4,1<->8,1,23,0.043,False

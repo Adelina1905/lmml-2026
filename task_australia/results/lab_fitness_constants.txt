@@ -1,0 +1,46 @@
+  0 'h'
+  1 131
+  2 7
+  3 1048575
+  4 '_BASIS'
+  5 '_spread'
+  6 '0'
+  7 ''
+  8 'b'
+  9 'TIME_COST'
+ 10 'PROGRESS'
+ 11 'dx'
+ 12 'coins_taken'
+ 13 '_SIGN'
+ 14 'get'
+ 15 'r'
+ 16 'COIN_WEIGHT'
+ 17 'dead'
+ 18 'DEATH'
+ 19 'won'
+ 20 'WIN'
+ 21 '__doc__'
+ 22 '__file__'
+ 23 'origin'
+ 24 'has_location'
+ 25 '__cached__'
+ 26 ('level',)
+ 27 'level'
+ 28 'L'
+ 29 1.0
+ 30 0.01
+ 31 25.0
+ 32 0.0
+ 33 150.0
+ 34 919247
+ 35 '_terms'
+ 36 'COIN_SITES'
+ 37 'COIN_ROW'
+ 38 'reward'
+ 39 'defined'
+ 40 'lab\\fitness.py'
+ 41 '<module lab.fitness>'
+ 42 ('sites', 'h', 'i', 'x')
+ 43 ('sites', 'n')
+ 44 ('info', 'r', 'tile', 'sign')
+ 45 '__spec__'
