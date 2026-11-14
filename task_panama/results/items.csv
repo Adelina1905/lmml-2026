@@ -1,0 +1,81 @@
+id,status,correct,gold,pred,leak_doc
+CQA-001,excluded_exact,True,"25 meters","25 meters",LOG-0378
+CQA-002,excluded_exact,True,"1432 square kilometers","1432 square kilometers",LOG-0341
+CQA-003,kept,True,"2005","2005",
+CQA-004,kept,False,"130 kilometers","1962",
+CQA-005,kept,True,"16.5 meters","16.5 meters",
+CQA-006,kept,True,"50 square kilometers","50 square kilometers",
+CQA-007,kept,False,"2001","3050 meters",
+CQA-008,excluded_exact,True,"26.5 meters","26.5 meters",LOG-0354
+CQA-009,kept,True,"1914","1914",
+CQA-010,kept,False,"1598","427 meters",
+CQA-011,kept,False,"1550","260 megawatts",
+CQA-012,excluded_exact,True,"rolling gates","rolling gates",LOG-0056
+CQA-013,excluded_exact,True,"8 dolphins","8 dolphins",LOG-0272
+CQA-014,kept,True,"Veraguas","Veraguas",
+CQA-015,kept,True,"Sunday market","Sunday market",
+CQA-016,kept,True,"152 meters","152 meters",
+CQA-017,kept,False,"CS-02","1519",
+CQA-018,excluded_exact,True,"13.7 meters","13.7 meters",LOG-0163
+CQA-019,excluded_exact,True,"6 cranes","6 cranes",LOG-0209
+CQA-020,kept,True,"Pier 16","Pier 16",
+CQA-021,kept,True,"1654 meters","1654 meters",
+CQA-022,excluded_exact,True,"2.5 kilometers","2.5 kilometers",LOG-0120
+CQA-023,kept,True,"Gatun Lake","Gatun Lake",
+CQA-024,kept,True,"6 berths","6 berths",
+CQA-025,kept,True,"20 kilometers","20 kilometers",
+CQA-026,excluded_borderline,True,"Atlantic terminal","Atlantic terminal",LOG-0396
+CQA-027,kept,False,"9 islands","366 meters",
+CQA-028,kept,False,"726 square kilometers","55 cubic meters per second",
+CQA-029,kept,False,"GMB-04","84000 residents",
+CQA-030,kept,False,"3474 meters","6 kilometers",
+CQA-031,kept,True,"270 pilots","270 pilots",
+CQA-032,kept,False,"420 meters","2 chambers",
+CQA-033,kept,True,"35000 vehicles","35000 vehicles",
+CQA-034,excluded_exact,True,"9500 staff","9500 staff",LOG-0173
+CQA-035,excluded_exact,True,"212 meters","212 meters",LOG-0102
+CQA-036,kept,True,"1600 meters","1600 meters",
+CQA-037,kept,True,"4 buoys","4 buoys",
+CQA-038,excluded_borderline,True,"Balboa township","Balboa township",LOG-0285
+CQA-039,kept,True,"14000 vessels","14000 vessels",
+CQA-040,excluded_exact,True,"400 meters","400 meters",LOG-0071
+CQA-041,kept,False,"366 meters","8 meters",
+CQA-042,kept,True,"7 halls","7 halls",
+CQA-043,kept,True,"180 meters","180 meters",
+CQA-044,kept,False,"1875 meters","25 meters",
+CQA-045,kept,True,"Frank Gehry","Frank Gehry",
+CQA-046,kept,True,"10 hours","10 hours",
+CQA-047,kept,True,"84000 residents","84000 residents",
+CQA-048,kept,False,"36 megawatts","400 meters",
+CQA-049,kept,False,"2 chambers","3200000 TEU",
+CQA-050,kept,False,"Isla del Rey","52000 tonnes",
+CQA-051,excluded_exact,True,"3200000 TEU","3200000 TEU",LOG-0400
+CQA-052,kept,True,"Las Tablas","Las Tablas",
+CQA-053,kept,False,"530 meters","7 halls",
+CQA-054,kept,True,"800 meters","800 meters",
+CQA-055,kept,True,"184 meters","184 meters",
+CQA-056,kept,True,"1923","1923",
+CQA-057,excluded_exact,True,"dredging division","dredging division",LOG-0207
+CQA-058,excluded_exact,True,"427 meters","427 meters",LOG-0089
+CQA-059,kept,True,"1519","1519",
+CQA-060,excluded_exact,True,"1912","1912",LOG-0227
+CQA-061,excluded_exact,True,"6 kilometers","6 kilometers",LOG-0358
+CQA-062,kept,False,"260 megawatts","1598",
+CQA-063,kept,True,"40 vessels","40 vessels",
+CQA-064,kept,False,"3050 meters","1432 square kilometers",
+CQA-065,kept,False,"30 minutes","130 kilometers",
+CQA-066,kept,True,"525 species","525 species",
+CQA-067,kept,True,"2 gates","2 gates",
+CQA-068,kept,True,"106 kilometers","106 kilometers",
+CQA-069,kept,True,"14 gates","14 gates",
+CQA-070,excluded_exact,True,"1932","1932",LOG-0291
+CQA-071,kept,True,"1962","1962",
+CQA-072,kept,True,"55 cubic meters per second","55 cubic meters per second",
+CQA-073,kept,True,"150000 dollars","150000 dollars",
+CQA-074,excluded_exact,True,"Pacific","Pacific",LOG-0011
+CQA-075,excluded_exact,True,"52000 tonnes","52000 tonnes",LOG-0215
+CQA-076,kept,False,"82 kilometers","150000 dollars",
+CQA-077,kept,True,"3 chambers","3 chambers",
+CQA-078,kept,True,"378 islands","378 islands",
+CQA-079,kept,True,"12.04 meters","12.04 meters",
+CQA-080,kept,False,"8 meters","212 meters",

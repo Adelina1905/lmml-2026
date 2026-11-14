@@ -1,0 +1,81 @@
+Benchmark items: 80 | correct: 59 | recomputed accuracy 0.7375 (reported 0.7375)
+Corpus docs: 400 | Q&A-style records parsed: 68 (Counter({'en': 46, 'es': 22})) | unparsed Q&A-like docs: []
+
+=== A. Exact leaks: same entity + same attribute + same answer (after normalising units/language) ===
+CQA-001 gold='25 meters' pred='25 meters' correct=True  <= LOG-0378[en] 'Report the gate height of Miraflores Locks.' -> '25 m'
+CQA-002 gold='1432 square kilometers' pred='1432 square kilometers' correct=True  <= LOG-0341[en] 'Which value is given as the area of Canal Zone?' -> '1432 sq km'
+CQA-008 gold='26.5 meters' pred='26.5 meters' correct=True  <= LOG-0354[en] 'Report the lift height of Gatun Locks.' -> '26.5 m'
+CQA-012 gold='rolling gates' pred='rolling gates' correct=True  <= LOG-0056[es] '¿Cuál es gate type de Esclusas de Agua Clara?' -> 'compuertas rodantes'
+CQA-013 gold='8 dolphins' pred='8 dolphins' correct=True  <= LOG-0272[en] 'Tell me the mooring dolphins of Cocoli Staging.' -> '8 dolphins'
+CQA-018 gold='13.7 meters' pred='13.7 meters' correct=True  <= LOG-0163[en] 'Tell me the dredge depth of Gamboa Reach.' -> '13.7 meters'
+CQA-019 gold='6 cranes' pred='6 cranes' correct=True  <= LOG-0209[es] 'Indique crane count de Terminal de Manzanillo.' -> 'seis cranes'
+CQA-022 gold='2.5 kilometers' pred='2.5 kilometers' correct=True  <= LOG-0120[es] 'Indique viaduct length de Cinta Costera.' -> '2,5 kilómetros'
+CQA-034 gold='9500 staff' pred='9500 staff' correct=True  <= LOG-0173[es] 'Indique employee count de Autoridad del Canal.' -> '9500 staff'
+CQA-035 gold='212 meters' pred='212 meters' correct=True  <= LOG-0102[en] 'per the canal records, which value is given as the pylon height of Atlantic Bridge?' -> '212 m'
+CQA-040 gold='400 meters' pred='400 meters' correct=True  <= LOG-0071[en] 'According to the canal registry, what is the turning diameter of Pedro Miguel Basin?' -> '400 meters'
+CQA-051 gold='3200000 TEU' pred='3200000 TEU' correct=True  <= LOG-0400[en] 'State the annual TEU of Port of Balboa.' -> '3200000 TEU'
+CQA-057 gold='dredging division' pred='dredging division' correct=True  <= LOG-0207[es] '¿Cuál es la instalación de Gamboa?' -> 'división de dragado'
+CQA-058 gold='427 meters' pred='427 meters' correct=True  <= LOG-0089[en] 'Tell me the chamber length of Agua Clara Locks.' -> '427 meters'
+CQA-060 gold='1912' pred='1912' correct=True  <= LOG-0227[es] '¿Cuál es el año de finalización de Represa de Gatún?' -> '1912'
+CQA-061 gold='6 kilometers' pred='6 kilometers' correct=True  <= LOG-0358[en] 'State the diameter of El Valle Crater.' -> '6 kilometers'
+CQA-070 gold='1932' pred='1932' correct=True  <= LOG-0291[es] 'Indique former base year de Aeropuerto de Albrook.' -> '1932'
+CQA-074 gold='Pacific' pred='Pacific' correct=True  <= LOG-0011[en] 'What value is listed as the ocean access of Port of Balboa?' -> 'Pacific'
+CQA-075 gold='52000 tonnes' pred='52000 tonnes' correct=True  <= LOG-0215[en] 'According to the canal registry, what is the deadweight limit of Panamax?' -> '52000 tonnes'
+
+=== B. Borderline: same entity + same attribute, answer worded differently from gold ===
+CQA-026 Q='State the location of Cristóbal.' gold='Atlantic terminal' pred='Atlantic terminal' correct=True
+      <= LOG-0396[en] 'Report the location of Cristóbal.' -> 'Atlantic terminus'
+CQA-038 Q='Tell me the district of La Boca.' gold='Balboa township' pred='Balboa township' correct=True
+      <= LOG-0285[en] 'Report the district of La Boca.' -> 'Balboa district'
+
+=== C. Decoys (NOT leaks): record about same entity but a different attribute ===
+CQA-003 'Tell me the prison closure year of Coiba Island.' gold='2005' | records: LOG-0117 area='503 sq km'
+CQA-005 'According to the canal registry, what is the lift height of Miraflores Locks?' gold='16.5 meters' | records: LOG-0378 gate height='25 m'
+CQA-006 'State the surface area of Alajuela Lake.' gold='50 square kilometers' | records: LOG-0005 dam height='67 metros'; LOG-0382 former name='Lake Madden'
+CQA-011 'State the last eruption year of Volcán Barú.' gold='1550' | records: LOG-0347 trail distance='13.5 kilometers'
+CQA-016 'State the minimum width of Culebra Cut.' gold='152 meters' | records: LOG-0134 excavated volume='76 million cubic metros'; LOG-0221 former name='Gaillard Cut'
+CQA-021 'State the length of Bridge of the Americas.' gold='1654 meters' | records: LOG-0084 clearance height='61.3 meters'
+CQA-023 'Tell me the location of Barro Colorado Island.' gold='Gatun Lake' | records: LOG-0349 trail overall length='38 km'
+CQA-024 'Which value is recorded as the tug base count of La Boca?' gold='6 berths' | records: LOG-0285 district='Balboa district'
+CQA-025 'According to the canal registry, what is the distance from Panama City of Taboga Island?' gold='20 kilometers' | records: LOG-0146 peak elevation='198 m'
+CQA-029 'Which value is recorded as the rainfall station code of Gamboa?' gold='GMB-04' | records: LOG-0207 la instalación='división de dragado'
+CQA-030 'According to the canal registry, what is the elevation of Volcán Barú?' gold='3474 meters' | records: LOG-0347 trail distance='13.5 kilometers'
+CQA-032 'What is the main span of Centennial Bridge?' gold='420 meters' | records: LOG-0092 completion year='2004'
+CQA-033 'Tell me the daily crossings of Bridge of the Americas.' gold='35000 vehicles' | records: LOG-0084 clearance height='61.3 meters'
+CQA-041 'State the maximum length of Neopanamax.' gold='366 meters' | records: LOG-0062 draft limit='15,2 metros'; LOG-0093 deadweight limit='120000 tonnes'; LOG-0388 la manga máxima='49 metros'
+CQA-047 'What is the population of Colón?' gold='84000 residents' | records: LOG-0150 location='Caribbean entrance'
+CQA-048 'Tell me the power capacity of Madden Dam.' gold='36 megawatts' | records: LOG-0186 completion year='1935'
+CQA-053 'Tell me the main span of Atlantic Bridge.' gold='530 meters' | records: LOG-0102 pylon height='212 m'
+CQA-055 'According to the canal registry, what is the tower height of Centennial Bridge?' gold='184 meters' | records: LOG-0092 completion year='2004'
+CQA-056 'State the research station year of Barro Colorado Island.' gold='1923' | records: LOG-0349 trail overall length='38 km'
+CQA-059 'Which value is recorded as the founding year of Panama City?' gold='1519' | records: LOG-0321 population='880000 residents'
+CQA-065 'According to the canal registry, what is the ferry time of Taboga Island?' gold='30 minutes' | records: LOG-0146 peak elevation='198 m'
+CQA-066 'State the bird species of Soberanía National Park.' gold='525 species' | records: LOG-0377 area='195 sq km'
+CQA-071 'State the completion year of Bridge of the Americas.' gold='1962' | records: LOG-0084 clearance height='61.3 meters'
+CQA-079 'Which value is recorded as the draft limit of Panamax?' gold='12.04 meters' | records: LOG-0215 deadweight limit='52000 tonnes'; LOG-0352 la manga máxima='32,3 metros'; LOG-0389 la eslora máxima='294,1 metros'
+CQA-080 'According to the canal registry, what is the elevation of Panama City?' gold='8 meters' | records: LOG-0321 population='880000 residents'
+
+=== D. Decoys (NOT leaks): same attribute but a different entity ===
+CQA-004 'Which value is recorded as the length of Chiriquí River?' | records: LOG-0230 Tuira River; LOG-0337 Chagres River
+CQA-005 'According to the canal registry, what is the lift height of Miraflores Locks?' | records: LOG-0354 Gatun Locks; LOG-0370 Pedro Miguel Locks
+CQA-006 'State the surface area of Alajuela Lake.' | records: LOG-0299 Bayano Lake
+CQA-007 'What is the established year of Santa Fe National Park?' | records: LOG-0283 Colon Free Zone
+CQA-009 'Which value is recorded as the opening year of Panama Canal?' | records: LOG-0256 Miraflores Visitor Center
+CQA-021 'State the length of Bridge of the Americas.' | records: LOG-0230 Tuira River; LOG-0337 Chagres River
+CQA-023 'Tell me the location of Barro Colorado Island.' | records: LOG-0150 Colón; LOG-0396 Cristóbal
+CQA-028 'Tell me the area of Santa Fe National Park.' | records: LOG-0117 Coiba Island; LOG-0341 Canal Zone; LOG-0377 Soberanía National Park
+CQA-041 'State the maximum length of Neopanamax.' | records: LOG-0389 Panamax
+CQA-047 'What is the population of Colón?' | records: LOG-0321 Panama City
+CQA-049 'Which value is recorded as the number of chambers of Miraflores Locks?' | records: LOG-0100 Pedro Miguel Locks
+CQA-068 'Tell me the length of Darién Gap.' | records: LOG-0230 Tuira River; LOG-0337 Chagres River
+CQA-071 'State the completion year of Bridge of the Americas.' | records: LOG-0092 Centennial Bridge; LOG-0186 Madden Dam; LOG-0227 Gatun Dam
+CQA-077 'What is the number of chambers of Gatun Locks?' | records: LOG-0100 Pedro Miguel Locks
+CQA-079 'Which value is recorded as the draft limit of Panamax?' | records: LOG-0062 Neopanamax
+
+Q&A records that match no benchmark item (other canal facts): 47 of 68
+
+=== Result ===
+Excluded items: 21 (exact 19 + borderline 2); model correct on 21/21 of them = 100.00%
+Remaining items: 59; correct 38; honest accuracy = 38/59 = 0.6441 (64.41%)
+Reported 73.75% -> honest 64.41% (inflation +9.34% points)
+Excluded ids: ['CQA-001', 'CQA-002', 'CQA-008', 'CQA-012', 'CQA-013', 'CQA-018', 'CQA-019', 'CQA-022', 'CQA-026', 'CQA-034', 'CQA-035', 'CQA-038', 'CQA-040', 'CQA-051', 'CQA-057', 'CQA-058', 'CQA-060', 'CQA-061', 'CQA-070', 'CQA-074', 'CQA-075']
