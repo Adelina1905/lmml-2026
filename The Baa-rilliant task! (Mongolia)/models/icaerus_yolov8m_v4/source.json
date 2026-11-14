@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring",
+  "model": "YOLOv8m sheep v4",
+  "source_url": "https://raw.githubusercontent.com/ICAERUS-EU/UC3_Livestock_Monitoring/main/models/sheep_detection/yolo8m_sheep_v4/yolov8m_all_finetune.pt",
+  "bytes": 52033938,
+  "sha256": "A292C078C27641CCD88E89635059C56AB8B7BEF0611326F374E585FED4894600",
+  "downloaded_at_utc": "2026-11-14T23:00:54.3344421Z",
+  "license": "GPL-3.0",
+  "evaluated_on_task": true,
+  "evaluation_metrics": "../../evaluation/imgsz_640/metrics.json"
+}

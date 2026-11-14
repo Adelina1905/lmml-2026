@@ -1,0 +1,10 @@
+.venv/
+.yolo/
+.matplotlib/
+__pycache__/
+runs/
+_archive/
+task_mongolia/
+*.zip
+models/**/*.pt
+models/**/*.part

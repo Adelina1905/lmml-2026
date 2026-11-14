@@ -1,0 +1,15 @@
+{
+  "word": "RECALL",
+  "flag": "SIGMOID_RECALL",
+  "word_source": "Manual reading of the noisy survey count grid; supplied with --word.",
+  "model_training": false,
+  "counts_source": "Unedited ICAERUS v4 predictions at confidence 0.425, image size 640, NMS IoU 0.7.",
+  "counts_sha256": "754383c1e8ddeffcb7e5ee94f043ed1d7a358cc2227e60a3899486b575167616",
+  "platform_verified": false,
+  "grid_rows": 9,
+  "grid_columns": 37,
+  "angle_degrees": 26.966565407708448,
+  "median_column_spacing_m": 49.97323287883235,
+  "median_row_spacing_m": 49.72354299226869,
+  "occupied_cells": 333
+}
