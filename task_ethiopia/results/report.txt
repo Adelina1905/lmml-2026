@@ -37,3 +37,32 @@ white_hiss_-40dB     18/18
 reverb               11/18
 TOTAL                222/234 (94.9 %)
 median boundary error on passes: 0.108 s, 95th percentile 0.453 s
+
+=== Edge cases (training file modified; truth shifts with padding) ===
+  3 s digital silence at start               17.92   23.92   PASS
+  3 s digital silence at end                 14.92   20.92   PASS
+  5 s silence at both ends                   19.92   25.87   PASS
+  0.3 s dropout (zeros) at 35 s              14.92   20.92   PASS
+  3 s pause, room tone only, at 30 s         14.92   20.92   PASS
+  3 s quiet noise lead-in                    17.92   23.92   PASS
+  3 s fade-in                                14.92   20.92   PASS
+  3 s fade-out                               14.92   20.92   PASS
+  DC offset +2000                            14.92   20.92   PASS
+  gain x30 with clipping                     14.92   20.97   PASS
+  float samples in [-1, 1]                   14.97   20.82   PASS
+  resampled to 8 kHz                         14.95   20.90   PASS
+  resampled to 48 kHz                        14.93   20.93   PASS
+  3 loud knocks                              14.92   20.92   PASS
+  50 Hz hum switches on 30-45 s              14.97   20.92   PASS
+  edge cases passed: 15/15
+
+=== Realistic generator: 100 new takes (random scale/instrument/noise, pauses, padding) ===
+  miss (new) seed 5 sameinst_newmel+noise|bgafter
+  miss (new) seed 80 sameinst_outscale|bgafter
+foreign phrase type     old (submitted)  new main.py
+sameinst_outscale              13/22        21/22
+sameinst_newmel                 7/18        17/18
+flute_up                       12/23        23/23
+otherinst                       5/19        19/19
+flute_same                     12/18        18/18
+TOTAL                          49/100       98/100

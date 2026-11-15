@@ -9,9 +9,13 @@ Reproduces the analysis behind main.py:
      training take, splices foreign material of 13 different kinds into random
      places (crossfaded, RMS-matched so there is no click / volume jump), and
      checks how often the detector lands within the +-1.5 s tolerance
-  4. writes results/report.txt
+  4. edge-case tests (silence, padding, pauses, DC offset, clipping, other
+     sample rates, knocks, coughs ...)
+  5. realistic generator (realistic_gen.py): 100 new takes with pauses and
+     silent padding; compares the first submitted version (old/) with main.py
+  6. writes results/report.txt
 
-Run from inside this folder:   python solve.py          (about 2-4 minutes)
+Run from inside this folder:   python solve.py          (about 6-8 minutes)
 """
 import os
 import sys
@@ -263,6 +267,66 @@ for k in KINDS:
 n_ok, n_tot = sum(ok.values()), sum(tot.values())
 log(f"{'TOTAL':20s} {n_ok}/{n_tot} ({100*n_ok/n_tot:.1f} %)")
 log(f"median boundary error on passes: {np.median(errs):.3f} s, 95th percentile {np.percentile(errs, 95):.3f} s")
+
+# ---------------------------------------------------------------- 4. edge cases
+log()
+log("=== Edge cases (training file modified; truth shifts with padding) ===")
+erng = np.random.default_rng(7)
+mus = rms(x)
+def edge(name, y, shift=0.0, srr=sr):
+    ds, de, _ = main.detect(y, srr)
+    a, b = gt_s + shift, gt_e + shift
+    good = abs(ds - a) <= TOL and abs(de - b) <= TOL
+    log(f"  {name:40s} {ds:7.2f} {de:7.2f}   {'PASS' if good else 'FAIL'}")
+    return good
+E = []
+E.append(edge("3 s digital silence at start", np.r_[np.zeros(3 * sr), x], 3))
+E.append(edge("3 s digital silence at end", np.r_[x, np.zeros(3 * sr)]))
+E.append(edge("5 s silence at both ends", np.r_[np.zeros(5 * sr), x, np.zeros(5 * sr)], 5))
+y = x.copy(); y[int(35 * sr):int(35.3 * sr)] = 0
+E.append(edge("0.3 s dropout (zeros) at 35 s", y))
+y = x.copy(); y[int(30 * sr):int(33 * sr)] = erng.standard_normal(3 * sr) * 8
+E.append(edge("3 s pause, room tone only, at 30 s", y))
+E.append(edge("3 s quiet noise lead-in", np.r_[erng.standard_normal(3 * sr) * 5, x], 3))
+E.append(edge("3 s fade-in", x * np.minimum(1, np.arange(len(x)) / (3 * sr))))
+E.append(edge("3 s fade-out", x * np.minimum(1, (len(x) - np.arange(len(x))) / (3 * sr))))
+E.append(edge("DC offset +2000", x + 2000))
+E.append(edge("gain x30 with clipping", np.clip(x * 30, -32768, 32767)))
+E.append(edge("float samples in [-1, 1]", x / 32768))
+E.append(edge("resampled to 8 kHz", signal.resample_poly(x, 160, 441), 0, 8000))
+E.append(edge("resampled to 48 kHz", signal.resample_poly(x, 320, 147), 0, 48000))
+kn = np.zeros(int(0.05 * sr)); kn[:200] = erng.standard_normal(200) * mus * 10
+y = x.copy(); [y.__setitem__(slice(int(t0 * sr), int(t0 * sr) + len(kn)), y[int(t0 * sr):int(t0 * sr) + len(kn)] + kn) for t0 in (32, 40, 48)]
+E.append(edge("3 loud knocks", y))
+hum = np.sin(2 * np.pi * 50 * np.arange(len(x)) / sr) * mus * 0.05
+y = x.copy(); y[int(30 * sr):int(45 * sr)] += hum[int(30 * sr):int(45 * sr)]
+E.append(edge("50 Hz hum switches on 30-45 s", y))
+log(f"  edge cases passed: {sum(E)}/{len(E)}")
+
+# ---------------------------------------------------------------- 5. realistic generator, old vs new
+import importlib.util
+import realistic_gen as rg
+spec = importlib.util.spec_from_file_location("old_main", os.path.join(HERE, "old", "main_v1_submitted.py"))
+old_main = importlib.util.module_from_spec(spec); spec.loader.exec_module(old_main)
+log()
+log("=== Realistic generator: 100 new takes (random scale/instrument/noise, pauses, padding) ===")
+res_old, res_new = [], []
+kinds_r = collections.Counter(); ok_new_k = collections.Counter(); ok_old_k = collections.Counter()
+for seed in range(100):
+    y, a, b, kind = rg.make_case(seed, hard=True)
+    y = y.astype(float)
+    k = kind.split("+")[0].split("|")[0]
+    for mod, store, kk in ((old_main, res_old, ok_old_k), (main, res_new, ok_new_k)):
+        ds, de, _ = mod.detect(y, rg.SR)
+        good = abs(ds - a) <= TOL and abs(de - b) <= TOL
+        store.append(good); kk[k] += good
+    kinds_r[k] += 1
+    if not res_new[-1]:
+        log(f"  miss (new) seed {seed} {kind}")
+log(f"{'foreign phrase type':22s} {'old (submitted)':>16s} {'new main.py':>12s}")
+for k in kinds_r:
+    log(f"{k:22s} {ok_old_k[k]:>10d}/{kinds_r[k]:<5d} {ok_new_k[k]:>6d}/{kinds_r[k]}")
+log(f"{'TOTAL':22s} {sum(res_old):>10d}/{len(res_old):<5d} {sum(res_new):>6d}/{len(res_new)}")
 
 with open(os.path.join(RES, "report.txt"), "w") as fh:
     fh.write("\n".join(report) + "\n")

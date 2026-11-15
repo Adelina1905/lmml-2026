@@ -35,13 +35,31 @@ def load_mono(path):
     return sr, x
 
 
+def quiet_mask(P, f, hop_s, drop_db=15.0):
+    """Frames that are much quieter than the music (pauses, digital silence,
+    silent padding, quiet lead-in). The forger matched the volume, so the
+    splice is never quiet; these frames must not create contrast."""
+    lin = P[(f > 100) & (f < 5000)].mean(axis=0)
+    k = max(1, int(round(0.25 / hop_s)))
+    lin_s = uniform_filter1d(lin, k)
+    db = 10 * np.log10(lin_s + 1e-20)
+    q = db < np.median(db) - drop_db
+    d = max(1, int(round(0.3 / hop_s)))           # also drop the fade edges
+    q = np.convolve(q.astype(float), np.ones(2 * d + 1), "same") > 0
+    if q.mean() > 0.5:                             # odd file: do not mask
+        q[:] = False
+    return q
+
+
 def frame_features(x, sr, hop_s):
     hop = max(1, int(round(hop_s * sr)))
     n = 4096 if sr > 30000 else 2048
     n = max(n, 2 * hop)
     f, t, S = signal.stft(x, sr, nperseg=n, noverlap=n - hop,
                           boundary=None, padded=False)
-    P = np.abs(S) ** 2 + 1e-10
+    P = np.abs(S) ** 2
+    P = P + max(1e-10, 1e-9 * P.mean())           # no -inf dB on digital silence
+    quiet = quiet_mask(P, f, hop_s)
 
     # 1) energy in 40 log-spaced frequency bands (15 Hz ... 11 kHz)
     edges = np.geomspace(15, min(11000, sr / 2 * 0.98), 41)
@@ -55,13 +73,21 @@ def frame_features(x, sr, hop_s):
             bands.append(10 * np.log10(P[m].mean(axis=0)))
     B = np.array(bands)
 
+    # quiet frames get the typical (median) music values -> neutral
+    def neutral(M):
+        if quiet.any():
+            M = M.copy()
+            M[:, quiet] = np.median(M[:, ~quiet], axis=1, keepdims=True)
+        return M
+    B = neutral(B)
+
     # 2) background floor per band: quietest 10 % of frames within 1 s
     w = max(3, int(round(1.0 / hop_s)))
     Fl = percentile_filter(B, 10, size=(1, w))
 
     # 3) spectral shape: band energies relative to the frame's overall level
     lvl = 10 * np.log10(P[(f > 100) & (f < 5000)].mean(axis=0))
-    Bn = B - lvl
+    Bn = neutral(B - lvl)
 
     # 4) repetition: does this spectral frame occur elsewhere in the take?
     m = (f > 100) & (f < 4000)
@@ -73,9 +99,11 @@ def frame_features(x, sr, hop_s):
     idx = np.arange(SS.shape[0])
     ex = int(round(3.0 / hop_s))
     SS[np.abs(idx[:, None] - idx[None, :]) < ex] = -1  # ignore own neighbourhood
+    SS[:, quiet] = -1                                   # silence is not a match
     rep = np.sort(SS, axis=1)[:, -5:].mean(axis=1)
+    rep = neutral(rep[None, :])
 
-    X = np.vstack([B, Fl, Bn, rep[None, :]])
+    X = np.vstack([B, Fl, Bn, rep])
     return t, X
 
 
@@ -109,7 +137,7 @@ def detect(x, sr):
     N = X.shape[1]
     minlen = max(2, int(1.5 / hop_s))
     maxlen = min(int(25.0 / hop_s), int(0.6 * N))
-    margin = int(0.5 / hop_s)
+    margin = int(1.4 / hop_s)   # tolerance is 1.5 s, so this costs nothing
     (a, b), score = best_segment(X, minlen, maxlen, margin)
     t0 = t[0] - hop_s / 2  # frame i covers [t0 + i*hop, t0 + (i+1)*hop)
     start = max(0.0, t0 + a * hop_s)

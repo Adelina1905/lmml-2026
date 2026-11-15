@@ -8,7 +8,9 @@ Find where a few seconds of a recording were replaced by audio from somewhere el
 
 | File | Purpose |
 |---|---|
-| `main.py` | The submitted detector (needs numpy + scipy only, runs in about 1 s) |
+| `main.py` | The detector, version 2 (numpy + scipy only, about 1 s per file) |
+| `old/main_v1_submitted.py` | First version (failed hidden test 3), kept for the before/after comparison |
+| `realistic_gen.py` | Generator of realistic test takes (random scale, instrument, noise, pauses, silent padding) |
 | `solve.py` | Reproduces the analysis: train check, plots, synthetic validation, `results/report.txt` |
 | `check_local.py` | Runs `main.py` the way the harness does (clean folder, bare filename) and scores it on the training file |
 | `train-input.wav`, `train-output.csv` | Provided training recording and its true splice boundaries |
@@ -30,7 +32,19 @@ The splice has no click and no volume jump, but audio recorded somewhere else ca
    - spectral shape (band energies relative to the frame's loudness), which is unaffected by volume matching
    - repetition score: how closely the frame's spectrum matches its 5 best matches elsewhere in the take
 2. Smooth every feature over 0.5 s.
-3. Try **every** interval `[a, b)` between 1.5 and 25 s long. For each feature, compute how much of its variance the split "inside vs outside" explains (R² of a two-group model), then average over all features. The interval with the highest mean R² is the part that differs most from the rest of the take: the splice. Cumulative sums make this exhaustive search fast.
+3. **Quiet frames are made neutral.** Frames more than 15 dB below the typical music level (pauses, digital silence, silent padding, quiet lead-in) get the median feature values, so they can't create contrast. The forger matched the volume, so the splice is never quiet.
+4. Try **every** interval `[a, b)` between 1.5 and 25 s long. For each feature, compute how much of its variance the split "inside vs outside" explains (R² of a two-group model), then average over all features. The interval with the highest mean R² is the part that differs most from the rest of the take: the splice. Cumulative sums make this exhaustive search fast.
+
+## Version 2: why the first version failed hidden test 3
+
+The first version passed hidden tests 1 and 2 but failed test 3. Stress tests showed why: **any quiet stretch hijacked it**. 0.3 s of digital silence, silence padding at the start or end, a pause with only room tone, or a quiet lead-in is "the most different part of the file" in every loudness-based feature, so the old detector returned the silence instead of the splice. Version 2 neutralises quiet frames (step 3) and keeps candidate boundaries at least 1.4 s from the file edges. That margin costs nothing, because the tolerance is 1.5 s.
+
+| Test set | v1 (submitted) | v2 |
+|---|---|---|
+| training file | PASS (0.04 s) | PASS (0.04 s) |
+| 15 edge cases (silence, padding, pauses, DC, clipping, 8/48 kHz, float, knocks, hum) | 9/15 (all 6 silence/pause cases fail) | **15/15** |
+| 100 realistic takes with pauses and padding (`realistic_gen.py`) | 49/100 | **98/100** |
+| 234 splice-type tests (below) | 222/234 | 222/234 |
 
 ## Results
 
