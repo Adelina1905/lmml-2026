@@ -1,0 +1,39 @@
+=== Training recording ===
+sample rate 22050 Hz, duration 55.84 s
+ground truth : start 14.960  end 20.965
+detected     : start 14.925  end 20.925   (mean R^2 = 0.274)
+errors       : start 0.035 s, end 0.040 s  -> PASS (tolerance 1.5 s)
+plots saved: results/train_spectrogram.png, results/train_r2_map.png
+
+=== Synthetic validation ===
+Foreign audio spliced into genuine audio at random positions, length 2-12 s,
+50 ms crossfade and RMS matching (no click, no volume jump).
+  miss [original take] pitch_only: true 32.32-36.72, got 14.07-15.87
+  miss [original take] pitch_only: true 33.73-44.16, got 36.72-39.87
+  miss [original take] pitch_only: true 24.74-32.08, got 28.72-32.02
+  miss [original take] reverb: true 33.04-37.13, got 14.12-15.87
+  miss [original take] reverb: true 37.12-40.16, got 17.12-22.02
+  miss [original take] reverb: true 19.93-23.41, got 19.97-26.17
+  miss [re-shuffled take A] pitch_only: true 8.20-19.94, got 11.62-16.62
+  miss [re-shuffled take A] pitch_only: true 21.00-24.82, got 18.77-27.07
+  miss [re-shuffled take A] reverb: true 18.74-26.81, got 24.97-26.97
+  miss [re-shuffled take B] reverb: true 7.89-16.15, got 9.47-15.82
+  miss [re-shuffled take B] reverb: true 22.21-32.83, got 25.62-32.92
+  miss [re-shuffled take B] reverb: true 25.33-28.12, got 23.97-47.42
+
+splice type          pass rate
+real_foreign         18/18
+pitch+rumble         18/18
+rumble               18/18
+rumble_weak          18/18
+rumble_very_weak     18/18
+flute                18/18
+flute+rumble         18/18
+pink_noise           18/18
+pink_noise_weak      18/18
+lowpass_mic          18/18
+pitch_only           13/18
+white_hiss_-40dB     18/18
+reverb               11/18
+TOTAL                222/234 (94.9 %)
+median boundary error on passes: 0.108 s, 95th percentile 0.453 s

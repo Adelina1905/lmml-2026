@@ -1,0 +1,37 @@
+=== 1. per-group accuracy of each guide on the training set
+group                     n   cheap     exp    gain
+board|direct             45    1.00    1.00   +0.00
+board|indirect           22    0.55    1.00   +0.45
+crates_sell              24    0.00    1.00   +1.00
+crates|easy              24    0.92    1.00   +0.08
+crates|hard              19    0.42    1.00   +0.58
+stall                    37    0.19    0.95   +0.76
+stall_pause              29    0.07    0.66   +0.59
+takings                  39    0.15    1.00   +0.85
+takings_fee              28    0.25    0.54   +0.29
+toll                     39    0.15    1.00   +0.85
+toll_heavy               27    0.00    0.93   +0.93
+walk|detour_shorter      30    0.03    0.10   +0.07
+walk|direct_shortest     37    0.51    0.89   +0.38
+STATS embedded in main.py identical to the re-fitted table: True
+
+=== 2. main.py on the 400 training requests (budget 8000)
+quality = 0.8500  cost = 7984  expensive = 316  cheap = 84
+gates (>= 0.80, <= 8000): PASS
+  reference: all cheap                quality = 0.3375  cost = 400
+  reference: all expensive            quality = 0.8550  cost = 10000
+  reference: oracle train-output.csv  quality = 0.8800  cost = 5608
+
+=== 3. repeated 5-fold cross-validation (20 x 5 folds, stats fitted on 4/5)
+held-out quality: mean 0.8436  min 0.7500  5th pct 0.7750  max 0.9375
+held-out cost per request: max 19.90 (budget 20)
+folds failing a gate: 13 / 100
+
+=== 4. mix-shift stress test (500 requests drawn with random template weights)
+quality: mean 0.8472  1st pct 0.7968  min 0.7720
+cost always within min(10000, 20*N): True
+runs below 0.80 quality: 23 / 2000
+
+=== 5. end-to-end: python main.py in a scratch folder (train copied as test-input.csv)
+routing_log.csv rows = 400, ids in order and values valid: True
+quality = 0.8500  cost = 7984

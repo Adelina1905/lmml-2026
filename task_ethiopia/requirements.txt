@@ -1,0 +1,5 @@
+# Python 3.10+  (main.py needs only numpy + scipy)
+numpy>=1.24
+scipy>=1.10
+# only for the plots in solve.py
+matplotlib>=3.7
