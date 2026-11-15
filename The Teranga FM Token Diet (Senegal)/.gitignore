@@ -1,0 +1,18 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+# Regenerable answers and local temporary files
+/answers.json
+/demo_answers.json
+*.log
+*.tmp
+# Local credentials and editor metadata
+.env
+.env.*
+.obsidian/
+.vscode/
+.vs/
