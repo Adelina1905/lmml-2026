@@ -1,0 +1,88 @@
+id,date,hour_utc,in_letter,reasons
+0003,1987-03-07,06,0,dew point exceeds air temperature
+0041,1987-03-12,00,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0042,1987-03-12,03,1,isolated temperature excursion exceeding 10 C on both sides
+0043,1987-03-12,06,1,station-to-sea-level correction outside the empirical 5.0-6.2 hPa band
+0044,1987-03-12,09,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0045,1987-03-12,12,1,precipitation-weather code with zero cloud cover
+0049,1987-03-13,00,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0051,1987-03-13,06,1,isolated near-saturation value within an otherwise drier sequence
+0053,1987-03-13,12,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0057,1987-03-14,00,1,12-hour maximum is below the minimum
+0059,1987-03-14,06,1,isolated near-saturation value within an otherwise drier sequence
+0061,1987-03-14,12,1,precipitation-weather code with zero cloud cover
+0147,1987-03-25,06,0,isolated wind-speed spike above 60 m/s
+0234,1987-04-05,03,1,snow-weather code with unusually high visibility
+0235,1987-04-05,06,1,precipitation-weather code with zero cloud cover
+0236,1987-04-05,09,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0238,1987-04-05,15,1,isolated near-saturation value within an otherwise drier sequence
+0242,1987-04-06,03,1,precipitation-weather code with zero cloud cover
+0244,1987-04-06,09,1,snow-weather code with unusually high visibility
+0246,1987-04-06,15,1,pressure-tendency sign or amount contradicts observed pressure change
+0250,1987-04-07,03,1,station-to-sea-level correction outside the empirical 5.0-6.2 hPa band
+0252,1987-04-07,09,1,precipitation-weather code with zero cloud cover
+0253,1987-04-07,12,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0254,1987-04-07,15,1,isolated temperature excursion exceeding 10 C on both sides
+0279,1987-04-10,18,0,dew point exceeds air temperature
+0296,1987-04-12,21,0,wind direction exceeds code 36
+0378,1987-04-23,03,0,wind direction exceeds code 36
+0457,1987-05-03,00,1,isolated temperature excursion exceeding 10 C on both sides
+0458,1987-05-03,03,1,station-to-sea-level correction outside the empirical 5.0-6.2 hPa band
+0459,1987-05-03,06,1,low/middle cloud amount exceeds total cloud cover
+0460,1987-05-03,09,1,low/middle cloud amount exceeds total cloud cover
+0461,1987-05-03,12,1,isolated pressure change inconsistent with tendencies on both sides
+0465,1987-05-04,00,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0467,1987-05-04,06,1,isolated near-saturation value within an otherwise drier sequence
+0474,1987-05-05,03,1,isolated pressure change inconsistent with tendencies on both sides
+0476,1987-05-05,09,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0477,1987-05-05,12,1,isolated near-saturation value within an otherwise drier sequence
+0506,1987-05-09,03,0,wind direction exceeds code 36; isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0527,1987-05-11,18,0,isolated wind-speed spike above 60 m/s
+0578,1987-05-18,03,0,isolated wind-speed spike above 60 m/s
+0588,1987-05-19,09,1,snow-weather code with unusually high visibility
+0589,1987-05-19,12,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0590,1987-05-19,15,1,isolated temperature excursion exceeding 10 C on both sides
+0591,1987-05-19,18,1,isolated near-saturation value within an otherwise drier sequence
+0592,1987-05-19,21,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0596,1987-05-20,09,1,station-to-sea-level correction outside the empirical 5.0-6.2 hPa band
+0600,1987-05-20,21,1,station-to-sea-level correction outside the empirical 5.0-6.2 hPa band
+0604,1987-05-21,09,1,isolated pressure change inconsistent with tendencies on both sides
+0606,1987-05-21,15,1,isolated temperature excursion exceeding 10 C on both sides
+0607,1987-05-21,18,1,isolated near-saturation value within an otherwise drier sequence
+0608,1987-05-21,21,1,pressure-tendency sign or amount contradicts observed pressure change
+0610,1987-05-22,03,0,wind direction exceeds code 36
+0670,1987-05-29,15,0,isolated temperature excursion exceeding 10 C on both sides
+0687,1987-05-31,18,0,reported gust is below sustained wind
+0716,1987-06-04,09,0,dew point exceeds air temperature
+0763,1987-06-10,06,0,dew point exceeds air temperature
+0842,1987-06-20,03,1,snow-weather code with unusually high visibility
+0843,1987-06-20,06,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0844,1987-06-20,09,1,precipitation-weather code with zero cloud cover
+0845,1987-06-20,12,1,precipitation-weather code with zero cloud cover
+0849,1987-06-21,00,1,precipitation-weather code with zero cloud cover
+0851,1987-06-21,06,1,snow-weather code with unusually high visibility
+0858,1987-06-22,03,1,isolated temperature excursion exceeding 10 C on both sides
+0859,1987-06-22,06,1,snow-weather code with unusually high visibility
+0860,1987-06-22,09,1,snow-weather code with unusually high visibility
+0861,1987-06-22,12,1,isolated temperature excursion exceeding 10 C on both sides
+0874,1987-06-24,03,0,wind direction exceeds code 36; isolated direction jump of at least 100 degrees with wind >= 7 m/s
+0895,1987-06-26,18,0,invalid SYNOP observation-time group; illegal group character or length
+0912,1987-06-28,21,0,reported gust is below sustained wind
+0917,1987-06-29,12,0,dew point exceeds air temperature
+0921,1987-06-30,00,0,wind direction exceeds code 36
+0928,1987-06-30,21,0,reported gust is below sustained wind
+1006,1987-07-10,15,0,wind direction exceeds code 36; isolated direction jump of at least 100 degrees with wind >= 7 m/s
+1027,1987-07-13,06,1,isolated near-saturation value within an otherwise drier sequence
+1028,1987-07-13,09,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+1029,1987-07-13,12,1,isolated temperature excursion exceeding 10 C on both sides
+1030,1987-07-13,15,1,isolated near-saturation value within an otherwise drier sequence
+1031,1987-07-13,18,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+1035,1987-07-14,06,1,precipitation-weather code with zero cloud cover
+1036,1987-07-14,09,1,local direction outlier supported by at least three neighboring anomalous observations
+1043,1987-07-15,06,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+1044,1987-07-15,09,1,isolated near-saturation value within an otherwise drier sequence
+1045,1987-07-15,12,1,isolated near-saturation value within an otherwise drier sequence
+1046,1987-07-15,15,1,isolated direction jump of at least 100 degrees with wind >= 7 m/s
+1047,1987-07-15,18,1,isolated near-saturation value within an otherwise drier sequence
+1056,1987-07-16,21,0,wind direction exceeds code 36
+1067,1987-07-18,06,0,dew point exceeds air temperature
