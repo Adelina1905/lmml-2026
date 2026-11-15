@@ -55,7 +55,13 @@
     000321 -> RMGFNQ   sites 11   loglik  -72.45   posterior 0.001   (excluding RHGLWQ: 0.001)
     323000 -> KHZLWC   sites  5   loglik  -75.82   posterior 0.000   (excluding RHGLWQ: 0.000)
     000000 -> RHGLWQ   sites 20   loglik  -81.58   posterior 0.000   (excluding RHGLWQ: 0.000)
-    note: a leave-one-site-out test (see EXPLANATION.md) showed the readings alone cannot
-    separate 112133 from 231212, so their order comes from how often each template occurs.
+    -> two finalists, the 'full' templates 112133 and 231212 (distort every group).
+       By site frequency alone 112133 would be preferred (18 vs 8 sites).
 
-FLAG: SIGMOID_XWBPHD   (runner-up: SIGMOID_ANSEMO)
+[5] letter-level check of the two finalists
+    at undistorted sites, a letter written as the OPPOSITE of the true letter: 0.17% of letters
+    XWBPHD (112133): minority letters that would be OPPOSITE-of-true misreads: 11 ['pos1:K', 'pos2:M', 'pos2:M', 'pos3:Z', 'pos3:Z', 'pos3:Z', 'pos4:F', 'pos4:F', 'pos5:N', 'pos5:N', 'pos6:C']; letter-pair log-lik -22.28
+    ANSEMO (231212): minority letters that would be OPPOSITE-of-true misreads: 0 []; letter-pair log-lik -22.28
+    -> ANSEMO explains every odd reading as an ordinary misread of the true letter (true letter or its neighbour); the other finalist needs 11 'opposite' misreads.
+
+FLAG: SIGMOID_ANSEMO   (runner-up: SIGMOID_XWBPHD)

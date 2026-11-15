@@ -20,11 +20,12 @@ Key facts found in the data (all checked below):
          distorts (an undistorted site almost never produces them);
        - they appear in groups AKRX and HMNW, which only the two "full"
          templates 112133 and 231212 distort;
-       - a leave-one-site-out test shows the readings cannot tell 112133 from
-         231212 apart, so the decision uses how often each template occurs
-         across Moldova (prior).
-     Undoing each template on RHGLWQ gives one candidate ring; the most
-     probable one is the flag.
+       - between those two, a letter-level check decides: with 231212 every odd
+         reading is an ordinary misread of the true letter (the true letter or
+         one of its two neighbours); with 112133, 11 odd readings would have to be
+         'opposite' misreads, which undistorted sites produce for only 0.2% of
+         letters. (Site frequency alone would have favoured 112133.)
+     Undoing 231212 on RHGLWQ gives ANSEMO.
 
 Run from inside this folder:   python solve.py
 Output: results/report.txt, results/templates.csv, results/candidates.csv,
@@ -240,12 +241,52 @@ cdf.round(4).to_csv(os.path.join(RES, "candidates.csv"), index=False)
 for r in cdf.itertuples():
     out(f"    {r.template} -> {r.ring}   sites {r.sites_with_template:2d}   loglik {r.loglik:7.2f}   "
         f"posterior {r.post_all:.3f}   (excluding {A}: {r.post_given_not_majority:.3f})")
-out("    note: a leave-one-site-out test (see EXPLANATION.md) showed the readings alone cannot")
-out("    separate 112133 from 231212, so their order comes from how often each template occurs.")
+out("    -> two finalists, the 'full' templates 112133 and 231212 (distort every group).")
+out("       By site frequency alone 112133 would be preferred (18 vs 8 sites).")
 
-best = cdf.iloc[0]
-flag = f"SIGMOID_{best.ring}"
-out(f"\nFLAG: {flag}   (runner-up: SIGMOID_{cdf.iloc[1].ring})")
+# ------------------------------------------------------------------ step 5
+out("\n[5] letter-level check of the two finalists")
+# Rule measured at undistorted sites: an ordinary misread moves the TRUE letter to one of its
+# two 'neighbours' in the group, almost never to its 'opposite'.
+id_opp_true = cat["identity"]["opp_of_apparent"] / sum(cat["identity"].values())
+out(f"    at undistorted sites, a letter written as the OPPOSITE of the true letter: {id_opp_true:.2%} of letters")
+# non-parametric P(written | true, apparent) from calibrated cells
+pairW = collections.defaultdict(collections.Counter)
+for _, row in known.iterrows():
+    for p, q in zip(row.ring_read, row.true):
+        if p == "?" or (row.locality_id, GRP[q]) not in clean:
+            continue
+        pairW[(q, swap(clean[(row.locality_id, GRP[q])], q))][p] += 1
+final = []
+for r in cdf.head(2).itertuples():
+    viol, lp, expl = 0, 0.0, []
+    for i, a in enumerate(A):
+        T = r.ring[i]
+        g = GRP[a]
+        c = pairW[(T, a)]
+        n = sum(c.values())
+        pr = {l: (c[l] + 1) / (n + 4) for l in GROUPS[g]}
+        for rd in R:
+            p = rd[i]
+            if p == "?" or p == a:
+                continue
+            d = pos_in_group(T) ^ pos_in_group(p)
+            if d == OPP[g]:
+                viol += 1
+                expl.append(f"pos{i + 1}:{p}")
+            lp += math.log(pr[p] / (1 - pr[a]))
+    final.append((r.ring, r.template, viol, lp, expl))
+    out(f"    {r.ring} ({r.template}): minority letters that would be OPPOSITE-of-true misreads: {viol} "
+        f"{expl}; letter-pair log-lik {lp:.2f}")
+final.sort(key=lambda t: (t[2], -t[3]))
+winner = final[0]
+out(f"    -> {winner[0]} explains every odd reading as an ordinary misread of the true letter "
+    f"(true letter or its neighbour); the other finalist needs {final[1][2]} 'opposite' misreads.")
+
+best_ring = winner[0]
+runner = final[1][0]
+flag = f"SIGMOID_{best_ring}"
+out(f"\nFLAG: {flag}   (runner-up: SIGMOID_{runner})")
 with open(os.path.join(HERE, "FLAG.txt"), "w") as f:
     f.write(flag + "\n")
 with open(os.path.join(RES, "report.txt"), "w", encoding="utf-8") as f:
@@ -260,10 +301,10 @@ try:
         g = GROUPS[GRP[A[i]]]
         c = collections.Counter(r[i] for r in R)
         ax.bar(list(g) + ["?"], [c[l] for l in g] + [c["?"]],
-               color=["#2a6f97" if l == A[i] else "#c0504d" if l == best.ring[i] else "#bbbbbb" for l in g] + ["#dddddd"])
-        ax.set_title(f"pos {i + 1}: read {A[i]} -> {best.ring[i]}")
+               color=["#2a6f97" if l == A[i] else "#c0504d" if l == best_ring[i] else "#bbbbbb" for l in g] + ["#dddddd"])
+        ax.set_title(f"pos {i + 1}: read {A[i]} -> {best_ring[i]}")
     axes[0].set_ylabel("readings")
-    fig.suptitle(f"Lower Prut stork: majority {A} (blue) vs decoded {best.ring} (red)")
+    fig.suptitle(f"Lower Prut stork: majority {A} (blue) vs decoded {best_ring} (red)")
     fig.tight_layout()
     fig.savefig(os.path.join(RES, "lower_prut_votes.png"), dpi=120)
 except ImportError:
