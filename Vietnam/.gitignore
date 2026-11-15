@@ -1,0 +1,12 @@
+# training data (kept locally / on Google Drive, not in git)
+data/
+*.zip
+
+# trained models and outputs
+*.pt
+output/
+output_simple/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
