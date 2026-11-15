@@ -1,0 +1,39 @@
+{
+  "training": {
+    "strips": 192,
+    "order_accuracy": 1.0,
+    "pixel_exact": true,
+    "ssim": 1.0,
+    "wall_seconds_including_imports": 0.8907332999951905
+  },
+  "reshredded": [
+    {
+      "width": 6,
+      "offset": 3,
+      "strips": 255,
+      "order_accuracy": 1.0,
+      "seconds": 0.14268799999263138
+    },
+    {
+      "width": 8,
+      "offset": 4,
+      "strips": 191,
+      "order_accuracy": 1.0,
+      "seconds": 0.08630730000732001
+    },
+    {
+      "width": 12,
+      "offset": 5,
+      "strips": 127,
+      "order_accuracy": 1.0,
+      "seconds": 0.04589579999446869
+    },
+    {
+      "width": 16,
+      "offset": 7,
+      "strips": 95,
+      "order_accuracy": 1.0,
+      "seconds": 0.035664499999256805
+    }
+  ]
+}

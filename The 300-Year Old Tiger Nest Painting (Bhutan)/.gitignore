@@ -1,0 +1,9 @@
+/_archive/
+/input/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.zip
+bin/
+obj/
