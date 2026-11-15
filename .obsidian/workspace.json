@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "426d0b3be3de1257",
+    "type": "split",
+    "children": [
+      {
+        "id": "c193aff1833e0fdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad6b103b6348f4c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The 300-Year Old Tiger Nest Painting (Bhutan)/Solving.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Solving"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "37359e56d4e3849a",
+    "type": "split",
+    "children": [
+      {
+        "id": "151408e0b1019d22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e8a8b22120fc894",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8eeb78b6f03b7376",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c14097b04bff0dc4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6ffa117d515e8894",
+    "type": "split",
+    "children": [
+      {
+        "id": "26d13a529235fe11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce9efb496739223b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "The Braided River Run (New Zealand)/The Braided River Run - Explained.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9aa3bf6c6dd5f076",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "The Braided River Run (New Zealand)/The Braided River Run - Explained.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "91d83dd7c3faae21",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5c6bf74801959ed5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "808c669b31f06f1b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "The Braided River Run (New Zealand)/The Braided River Run - Explained.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ad6b103b6348f4c9",
+  "lastOpenFiles": [
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/README.md",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/ConnectionDemo.cs",
+    "The Teranga FM Token Diet (Senegal)/Solving.md",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/Solving.md",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/__pycache__/main.cpython-312.pyc",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/__pycache__",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/experiment.py",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan-20261115T071909Z-1-001.zip",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-output/reconstructed_image.png",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-input/strip_192.png",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-input/strip_191.png",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-input/strip_190.png",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-input/strip_188.png",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-input/strip_189.png",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-input/strip_187.png",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-input/strip_186.png",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-input/strip_185.png",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-input/strip_184.png",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-output",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/train-input",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan/requirements.txt",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/_archive/task_bhutan",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/validation/results.json",
+    "The 300-Year Old Tiger Nest Painting (Bhutan)/Task.md",
+    "Look, a penguin! (Antarctica)/Solving.md",
+    "The Forest Went Quiet (Bolivia)/Solution.md",
+    "The Teranga FM Token Diet (Senegal)/Task.md",
+    "Look, a penguin! (Antarctica)/Task.md",
+    "Look, a penguin! (Antarctica)/synop_format.md",
+    "Bad BOMB (Laos)/Solving.md",
+    "The Forest Went Quiet (Bolivia)/README.md",
+    "The Forest Went Quiet (Bolivia)/Task.md",
+    "The Baa-rilliant task! (Mongolia)/Solution (Obsidian).md",
+    "Bad BOMB (Laos)/results/EVALUATOR_RESULT.md",
+    "Bad BOMB (Laos)/models/torch_hub/facebookresearch_dinov2_7764ea0f912e53c92e82eb78a2a1631e92725fc8/docs/README_CHANNEL_ADAPTIVE_DINO.md",
+    "Bad BOMB (Laos)/models/torch_hub/facebookresearch_dinov2_7764ea0f912e53c92e82eb78a2a1631e92725fc8/docs/README_CELL_DINO.md",
+    "Bad BOMB (Laos)/models/torch_hub/facebookresearch_dinov2_7764ea0f912e53c92e82eb78a2a1631e92725fc8/README.md",
+    "Bad BOMB (Laos)/models/torch_hub/facebookresearch_dinov2_7764ea0f912e53c92e82eb78a2a1631e92725fc8/MODEL_CARD.md",
+    "Bad BOMB (Laos)/models/torch_hub/facebookresearch_dinov2_7764ea0f912e53c92e82eb78a2a1631e92725fc8/CONTRIBUTING.md",
+    "Bad BOMB (Laos)/models/torch_hub/facebookresearch_dinov2_7764ea0f912e53c92e82eb78a2a1631e92725fc8/CODE_OF_CONDUCT.md",
+    "Bad BOMB (Laos)/models/torch_hub/facebookresearch-dinov2-7764ea0/README.md",
+    "Bad BOMB (Laos)/models/torch_hub/facebookresearch-dinov2-7764ea0/MODEL_CARD.md",
+    "Bad BOMB (Laos)/models/torch_hub/facebookresearch-dinov2-7764ea0/CONTRIBUTING.md",
+    "Bad BOMB (Laos)/models/torch_hub/facebookresearch-dinov2-7764ea0/CODE_OF_CONDUCT.md",
+    "Bad BOMB (Laos)/LOCAL_DETECTOR.md",
+    "Looks like an anomaly! (Albania)/Solving (Obsidian).md"
+  ]
+}

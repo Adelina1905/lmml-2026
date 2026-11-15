@@ -1,0 +1,633 @@
+{
+  "status": "complete",
+  "preserved_files": [
+    {
+      "path": "Task.md",
+      "sha256": "c9caa60541aa510c47ddeda46103bb6689fa3a3bf5fa3fa4d2df4669a0dcafca",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "test-output.txt",
+      "sha256": "cb27946ec508bb997d47a4e409c1b74f7cd9017038bb8635944cf4375a243e2b",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "results/evaluator_feedback_2026-11-15.png",
+      "sha256": "89b6c40326c8f52a74525b2ebbd5c63ed90c860a11d20f7947ad3c6826b05513",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "results/EVALUATOR_RESULT.json",
+      "sha256": "6b4bc9154fa45497315a713259c0677674704ae80ec885a28892aa8bd5e12e6c",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "results/local_detector_v1/models/fold_1.joblib",
+      "sha256": "ee485bc186b770b69504052c80226229cf3cb556c20c19941fb0a6af81ffc1e7",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "results/local_detector_v1/models/fold_2.joblib",
+      "sha256": "d30f04ac0ba25fdfd65aae23786d29cc480c06096c7d43a014f4f65448c12410",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "results/local_detector_v1/models/fold_3.joblib",
+      "sha256": "69a2cbd64f12dd4cf59fae208b46566df2828b66eaafcc19d896b21b825f1a6d",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "results/local_detector_v1/patch_scores.npz",
+      "sha256": "3d2d457318ff03408799e14622bcde0e36da98a57f31fad8ebb17703dc530da6",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "results/local_detector_v1/ranking.csv",
+      "sha256": "940e5d219f492be8e2d1d5f3ec88dd66f7932930118c943c78a026974f319970",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "results/local_detector_v1/configuration.json",
+      "sha256": "df812120e7b92060d6cdc3f2bab6dd17bb646e0009cd268b657c328613134af1",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "results/local_detector_v1/summary.json",
+      "sha256": "7944ed80db8c168696f869a54c9d2de634f6b4db149c8149b1c1f5461afb58b2",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "results/unique_manifest.csv",
+      "sha256": "48655dcdc549ae8717ac0ffd48978c16d56a8e45be1d2519ce7ed01b87d0c476",
+      "hash_unchanged_after_cleanup": true
+    },
+    {
+      "path": "processed/manifest.csv",
+      "sha256": "3837667056d6790c31591cfa44e6ec5d9a1541d15ffc4bca9095729ac5d891c2",
+      "hash_unchanged_after_cleanup": true
+    }
+  ],
+  "moved_scripts": [
+    {
+      "original": "step_01_inspect_dataset.py",
+      "current": "scripts/step_01_inspect_dataset.py",
+      "original_sha256": "3f4ab2de35bdf8d66ffbab13c2224f71249b8110a9c140ba2b67bd394efcab15",
+      "current_sha256": "d81df65d8b5f941714f66e6b4a939ca7bc0bf534416d170830ecee273c836766"
+    },
+    {
+      "original": "step_02_preprocess_images.py",
+      "current": "scripts/step_02_preprocess_images.py",
+      "original_sha256": "26860c0053ffd4156b015d1d52f0bd2a07e1ce6bbe3f5b026e9940472ba10584",
+      "current_sha256": "20ed85da340e19b2ce71436743c68326624ab410c9ead4132dbc961c07fa40bc"
+    },
+    {
+      "original": "step_06_train_local_detector.py",
+      "current": "scripts/step_03_train_local_detector.py",
+      "original_sha256": "a901dbc527ce77c1a88e5f40dd6dcfd3921d1864e7681529b50b3f67b1a22254",
+      "current_sha256": "4efbcfa0f4b43bcaa5720c8e4bfca2c2d83b7fceaef3490b09a1d4266f01b452"
+    },
+    {
+      "original": "step_06_verify_local_detector.py",
+      "current": "scripts/step_03_verify_local_detector.py",
+      "original_sha256": "a0da607974c16f267968105633e6acc391c6e49d15a926d18127183aef0cd0e7",
+      "current_sha256": "e6807e44ad8945eccb22131fd446a6c810d999a09470bf1a8c48f35a062045e7"
+    },
+    {
+      "original": "step_06_run_local_detector.cmd",
+      "current": "scripts/step_03_run_local_detector.cmd",
+      "original_sha256": "de5277f9a7d8f7fd3d3282963907ff8e52acb677f7f1b5130f11ce54464d0a26",
+      "current_sha256": "3995fc76496c60756e9f662d52b2f636f8dc68c0183852a8cf02f19ad842fdc5"
+    }
+  ],
+  "removed_items": [
+    {
+      "removed": true,
+      "bytes": 256910,
+      "files": 8,
+      "directory": true,
+      "path": "__pycache__"
+    },
+    {
+      "removed": true,
+      "bytes": 46787,
+      "files": 1,
+      "directory": true,
+      "path": "scripts/__pycache__"
+    },
+    {
+      "removed": true,
+      "bytes": 7473705,
+      "files": 102,
+      "directory": true,
+      "path": "processed-pilot"
+    },
+    {
+      "removed": true,
+      "bytes": 12244728,
+      "files": 21,
+      "directory": true,
+      "path": "results/contact_sheets"
+    },
+    {
+      "removed": true,
+      "bytes": 666518,
+      "files": 52,
+      "directory": true,
+      "path": "results/openrouter_paid"
+    },
+    {
+      "removed": true,
+      "bytes": 286475,
+      "files": 56,
+      "directory": true,
+      "path": "results/openrouter_pilot"
+    },
+    {
+      "removed": true,
+      "bytes": 687959,
+      "files": 42,
+      "directory": true,
+      "path": "results/openrouter_scan"
+    },
+    {
+      "removed": true,
+      "bytes": 12918,
+      "files": 14,
+      "directory": true,
+      "path": "results/scan_offline_checks"
+    },
+    {
+      "removed": true,
+      "bytes": 477894550,
+      "files": 1225,
+      "directory": true,
+      "path": "results/local_detector_v1/feature_cache"
+    },
+    {
+      "removed": true,
+      "bytes": 12061762,
+      "files": 9,
+      "directory": true,
+      "path": "results/local_detector_v1/initial_diagnostic"
+    },
+    {
+      "removed": true,
+      "bytes": 1582501,
+      "files": 3,
+      "directory": true,
+      "path": "results/local_detector_offline_checks/models"
+    },
+    {
+      "removed": true,
+      "bytes": 9572,
+      "files": 1,
+      "directory": false,
+      "path": "LOCAL_DETECTOR.md"
+    },
+    {
+      "removed": true,
+      "bytes": 17474,
+      "files": 1,
+      "directory": false,
+      "path": "RESEARCH_AND_PLAN.md"
+    },
+    {
+      "removed": true,
+      "bytes": 8232,
+      "files": 1,
+      "directory": false,
+      "path": "RUNNING_SCAN.md"
+    },
+    {
+      "removed": true,
+      "bytes": 28,
+      "files": 1,
+      "directory": false,
+      "path": "requirements-inspection.txt"
+    },
+    {
+      "removed": true,
+      "bytes": 64,
+      "files": 1,
+      "directory": false,
+      "path": "requirements-preprocessing.txt"
+    },
+    {
+      "removed": true,
+      "bytes": 158,
+      "files": 1,
+      "directory": false,
+      "path": "requirements-local.txt"
+    },
+    {
+      "removed": true,
+      "bytes": 18654,
+      "files": 1,
+      "directory": false,
+      "path": "step_03_openrouter_review.py"
+    },
+    {
+      "removed": true,
+      "bytes": 27129,
+      "files": 1,
+      "directory": false,
+      "path": "step_04_scan_openrouter.py"
+    },
+    {
+      "removed": true,
+      "bytes": 17546,
+      "files": 1,
+      "directory": false,
+      "path": "step_05_paid_cost_trial.py"
+    },
+    {
+      "removed": true,
+      "bytes": 675,
+      "files": 1,
+      "directory": false,
+      "path": "step_04_run_scan.cmd"
+    },
+    {
+      "removed": true,
+      "bytes": 622,
+      "files": 1,
+      "directory": false,
+      "path": "step_04b_continue_scan.cmd"
+    },
+    {
+      "removed": true,
+      "bytes": 664,
+      "files": 1,
+      "directory": false,
+      "path": "step_05_run_paid_trial.cmd"
+    },
+    {
+      "removed": true,
+      "bytes": 1372,
+      "files": 1,
+      "directory": false,
+      "path": "results/EVALUATOR_RESULT.md"
+    },
+    {
+      "removed": true,
+      "bytes": 5380,
+      "files": 1,
+      "directory": false,
+      "path": "results/INPUT_INSPECTION.md"
+    },
+    {
+      "removed": true,
+      "bytes": 8453,
+      "files": 1,
+      "directory": false,
+      "path": "results/LOCAL_MODEL_RESEARCH.md"
+    },
+    {
+      "removed": true,
+      "bytes": 8029,
+      "files": 1,
+      "directory": false,
+      "path": "results/OPENROUTER_PILOT.md"
+    },
+    {
+      "removed": true,
+      "bytes": 4004,
+      "files": 1,
+      "directory": false,
+      "path": "results/PAID_100_TRIAL.md"
+    },
+    {
+      "removed": true,
+      "bytes": 8244,
+      "files": 1,
+      "directory": false,
+      "path": "results/PREPROCESSING.md"
+    },
+    {
+      "removed": true,
+      "bytes": 1315,
+      "files": 1,
+      "directory": false,
+      "path": "results/review_progress.json"
+    },
+    {
+      "removed": true,
+      "bytes": 2024,
+      "files": 1,
+      "directory": false,
+      "path": "results/script_formatting_checks.json"
+    },
+    {
+      "removed": true,
+      "bytes": 3822164,
+      "files": 1,
+      "directory": false,
+      "path": "results/near_duplicate_candidates.json"
+    },
+    {
+      "removed": true,
+      "bytes": 15340,
+      "files": 1,
+      "directory": false,
+      "path": "results/local_detector_v1/progress.log"
+    },
+    {
+      "removed": true,
+      "bytes": 552256,
+      "files": 1,
+      "directory": false,
+      "path": "results/local_detector_offline_checks/patch_scores.npz"
+    },
+    {
+      "removed": true,
+      "bytes": 240,
+      "files": 1,
+      "directory": false,
+      "path": "results/local_detector_offline_checks/status.json"
+    },
+    {
+      "removed": true,
+      "bytes": 2372,
+      "files": 1,
+      "directory": false,
+      "path": "results/local_detector_offline_checks/progress.log"
+    },
+    {
+      "removed": true,
+      "bytes": 641155995,
+      "files": 1,
+      "directory": false,
+      "path": "images-20261114T103244Z-1-001.zip"
+    },
+    {
+      "removed": true,
+      "bytes": 538663,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0001(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 492449,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0002(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 492414,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0003(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 536861,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0004(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 495045,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0005(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 538747,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0006(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 537481,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0007(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 535920,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0008(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 537652,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0009(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 535171,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0010(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 504312,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0011(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 495522,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0012(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 502549,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0013(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 533875,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0014(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 537378,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0015(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 535100,
+      "files": 1,
+      "directory": false,
+      "path": "images/image_0016(1).png"
+    },
+    {
+      "removed": true,
+      "bytes": 628925,
+      "files": 1,
+      "directory": false,
+      "path": "results/pilot_image_0001.png"
+    },
+    {
+      "removed": true,
+      "bytes": 483088,
+      "files": 1,
+      "directory": false,
+      "path": "results/pilot_image_0002.png"
+    },
+    {
+      "removed": true,
+      "bytes": 638097,
+      "files": 1,
+      "directory": false,
+      "path": "results/pilot_image_0408.png"
+    },
+    {
+      "removed": true,
+      "bytes": 637682,
+      "files": 1,
+      "directory": false,
+      "path": "results/pilot_image_0736.png"
+    },
+    {
+      "removed": true,
+      "bytes": 628999,
+      "files": 1,
+      "directory": false,
+      "path": "results/pilot_refined_image_0001.png"
+    },
+    {
+      "removed": true,
+      "bytes": 483056,
+      "files": 1,
+      "directory": false,
+      "path": "results/pilot_refined_image_0002.png"
+    },
+    {
+      "removed": true,
+      "bytes": 638176,
+      "files": 1,
+      "directory": false,
+      "path": "results/pilot_refined_image_0408.png"
+    },
+    {
+      "removed": true,
+      "bytes": 637723,
+      "files": 1,
+      "directory": false,
+      "path": "results/pilot_refined_image_0736.png"
+    },
+    {
+      "removed": true,
+      "bytes": 1220,
+      "files": 1,
+      "directory": false,
+      "path": "results/preprocessing_summary.json"
+    },
+    {
+      "removed": true,
+      "bytes": 70748,
+      "files": 1,
+      "directory": false,
+      "path": "results/local_detector_v1/heatmaps/image_0156.png"
+    },
+    {
+      "removed": true,
+      "bytes": 77160,
+      "files": 1,
+      "directory": false,
+      "path": "results/local_detector_v1/heatmaps/image_0632.png"
+    },
+    {
+      "removed": true,
+      "bytes": 77435,
+      "files": 1,
+      "directory": false,
+      "path": "results/local_detector_v1/heatmaps/image_0635.png"
+    },
+    {
+      "removed": true,
+      "bytes": 76610,
+      "files": 1,
+      "directory": false,
+      "path": "results/local_detector_v1/heatmaps/image_0983.png"
+    }
+  ],
+  "bytes_removed": 1172330877,
+  "environment_preserved": true,
+  "encoder_and_trained_models_preserved": true,
+  "predictive_functions_ast_unchanged": [
+    "fit_spatial_statistics",
+    "residuals",
+    "descriptors",
+    "robust_calibration",
+    "score_images",
+    "fit_and_score",
+    "ranking_rows",
+    "prepare_view",
+    "extract_features"
+  ],
+  "code_changes": "Moved scripts, adjusted task-root paths, renumbered local stage 06 to 03, and removed optional legacy API comparison code from future runs; fitted model mathematics unchanged.",
+  "moved_script_saved_model_prediction_checks": [
+    {
+      "model": "fold_1.joblib",
+      "image_id": "image_0002.png",
+      "prediction_unchanged": true
+    },
+    {
+      "model": "fold_1.joblib",
+      "image_id": "image_0006.png",
+      "prediction_unchanged": true
+    },
+    {
+      "model": "fold_2.joblib",
+      "image_id": "image_0004.png",
+      "prediction_unchanged": true
+    },
+    {
+      "model": "fold_2.joblib",
+      "image_id": "image_0005.png",
+      "prediction_unchanged": true
+    },
+    {
+      "model": "fold_3.joblib",
+      "image_id": "image_0001.png",
+      "prediction_unchanged": true
+    },
+    {
+      "model": "fold_3.joblib",
+      "image_id": "image_0003.png",
+      "prediction_unchanged": true
+    }
+  ],
+  "task_root_and_all_training_inputs_validated": true,
+  "original_archive_preserved": {
+    "sha256": "9b2208b76ec4970c74fa17d21e5c34986559557106b65412eff6b3acd0a75f78",
+    "path": "C:\\Users\\posti\\Downloads\\images-20261114T103244Z-1-001.zip",
+    "duplicate_task_archive_verified": true
+  },
+  "exact_duplicate_images_verified": 16,
+  "removal_method": "Windows Recycle Bin; reversible, not permanent deletion",
+  "files_removed": 1588,
+  "completed_at_utc": "2026-11-15T00:44:22.3306564Z",
+  "post_cleanup_validation": {
+    "unique_images_present": 1225,
+    "all_preserved_hashes_unchanged": true,
+    "script_syntax_checked": true,
+    "markdown_links_checked": 33,
+    "review_links_checked": 183,
+    "missing_links": 0,
+    "original_training_script_hash_matches_recorded_configuration": true,
+    "python_environment_and_encoder_present": true
+  }
+}

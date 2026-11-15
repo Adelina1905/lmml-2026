@@ -1,0 +1,14 @@
+{
+  "synthetic_images": 90,
+  "injected_outliers": [
+    "synthetic_0005.png",
+    "synthetic_0035.png",
+    "synthetic_0065.png"
+  ],
+  "recovered_in_top_3": 3,
+  "prepared_image_shape_check": true,
+  "background_not_scored": true,
+  "held_out_models_and_saved_prediction_checks": true,
+  "synthetic_only_not_challenge_accuracy": true,
+  "api_requests": 0
+}

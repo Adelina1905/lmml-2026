@@ -1,0 +1,15 @@
+{
+  "images": 333,
+  "confidence": 0.425,
+  "imgsz": 640,
+  "nms_iou": 0.7,
+  "model_sha256": "a292c078c27641ccd88e89635059c56ab8b7bef0611326f374e585fed4894600",
+  "torch": "2.15.0+cpu",
+  "ultralytics": "8.3.253",
+  "device": "cpu",
+  "count_min": 0,
+  "count_max": 227,
+  "count_total": 11251,
+  "count_median": 33.0,
+  "status": "Unedited automatic model estimates; the word is read manually from the geographic count grid."
+}

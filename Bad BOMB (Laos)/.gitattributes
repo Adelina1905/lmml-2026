@@ -1,0 +1,2 @@
+test-output.txt -text whitespace=cr-at-eol
+results/local_detector_v1/provisional_top28.txt -text whitespace=cr-at-eol

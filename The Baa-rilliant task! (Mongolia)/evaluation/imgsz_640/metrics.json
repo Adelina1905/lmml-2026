@@ -1,0 +1,105 @@
+{
+  "model_sha256": "a292c078c27641ccd88e89635059c56ab8b7bef0611326f374e585fed4894600",
+  "torch": "2.15.0+cpu",
+  "ultralytics": "8.3.253",
+  "device": "cpu",
+  "imgsz": 640,
+  "nms_iou": 0.7,
+  "seed": 2026,
+  "calibration_images": 210,
+  "holdout_images": 70,
+  "selected_confidence": 0.425,
+  "no_training_on_task": true,
+  "note": "Confidence selected using only calibration images. Holdout is separate from threshold selection; overlap with the external model training data has not been audited. All reported errors use the original supplied counts, including visually flagged label issues. No labels have been changed.",
+  "default_all": {
+    "images": 280,
+    "mae": 6.571428571428571,
+    "rmse": 12.122588125360972,
+    "bias": 4.535714285714286,
+    "exact": 55,
+    "within_2": 147,
+    "within_5": 185,
+    "true_total": 11629,
+    "predicted_total": 12899
+  },
+  "default_holdout": {
+    "images": 70,
+    "mae": 7.442857142857143,
+    "rmse": 15.014754648107212,
+    "bias": 5.8428571428571425,
+    "exact": 12,
+    "within_2": 35,
+    "within_5": 46,
+    "true_total": 3044,
+    "predicted_total": 3453
+  },
+  "calibrated_all": {
+    "images": 280,
+    "mae": 4.635714285714286,
+    "rmse": 9.292854397715637,
+    "bias": 0.10714285714285714,
+    "exact": 72,
+    "within_2": 169,
+    "within_5": 210,
+    "true_total": 11629,
+    "predicted_total": 11659
+  },
+  "calibrated_holdout": {
+    "images": 70,
+    "mae": 5.457142857142857,
+    "rmse": 13.081065924238962,
+    "bias": 2.5142857142857142,
+    "exact": 14,
+    "within_2": 43,
+    "within_5": 51,
+    "true_total": 3044,
+    "predicted_total": 3220
+  },
+  "count_groups": {
+    "0-19": {
+      "images": 93,
+      "mae": 1.946236559139785,
+      "rmse": 9.720281424307732,
+      "bias": 0.5913978494623656,
+      "exact": 48,
+      "within_2": 84,
+      "within_5": 90,
+      "true_total": 750,
+      "predicted_total": 805
+    },
+    "20-59": {
+      "images": 108,
+      "mae": 4.907407407407407,
+      "rmse": 8.496186508380404,
+      "bias": -0.9629629629629629,
+      "exact": 17,
+      "within_2": 63,
+      "within_5": 83,
+      "true_total": 4176,
+      "predicted_total": 4072
+    },
+    "60+": {
+      "images": 79,
+      "mae": 7.430379746835443,
+      "rmse": 9.806352887900033,
+      "bias": 1.0,
+      "exact": 7,
+      "within_2": 22,
+      "within_5": 37,
+      "true_total": 6703,
+      "predicted_total": 6782
+    }
+  },
+  "visually_flagged_labels": [
+    {
+      "image": "train_007.jpg",
+      "supplied_count": 0,
+      "observation": "A sheep is visible, but no sheep points are supplied."
+    },
+    {
+      "image": "train_107.jpg",
+      "supplied_count": 0,
+      "observation": "A flock is visible, but no sheep points are supplied."
+    }
+  ]
+}

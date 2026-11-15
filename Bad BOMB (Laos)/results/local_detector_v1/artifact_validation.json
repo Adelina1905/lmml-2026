@@ -1,0 +1,39 @@
+{
+  "images_ranked": 1225,
+  "unique_provisional_candidates": 28,
+  "rank_order_and_candidate_files_valid": true,
+  "all_fitting_calibration_and_held_out_sets_disjoint": true,
+  "each_image_scored_once_out_of_sample": true,
+  "fold_checks": [
+    {
+      "model": "fold_1.joblib",
+      "fitting_images": 735,
+      "calibration_images": 81,
+      "held_out_images": 409,
+      "top_28_images": 13,
+      "median_image_score": 6.487429141998291
+    },
+    {
+      "model": "fold_2.joblib",
+      "fitting_images": 736,
+      "calibration_images": 81,
+      "held_out_images": 408,
+      "top_28_images": 6,
+      "median_image_score": 5.9782257080078125
+    },
+    {
+      "model": "fold_3.joblib",
+      "fitting_images": 736,
+      "calibration_images": 81,
+      "held_out_images": 408,
+      "top_28_images": 9,
+      "median_image_score": 6.038601636886597
+    }
+  ],
+  "top_28_overlap_with_initial_diagnostic": 27,
+  "api_labels_used_for_training_or_tuning": false,
+  "challenge_accuracy_available": false,
+  "review_html_local_links_checked": 183,
+  "missing_review_links": 0,
+  "new_scripts_syntax_and_whitespace_checked": true
+}

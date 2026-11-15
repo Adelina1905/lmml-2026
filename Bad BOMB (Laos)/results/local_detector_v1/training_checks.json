@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "fold": 1,
+      "fitting_images": 735,
+      "calibration_images": 81,
+      "held_out_images": 409,
+      "sampled_training_patches": 60000,
+      "supported_grid_positions": 226,
+      "learned_pca_variance_fraction": 0.6296508312225342,
+      "training_held_out_overlap": 0,
+      "calibration_held_out_overlap": 0,
+      "fitting_calibration_overlap": 0,
+      "saved_model_prediction_check": true
+    },
+    {
+      "fold": 2,
+      "fitting_images": 736,
+      "calibration_images": 81,
+      "held_out_images": 408,
+      "sampled_training_patches": 60000,
+      "supported_grid_positions": 226,
+      "learned_pca_variance_fraction": 0.637939453125,
+      "training_held_out_overlap": 0,
+      "calibration_held_out_overlap": 0,
+      "fitting_calibration_overlap": 0,
+      "saved_model_prediction_check": true
+    },
+    {
+      "fold": 3,
+      "fitting_images": 736,
+      "calibration_images": 81,
+      "held_out_images": 408,
+      "sampled_training_patches": 60000,
+      "supported_grid_positions": 226,
+      "learned_pca_variance_fraction": 0.6339687705039978,
+      "training_held_out_overlap": 0,
+      "calibration_held_out_overlap": 0,
+      "fitting_calibration_overlap": 0,
+      "saved_model_prediction_check": true
+    }
+  ],
+  "training_seconds": 12.996,
+  "labels_used": 0,
+  "encoder_weights_updated": false,
+  "pca_and_isolation_forest_fitted": true,
+  "every_image_scored_by_a_model_that_excluded_it": true,
+  "not_an_accuracy_test": true
+}

@@ -1,0 +1,13 @@
+|--- depth_hoar_pct <= 20.000000
+|   |--- weights: [1400.000000, 0.000000] class: 0
+|--- depth_hoar_pct >  20.000000
+|   |--- elevation_m <= 1850.000000
+|   |   |--- weights: [1100.000000, 0.000000] class: 0
+|   |--- elevation_m >  1850.000000
+|   |   |--- mean_grain_roundness <= 0.550000
+|   |   |   |--- overburden_load_kpa <= 1.500000
+|   |   |   |   |--- weights: [650.000000, 0.000000] class: 0
+|   |   |   |--- overburden_load_kpa >  1.500000
+|   |   |   |   |--- weights: [0.000000, 2000.000000] class: 1
+|   |   |--- mean_grain_roundness >  0.550000
+|   |   |   |--- weights: [850.000000, 0.000000] class: 0

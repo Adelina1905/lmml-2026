@@ -1,0 +1,9 @@
+{
+  "phase": "complete",
+  "completed_in_phase": 1225,
+  "total_in_phase": 1225,
+  "elapsed_seconds": 19.65,
+  "eta_phase_seconds": 0.0,
+  "message": "saved trained fold models, ranking, provisional 28, and heatmaps; accuracy unknown",
+  "all_labels_unverified": true
+}

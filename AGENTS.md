@@ -10,6 +10,12 @@
 - This identity rule applies whenever a commit or push is otherwise authorized; it is not a standing instruction to commit or push every change.
 - Every Git push requires the user's explicit confirmation for that push. Permission to commit is not permission to push. Prepare and describe the commits and destination before requesting confirmation; do not push until the user confirms.
 
-## Code formatting
+## Task folders
 
-Use compact, single-line code formatting by default. Keep statements, expressions, declarations, function calls, constructor calls, and argument lists on one line. Do not split arguments across multiple lines unless the user explicitly asks for multiline formatting or the code would otherwise be invalid. Do not place a space between control-flow keywords and the opening parenthesis. Write if(condition), for(...), foreach(...), while(...), and switch(...). Place spaces around operators. Write value * 2f, value - 1f, a + b, a / b, a == b, and a = b instead of removing the spaces. Place spaces around increment and decrement operators. Write i ++ and i -- instead of i++ and i--. Avoid unnecessary blank lines and vertical spacing. Prefer concise, consistent, and easy-to-scan formatting across all generated code.
+- When the user provides a new competition task, automatically create its folder at the repository root before starting task work.
+- Name the folder `Task name (Country)`, using the task's original title and the country's full English name. Example: `Ngiyakuzwa (South Africa)`.
+- Determine the country from the supplied task description. If it is missing or ambiguous, ask for the country instead of guessing.
+- Remove characters that Windows does not allow in folder names and trim trailing spaces or periods.
+- Reuse an existing matching task folder. Keep that task's input files, code, results, and solution notes inside it.
+- Automatically save the complete task statement pasted by the user as `Task.md` inside that folder before starting the analysis. Preserve its original wording, Markdown formatting, requirements, input links, flag format, and scoring details.
+- Keep conversation instructions and solution commentary out of `Task.md`. Create `Solving.md` only when the user explicitly requests it.

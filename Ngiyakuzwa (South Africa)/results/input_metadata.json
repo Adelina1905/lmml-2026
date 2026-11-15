@@ -1,0 +1,13 @@
+{
+  "source": "voice_note.wav",
+  "sha256": "9716c63cbd7dfb9ba5cb30350907dfce250b5b34346e838e6c6ddb2f7b84c07a",
+  "channels": 1,
+  "sample_rate_hz": 16000,
+  "sample_width_bytes": 2,
+  "frames": 10080000,
+  "duration_seconds": 630.0,
+  "compression": "NONE",
+  "peak_dbfs": -1.000151903819357,
+  "rms_dbfs": -24.505152822815397,
+  "full_scale_samples": 0
+}
