@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "source": "User-provided screenshot of evaluator feedback",
+  "feedback_text": "matched 21/28 defective shells (28 guesses, accuracy=0.7500); pass threshold 0.7",
+  "displayed_submission_time": "15/11/2026 2:30:11",
+  "matched_defects": 21,
+  "ground_truth_defects": 28,
+  "submitted_guesses": 28,
+  "accuracy": 0.75,
+  "pass_threshold": 0.7,
+  "points_under_task_rubric": 200,
+  "submitted_filename_shown": "provisional_top28.txt",
+  "local_submission_copy": "test-output.txt",
+  "local_candidate_sha256": "cb27946ec508bb997d47a4e409c1b74f7cd9017038bb8635944cf4375a243e2b",
+  "evidence": "results/evaluator_feedback_2026-11-15.png",
+  "individual_correct_or_incorrect_identifiers_known": false,
+  "flag_visible": false,
+  "flag": null,
+  "recorded_at_utc": "2026-11-15T00:31:29.822483+00:00"
+}
