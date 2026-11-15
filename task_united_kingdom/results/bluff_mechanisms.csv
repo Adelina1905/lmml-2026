@@ -1,0 +1,7 @@
+who,kind,cards,mean_fact_recall,length_vs_closest_ref,unigram_precision,fourgram_precision
+bluffer,cut short / dropped facts,293,0.497,0.694,0.931,0.505
+bluffer,lost facts (word salad),91,0.565,1.033,0.864,0.314
+bluffer,padded / repeated,241,0.982,1.193,0.775,0.465
+bluffer,passes,1295,0.987,1.02,0.861,0.24
+honest panellist,flagged (honest),4,1.0,1.028,0.939,0.604
+honest panellist,passes,956,0.995,0.994,0.859,0.257
