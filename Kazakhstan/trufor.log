@@ -1,0 +1,7 @@
+device cpu
+loaded
+exhibit_01 [{'x': 326, 'y': 219, 'score': 0.9156407713890076, 'hit': False}, {'x': 338, 'y': 220, 'score': 0.5214934945106506, 'hit': False}] seconds 23.9
+exhibit_02 [{'x': 296, 'y': 83, 'score': 0.9256339073181152, 'hit': True}, {'x': 309, 'y': 78, 'score': 0.34874165058135986, 'hit': False}] seconds 29.1
+exhibit_03 [{'x': 451, 'y': 217, 'score': 0.608446478843689, 'hit': False}, {'x': 455, 'y': 311, 'score': 0.441550076007843, 'hit': False}] seconds 33.6
+exhibit_04 [{'x': 506, 'y': 184, 'score': 0.9740229249000549, 'hit': False}, {'x': 504, 'y': 178, 'score': 0.907751202583313, 'hit': False}] seconds 49.0
+exhibit_05 [{'x': 114, 'y': 334, 'score': 0.8758494853973389, 'hit': False}, {'x': 117, 'y': 327, 'score': 0.5387029647827148, 'hit': False}] seconds 53.9

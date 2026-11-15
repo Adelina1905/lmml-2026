@@ -1,0 +1,16 @@
+validation 0 0.815 0.3
+validation 100 0.6665 23.6
+validation 200 0.5287 42.5
+validation 300 0.5531 60.6
+validation 400 0.5854 78.6
+validation 500 0.4884 97.7
+validation 600 0.6627 116.0
+validation 700 0.477 135.9
+validation 800 0.5129 159.0
+validation 900 0.4701 183.4
+VALIDATION [{'exhibit': 'exhibit_01', 'x': 281, 'y': 329, 'hit': False, 'score': 0.6328051090240479}, {'exhibit': 'exhibit_06', 'x': 304, 'y': 334, 'hit': False, 'score': 0.6313603520393372}, {'exhibit': 'exhibit_11', 'x': 260, 'y': 254, 'hit': False, 'score': 0.3563997447490692}, {'exhibit': 'exhibit_16', 'x': 95, 'y': 509, 'hit': True, 'score': 0.6294061541557312}, {'exhibit': 'exhibit_21', 'x': 411, 'y': 168, 'hit': False, 'score': 0.6438595652580261}, {'exhibit': 'exhibit_26', 'x': 70, 'y': 60, 'hit': False, 'score': 0.5455660820007324}]
+model 0 0.8124 0.2
+model 100 0.6896 17.1
+model 200 0.5777 35.6
+model 300 0.6325 55.8
+model 400 0.662 78.0

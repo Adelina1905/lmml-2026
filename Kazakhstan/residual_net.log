@@ -1,0 +1,5 @@
+step 0 0.8704 0.9
+step 400 0.2896 15.3
+step 800 0.1829 29.9
+step 1200 0.1054 44.4
+RESULT 2 [{'exhibit': 'exhibit_01', 'x': 60, 'y': 347, 'hit': False, 'score': 0.9979667663574219}, {'exhibit': 'exhibit_04', 'x': 137, 'y': 96, 'hit': False, 'score': 0.8415896892547607}, {'exhibit': 'exhibit_07', 'x': 150, 'y': 79, 'hit': True, 'score': 0.9987927079200745}, {'exhibit': 'exhibit_10', 'x': 147, 'y': 345, 'hit': False, 'score': 0.9946789741516113}, {'exhibit': 'exhibit_13', 'x': 309, 'y': 104, 'hit': True, 'score': 0.989558756351471}, {'exhibit': 'exhibit_16', 'x': 355, 'y': 65, 'hit': False, 'score': 0.9998270273208618}, {'exhibit': 'exhibit_19', 'x': 285, 'y': 280, 'hit': False, 'score': 0.985519528388977}, {'exhibit': 'exhibit_22', 'x': 258, 'y': 188, 'hit': False, 'score': 0.9714187383651733}, {'exhibit': 'exhibit_25', 'x': 212, 'y': 419, 'hit': False, 'score': 0.9999476671218872}, {'exhibit': 'exhibit_28', 'x': 119, 'y': 76, 'hit': False, 'score': 0.9985396265983582}]

@@ -1,0 +1,33 @@
+training (95147, 118) positives 5147
+validation {'fold': 0, 'auc': 0.7932427034428795, 'hits': 5, 'total': 10}
+validation {'fold': 1, 'auc': 0.7239245286686103, 'hits': 4, 'total': 10}
+validation {'fold': 2, 'auc': 0.817704938271605, 'hits': 4, 'total': 10}
+album_1 page_1759 1516 820 0.311
+album_1 page_2079 992 456 0.315
+album_1 page_2898 836 408 0.348
+album_1 page_2932 620 568 0.766
+album_1 page_3114 624 376 0.923
+album_1 page_3151 908 528 0.554
+album_1 page_3656 980 572 0.235
+album_1 page_4114 232 528 0.58
+album_1 page_4264 916 408 0.723
+album_1 page_4382 1236 672 0.179
+album_1 page_4579 868 572 0.541
+album_1 page_5338 1024 376 0.265
+album_1 page_5426 1016 452 0.995
+album_1 page_6205 872 624 0.32
+album_1 page_6760 948 912 0.284
+album_1 page_6852 416 704 0.164
+album_1 page_6945 908 112 0.772
+album_1 page_7418 996 616 0.95
+album_1 page_7501 1036 548 0.412
+album_1 page_8208 1000 524 0.681
+album_1 page_8370 572 828 0.984
+album_1 page_8525 912 284 0.992
+album_1 page_8991 1280 116 0.306
+album_1 page_9335 1088 552 0.377
+album_1 page_9528 672 784 0.977
+album_1 page_9862 1332 888 0.323
+album_2 page_1120 880 708 0.353
+album_2 page_1245 268 696 0.827
+album_2 page_1475 736 524 0.953
