@@ -1,0 +1,10 @@
+{
+  "unique_inputs": 1225,
+  "per_image_outputs": 6125,
+  "all_output_paths_present": true,
+  "binary_mask_checks": 1225,
+  "exact_crop_checks": 1225,
+  "background_value_checks": 1225,
+  "fresh_recomputation_checks": 32,
+  "fresh_recomputation_matches": true
+}

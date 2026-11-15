@@ -1,0 +1,18 @@
+{
+  "backbone": "dinov2_vits14",
+  "revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "width": 196,
+  "height": 504,
+  "patch": 14,
+  "normalization": "ImageNet RGB; L2-normalized final-layer patch tokens; fp16 cache",
+  "preprocessing_version": 1,
+  "signature": "a55be8571928d98a4122530a5d2410e478ee53dd002c28f42ebdbe3b22c74680",
+  "images": 1225,
+  "feature_shape": [
+    1225,
+    504,
+    384
+  ],
+  "foreground_patch_count": 269666,
+  "extraction_seconds": 3.779
+}
