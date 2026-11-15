@@ -1,0 +1,66 @@
+{
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.2.6",
+    "scipy": "1.16.1",
+    "torch": "2.9.1+cpu"
+  },
+  "public_recordings": {
+    "count": 31,
+    "rain_predictions": 31,
+    "max_edit_percent": 0.9900000167319416,
+    "max_output_amplitude": 0.8597411513328552,
+    "by_class": {
+      "birds": {
+        "count": 8,
+        "rain_predictions": 8
+      },
+      "frogs": {
+        "count": 9,
+        "rain_predictions": 9
+      },
+      "insects": {
+        "count": 6,
+        "rain_predictions": 6
+      },
+      "rain": {
+        "count": 8,
+        "rain_predictions": 8
+      }
+    }
+  },
+  "shifted_and_rescaled_references": {
+    "count": 432,
+    "rain_rate": 1.0,
+    "max_edit_percent": 0.9900000343558729,
+    "by_class": {
+      "birds": 1.0,
+      "frogs": 1.0,
+      "insects": 1.0,
+      "rain": 1.0
+    },
+    "note": "Derived from public recordings; these are not hidden evaluation data."
+  },
+  "train_example": {
+    "count": 8,
+    "rain_predictions": 8,
+    "max_edit_percent": 0.9900000092491859
+  },
+  "execution": [
+    {
+      "batch_size": 1,
+      "seconds": 0.9216942000057315,
+      "bytes": 129026,
+      "format_valid": true,
+      "deterministic": true
+    },
+    {
+      "batch_size": 64,
+      "seconds": 0.8882587999978568,
+      "bytes": 8209154,
+      "format_valid": true,
+      "deterministic": true
+    }
+  ],
+  "edge_cases": "Zero energy, full scale alternating samples, full scale ramp, and single impulse satisfy audio limits."
+}
