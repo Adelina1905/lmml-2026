@@ -1,0 +1,59 @@
+train (7500, 48), sealed (5000, 48), share of vrancea=1 in train 0.495
+Gaussian (gain-free) channels: ['c03', 'c09', 'c12', 'c14', 'c15', 'c19', 'c27', 'c28', 'c30', 'c36', 'c39', 'c40']
+heavy channels: 36, kurtosis heavy ~1.12, gaussian ~0.00
+network A (low gain): train 1900 (25.3%), sealed 2000 (40.0%)
+gap in RMS: max A 0.521  <  min others 0.679
+std ratio A/others on heavy channels 0.251, on gaussian channels 1.005
+
+=== 4a. baseline single models (5-fold CV on train, all 48 channels) ===
+  fold 0: soft gate share of C train-part 0.328 sealed 0.841 | hard switch cut -0.5885
+  fold 1: soft gate share of C train-part 0.344 sealed 0.850 | hard switch cut -0.5935
+  fold 2: soft gate share of C train-part 0.344 sealed 0.850 | hard switch cut -0.5885
+  fold 3: soft gate share of C train-part 0.339 sealed 0.849 | hard switch cut -0.5870
+  fold 4: soft gate share of C train-part 0.338 sealed 0.851 | hard switch cut -0.5880
+c13 cut per fold: [-0.5885 -0.5935 -0.5885 -0.587  -0.588 ]
+
+=== 4b. results (nested 5-fold CV; whole pipeline refitted inside every fold) ===
+                                model  cv_acc_train  cv_acc_reweighted_to_sealed  acc_net_A  acc_net_B+C
+                  logistic regression        0.6008                       0.6635     0.5484       0.6186
+                            SVM (rbf)        0.6755                       0.7459     0.8405       0.6195
+                        random forest        0.7673                       0.7343     0.7532       0.7721
+                    gradient boosting        0.8467                       0.7787     0.7526       0.8786
+ experts + soft EM gate (train prior)        0.9387                       0.9120     0.9195       0.9452
+experts + soft EM gate (sealed prior)        0.8681                       0.9111     0.9195       0.8507
+      FINAL experts + hard c13 switch        0.9495                       0.9325     0.9195       0.9596
+accuracy the evaluator needs: (n+k)/(2n) = (5000+4252)/10000 = 0.9252
+
+=== 4c. which model family fits which network (5-fold CV inside each network) ===
+                           network    n  logistic (linear)  logistic + degree-2 poly  SVM rbf  gradient boosting
+A (low gain), 12 gaussian channels 1900             0.5826                    0.9284   0.9153             0.8332
+                B (c13 low, r<0.1) 2965             0.5831                    0.6307   0.6374             0.9791
+               C (c13 high, r>0.9) 1246             0.9390                    0.7279   0.9221             0.8234
+regime A: 10-fold accuracy 0.9321; AUC of predicting its mistakes from all 48 channels 0.536 (0.5 = unpredictable, i.e. label noise)
+
+=== 5a. intermediate attempt: experts + soft EM gate, fitted on all training records ===
+  EM it  0: pi(B,C)=[0.571 0.429] mu=[-1.769 -0.201] sd=[0.929 0.937] thresholds=[-0.226 -0.617  0.731] accB=0.9198 accC=0.8340
+  EM it  5: pi(B,C)=[0.648 0.352] mu=[-1.728  0.067] sd=[0.892 0.79 ] thresholds=[-0.226 -0.617  0.731] accB=0.9825 accC=0.9331
+  EM it 10: pi(B,C)=[0.659 0.341] mu=[-1.716  0.101] sd=[0.894 0.771] thresholds=[-0.226 -0.617  0.731] accB=0.9794 accC=0.9378
+  EM it 15: pi(B,C)=[0.66 0.34] mu=[-1.714  0.105] sd=[0.894 0.769] thresholds=[-0.226 -0.617  0.731] accB=0.9791 accC=0.9375
+  EM it 20: pi(B,C)=[0.661 0.339] mu=[-1.714  0.105] sd=[0.894 0.769] thresholds=[-0.226 -0.617  0.731] accB=0.9791 accC=0.9373
+  EM it 25: pi(B,C)=[0.661 0.339] mu=[-1.714  0.105] sd=[0.894 0.769] thresholds=[-0.226 -0.617  0.731] accB=0.9791 accC=0.9373
+  EM it 29: pi(B,C)=[0.661 0.339] mu=[-1.714  0.105] sd=[0.894 0.769] thresholds=[-0.226 -0.617  0.731] accB=0.9791 accC=0.9373
+gate on c13: B ~ N(-1.714, 0.894),  C ~ N(0.105, 0.769)
+share of network C among high-gain records: train 0.339  ->  sealed 0.848
+
+=== 5b. FINAL: experts + hard c13 switch, fitted on all training records ===
+  switch: c13 cut = -0.5885  (records below 3699, above 1901)
+  parity thresholds c35>-0.226, c43>-0.610, c38>0.727; in-sample parity acc 0.9732
+sealed records routed: A (quadratic) 2000, parity side 600, linear side 2400
+predicted vrancea=1 share on sealed 0.485
+CV accuracy per branch: quadratic 0.9195, parity 0.9732, linear 0.9332
+expected sealed accuracy (branch CV accuracies x sealed branch sizes): 0.9325  -> about 337 errors; evaluator tolerates at most 374
+wrote predictions.csv (5000, 2)
+
+=== 6. evaluator says ===
+SIGMOID_CONVOLUTION
+evaluator on the soft-gate attempt: No flag for these predictions.
+agreement final vs soft gate on sealed: 0.973
+evaluator on best single model (gradient boosting): No flag for these predictions.
+agreement mixture vs gradient boosting on sealed: 0.810
