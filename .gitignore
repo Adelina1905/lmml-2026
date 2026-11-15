@@ -7,3 +7,9 @@ explanation.md
 # Python cache
 __pycache__/
 *.pyc
+
+# Downloaded model files (too big for GitHub)
+Egypt/models/
+
+Equador/.venv/
+run.md

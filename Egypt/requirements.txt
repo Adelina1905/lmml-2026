@@ -1,0 +1,5 @@
+# Ready-built CPU wheels for llama-cpp-python, so pip doesn't have to compile it
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+
+huggingface-hub==0.26.2
+llama-cpp-python==0.3.35
