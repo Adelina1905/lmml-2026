@@ -1,26 +1,39 @@
 """
 LMML 2026 - task_moldova "Feather Stories"
 
-Goal: find the six letters on the ring of the one White Stork that is NOT in
-ring_register.csv, using the noisy ring readings in observations.csv.
+Find the 6-letter ring of the one White Stork that is missing from ring_register.csv.
 
-Method
-  1. Learn the observers' error model (letter confusion matrix) from readings
-     that can be confidently tied to a registered bird: same species, seen
-     within 5 km of where that bird was ringed, best string match.
-  2. Find stork readings that no registered stork ring explains. They all
-     come from one place: the Lower Prut (Cahul district, locality L5819951).
-  3. Decode that cluster of readings letter by letter with maximum likelihood
-     under the confusion matrix ('?' = unreadable, ignored).
-  4. Check robustness: bootstrap, comparison against every registered ring,
-     and a location-free search for unexplained stork readings.
+Key facts found in the data (all checked below):
+  1. The 24 letters used (no U, V) form six look-alike groups of four:
+     AKRX  BGSZ  CDOQ  EFLP  IJTY  HMNW
+     A misread letter ALWAYS stays inside its group, so the group pattern of a
+     reading identifies the bird. 24 readings match no registered ring: all of
+     them are White Stork readings at the Lower Prut site (Cahul, L5819951).
+  2. Each viewing SITE distorts letters in its own fixed way (a "template"):
+     inside every group the site swaps letters pairwise (one of the 3 pairings,
+     or none). Every observer at that site sees the same swaps, in every year,
+     and a bird read away from home shows the swaps of the site where it is read.
+     Only five templates exist (per group: 0 = no swap, 1/2/3 = the three pairings).
+  3. So the majority reading at the Lower Prut (RHGLWQ) is the distorted word.
+     The Lower Prut has no registered bird, so its template has to be inferred:
+       - "opposite" letters among the minority readings show that the site
+         distorts (an undistorted site almost never produces them);
+       - they appear in groups AKRX and HMNW, which only the two "full"
+         templates 112133 and 231212 distort;
+       - a leave-one-site-out test shows the readings cannot tell 112133 from
+         231212 apart, so the decision uses how often each template occurs
+         across Moldova (prior).
+     Undoing each template on RHGLWQ gives one candidate ring; the most
+     probable one is the flag.
 
 Run from inside this folder:   python solve.py
-Output: results/report.txt, results/position_votes.png (if matplotlib), FLAG.txt
+Output: results/report.txt, results/templates.csv, results/candidates.csv,
+        results/lower_prut_votes.png (if matplotlib), FLAG.txt
 """
 import collections
 import math
 import os
+import re
 
 import numpy as np
 import pandas as pd
@@ -28,9 +41,6 @@ import pandas as pd
 HERE = os.path.dirname(os.path.abspath(__file__))
 RES = os.path.join(HERE, "results")
 os.makedirs(RES, exist_ok=True)
-
-L = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-STORK = "Ciconia ciconia"
 lines = []
 
 
@@ -40,147 +50,202 @@ def out(*a):
     lines.append(s)
 
 
-def mismatches(read, ring):
-    """Number of letters that were read but differ from the ring ('?' ignored)."""
-    return sum(1 for p, q in zip(read, ring) if p != "?" and p != q)
+GROUPS = ["AKRX", "BGSZ", "CDOQ", "EFLP", "IJTY", "HMNW"]
+GRP = {c: i for i, g in enumerate(GROUPS) for c in g}
+# within each group, the element that maps a letter to its "opposite" (the pairing
+# that observers' ordinary noise almost never produces; measured at undistorted sites)
+OPP = [2, 3, 1, 2, 1, 2]
+TEMPLATES = ["000000", "323000", "000321", "112133", "231212"]
 
 
-def km(lat1, lon1, lat2, lon2):
-    """Great-circle (haversine) distance in kilometres."""
-    p1, p2 = math.radians(lat1), math.radians(lat2)
-    a = (math.sin((p2 - p1) / 2) ** 2
-         + math.cos(p1) * math.cos(p2) * math.sin(math.radians(lon2 - lon1) / 2) ** 2)
-    return 6371 * 2 * math.asin(math.sqrt(a))
+def pos_in_group(c):
+    return GROUPS[GRP[c]].index(c)
+
+
+def swap(e, c):
+    """Apply group element e (0..3) to letter c: index XOR e inside its group."""
+    g = GROUPS[GRP[c]]
+    return g[g.index(c) ^ e]
+
+
+def elem(true, written):
+    return pos_in_group(true) ^ pos_in_group(written)
+
+
+def pattern(word):
+    return "".join(str(GRP[c]) if c != "?" else "." for c in word)
 
 
 obs = pd.read_csv(os.path.join(HERE, "observations.csv"))
 reg = pd.read_csv(os.path.join(HERE, "ring_register.csv"))
 reads = obs[obs.ring_read.notna()].copy()
-out(f"observations: {len(obs)} rows, with a ring reading: {len(reads)}")
-out(f"register: {len(reg)} rings, of which White Stork: {(reg.species == STORK).sum()}")
-out(f"all readings have 6 characters: {set(reads.ring_read.str.len()) == {6}}")
 
-# ---------------------------------------------------------------- step 1
-# tie each reading to the registered bird of the same species that matches best
-# (fewest mismatches, then closest ringing site)
-reg_by_sp = {sp: g.to_dict("records") for sp, g in reg.groupby("species")}
-best_ring, best_km = [], []
-for _, row in reads.iterrows():
-    cands = sorted(
-        (mismatches(row.ring_read, g["ring"]),
-         km(row.latitude, row.longitude, g["ringed_latitude"], g["ringed_longitude"]),
-         g["ring"])
-        for g in reg_by_sp[row.species])
-    best_ring.append(cands[0][2])
-    best_km.append(cands[0][1])
-reads["match"] = best_ring
-reads["km"] = best_km
-train = reads[reads.km < 5]  # seen near that bird's own nest/ringing site
+# ------------------------------------------------------------------ step 1
+letters_reg = set("".join(reg.ring))
+letters_read = set("".join(reads.ring_read)) - {"?"}
+out("[1] alphabet")
+out(f"    letters in register: {len(letters_reg)}, in readings: {len(letters_read)}; "
+    f"missing: {sorted(set('ABCDEFGHIJKLMNOPQRSTUVWXYZ') - letters_reg)}")
+out(f"    look-alike groups: {' '.join(GROUPS)}")
 
-counts = np.full((26, 26), 0.5)  # add-0.5 smoothing; rows = true, cols = read
-n_letters = n_unk = n_wrong = 0
-for read, ring in zip(train.ring_read, train.match):
-    for p, q in zip(read, ring):
-        n_letters += 1
-        if p == "?":
-            n_unk += 1
+reg_pat = collections.defaultdict(list)
+for ring, sp in zip(reg.ring, reg.species):
+    reg_pat[sp].append((pattern(ring), ring))
+truth = []
+for s, sp in zip(reads.ring_read, reads.species):
+    rx = re.compile(pattern(s))
+    m = [ring for p, ring in reg_pat[sp] if rx.fullmatch(p)]
+    truth.append(m[0] if len(m) == 1 else ("NONE" if not m else None))
+reads["true"] = truth
+known = reads[reads.true.notna() & (reads.true != "NONE")]
+unknown = reads[reads.true == "NONE"]
+out(f"    readings: {len(reads)}; matched to exactly one registered ring by group pattern: "
+    f"{len(known)}; ambiguous: {reads.true.isna().sum()}; matching NO registered ring: {len(unknown)}")
+out("    unmatched readings by site/species: "
+    + str(unknown.groupby(['locality_id', 'district', 'species']).size().to_dict()))
+in_grp = sum(GRP[p] == GRP[q] for s, g in zip(known.ring_read, known.true)
+             for p, q in zip(s, g) if p != "?")
+tot = sum(p != "?" for s in known.ring_read for p in s)
+out(f"    letters staying in their true letter's group: {in_grp}/{tot}")
+
+# ------------------------------------------------------------------ step 2
+out("\n[2] site templates (which swap each site applies in each group)")
+M = collections.defaultdict(lambda: np.zeros((6, 4)))
+info = {}
+for _, row in known.iterrows():
+    for p, q in zip(row.ring_read, row.true):
+        if p != "?":
+            M[row.locality_id][GRP[q], elem(q, p)] += 1
+    info[row.locality_id] = (row.latitude, row.longitude, row.district)
+rows = []
+for loc, m in M.items():
+    if m.sum() < 30:
+        continue
+    sc = {tp: sum(m[g, int(tp[g])] * np.log(0.7) + (m[g].sum() - m[g, int(tp[g])]) * np.log(0.1)
+                  for g in range(6)) for tp in TEMPLATES}
+    best = max(sc, key=sc.get)
+    margin = sc[best] - sorted(sc.values())[-2]
+    free = "".join(str(int(m[g].argmax())) for g in range(6))
+    rows.append((loc, info[loc][2], info[loc][0], info[loc][1], int(m.sum()), free, best, round(margin, 1)))
+tmpl = pd.DataFrame(rows, columns=["locality", "district", "lat", "lon", "letters", "free_fit", "template", "margin"])
+tmpl.sort_values(["template", "lat"]).to_csv(os.path.join(RES, "templates.csv"), index=False)
+conf = tmpl[tmpl.margin >= 15]
+counts = conf.template.value_counts().reindex(TEMPLATES).fillna(0).astype(int)
+out(f"    sites with >=30 read letters: {len(tmpl)}; confidently assigned: {len(conf)}")
+out("    sites per template: " + ", ".join(f"{t}:{n}" for t, n in counts.items()))
+out("    examples (site: template, letters): " + "; ".join(
+    f"{r.locality} {r.district}: {r.template} ({r.letters})"
+    for r in conf.sort_values("letters", ascending=False).head(6).itertuples()))
+
+# consistency across observers at one site
+tmap = dict(zip(conf.locality, conf.template))
+home = {g: (round(a, 4), round(b, 4)) for g, a, b in zip(reg.ring, reg.ringed_latitude, reg.ringed_longitude)}
+k2 = known.copy()
+k2["away"] = [(round(a, 4), round(b, 4)) != home[g] for a, b, g in zip(k2.latitude, k2.longitude, k2.true)]
+fol = collections.Counter()
+for _, row in k2[k2.away & k2.locality_id.isin(tmap)].iterrows():
+    tp = tmap[row.locality_id]
+    for p, q in zip(row.ring_read, row.true):
+        if p == "?" or tp[GRP[q]] == "0":
             continue
-        counts[L.index(q), L.index(p)] += 1
-        n_wrong += p != q
-P = counts / counts.sum(axis=1, keepdims=True)  # P(read letter | true letter)
-out(f"\n[1] error model learned from {len(train)} readings near their bird's ringing site")
-out(f"    unreadable '?': {n_unk / n_letters:.1%} of letters; "
-    f"wrong among read letters: {n_wrong / (n_letters - n_unk):.1%}")
-conf = collections.Counter()
-for read, ring in zip(train.ring_read, train.match):
-    for p, q in zip(read, ring):
-        if p != "?" and p != q:
-            conf[(q, p)] += 1
-out("    most common confusions (true -> read): "
-    + ", ".join(f"{a}->{b} {n}" for (a, b), n in conf.most_common(14)))
+        e = elem(q, p)
+        fol["follows visited site" if e == int(tp[GRP[q]]) else "true letter" if e == 0 else "other"] += 1
+out(f"    birds read AWAY from home, distorted groups: {dict(fol)}  -> the template belongs to the site")
+for loc in ["L8150848", "L5562838", "L10196035"]:
+    sub = known[(known.locality_id == loc) & ~known.observers.str.contains(r"\|")]
+    per = []
+    for ob, d in sub.groupby("observers"):
+        m = np.zeros((6, 4))
+        for s, g in zip(d.ring_read, d.true):
+            for p, q in zip(s, g):
+                if p != "?":
+                    m[GRP[q], elem(q, p)] += 1
+        if m.sum() >= 30:
+            per.append(f"{ob}:{''.join(str(int(m[g].argmax())) for g in range(6))}")
+    out(f"    {loc} ({tmap.get(loc)}), per observer: {', '.join(per)}")
 
-
-def loglik(word, rs):
-    return sum(np.log(P[L.index(t), L.index(c)])
-               for s in rs for t, c in zip(word, s) if c != "?")
-
-
-# ---------------------------------------------------------------- step 2
-stork_rings = reg[reg.species == STORK].ring.tolist()
-storks = reads[reads.species == STORK]
-thr = np.log(0.03)  # per-letter log-likelihood below this = "not explained"
-unexpl = []
-for _, row in storks.iterrows():
-    k = sum(c != "?" for c in row.ring_read)
-    if k < 4:
-        continue  # too little information to judge
-    best = max(loglik(g, [row.ring_read]) for g in stork_rings) / k
-    if best < thr:
-        unexpl.append(row)
-unexpl = pd.DataFrame(unexpl)
-out(f"\n[2] stork readings (>=4 letters read) that no registered stork explains: {len(unexpl)}")
-for (loc, dist), n in unexpl.groupby(["locality_id", "district"]).size().items():
-    sub = obs[obs.locality_id == loc]
-    out(f"    {loc} ({dist}, {sub.latitude.mean():.3f}N {sub.longitude.mean():.3f}E): {n}")
-site = unexpl.locality_id.mode()[0]
-nearest = min(km(obs[obs.locality_id == site].latitude.mean(),
-                 obs[obs.locality_id == site].longitude.mean(),
-                 g.ringed_latitude, g.ringed_longitude)
-              for g in reg[reg.species == STORK].itertuples())
-out(f"    nearest registered stork ringing site is {nearest:.0f} km away -> "
-    "this is the Lower Prut, home of the unregistered stork")
-
-cluster = storks[storks.locality_id == site]
-cl = cluster.ring_read.tolist()
-out(f"    all stork readings at {site}: {len(cl)} ({cluster.date.min()} .. {cluster.date.max()})")
-for _, row in cluster.iterrows():
-    out(f"      {row.date}  {row.ring_read}  observers={row.observers}")
-
-# ---------------------------------------------------------------- step 3
-out("\n[3] maximum-likelihood decoding, position by position")
-word = ""
-votes = []
+# ------------------------------------------------------------------ step 3
+out("\n[3] Lower Prut stork")
+cl = unknown.sort_values("date")
+for _, row in cl.iterrows():
+    out(f"      {row.date}  {row.ring_read}  {row.observers}")
+R = list(cl.ring_read)
+A = ""
 for i in range(6):
-    ll = np.zeros(26)
-    for s in cl:
-        if s[i] != "?":
-            ll += np.log(P[:, L.index(s[i])])
-    post = np.exp(ll - ll.max())
-    post /= post.sum()
-    top = np.argsort(-post)[:3]
-    v = collections.Counter(s[i] for s in cl)
-    votes.append(v)
-    out(f"    pos {i + 1}: votes {dict(v.most_common())}  posterior "
-        + ", ".join(f"{L[t]}={post[t]:.6f}" for t in top))
-    word += L[top[0]]
-out(f"    decoded ring: {word}")
-out(f"    exact '{word}' readings: {cl.count(word)} of {len(cl)}")
+    c = collections.Counter(r[i] for r in R if r[i] != "?")
+    A += c.most_common(1)[0][0]
+out(f"    majority (distorted) word: {A}   group pattern {pattern(A)}")
 
-# ---------------------------------------------------------------- step 4
-out("\n[4] checks")
-out(f"    in register: {word in set(reg.ring)}; min Hamming distance to any registered ring: "
-    f"{min(sum(a != b for a, b in zip(word, g)) for g in reg.ring)}")
-rng = np.random.default_rng(0)
-boot = collections.Counter()
-for _ in range(2000):
-    sm = [cl[k] for k in rng.integers(0, len(cl), len(cl))]
-    w = ""
-    for i in range(6):
-        ll = np.zeros(26)
-        for s in sm:
-            if s[i] != "?":
-                ll += np.log(P[:, L.index(s[i])])
-        w += L[ll.argmax()]
-    boot[w] += 1
-out("    bootstrap (2000 resamples): " + ", ".join(f"{w} {n}" for w, n in boot.most_common(4)))
-scores = sorted([(loglik(g, cl), g) for g in reg.ring], reverse=True)[:3]
-out(f"    log-likelihood of the cluster: {word} = {loglik(word, cl):.1f}; best registered rings: "
-    + ", ".join(f"{g} = {s:.1f}" for s, g in scores))
-out(f"    unexplained stork readings that {word} explains: "
-    f"{sum(loglik(word, [s]) / sum(c != '?' for c in s) > thr for s in unexpl.ring_read)} of {len(unexpl)}")
+# noise rates measured at clean calibrated cells (site, group with one dominant swap)
+clean = {}
+for loc, m in M.items():
+    for g in range(6):
+        n = m[g].sum()
+        if n >= 20 and m[g].max() / n >= 0.75:
+            clean[(loc, g)] = int(m[g].argmax())
+cat = {"identity": collections.Counter(), "distorted": collections.Counter()}
+for _, row in known.iterrows():
+    for p, q in zip(row.ring_read, row.true):
+        if p == "?" or (row.locality_id, GRP[q]) not in clean:
+            continue
+        e = clean[(row.locality_id, GRP[q])]
+        a = swap(e, q)
+        d = pos_in_group(a) ^ pos_in_group(p)
+        k = "apparent" if d == 0 else "opp_of_apparent" if d == OPP[GRP[q]] else "nbr_of_apparent"
+        cat["identity" if e == 0 else "distorted"][k] += 1
+rate = {}
+for cfg, c in cat.items():
+    n = sum(c.values())
+    rate[cfg] = {k: c[k] / n for k in ["apparent", "opp_of_apparent", "nbr_of_apparent"]}
+    out(f"    calibration, {cfg} groups: " + ", ".join(f"{k} {v:.3f}" for k, v in rate[cfg].items()))
 
-flag = f"SIGMOID_{word}"
-out(f"\nFLAG: {flag}")
+obs_cnt = {}
+for g in sorted(set(GRP[c] for c in A)):
+    c = collections.Counter()
+    for i, ch in enumerate(A):
+        if GRP[ch] != g:
+            continue
+        for r in R:
+            p = r[i]
+            if p == "?":
+                continue
+            d = pos_in_group(ch) ^ pos_in_group(p)
+            c["apparent" if d == 0 else "opp_of_apparent" if d == OPP[g] else "nbr_of_apparent"] += 1
+    obs_cnt[g] = c
+    out(f"    group {GROUPS[g]}: {dict(c)}")
+n_opp = sum(c["opp_of_apparent"] for c in obs_cnt.values())
+n_let = sum(sum(c.values()) for c in obs_cnt.values())
+exp_id = rate["identity"]["opp_of_apparent"] * n_let
+out(f"    opposite-of-majority letters: {n_opp} of {n_let}; expected if the site did not distort: {exp_id:.1f}")
+
+# ------------------------------------------------------------------ step 4
+out("\n[4] candidates: undo each template on the majority word")
+prior = (counts + 0.5) / (counts + 0.5).sum()
+cand = []
+for tp in TEMPLATES:
+    word = "".join(swap(int(tp[GRP[ch]]), ch) for ch in A)
+    ll = 0.0
+    for g, c in obs_cnt.items():
+        r = rate["identity" if tp[g] == "0" else "distorted"]
+        ll += sum(n * math.log(r[k]) for k, n in c.items())
+    cand.append([tp, word, int(counts[tp]), ll])
+cdf = pd.DataFrame(cand, columns=["template", "ring", "sites_with_template", "loglik"])
+cdf["post_all"] = np.exp(cdf.loglik - cdf.loglik.max()) * prior.values
+cdf["post_all"] /= cdf.post_all.sum()
+mask = cdf.ring != A   # the undistorted reading RHGLWQ was submitted and rejected
+cdf["post_given_not_majority"] = np.where(mask, cdf.post_all, 0)
+cdf["post_given_not_majority"] /= cdf.post_given_not_majority.sum()
+cdf = cdf.sort_values("post_given_not_majority", ascending=False)
+cdf.round(4).to_csv(os.path.join(RES, "candidates.csv"), index=False)
+for r in cdf.itertuples():
+    out(f"    {r.template} -> {r.ring}   sites {r.sites_with_template:2d}   loglik {r.loglik:7.2f}   "
+        f"posterior {r.post_all:.3f}   (excluding {A}: {r.post_given_not_majority:.3f})")
+out("    note: a leave-one-site-out test (see EXPLANATION.md) showed the readings alone cannot")
+out("    separate 112133 from 231212, so their order comes from how often each template occurs.")
+
+best = cdf.iloc[0]
+flag = f"SIGMOID_{best.ring}"
+out(f"\nFLAG: {flag}   (runner-up: SIGMOID_{cdf.iloc[1].ring})")
 with open(os.path.join(HERE, "FLAG.txt"), "w") as f:
     f.write(flag + "\n")
 with open(os.path.join(RES, "report.txt"), "w", encoding="utf-8") as f:
@@ -192,14 +257,14 @@ try:
     import matplotlib.pyplot as plt
     fig, axes = plt.subplots(1, 6, figsize=(14, 3.2), sharey=True)
     for i, ax in enumerate(axes):
-        items = sorted(votes[i].items(), key=lambda t: -t[1])
-        labels = [k for k, _ in items]
-        ax.bar(labels, [n for _, n in items],
-               color=["#2a6f97" if k == word[i] else "#bbbbbb" for k in labels])
-        ax.set_title(f"pos {i + 1}: {word[i]}")
+        g = GROUPS[GRP[A[i]]]
+        c = collections.Counter(r[i] for r in R)
+        ax.bar(list(g) + ["?"], [c[l] for l in g] + [c["?"]],
+               color=["#2a6f97" if l == A[i] else "#c0504d" if l == best.ring[i] else "#bbbbbb" for l in g] + ["#dddddd"])
+        ax.set_title(f"pos {i + 1}: read {A[i]} -> {best.ring[i]}")
     axes[0].set_ylabel("readings")
-    fig.suptitle(f"Lower Prut stork, {len(cl)} readings -> {word}")
+    fig.suptitle(f"Lower Prut stork: majority {A} (blue) vs decoded {best.ring} (red)")
     fig.tight_layout()
-    fig.savefig(os.path.join(RES, "position_votes.png"), dpi=120)
+    fig.savefig(os.path.join(RES, "lower_prut_votes.png"), dpi=120)
 except ImportError:
     pass

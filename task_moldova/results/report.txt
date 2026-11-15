@@ -1,54 +1,61 @@
-observations: 79968 rows, with a ring reading: 3023
-register: 289 rings, of which White Stork: 30
-all readings have 6 characters: True
+[1] alphabet
+    letters in register: 24, in readings: 24; missing: ['U', 'V']
+    look-alike groups: AKRX BGSZ CDOQ EFLP IJTY HMNW
+    readings: 3023; matched to exactly one registered ring by group pattern: 2878; ambiguous: 121; matching NO registered ring: 24
+    unmatched readings by site/species: {('L5819951', 'Cahul', 'Ciconia ciconia'): 24}
+    letters staying in their true letter's group: 14467/14467
 
-[1] error model learned from 1997 readings near their bird's ringing site
-    unreadable '?': 17.7% of letters; wrong among read letters: 39.8%
-    most common confusions (true -> read): B->S 133, S->B 120, D->O 118, O->D 114, A->X 106, X->A 104, G->Z 97, Q->C 86, E->P 82, C->Q 74, J->Y 74, W->N 72, K->R 70, O->C 69
+[2] site templates (which swap each site applies in each group)
+    sites with >=30 read letters: 76; confidently assigned: 62
+    sites per template: 000000:20, 323000:5, 000321:11, 112133:18, 231212:8
+    examples (site: template, letters): L5562838 Gagauzia Unitate Teritoriala Autonoma (UTAG): 323000 (1527); L8150848 Dubasari: 231212 (1149); L7513445 Ialoveni: 231212 (928); L4964769 Gagauzia Unitate Teritoriala Autonoma (UTAG): 000000 (819); L10196035 Șoldănești: 112133 (560); L4521004 Anenii Noi: 231212 (369)
+    birds read AWAY from home, distorted groups: {'follows visited site': 327, 'other': 77, 'true letter': 34}  -> the template belongs to the site
+    L8150848 (231212), per observer: obsr1093220:231212, obsr1481045:231212, obsr3320590:231212, obsr761177:231212
+    L5562838 (323000), per observer: obsr1093220:323000, obsr1186249:223000, obsr3320590:323000, obsr641647:323000, obsr761177:323000
+    L10196035 (112133), per observer: obsr1481045:112133
 
-[2] stork readings (>=4 letters read) that no registered stork explains: 23
-    L5819951 (Cahul, 45.606N 28.121E): 23
-    nearest registered stork ringing site is 74 km away -> this is the Lower Prut, home of the unregistered stork
-    all stork readings at L5819951: 24 (2016-05-21 .. 2025-08-11)
-      2016-05-21  AHGPW?  observers=obsr193737|obsr641647|obsr808609
-      2017-05-12  RH?LWD  observers=obsr641647|obsr761177
-      2018-04-17  RH?LWQ  observers=obsr193737|obsr808609
-      2018-06-30  RH?LHQ  observers=obsr761177|obsr808609
-      2019-05-04  RH??WQ  observers=obsr641647
-      2019-06-06  RHGLWQ  observers=obsr641647
-      2019-08-26  RHGF?Q  observers=obsr1093220|obsr1118894|obsr1264504|obsr761177
-      2020-06-27  RHGLNC  observers=obsr1481045
-      2020-07-26  RHGLWQ  observers=obsr1093220|obsr1303420|obsr761177
-      2021-04-03  K???WQ  observers=obsr1093220|obsr1303420|obsr1481045|obsr761177
-      2021-05-08  AHGEWQ  observers=obsr1093220|obsr1303420|obsr761177
-      2022-08-05  RHZLNQ  observers=obsr239797|obsr777138
-      2022-08-14  RHZ?M?  observers=obsr1093220|obsr2353121|obsr808609
-      2024-03-23  XN??WQ  observers=obsr3320590
-      2024-04-12  RHGL??  observers=obsr1951585|obsr4528749
-      2024-04-14  RMGLWQ  observers=obsr4528749
-      2024-04-14  ?H?LWQ  observers=obsr4528749
-      2024-04-19  R??FWQ  observers=obsr2353121
-      2024-04-20  RHGLWQ  observers=obsr1093220
-      2025-04-12  RHGLW?  observers=obsr1951585|obsr3600745|obsr4569950|obsr6768737
-      2025-04-23  RHGLWQ  observers=obsr4555604
-      2025-06-27  RHZLW?  observers=obsr1345103|obsr1905619|obsr2018610|obsr6361813
-      2025-06-28  RHGLWQ  observers=obsr1345103|obsr1905619|obsr2018610|obsr6361813
-      2025-08-11  RMG?WQ  observers=obsr1214742
+[3] Lower Prut stork
+      2016-05-21  AHGPW?  obsr193737|obsr641647|obsr808609
+      2017-05-12  RH?LWD  obsr641647|obsr761177
+      2018-04-17  RH?LWQ  obsr193737|obsr808609
+      2018-06-30  RH?LHQ  obsr761177|obsr808609
+      2019-05-04  RH??WQ  obsr641647
+      2019-06-06  RHGLWQ  obsr641647
+      2019-08-26  RHGF?Q  obsr1093220|obsr1118894|obsr1264504|obsr761177
+      2020-06-27  RHGLNC  obsr1481045
+      2020-07-26  RHGLWQ  obsr1093220|obsr1303420|obsr761177
+      2021-04-03  K???WQ  obsr1093220|obsr1303420|obsr1481045|obsr761177
+      2021-05-08  AHGEWQ  obsr1093220|obsr1303420|obsr761177
+      2022-08-05  RHZLNQ  obsr239797|obsr777138
+      2022-08-14  RHZ?M?  obsr1093220|obsr2353121|obsr808609
+      2024-03-23  XN??WQ  obsr3320590
+      2024-04-12  RHGL??  obsr1951585|obsr4528749
+      2024-04-14  RMGLWQ  obsr4528749
+      2024-04-14  ?H?LWQ  obsr4528749
+      2024-04-19  R??FWQ  obsr2353121
+      2024-04-20  RHGLWQ  obsr1093220
+      2025-04-12  RHGLW?  obsr1951585|obsr3600745|obsr4569950|obsr6768737
+      2025-04-23  RHGLWQ  obsr4555604
+      2025-06-27  RHZLW?  obsr1345103|obsr1905619|obsr2018610|obsr6361813
+      2025-06-28  RHGLWQ  obsr1345103|obsr1905619|obsr2018610|obsr6361813
+      2025-08-11  RMG?WQ  obsr1214742
+    majority (distorted) word: RHGLWQ   group pattern 051352
+    calibration, identity groups: apparent 0.945, opp_of_apparent 0.002, nbr_of_apparent 0.053
+    calibration, distorted groups: apparent 0.878, opp_of_apparent 0.039, nbr_of_apparent 0.083
+    group AKRX: {'opp_of_apparent': 2, 'apparent': 19, 'nbr_of_apparent': 2}
+    group BGSZ: {'apparent': 13, 'nbr_of_apparent': 3}
+    group CDOQ: {'nbr_of_apparent': 2, 'apparent': 17}
+    group EFLP: {'nbr_of_apparent': 3, 'apparent': 15, 'opp_of_apparent': 1}
+    group HMNW: {'apparent': 37, 'opp_of_apparent': 2, 'nbr_of_apparent': 5}
+    opposite-of-majority letters: 5 of 121; expected if the site did not distort: 0.2
 
-[3] maximum-likelihood decoding, position by position
-    pos 1: votes {'R': 19, 'A': 2, 'K': 1, 'X': 1, '?': 1}  posterior R=1.000000, K=0.000000, X=0.000000
-    pos 2: votes {'H': 19, '?': 2, 'M': 2, 'N': 1}  posterior H=1.000000, M=0.000000, W=0.000000
-    pos 3: votes {'G': 13, '?': 8, 'Z': 3}  posterior G=0.999959, Z=0.000041, B=0.000000
-    pos 4: votes {'L': 15, '?': 5, 'F': 2, 'P': 1, 'E': 1}  posterior L=1.000000, F=0.000000, P=0.000000
-    pos 5: votes {'W': 18, '?': 2, 'N': 2, 'H': 1, 'M': 1}  posterior W=1.000000, N=0.000000, H=0.000000
-    pos 6: votes {'Q': 17, '?': 5, 'D': 1, 'C': 1}  posterior Q=1.000000, C=0.000000, D=0.000000
-    decoded ring: RHGLWQ
-    exact 'RHGLWQ' readings: 5 of 24
+[4] candidates: undo each template on the majority word
+    112133 -> XWBPHD   sites 18   loglik  -66.69   posterior 0.684   (excluding RHGLWQ: 0.684)
+    231212 -> ANSEMO   sites  8   loglik  -66.69   posterior 0.314   (excluding RHGLWQ: 0.314)
+    000321 -> RMGFNQ   sites 11   loglik  -72.45   posterior 0.001   (excluding RHGLWQ: 0.001)
+    323000 -> KHZLWC   sites  5   loglik  -75.82   posterior 0.000   (excluding RHGLWQ: 0.000)
+    000000 -> RHGLWQ   sites 20   loglik  -81.58   posterior 0.000   (excluding RHGLWQ: 0.000)
+    note: a leave-one-site-out test (see EXPLANATION.md) showed the readings alone cannot
+    separate 112133 from 231212, so their order comes from how often each template occurs.
 
-[4] checks
-    in register: False; min Hamming distance to any registered ring: 3
-    bootstrap (2000 resamples): RHGLWQ 1998, RHZLWQ 1, RHGFWQ 1
-    log-likelihood of the cluster: RHGLWQ = -97.2; best registered rings: PNGPWO = -329.2, XWBMWX = -405.0, RHKLYN = -430.4
-    unexplained stork readings that RHGLWQ explains: 23 of 23
-
-FLAG: SIGMOID_RHGLWQ
+FLAG: SIGMOID_XWBPHD   (runner-up: SIGMOID_ANSEMO)
