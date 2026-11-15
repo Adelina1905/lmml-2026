@@ -1,0 +1,26 @@
+# Local environments, caches, and editor state
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.obsidian/
+.vscode/
+.idea/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Superseded exploratory outputs; keep the final CSV and PNG charts
+/decoded.csv
+/chart.svg
+/chart.txt
+/flag.txt
+/submission_status.json
