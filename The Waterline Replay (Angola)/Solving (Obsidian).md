@@ -19,14 +19,14 @@ test-input.json
     └── replay-no-memory  (steps 15–20)
 ```
 
-| `event` | What it holds |
-|---|---|
-| `runtime.config` | Settings (model, seed, memory on/off) |
-| `assistant.prompt` | The rules and the user's question |
-| `memory.search` / `memory.result` | The bot looked in memory and what it found |
-| `tool.call` / `tool.result` | The bot asked the live tool and what it answered |
-| `llm.request` | **Everything sent to the AI** (the "folder of papers") |
-| `assistant.response` | The bot's final answer |
+| `event`                           | What it holds                                          |
+| --------------------------------- | ------------------------------------------------------ |
+| `runtime.config`                  | Settings (model, seed, memory on/off)                  |
+| `assistant.prompt`                | The rules and the user's question                      |
+| `memory.search` / `memory.result` | The bot looked in memory and what it found             |
+| `tool.call` / `tool.result`       | The bot asked the live tool and what it answered       |
+| `llm.request`                     | **Everything sent to the AI** (the "folder of papers") |
+| `assistant.response`              | The bot's final answer                                 |
 
 | Run | Memory | Live tool | Answer |
 |---|---|---|---|

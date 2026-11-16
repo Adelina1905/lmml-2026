@@ -67,6 +67,14 @@ A → B → C → D
 
 This is the recovered left-to-right strip order. The assignment step is optimal for its assignment objective, but merging loops is a heuristic. The complete method does not guarantee the globally best path for every possible image; it recovered the exact order in our tests and hidden evaluation.
 
+## 8. Rebuild and save the image
+
+We concatenate the original strips horizontally in the recovered order. Their pixels are preserved exactly. The script saves:
+
+- `reconstructed_image.png`: the combined picture.
+- `reconstructed_order.json`: the original filenames in left-to-right order.
+
+Sorting filenames only makes loading deterministic; their numeric labels do not determine the reconstruction. `main.py` does not read the supplied reference order or training answers. Those are used only by `validate.py` for checking results.
 
 ```mermaid
 flowchart TD

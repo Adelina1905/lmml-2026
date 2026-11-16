@@ -56,9 +56,9 @@ flowchart LR
 | delete the account belonging to Yao                    |    0.6 |     0.5 |      0 |     0 |   0 |
 | find every depot within a 20 kilometer radius of Vridi |      0 |       0 |    0.6 |   0.5 |   0 |
 
-| Test | Old | New |
-| :-- | --: | --: |
-| Unseen sentences (5-fold CV) | **0.986** | **1.000** |
-| Stricter: whole sentence patterns held out | ~0.93 | ~0.97 |
-| Gate | 0.85 | 0.85 |
+| Test                                       |       Old |       New |
+| :----------------------------------------- | --------: | --------: |
+| Unseen sentences (5-fold CV)               | **0.986** | **1.000** |
+| Stricter: whole sentence patterns held out |     ~0.93 |     ~0.97 |
+| Gate                                       |      0.85 |      0.85 |
 
